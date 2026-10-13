@@ -2,7 +2,6 @@
 title: "Chapter 2: The Action Potential"
 description: "How neurons use ion gradients, voltage-gated channels, and an all-or-none spike to send fast electrical signals, and how lidocaine stops them."
 image: /sims/ch02-action-potential/ch02-action-potential.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

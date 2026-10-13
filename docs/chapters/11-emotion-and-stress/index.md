@@ -2,7 +2,6 @@
 title: "Chapter 11: Emotion, Stress, and the Body"
 description: "How the amygdala, limbic system, and HPA axis turn a scare into a racing heart and a cortisol surge, and what happens when stress won't switch off."
 image: /sims/ch11-hpa-axis/ch11-hpa-axis.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

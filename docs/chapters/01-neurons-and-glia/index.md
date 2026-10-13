@@ -2,7 +2,6 @@
 title: "Chapter 1: Neurons, Glia, and the Nervous System"
 description: "Meet the cells that build your nervous system: neurons that send messages, glia that support them, and myelin, whose loss causes multiple sclerosis."
 image: /sims/ch01-neuron-explorer/ch01-neuron-explorer.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

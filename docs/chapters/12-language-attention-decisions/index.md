@@ -2,7 +2,6 @@
 title: "Chapter 12: Language, Attention, and Decision-Making"
 description: "How brain networks let us speak, understand, focus, and choose, and what aphasia and neglect after a stroke reveal about them."
 image: /sims/ch12-aphasia-sorter/ch12-aphasia-sorter.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

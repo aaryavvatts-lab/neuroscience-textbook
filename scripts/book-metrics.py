@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Adapted from Dan McCreary's book-metrics.py (ibook-skills, CC BY-NC-SA 4.0):
-https://github.com/dmccreary/claude-skills
+https://github.com/dmccreary/ibook-skills
 Change: quiz questions written as "#### Question N" are also counted.
 
 Book Metrics Generator

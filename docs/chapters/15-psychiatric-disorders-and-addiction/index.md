@@ -2,7 +2,6 @@
 title: "Chapter 15: Psychiatric Disorders, Developmental Disorders, and Addiction"
 description: "How depression, anxiety, schizophrenia, autism, ADHD, and addiction involve the brain, and how naloxone and treatment save lives."
 image: /sims/ch15-reward-tolerance/ch15-reward-tolerance.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

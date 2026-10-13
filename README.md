@@ -3,8 +3,7 @@
 [![MkDocs](https://img.shields.io/badge/Made%20with-MkDocs-526CFE?logo=materialformkdocs)](https://www.mkdocs.org/)
 [![Material for MkDocs](https://img.shields.io/badge/Material%20for%20MkDocs-526CFE?logo=materialformkdocs)](https://squidfunk.github.io/mkdocs-material/)
 [![GitHub Pages](https://img.shields.io/badge/View%20on-GitHub%20Pages-blue?logo=github)](https://aaryavvatts-lab.github.io/neuroscience-textbook/)
-[![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-DA7857?logo=anthropic)](https://claude.ai/code)
-[![Claude Skills](https://img.shields.io/badge/Uses-Claude%20Skills-DA7857?logo=anthropic)](https://github.com/dmccreary/claude-skills)
+[![Intelligent Textbook](https://img.shields.io/badge/Intelligent-Textbook-5b2a86)](https://dmccreary.github.io/intelligent-textbooks/)
 [![p5.js](https://img.shields.io/badge/p5.js-ED225D?logo=p5.js&logoColor=white)](https://p5js.org/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -144,16 +143,14 @@ neuroscience-textbook/
 
 ## How this book was made
 
-This is an *intelligent textbook* built with an AI-assisted workflow:
+This is an *intelligent textbook*, created by Aaryav Sharma using [Dan McCreary's open-source intelligent-textbook framework](https://github.com/dmccreary/ibook-skills):
 
 1. A course description and a design contract (in `Materials/`) set the audience, learning goals, and accuracy rules.
 2. A learning graph of 253 concepts and their prerequisites set the chapter order.
-3. Chapters, quizzes, simulations, the glossary, and the FAQ were drafted with [Claude Code](https://claude.ai/code) and [Dan McCreary's open-source intelligent-textbook skills](https://github.com/dmccreary/claude-skills).
+3. Chapters, quizzes, simulations, the glossary, and the FAQ were built following that design contract.
 4. Every chapter then went through separate fact-checking passes. Each statistic, date, drug approval, and reference link was checked against sources like the NIH, the CDC, the FDA, and peer-reviewed research.
 5. A copy-editing pass made the writing plain and readable for high school students.
-6. A senior science edit, guided by [EDITOR_DOMAIN.md](EDITOR_DOMAIN.md), re-checked every claim and updated time-sensitive facts to October 2026.
-
-**AI disclosure:** generative AI (Anthropic's Claude) was used to help draft and check this book. The author directed the project, set its design and accuracy rules, and is responsible for the content.
+6. A science edit, guided by [EDITOR_DOMAIN.md](EDITOR_DOMAIN.md), re-checked every claim and updated time-sensitive facts to October 2026.
 
 ## Important notes
 
@@ -170,7 +167,7 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 
 ## Acknowledgements
 
-- [Dan McCreary](https://dmccreary.github.io/intelligent-textbooks/) and the open-source [intelligent-textbook skills](https://github.com/dmccreary/claude-skills)
+- [Dan McCreary](https://dmccreary.github.io/intelligent-textbooks/) and the open-source [intelligent-textbook skills](https://github.com/dmccreary/ibook-skills)
 - [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - [p5.js](https://p5js.org/) for the MicroSims and [vis-network](https://visjs.github.io/vis-network/docs/network/) for the learning graph viewer
 - The NIH, CDC, FDA, and [OpenStax](https://openstax.org/) for freely available science information

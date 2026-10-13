@@ -46,7 +46,7 @@ Ply is the book's mascot, an *Aplysia californica* sea slug. Scientists like Eri
 
 ### How was this book made, and what if I find a mistake?
 
-The author, a high school student, wrote the book with help from AI tools (Anthropic's Claude) and Dan McCreary's open-source intelligent-textbook skills. Every statistic, date, and drug approval was checked against sources like the NIH, the CDC, and peer-reviewed research, and the author reviewed the content. Mistakes can still slip through. If you find one, please use the [Contact](contact.md) page. You can read more in [How This Book Was Built](about.md#how-this-book-was-built).
+The book was created by Aaryav Sharma, a high school student, using Dan McCreary's open-source intelligent-textbook framework. Every statistic, date, and drug approval was checked against sources like the NIH, the CDC, and peer-reviewed research. Mistakes can still slip through. If you find one, please use the [Contact](contact.md) page. You can read more in [How This Book Was Built](about.md#how-this-book-was-built).
 
 ## Brain Basics
 

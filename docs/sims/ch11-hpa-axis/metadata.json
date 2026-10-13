@@ -18,13 +18,15 @@
   "language": "en-US",
   "rights": "CC BY-NC-SA 4.0",
   "license": "CC BY-NC-SA 4.0",
-  "contributor": [
-    "Claude Code"
-  ],
   "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch11-hpa-axis/",
   "publisher": "From Neuron to Bedside",
   "chapter": "11-emotion-and-stress",
-  "gradeLevel": ["9", "10", "11", "12"],
+  "gradeLevel": [
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
   "educationalLevel": "High School",
   "learningResourceType": "simulation",
   "audience": "Students, Educators",
@@ -62,15 +64,44 @@
     "Negative feedback means something bad. It means a signal that turns down its own source, like a thermostat."
   ],
   "controls": [
-    {"type": "button", "label": "Start/Pause", "purpose": "Runs or freezes the simulated clock. The sim starts paused."},
-    {"type": "button", "label": "Stressor!", "purpose": "Adds one acute stressor pulse and starts the clock if it is paused."},
-    {"type": "button", "label": "Reset", "purpose": "Returns all hormones to baseline and clears the graph."},
-    {"type": "checkbox", "label": "Chronic stress", "purpose": "Adds a new stressor automatically every 30 simulated minutes."},
-    {"type": "slider", "label": "Feedback strength", "range": "0 to 1", "step": 0.1, "default": 1.0, "purpose": "Sets how strongly cortisol inhibits the hypothalamus and pituitary (1 = intact, 0 = off)."}
+    {
+      "type": "button",
+      "label": "Start/Pause",
+      "purpose": "Runs or freezes the simulated clock. The sim starts paused."
+    },
+    {
+      "type": "button",
+      "label": "Stressor!",
+      "purpose": "Adds one acute stressor pulse and starts the clock if it is paused."
+    },
+    {
+      "type": "button",
+      "label": "Reset",
+      "purpose": "Returns all hormones to baseline and clears the graph."
+    },
+    {
+      "type": "checkbox",
+      "label": "Chronic stress",
+      "purpose": "Adds a new stressor automatically every 30 simulated minutes."
+    },
+    {
+      "type": "slider",
+      "label": "Feedback strength",
+      "range": "0 to 1",
+      "step": 0.1,
+      "default": 1.0,
+      "purpose": "Sets how strongly cortisol inhibits the hypothalamus and pituitary (1 = intact, 0 = off)."
+    }
   ],
   "simulationModel": {
     "modelType": "Simplified compartment model (ordinary differential equations), relative units",
-    "variables": ["stressor", "CRH", "ACTH", "cortisol", "adrenaline"],
+    "variables": [
+      "stressor",
+      "CRH",
+      "ACTH",
+      "cortisol",
+      "adrenaline"
+    ],
     "equations": [
       "inhibition = 1 + feedback * 1.5 * max(0, cortisol - 1)",
       "dCRH/dt = (0.2 + 4 * stressor) / inhibition - 0.2 * CRH",

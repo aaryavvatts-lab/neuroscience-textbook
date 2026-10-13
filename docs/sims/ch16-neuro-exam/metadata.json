@@ -22,13 +22,15 @@
   "language": "en-US",
   "rights": "CC BY-NC-SA 4.0",
   "license": "CC BY-NC-SA 4.0",
-  "contributor": [
-    "Claude Code"
-  ],
   "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch16-neuro-exam/",
   "publisher": "From Neuron to Bedside",
   "chapter": "16-how-doctors-examine-the-brain",
-  "gradeLevels": ["9", "10", "11", "12"],
+  "gradeLevels": [
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
   "educationalLevel": "High School",
   "learningResourceType": "simulation",
   "audience": "Students, Educators, Brain Bee competitors",

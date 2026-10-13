@@ -20,13 +20,15 @@
   "language": "en-US",
   "rights": "CC BY-NC-SA 4.0",
   "license": "CC BY-NC-SA 4.0",
-  "contributor": [
-    "Claude Code"
-  ],
   "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch15-reward-tolerance/",
   "publisher": "From Neuron to Bedside",
   "educationalLevel": "High School",
-  "gradeLevels": ["9", "10", "11", "12"],
+  "gradeLevels": [
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
   "learningResourceType": "simulation",
   "audience": "Students, Educators",
   "version": "1.0.0",

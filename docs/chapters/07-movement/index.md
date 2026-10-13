@@ -2,7 +2,6 @@
 title: "Chapter 7: Movement: Muscles, Reflexes, and Motor Control"
 description: "How muscles contract, how reflexes work, and how the cortex, basal ganglia, and cerebellum control movement, ending with Parkinson's disease."
 image: /sims/ch07-basal-ganglia/ch07-basal-ganglia.png
-generated_by: claude skill chapter-content-generator
 date: 2026-10-12
 version: 1.0
 ---

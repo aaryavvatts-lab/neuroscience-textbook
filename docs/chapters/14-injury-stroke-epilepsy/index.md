@@ -2,7 +2,6 @@
 title: "Chapter 14: Brain Injury, Stroke, and Epilepsy"
 description: "How a hit, a blocked or burst blood vessel, or an electrical storm can injure the brain, and what to do in the first minutes."
 image: /sims/ch14-stroke-territories/ch14-stroke-territories.png
-generated_by: claude skill chapter-content-generator
 date: 2026-10-12
 version: 1.0
 ---

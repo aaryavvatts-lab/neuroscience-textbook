@@ -2,7 +2,7 @@
 
 An interactive, free, open neuroscience textbook for high school students and future doctors.
 It's aligned to the topics tested in the Brain Bee, and every chapter ends at the bedside with a clinical case.
-Author: Aaryav Sharma. Built with Claude Code and Dan McCreary's intelligent-textbook skills.
+Author: Aaryav Sharma. Built with Dan McCreary's intelligent-textbook framework.
 
 Read `Materials/textbook-design-principles.md` before generating any chapter content.
 

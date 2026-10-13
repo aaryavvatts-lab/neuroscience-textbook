@@ -2,7 +2,6 @@
 title: "Chapter 16: How Doctors Examine the Brain"
 description: "How doctors take a history, run the neurological exam, localize a lesion, and choose CT, MRI, fMRI, PET, EEG, or a lumbar puncture."
 image: /sims/ch16-neuro-exam/ch16-neuro-exam.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

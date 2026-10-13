@@ -2,7 +2,6 @@
 title: "Chapter 8: The Developing and Teenage Brain"
 description: "How the brain builds itself from a neural tube, prunes and insulates its wiring through the teen years, and what that means for risk and health."
 image: /sims/ch08-synaptic-pruning/ch08-synaptic-pruning.png
-generated_by: claude skill chapter-content-generator
 date: 2026-10-12
 version: 1.0
 ---

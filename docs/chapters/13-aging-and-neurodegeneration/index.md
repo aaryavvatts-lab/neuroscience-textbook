@@ -2,7 +2,6 @@
 title: "Chapter 13: The Aging Brain and Neurodegeneration"
 description: "How the brain changes with normal aging, why misfolded proteins kill neurons in Alzheimer's, ALS, and Huntington's, and how new drugs target them."
 image: /sims/ch13-amyloid-tau-cascade/ch13-amyloid-tau-cascade.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

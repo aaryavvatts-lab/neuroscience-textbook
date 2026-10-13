@@ -15,13 +15,15 @@
   "language": "en-US",
   "rights": "CC BY-NC-SA 4.0",
   "license": "CC BY-NC-SA 4.0",
-  "contributor": [
-    "Claude Code"
-  ],
   "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch03-synapse/",
   "publisher": "From Neuron to Bedside",
   "educationalLevel": "High School",
-  "gradeLevels": ["9", "10", "11", "12"],
+  "gradeLevels": [
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
   "learningResourceType": "simulation",
   "audience": "Students, Educators",
   "version": "1.0.0",
@@ -62,11 +64,40 @@
     "A reuptake blocker makes the presynaptic neuron release more neurotransmitter (it slows removal instead)."
   ],
   "controls": [
-    {"type": "button", "label": "Start/Pause", "purpose": "Runs or freezes the simulation; the neuron fires automatically at the chosen rate while running."},
-    {"type": "button", "label": "Fire once", "purpose": "Sends one presynaptic action potential."},
-    {"type": "button", "label": "Reset", "purpose": "Clears particles, graphs, and counters."},
-    {"type": "slider", "label": "Firing rate", "min": 0, "max": 5, "step": 1, "default": 1, "unit": "action potentials per second (slow motion)"},
-    {"type": "select", "label": "Condition", "options": ["Normal", "Reuptake blocker (like an SSRI)", "Receptor antagonist", "Fewer receptors (myasthenia-like)"]}
+    {
+      "type": "button",
+      "label": "Start/Pause",
+      "purpose": "Runs or freezes the simulation; the neuron fires automatically at the chosen rate while running."
+    },
+    {
+      "type": "button",
+      "label": "Fire once",
+      "purpose": "Sends one presynaptic action potential."
+    },
+    {
+      "type": "button",
+      "label": "Reset",
+      "purpose": "Clears particles, graphs, and counters."
+    },
+    {
+      "type": "slider",
+      "label": "Firing rate",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "default": 1,
+      "unit": "action potentials per second (slow motion)"
+    },
+    {
+      "type": "select",
+      "label": "Condition",
+      "options": [
+        "Normal",
+        "Reuptake blocker (like an SSRI)",
+        "Receptor antagonist",
+        "Fewer receptors (myasthenia-like)"
+      ]
+    }
   ],
   "simulationModel": {
     "modelType": "Qualitative agent-based particle model with a first-order membrane potential",

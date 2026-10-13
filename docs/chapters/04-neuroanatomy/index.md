@@ -2,7 +2,6 @@
 title: "Chapter 4: A Tour of the Brain: Neuroanatomy"
 description: "A guided tour of brain anatomy, from lobes and deep structures to the brainstem, nerves, fluid, and blood supply, with Phineas Gage at the bedside."
 image: /sims/ch04-brain-atlas/ch04-brain-atlas.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

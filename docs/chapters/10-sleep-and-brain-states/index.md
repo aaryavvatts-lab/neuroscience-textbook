@@ -2,7 +2,6 @@
 title: "Chapter 10: Sleep and Brain States"
 description: "How the brain's clock, sleep stages, and orexin control sleep and waking, why teens need 8 to 10 hours, and what narcolepsy teaches us."
 image: /sims/ch10-hypnogram/ch10-hypnogram.png
-generated_by: claude skill chapter-content-generator
 date: 2026-10-12
 version: 1.0
 ---

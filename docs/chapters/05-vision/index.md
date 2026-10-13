@@ -2,7 +2,6 @@
 title: "Chapter 5: Vision"
 description: "How the eye turns light into nerve signals, how the visual pathway crosses at the chiasm, and how doctors read visual field loss to find a lesion."
 image: /sims/ch05-visual-pathway/ch05-visual-pathway.png
-generated_by: claude skill chapter-content-generator
 date: 2026-10-12
 version: 1.0
 ---

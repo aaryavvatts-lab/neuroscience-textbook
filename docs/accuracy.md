@@ -17,7 +17,7 @@ Every chapter went through five separate passes before and after release:
 4. **Senior science edit.** A final expert-style review checked each claim for precision, missing caveats, and oversimplifications that had become false. It also confirmed that every time-sensitive fact was current as of October 2026.
 5. **Technical checks.** Automated checks confirm that every chapter has its required parts, that every internal link and image works, that all 16 simulations run without errors, and that the site builds without warnings. All external links were tested, including ones on sites that block automated tools, which were opened in a real browser.
 
-Generative AI (Anthropic's Claude) was used to help draft and check this book. The author directed the project and is responsible for its content. See [About This Book](about.md).
+The author directed the project and is responsible for its content. See [About This Book](about.md).
 
 !!! warning "Still not perfect"
     No book is free of errors, and medical knowledge changes quickly. If you find a mistake, please [report it on GitHub](https://github.com/aaryavvatts-lab/neuroscience-textbook/issues/new?template=1-error-report.yml). Corrections are listed below once they are made.

@@ -2,7 +2,6 @@
 title: "Chapter 3: Synapses and Neurotransmitters"
 description: "How neurons pass signals across synapses with neurotransmitters, how drugs change that conversation, and why myasthenia gravis weakens muscles."
 image: /sims/ch03-synapse/ch03-synapse.png
-generated_by: claude skill chapter-content-generator
 date: 2026-10-12
 version: 1.0
 ---

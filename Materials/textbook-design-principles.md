@@ -68,7 +68,7 @@ Each MicroSim can be embedded anywhere with an iframe, so teachers can reuse the
 
 ## Dimension 6: Current science, carefully sourced
 
-**Problem:** Medical science changes fast, and AI-generated text can invent facts.
+**Problem:** Medical science changes fast, and mistakes can slip into any text.
 
 **Solution:**
 

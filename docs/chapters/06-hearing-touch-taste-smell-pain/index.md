@@ -2,7 +2,6 @@
 title: "Chapter 6: Hearing, Touch, Taste, Smell, and Pain"
 description: "How the ear, skin, tongue, and nose turn sound, touch, chemicals, and injury into signals, and how the brain maps the body."
 image: /sims/ch06-homunculus-dermatomes/ch06-homunculus-dermatomes.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---

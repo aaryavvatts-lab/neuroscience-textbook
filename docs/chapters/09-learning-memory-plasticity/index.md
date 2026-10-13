@@ -2,7 +2,6 @@
 title: "Chapter 9: Learning, Memory, and Neuroplasticity"
 description: "How experience changes synapses: memory types, the hippocampus, LTP, Aplysia habituation and sensitization, and Patient H.M."
 image: /sims/ch09-aplysia-learning/ch09-aplysia-learning.png
-generated_by: claude skill chapter-content-generator
 date: "2026-10-12"
 version: 1.0
 ---
