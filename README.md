@@ -141,6 +141,10 @@ neuroscience-textbook/
 └── LICENSE.md
 ```
 
+## How this book was made
+
+I chose the topics, set the structure and the rules for every chapter, and directed the editing and fact-checking passes. I used Claude Code and Dan McCreary's open-source [intelligent-textbook skills](https://github.com/dmccreary/ibook-skills) to help draft text, check facts, and build the simulations. Because AI helped write the book, mistakes are possible. See the [Accuracy and Corrections](https://aaryavvatts-lab.github.io/neuroscience-textbook/accuracy/) page for how the book is checked.
+
 ## Important notes
 
 - **Not medical advice.** This book is for education only. The patients in the Bedside cases are fictional composites unless clearly identified as historical. Talk to a doctor about any health concern.
@@ -164,4 +168,4 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 
 ## Contact
 
-**Aaryav Sharma**, GitHub: [@aaryavvatts-lab](https://github.com/aaryavvatts-lab)
+**Aaryav Sharma**, email: aaryavvatts@gmail.com, GitHub: [@aaryavvatts-lab](https://github.com/aaryavvatts-lab)

@@ -15,6 +15,7 @@ All notable changes to *From Neuron to Bedside* are listed here. Corrections to 
 - `EDITOR_DOMAIN.md`, an editorial brief for science reviewers.
 
 ### Changed
+- The About page and README now explain how AI was used to make the book, and the Contact page and README list a public contact email.
 - A senior science edit of every chapter checked each claim again, updated time-sensitive statistics and approval statuses to the latest available as of October 2026, and added caveats where a simplification needed one.
 
 ## [1.0.0] - 2026-10-12

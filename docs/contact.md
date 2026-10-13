@@ -5,6 +5,12 @@ description: How to report a mistake, suggest an improvement, or get in touch.
 
 # Contact
 
+## Email
+
+**aaryavvatts@gmail.com**
+
+Teachers, club leaders, and scientists who want to review a chapter can write to me here. For mistakes in the book, GitHub issues (below) are best, because other readers can see when something is fixed.
+
 ## Found a mistake?
 
 Accuracy matters a lot in a science and medicine book. If you spot an error, a broken link, or a simulation that doesn't work, please open an issue on GitHub:
@@ -24,4 +30,5 @@ Teachers, students, and scientists are welcome to suggest improvements, new prac
 ## Author
 
 **Aaryav Sharma**
+Email: aaryavvatts@gmail.com
 GitHub: [@aaryavvatts-lab](https://github.com/aaryavvatts-lab)
