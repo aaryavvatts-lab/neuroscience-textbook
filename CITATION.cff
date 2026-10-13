@@ -6,6 +6,7 @@ authors:
   - family-names: Sharma
     given-names: Aaryav
 version: "1.1.1"
+doi: "10.5281/zenodo.23353113"
 date-released: "2026-10-13"
 url: "https://aaryavvatts-lab.github.io/neuroscience-textbook/"
 repository-code: "https://github.com/aaryavvatts-lab/neuroscience-textbook"

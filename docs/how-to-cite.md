@@ -7,9 +7,11 @@ description: Citation formats for From Neuron to Bedside.
 
 If you use this book in a class, a paper, a lesson plan, or a project, please cite it.
 
+**Permanent DOI (all versions):** [https://doi.org/10.5281/zenodo.23353113](https://doi.org/10.5281/zenodo.23353113). The book is archived on Zenodo, so this link will keep working even if the website moves.
+
 **APA (7th edition)**
 
-Sharma, A. (2026). *From neuron to bedside: An interactive neuroscience textbook for high school students and future doctors*. https://aaryavvatts-lab.github.io/neuroscience-textbook/
+Sharma, A. (2026). *From neuron to bedside: An interactive neuroscience textbook for high school students and future doctors*. https://doi.org/10.5281/zenodo.23353113
 
 **MLA (9th edition)**
 
@@ -28,6 +30,7 @@ Sharma, Aaryav. 2026. *From Neuron to Bedside: An Interactive Neuroscience Textb
   author    = {Sharma, Aaryav},
   year      = {2026},
   version   = {1.1.1},
+  doi       = {10.5281/zenodo.23353113},
   url       = {https://aaryavvatts-lab.github.io/neuroscience-textbook/},
   license   = {CC BY-NC-SA 4.0},
   note      = {Open, interactive intelligent textbook}

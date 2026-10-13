@@ -46,6 +46,8 @@ I chose the topics, set the structure and the rules for every chapter, and direc
 
 Because AI helped write this book, mistakes are possible, and accuracy matters a lot in a science and medicine book. The [Accuracy and Corrections](accuracy.md) page explains how the book is checked and lists every fix. If you find an error, please tell me through the [Contact](contact.md) page.
 
+The book is archived on Zenodo with a permanent DOI: [10.5281/zenodo.23353113](https://doi.org/10.5281/zenodo.23353113).
+
 ## Acknowledgements
 
 - **[Dan McCreary](https://dmccreary.github.io/intelligent-textbooks/)** and the open-source [intelligent-textbook skills](https://github.com/dmccreary/ibook-skills), which made this workflow possible

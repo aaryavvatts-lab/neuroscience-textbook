@@ -5,6 +5,7 @@
 [![GitHub Pages](https://img.shields.io/badge/View%20on-GitHub%20Pages-blue?logo=github)](https://aaryavvatts-lab.github.io/neuroscience-textbook/)
 [![Intelligent Textbook](https://img.shields.io/badge/Intelligent-Textbook-5b2a86)](https://dmccreary.github.io/intelligent-textbooks/)
 [![p5.js](https://img.shields.io/badge/p5.js-ED225D?logo=p5.js&logoColor=white)](https://p5js.org/)
+[![DOI](https://zenodo.org/badge/1416335990.svg)](https://doi.org/10.5281/zenodo.23353113)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **A free, interactive neuroscience textbook for high school students and future doctors.**
@@ -14,6 +15,8 @@
 ## View the live site
 
 **https://aaryavvatts-lab.github.io/neuroscience-textbook/**
+
+Cite it with its permanent DOI: [10.5281/zenodo.23353113](https://doi.org/10.5281/zenodo.23353113)
 
 ## Overview
 
