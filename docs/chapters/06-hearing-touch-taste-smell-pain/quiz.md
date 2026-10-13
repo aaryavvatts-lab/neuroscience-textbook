@@ -188,11 +188,11 @@ A man whose right hand was amputated reports that when his right cheek is lightl
 1. Nerves from the face have physically grown down the arm into the residual limb.
 2. The thumb was never truly represented in the cortex, so any touch can be felt there.
 3. The man is imagining the sensation because he misses his hand.
-4. The face area of the somatosensory cortex sits next to the hand area, and face input has spread into the hand's now-silent territory.
+4. The face area of the somatosensory cortex sits next to the hand area, and face input may now activate the hand's territory.
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **D**. On the homunculus, the face area borders the hand area. After amputation, the hand area loses its input, and research by V. S. Ramachandran and others suggests face inputs can activate it, so face touch is felt in the phantom hand. Choice C reflects the myth that phantom sensations are imaginary. Scientists still debate how much remapping causes phantom limb *pain*, which likely has several sources.
+    The correct answer is **D**. On the homunculus, the face area borders the hand area. After amputation, the hand area loses its input, and research by V. S. Ramachandran and others suggested that face inputs can activate it, so face touch is felt in the phantom hand. Choice C reflects the myth that phantom sensations are imaginary. Scientists still debate this explanation: a 2025 study that scanned people before and after arm amputation found that the hand map stayed largely stable. How much remapping contributes to phantom limb *pain*, which likely has several sources, is also debated.
 
     **Concept Tested:** Phantom Limb Pain
     **Bloom's Level:** Analyze

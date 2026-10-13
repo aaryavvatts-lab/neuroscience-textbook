@@ -188,7 +188,7 @@ Other deep structures sit nearby: the **hippocampus** (new memories), the **amyg
 
 If the cerebrum is a house, the **brainstem** is the electrical panel in the basement: not glamorous, but if it fails, everything stops. It is the stalk connecting the cerebrum to the spinal cord, with three parts from top to bottom:
 
-1. **The midbrain** helps control eye movements and reflexes to sights and sounds. Its **substantia nigra** ("black substance") holds dopamine neurons that help start movement; their loss causes Parkinson's disease (Chapter 7).
+1. **The midbrain** helps control eye movements and reflexes to sights and sounds. Its **substantia nigra** ("black substance") holds dopamine neurons that help start movement; their loss causes most of the movement symptoms of Parkinson's disease (Chapter 7).
 2. **The pons** (Latin for "bridge") links the cerebrum with the cerebellum, helps regulate breathing and sleep, and sends cranial nerves for chewing, facial expression, and eye movement.
 3. **The medulla oblongata** runs life support: breathing, heart rate, and blood pressure, plus swallowing, coughing, and vomiting. Near its bottom, most motor axons from the cortex cross to the opposite side, a big reason each hemisphere controls the opposite side of the body.
 
@@ -218,13 +218,13 @@ Thirty-one pairs of **spinal nerves** branch off the cord to reach the body. Cor
 
 ### The cranial nerves
 
-The head and face get their own wiring. The **cranial nerves** are 12 pairs of nerves that connect directly to the brain instead of the spinal cord, passing through small holes in the skull. Nerves I and II attach to the forebrain; the other ten (III through XII) attach to the brainstem, so cranial nerve problems are a clue that the brainstem may be injured. In the table, notice three groups: three nerves are purely sensory, five are purely motor, and four carry both.
+The head and face get their own wiring. The **cranial nerves** are 12 pairs of nerves that connect directly to the brain instead of the spinal cord, passing through small holes in the skull. Nerves I and II attach to the forebrain; the other ten (III through XII) attach to the brainstem, so cranial nerve problems are a clue that the brainstem may be injured. (One small exception: most of the accessory nerve, XI, actually starts in the top of the spinal cord and travels up into the skull before leaving it.) In the table, notice three groups: three nerves are purely sensory, five are purely motor, and four carry both.
 
 | # | Name | Main job | Type |
 |---|---|---|---|
 | I | Olfactory | Smell | Sensory |
 | II | Optic | Vision | Sensory |
-| III | Oculomotor | Moves most eye muscles, lifts the eyelid, changes pupil size | Motor |
+| III | Oculomotor | Moves most eye muscles, lifts the eyelid, narrows the pupil | Motor |
 | IV | Trochlear | Moves one eye muscle (eye looks down and in) | Motor |
 | V | Trigeminal | Feeling in the face; chewing muscles | Both |
 | VI | Abducens | Moves the eye outward | Motor |
@@ -280,7 +280,7 @@ Your brain is about 2% of your body weight but uses about 20% of the oxygen and 
 - The two **internal carotid arteries** run up the front of the neck and feed the front and middle of the brain.
 - The two **vertebral arteries** run up through the neck bones and join to form the **basilar artery**, which feeds the brainstem, cerebellum, and back of the cerebrum.
 
-At the base of the brain, these vessels connect in a ring called the **circle of Willis**, named after the English physician Thomas Willis (only about a third of people have the textbook version of the ring). From it, three pairs of large arteries fan out over the cerebrum:
+At the base of the brain, these vessels connect in a ring called the **circle of Willis**, named after the English physician Thomas Willis (the complete, textbook version of the ring is less common than you might think: one imaging study of 525 healthy adults found it in only about 21 percent of people, and other studies report different rates, [Jalali Kondori et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28412828/)). From it, three pairs of large arteries fan out over the cerebrum:
 
 | Artery | Main territory | A blockage can cause |
 |---|---|---|
@@ -341,7 +341,7 @@ Now that you've seen both branches, the table below compares **sympathetic vs pa
 | Digestion | Slows down | Speeds up |
 | Exits the CNS from | Thoracic and lumbar spinal cord | Brainstem and sacral spinal cord |
 
-After Maya scores, her parasympathetic system takes over. Her heart slows, and she realizes she's starving. A third part, the **enteric nervous system**, is a web of neurons in the gut wall that manages digestion; it has more neurons than the spinal cord.
+After Maya scores, her parasympathetic system takes over. Her heart slows, and she realizes she's starving. A third part, the **enteric nervous system**, is a web of neurons in the gut wall that manages digestion; it has hundreds of millions of neurons, about as many as the spinal cord or more.
 
 ## At the Bedside: Two Frontal Lobes, Nearly 180 Years Apart
 

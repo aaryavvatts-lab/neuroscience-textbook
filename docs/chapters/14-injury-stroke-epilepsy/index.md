@@ -143,7 +143,7 @@ Two facts about CTE are easy to get wrong:
 
 ## 14.6 Stroke: When the Brain Loses Its Blood Supply
 
-A **stroke** happens when something blocks the blood supply to part of the brain, or when a blood vessel in the brain bursts, so that brain cells in that area are damaged or die ([CDC](https://www.cdc.gov/stroke/about/index.html)). More than 795,000 people in the U.S. have a stroke each year, about one every 40 seconds ([CDC Stroke Facts](https://www.cdc.gov/stroke/data-research/facts-stats/index.html)).
+A **stroke** happens when something blocks the blood supply to part of the brain, or when a blood vessel in the brain bursts, so that brain cells in that area are damaged or die ([CDC](https://www.cdc.gov/stroke/about/index.html)). According to CDC's stroke facts page (last updated in 2024), more than 795,000 people in the U.S. have a stroke each year, about one every 40 seconds ([CDC Stroke Facts](https://www.cdc.gov/stroke/data-research/facts-stats/index.html)).
 
 ### Two kinds of stroke
 
@@ -187,9 +187,9 @@ CDC also advises calling 911 instead of driving to the hospital, because the amb
 
 The two stroke types need opposite treatments, so one of the first things the hospital does is a brain scan, usually CT, to look for bleeding ([NINDS](https://www.ninds.nih.gov/health-information/stroke/assess-and-treat)).
 
-For an ischemic stroke, the goal is to reopen the artery fast. **Clot-busting treatment** means giving a medicine through a vein that dissolves the clot and restores blood flow. The first of these drugs, tissue plasminogen activator (t-PA, or alteplase), came out of NINDS-funded research and became the first FDA-approved treatment for acute ischemic stroke. In that research, people treated within three hours of their first symptoms were 30% more likely to have little or no disability three months later. NINDS notes that many doctors now treat suitable patients within up to 4.5 hours.
+For an ischemic stroke, the goal is to reopen the artery fast. **Clot-busting treatment** means giving a medicine through a vein that dissolves the clot and restores blood flow. The first of these drugs, tissue plasminogen activator (t-PA, or alteplase), came out of NINDS-funded research and became the first FDA-approved treatment for acute ischemic stroke. In that research, people treated within three hours of their first symptoms were 30% more likely to have little or no disability three months later. NINDS notes that most doctors now treat suitable patients within a 4.5-hour window.
 
-In early 2025 (February 28), the FDA approved a second clot buster, tenecteplase (TNKase), for adults with acute ischemic stroke. The maker announced it on March 3 ([Genentech, 2025](https://www.gene.com/media/press-releases/15053/2025-03-03/fda-approves-genentechs-tnkase-in-acute-)). These drugs work best when started early.
+In early 2025 (February 28), the FDA approved a second clot buster, tenecteplase (TNKase), for adults with acute ischemic stroke ([FDA approval letter](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/103909Orig1s5197ltr.pdf)). The maker announced it on March 3 ([Genentech, 2025](https://www.gene.com/media/press-releases/15053/2025-03-03/fda-approves-genentechs-tnkase-in-acute-)). A January 2026 guideline from the American Heart Association and American Stroke Association lists alteplase and tenecteplase as options and says the drug should be started as quickly as possible within 4.5 hours of the first symptoms ([Practical Neurology, 2026](https://practicalneurology.com/news/guidelines-for-the-management-of-acute-ischemic-stroke-published/2485579/)). These drugs work best when started early.
 
 Clot busters don't work well on large arteries blocked by big clots. For those patients, doctors can perform a **thrombectomy**: a thin tube called a catheter is threaded from an artery in the leg into the brain, and a device grabs or suctions out the clot. Several large clinical studies have shown that this helps people with severe strokes from large clots ([NINDS](https://www.ninds.nih.gov/health-information/stroke/assess-and-treat)).
 
@@ -255,7 +255,7 @@ Afterward, many people are confused or sleepy for a while. Some seizures are **p
 
 **Epilepsy** is a brain disorder in which a person has a lasting tendency to have unprovoked seizures. It is usually diagnosed after two or more unprovoked seizures more than 24 hours apart. The International League Against Epilepsy also allows the diagnosis after one unprovoked seizure when the risk of more is high, or when the person has a recognized epilepsy syndrome ([Fisher et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24730690/)). Doctors use an EEG (a recording of the brain's electrical activity) and brain imaging to find the type and cause.
 
-CDC estimates that about 2.9 million U.S. adults (about 1%) and about 456,000 U.S. children have active epilepsy ([CDC](https://www.cdc.gov/epilepsy/data-research/facts-stats/index.html)). Causes include genes, brain injury, stroke, tumors, and infections, but NINDS notes that about half of people with epilepsy don't know the cause. Treatments include:
+CDC estimates that during 2021 and 2022 about 2.9 million U.S. adults (about 1%) had active epilepsy, and that about 456,000 U.S. children (2022 data) have it ([CDC](https://www.cdc.gov/epilepsy/data-research/facts-stats/index.html)). Causes include genes, brain injury, stroke, tumors, and infections, but NINDS notes that about half of people with epilepsy don't know the cause. Treatments include:
 
 - **Medications:** more than 40 antiseizure medicines exist, and NINDS notes that most seizures can be controlled with one drug.
 - **Surgery:** removing or disconnecting the small area where seizures start can greatly reduce or stop them for many people.
@@ -269,20 +269,20 @@ Epilepsy is a medical condition, not a personal failing, and many people with ep
 Most seizures end on their own within a few minutes. **Seizure first aid** is the set of simple steps any bystander can take to keep a person safe during and after a seizure and to know when to call for help. The Epilepsy Foundation teaches three words, **Stay, Safe, Side** ([Epilepsy Foundation](https://www.epilepsy.com/recognition/first-aid-resources)), and CDC's guidance matches ([CDC](https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html)):
 
 1. **STAY** with the person and time the seizure. Stay calm and check for a medical ID.
-2. **Keep them SAFE.** Move hard or sharp objects away, ease them to the floor if they might fall, put something soft under their head, and loosen anything tight around the neck.
-3. **Turn them on their SIDE** if they are not awake and aware, mouth pointing toward the ground, so saliva drains and breathing is easier.
+2. **Keep them SAFE.** In CDC's words: ease them to the ground if they appear to be falling, clear the space around them to prevent injury, put something soft and flat under their head (like a jacket), take off their eyeglasses, and loosen anything around the neck that could block breathing.
+3. **Turn them on their SIDE** if they are not awake and aware. CDC says to turn them gently onto one side with their mouth pointing to the ground, which keeps their airway clear.
 
 What **not** to do matters just as much:
 
-- **Do not put anything in their mouth.** Nobody can swallow their tongue during a seizure, and clenching jaw muscles can break teeth on an object or cause it to be swallowed.
-- **Do not hold them down.** It doesn't stop a seizure and can cause injury.
-- **Do not give food, water, or pills** until they are fully awake. Stay until they are alert, then calmly tell them what happened.
+- **Do not put anything in their mouth.** Nobody can swallow their tongue during a seizure, and CDC warns that an object in the mouth can hurt their teeth or jaw.
+- **Do not hold them down** or stop their movements. CDC warns this could injure you or them.
+- **Do not give food, water, or pills** until they are fully alert. Stay until they are alert, then calmly tell them what happened.
 
 !!! mascot-warning "Nothing in the Mouth!"
     ![Ply warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     Putting a spoon or wallet in someone's mouth during a seizure is an old idea that is wrong and dangerous. Protect the head, turn them on their side, and watch the clock instead.
 
-**Call 911** (Epilepsy Foundation and CDC) if the seizure lasts longer than 5 minutes; another seizure follows soon after or the person doesn't return to their usual self; they have trouble breathing or waking up afterward; the seizure happens in water; they are injured, pregnant, or sick (CDC specifically lists diabetes with loss of consciousness); it is their **first seizure**; or they ask for help. A seizure that lasts too long, or seizures that keep coming without recovery, is an emergency called **status epilepticus**, and NINDS notes that five minutes is enough to begin damaging neurons.
+**Call 911** if, in CDC's words, the seizure lasts longer than 5 minutes; they have another seizure soon after the first one; they have trouble breathing or waking up after the seizure; they are injured during the seizure; or the seizure happens in water. CDC also says to call 911 if the person has never had a seizure before (a **first seizure**), has diabetes and loses consciousness, or is pregnant. The Epilepsy Foundation adds calling 911 if the person does not return to their usual state or is sick. A seizure that lasts too long, or seizures that keep coming without recovery, is an emergency called **status epilepticus**, and NINDS notes that five minutes is enough to begin damaging neurons.
 
 Schools are paying attention, too. Minnesota Statutes section 121A.24, "Seizure Training and Action Plan," requires public and charter schools, starting in the 2022-2023 school year, to put seizure action plans in place and train staff for students whose families report a diagnosed seizure disorder with prescribed seizure medication ([Minnesota Department of Health](https://www.health.state.mn.us/people/childrenyouth/schoolhealth/hco/seizures.html)).
 
@@ -338,7 +338,7 @@ Central nervous system axons regrow very poorly, so care focuses on stabilizing 
 
 **Treatment today:** With no bleeding and a fast arrival, he receives a clot-busting medicine through a vein, plus a thrombectomy because a large artery is blocked. Then come rehabilitation and blood pressure control.
 
-**What's new in research:** In early 2025 (February 28), the FDA approved tenecteplase (TNKase) for acute ischemic stroke in adults. Its maker announced the approval on March 3 and called it the first stroke medicine approved by the FDA in nearly 30 years. It is given as a single five-second injection instead of a bolus plus a one-hour infusion ([Genentech, 2025](https://www.gene.com/media/press-releases/15053/2025-03-03/fda-approves-genentechs-tnkase-in-acute-)).
+**What's new in research:** In early 2025 (February 28), the FDA approved tenecteplase (TNKase) for acute ischemic stroke in adults. Its maker announced the approval on March 3 and called it the first stroke medicine approved by the FDA in nearly 30 years. It is given as a single five-second injection into a vein, instead of alteplase's quick injection followed by a one-hour infusion ([Genentech, 2025](https://www.gene.com/media/press-releases/15053/2025-03-03/fda-approves-genentechs-tnkase-in-acute-)).
 
 ??? question "Your turn: diagnose a variation"
     A 58-year-old woman suddenly has the worst headache of her life and vomits. She has no weakness, and the CT shows blood around the brain. Should she get a clot buster?
@@ -377,7 +377,7 @@ Central nervous system axons regrow very poorly, so care focuses on stabilizing 
 **Reality:** A concussion is a change in how the brain works after a hit or jolt. CDC has stated that most concussions happen without loss of consciousness.
 
 **Myth:** Put something in a person's mouth during a seizure so they don't swallow their tongue.  
-**Reality:** Nobody can swallow their tongue. Objects can break teeth or be swallowed. Keep the person safe, turn them on their side, and time the seizure.
+**Reality:** Nobody can swallow their tongue, and an object in the mouth can hurt their teeth or jaw. Keep the person safe, turn them on their side, and time the seizure.
 
 **Myth:** After a concussion, stay in a dark room until every symptom is gone.  
 **Reality:** CDC advises limiting screens and hard activities for 1 to 2 days, but not isolating in a dark room. Light activity and a gradual return to school help recovery.

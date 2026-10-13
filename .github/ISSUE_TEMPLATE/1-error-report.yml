@@ -1,0 +1,43 @@
+name: Report a mistake
+description: Something in the book is wrong, unclear, outdated, or a link or simulation is broken.
+title: "[Error] "
+labels: ["accuracy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep this book accurate. Accuracy matters a lot in a science and medicine book, and every report is read.
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: Chapter and section number, or the name of the page or simulation.
+      placeholder: "Chapter 2, section 2.5"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the sentence if you can, and explain the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source for the correction
+      description: A link to a reliable source (for example NIH, CDC, FDA, a textbook, or a peer-reviewed paper), if you have one.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of problem
+      options:
+        - Factual error
+        - Outdated information
+        - Unclear or confusing explanation
+        - Broken link
+        - Simulation not working
+        - Typo or formatting
+        - Other
+    validations:
+      required: true

@@ -42,7 +42,7 @@ This book is an *intelligent textbook*. It was built with an AI-assisted workflo
 
 1. A detailed **course description** and **design contract** set the audience, learning goals, and quality rules (see [Course Description](course-description.md)).
 2. A **learning graph** of 253 concepts maps which ideas depend on which, so chapters always teach prerequisites first (see [Learning Graph](learning-graph/index.md)).
-3. Chapters, quizzes, simulations, and the glossary were drafted using **Claude Code** and **Dan McCreary's open-source intelligent-textbook skills**. Every chapter then went through separate fact-checking passes, where each statistic, date, drug approval, and reference link was checked against sources like the NIH, the CDC, and peer-reviewed research.
+3. Chapters, quizzes, simulations, and the glossary were drafted using **Claude Code** and **Dan McCreary's open-source intelligent-textbook skills**. Every chapter then went through separate fact-checking, copy-editing, and senior science-editing passes, where each statistic, date, drug approval, and reference link was checked against sources like the NIH, the CDC, the FDA, and peer-reviewed research. The full process and a public list of corrections are on the [Accuracy and Corrections](accuracy.md) page.
 4. The author reviewed, edited, and is responsible for the final content.
 
 **AI disclosure:** generative AI (Anthropic's Claude) was used to help draft and check this book. The author directed the project, set the design and accuracy rules, and reviewed the content. Mistakes are still possible. If you find one, please [report it](contact.md).

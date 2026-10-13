@@ -59,7 +59,7 @@ Which of these is one of the Epilepsy Foundation's "Stay, Safe, Side" seizure fi
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **A**. Turning the person on their side, mouth toward the ground, helps saliva drain and makes breathing easier. Option B is dangerous: a person cannot swallow their tongue, and objects in the mouth can break teeth or be swallowed. Restraining (C) doesn't stop a seizure, and food or water (D) should wait until the person is fully awake.
+    The correct answer is **A**. Turning the person gently onto one side, mouth pointing to the ground, keeps their airway clear. Option B is dangerous: a person cannot swallow their tongue, and CDC warns that an object in the mouth can hurt their teeth or jaw. Restraining (C) doesn't stop a seizure, and food or water (D) should wait until the person is fully awake.
 
     **Concept Tested:** Seizure First Aid
     **Bloom's Level:** Remember

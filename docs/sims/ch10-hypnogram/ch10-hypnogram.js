@@ -59,7 +59,7 @@ const STAGE_INFO = {
   'N3':   { name: 'N3 (deep, slow-wave sleep)',
             line: 'Tall, slow delta waves (about 0.5-2 Hz): hardest stage to wake from.' },
   'REM':  { name: 'REM (dreaming sleep)',
-            line: 'Low-voltage, mixed fast waves plus "sawtooth" waves; body muscles are switched off.' }
+            line: 'Low-voltage, mixed fast waves plus "sawtooth" waves; most body muscles are switched off.' }
 };
 
 // colors (named colors only)

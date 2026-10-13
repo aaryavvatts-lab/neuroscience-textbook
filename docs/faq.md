@@ -56,7 +56,7 @@ About 86 billion. That number comes from a 2009 study that dissolved whole brain
 
 ### What do glial cells do? Aren't they just "glue"?
 
-Glia do much more than hold neurons together. They make myelin, supply neurons with fuel, clean up chemical messengers at synapses, help form the blood-brain barrier, and act as the brain's immune defense. You may have heard that glia outnumber neurons ten to one, but a review of 150 years of cell counting found the ratio in the whole human brain is closer to one to one ([von Bartheld et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5063692/)). See [Section 1.7](chapters/01-neurons-and-glia/index.md#17-glia-the-nervous-systems-support-crew).
+Glia do much more than hold neurons together. They make myelin, supply neurons with fuel, clean up chemical messengers at synapses, help form the blood-brain barrier, and act as the brain's immune defense. You may have heard that glia outnumber neurons ten to one, but a review of 150 years of cell counting found the ratio in the whole human brain is about one to one or a little less ([von Bartheld et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5063692/)). See [Section 1.7](chapters/01-neurons-and-glia/index.md#17-glia-the-nervous-systems-support-crew).
 
 ### What is the blood-brain barrier?
 
@@ -220,7 +220,7 @@ Not in the simple way that phrase suggests. A 2022 review found no consistent ev
 
 ### How common are mental health conditions?
 
-Very common. The National Institute of Mental Health estimates that 23.1% of U.S. adults had a mental illness in 2022 ([NIMH](https://www.nimh.nih.gov/health/statistics/mental-illness)). You almost certainly know someone who has been affected. Talking about mental health openly, with respectful, person-first language, helps reduce stigma and makes it easier for people to get help. See [Section 15.2](chapters/15-psychiatric-disorders-and-addiction/index.md#152-what-is-a-mental-illness) and [Section 15.11](chapters/15-psychiatric-disorders-and-addiction/index.md#1511-stigma-and-treatment-access).
+Very common. In the 2025 National Survey on Drug Use and Health, about 20.6% of U.S. adults (54.6 million people) had a mental illness in the past year ([SAMHSA, 2026](https://www.samhsa.gov/newsroom/press-announcements/20260727/samhsa-releases-annual-national-survey-on-drug-use-and-health)). You almost certainly know someone who has been affected. Talking about mental health openly, with respectful, person-first language, helps reduce stigma and makes it easier for people to get help. See [Section 15.2](chapters/15-psychiatric-disorders-and-addiction/index.md#152-what-is-a-mental-illness) and [Section 15.11](chapters/15-psychiatric-disorders-and-addiction/index.md#1511-stigma-and-treatment-access).
 
 ### Where can I get help if I or a friend is struggling?
 

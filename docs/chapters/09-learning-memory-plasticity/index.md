@@ -53,7 +53,7 @@ Her cousin is right, and the reasons go all the way down to the synapse. In the 
 
 Ebbinghaus also noticed that spreading repetitions out in time works better than bunching them together. A large 2006 review pooled 839 tests of this idea from 317 experiments and confirmed the **spacing effect**: spaced study usually beats cramming for long-term recall ([Cepeda et al., 2006](https://digitalcommons.usf.edu/psy_facpub/1771/)).
 
-By the end of this chapter, you'll be able to explain *why* spacing works, using what happens inside neurons. First, though, we need to pin down what learning and memory are.
+By the end of this chapter, you'll be able to explain a leading idea about *why* spacing works, using what happens inside neurons. First, though, we need to pin down what learning and memory are.
 
 ## 9.2 Intuition First: Paths Through a Field
 
@@ -103,6 +103,8 @@ Long-term memory is not one single system. It splits into two big families that 
 - **Semantic memory** holds facts and general knowledge, like "the hippocampus is in the temporal lobe."
 
 **Procedural memory** is memory for skills and habits. It answers "how" questions: how to dribble a ball, type on a keyboard, or tie your shoes. It builds up slowly with practice, and it's hard to explain in words. Try describing exactly how you keep your balance on a bike. You can do it, but you can't easily *say* it.
+
+Procedural memory is the best-known member of a wider family that scientists call **nondeclarative memory**: memory that shows up in what you *do* rather than in what you can report. Besides skills and habits, this family includes simple conditioning, emotional learning, and *priming*, where seeing something once makes it easier to recognize later even if you don't remember seeing it ([Squire, 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/)). This chapter focuses on procedural memory because it gives the clearest contrast with declarative memory.
 
 The table below summarizes the two families you just met.
 
@@ -204,7 +206,7 @@ This first stage is called **early LTP**. It lasts a few hours and uses proteins
     ![Ply encouraging you](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
     If the NMDA receptor feels confusing, just remember the two-key lock: glutamate *and* a strongly excited receiving cell. Everything else in LTP follows from that one clever trick.
 
-Does LTP really underlie memory? The evidence is strong but still being tested. In rats, drugs that block NMDA receptors interfere with some kinds of learning, and the strength of hippocampal synapses rises as rats explore a new place. Most neuroscientists think changes in synaptic strength like LTP and LTD are a central mechanism of memory, but the full link is still an active research question (OpenStax, Section 18.4).
+Does LTP really underlie memory? The evidence is strong but still being tested. In rats, drugs that block NMDA receptors interfere with some kinds of learning. In 2006, researchers also showed that a single learning experience (rats learning to avoid a mild shock) produced the same synaptic changes in the hippocampus as LTP made in the lab ([Whitlock et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16931756/)). Most neuroscientists think changes in synaptic strength like LTP and LTD are a central mechanism of memory, but the full link is still an active research question (OpenStax, Section 18.4).
 
 ## 9.10 The Aplysia Model: Learning in a Sea Slug
 
@@ -274,13 +276,13 @@ Cramming feels effective because the information is fresh the next morning, but 
 | Study habit | What it does in the brain | Maya's version |
 |---|---|---|
 | Space it out | Gives consolidation time between sessions | 20 minutes of flashcards every day for two weeks |
-| Test yourself | Practices retrieval, which improves later recall more than re-reading ([Roediger & Karpicke, 2006](https://profiles.wustl.edu/en/publications/test-enhanced-learning-taking-memory-tests-improves-long-term-ret/)) | Says answers out loud before flipping the card |
+| Test yourself | Practices retrieval. On tests given days later, it beat re-reading, even though re-reading looked better on a test given 5 minutes later ([Roediger & Karpicke, 2006](https://profiles.wustl.edu/en/publications/test-enhanced-learning-taking-memory-tests-improves-long-term-ret/)) | Says answers out loud before flipping the card |
 | Mix in meaning | Links new facts to existing memories (Hebbian connections) | Connects "hippocampus" to H.M.'s story instead of just the word |
 | Practice skills often | Builds procedural memory through repetition | Uses short daily sessions to label brain diagrams |
 
 !!! mascot-tip "Study like a sea slug"
     ![Ply giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Five short sessions spread over a week usually beat one five-hour marathon. Spacing gives your synapses time to build the new proteins that long-term memory needs.
+    Five short sessions spread over a week usually beat one five-hour marathon. In sea slugs like me, spacing gives synapses time to build the new proteins that long-term memory needs, and scientists think something similar may happen in you.
 
 ## At the Bedside: Patient H.M. and Anterograde Amnesia
 
@@ -392,7 +394,7 @@ H.M.'s case showed how much memory can be lost when the medial temporal lobes ar
 - **Neuroplasticity** means the brain changes with experience at every age. **Hebbian learning** proposes that connections strengthen when neurons are active together.
 - **Long-term potentiation** is a lasting increase in synaptic strength. NMDA receptors act as coincidence detectors, letting in calcium that adds and boosts AMPA receptors.
 - In the **Aplysia model**, **habituation** weakens and **sensitization** strengthens the same sensory-to-motor synapse. Long-term memory there needs new proteins and new synaptic connections, work recognized with Kandel's 2000 Nobel Prize.
-- Spaced practice beats cramming because long-term memory needs time and repeated activation to build lasting synaptic changes.
+- Spaced practice usually beats cramming for long-term memory. A leading explanation, best shown in animals like *Aplysia*, is that lasting synaptic changes need time and repeated activation to build.
 
 !!! mascot-celebration "You just rewired your brain!"
     ![Ply celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }

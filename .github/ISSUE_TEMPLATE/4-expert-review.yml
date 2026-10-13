@@ -1,0 +1,36 @@
+name: Volunteer to review a chapter
+description: Neuroscientists, clinicians, graduate students, and teachers can volunteer to review a chapter for accuracy.
+title: "[Review] "
+labels: ["expert-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Expert review is the best way to keep this free book accurate. Reviewers who agree to be named are credited in the book. A review can be as short as a list of corrections for one chapter.
+  - type: input
+    id: chapter
+    attributes:
+      label: Which chapter would you like to review?
+      placeholder: "Chapter 13: The Aging Brain and Neurodegeneration"
+    validations:
+      required: true
+  - type: input
+    id: background
+    attributes:
+      label: Your background
+      placeholder: "Neuroscience PhD student, high school biology teacher, neurologist..."
+    validations:
+      required: true
+  - type: dropdown
+    id: credit
+    attributes:
+      label: May we credit you by name in the book?
+      options:
+        - "Yes"
+        - "No, keep me anonymous"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?

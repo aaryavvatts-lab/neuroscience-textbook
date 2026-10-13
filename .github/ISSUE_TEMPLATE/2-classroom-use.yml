@@ -1,0 +1,39 @@
+name: I used this book
+description: Tell us how you used the book in a class, club, study group, or on your own.
+title: "[Used it] "
+labels: ["impact"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hearing how the book is used helps decide what to improve next. Please don't include any student names or personal information.
+  - type: dropdown
+    id: role
+    attributes:
+      label: I am a...
+      options:
+        - Teacher
+        - Student
+        - Club or study group leader
+        - Brain Bee coordinator or volunteer
+        - Parent
+        - Scientist or health professional
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How did you use it?
+      description: Which chapters or simulations, and in what setting (class, club, Brain Bee prep, self-study)?
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: About how many students or people used it?
+      placeholder: "25"
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What worked, and what should be better?

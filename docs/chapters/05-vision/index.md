@@ -139,11 +139,11 @@ The fix is to compare. Humans have three types of cones, each with a slightly di
 
 For comparison, rod rhodopsin peaks near 498 nm. (A nanometer, nm, is one billionth of a meter.) These values are from OpenStax.
 
-Your brain works out color by comparing how strongly the three cone types respond to the same patch of light. If S cones respond strongly and L cones barely respond, the light is toward the blue end. A TV screen uses this trick: mixing just red, green, and blue pixels can make almost any color. Most mammals, including dogs and cats, have only two cone types, so your pet doesn't see colors the way you do.
+Your brain works out color by comparing how strongly the three cone types respond to the same patch of light. If S cones respond strongly and L cones barely respond, the light is toward the blue end. A TV screen uses this trick: mixing just red, green, and blue pixels can make a wide range of colors. Most mammals, including dogs and cats, have only two cone types, so your pet doesn't see colors the way you do.
 
 ### Opponent colors
 
-The retina also sets up "opponent" pairs: some ganglion cells are excited by red and inhibited by green, and others by blue versus yellow. That's why staring at a red square and then at a white wall leaves a greenish afterimage. The red-favoring cells tire, so their green-favoring partners "win" for a moment.
+The three cones are only the first step. Neurons in the retina and thalamus then compare the cones in "opponent" pairs. Some cells take the difference between L and M cones, a red versus green signal. Others compare S cones against L and M cones added together, a blue versus yellow signal. In the 1800s, these were rival theories: Hermann von Helmholtz argued for three color receptors (trichromacy), and Ewald Hering argued for opposing color pairs. Both turned out to capture part of the truth, at different stages: three cone types at the start, opponent comparisons after that ([Shevell and Martin, *Journal of the Optical Society of America A*, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6022826/)). Opponent pairs help explain afterimages. Stare at a red square and then at a white wall, and you see a greenish afterimage. The parts of the system that signal red have adapted (tired out), so the green side of the pair "wins" for a moment.
 
 ### Color blindness
 
@@ -172,7 +172,7 @@ When the whole receptive field is lit evenly, the center says "fire!" and the su
 
 Bipolar cells are so short that they signal with graded voltage changes, not action potentials. Ganglion cells must send signals a long way, so they are the first retinal cells to fire action potentials.
 
-The **optic nerve** is the bundle of ganglion cell axons that carries visual signals from one eye to the brain. You met it in [Chapter 4](../04-neuroanatomy/index.md) as cranial nerve II. Most of its fibers head toward the thalamus for conscious vision. Some go to the midbrain to help steer the eyes. A small group, about 1% of ganglion cells, sense light themselves and report brightness to the brain's body clock.
+The **optic nerve** is the bundle of ganglion cell axons that carries visual signals from one eye to the brain. You met it in [Chapter 4](../04-neuroanatomy/index.md) as cranial nerve II. Most of its fibers head toward the thalamus for conscious vision. Some go to the midbrain to help steer the eyes. A small group, fewer than 1 in 100 ganglion cells in the human retina, sense light themselves and report brightness to the brain's body clock.
 
 ## 5.7 The Visual Field: What You Can See Right Now
 
@@ -347,7 +347,7 @@ So, does Maya have a field defect? Her optometrist checks each eye separately an
 
 **Where is the problem? (localization):** Only one place holds the fibers for *both* temporal fields: the crossing fibers in the middle of the optic chiasm. An optic nerve lesion would affect only one eye, and a lesion behind the chiasm would take the *same* side from both eyes. The pituitary gland sits just below the chiasm, so a mass growing up from there is the prime suspect.
 
-**Diagnosis:** An MRI with contrast shows a large **pituitary tumor** pushing up out of its bony pocket and pressing on the optic chiasm. A pituitary tumor is an abnormal growth in the pituitary gland, the small hormone-control gland at the base of the brain. Most are **pituitary adenomas**, which are noncancerous, grow slowly, and don't spread. Blood tests show that his tumor isn't making extra hormones, so it's called a "nonfunctioning" adenoma. Final diagnosis: **bitemporal hemianopia caused by a nonfunctioning pituitary adenoma compressing the optic chiasm.**
+**Diagnosis:** An MRI with contrast shows a large **pituitary tumor** pushing up out of its bony pocket and pressing on the optic chiasm. A pituitary tumor is an abnormal growth in the pituitary gland, the small hormone-control gland at the base of the brain. Most are **pituitary adenomas**, which are noncancerous, grow slowly, and don't spread. Since 2022, the World Health Organization's tumor classification has recommended a new name, pituitary neuroendocrine tumor (PitNET), but many doctors and patient guides still say "adenoma" ([Tsukamoto and Miki, *Japanese Journal of Radiology*, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10366012/)). Blood tests show that his tumor isn't making extra hormones, so it's called a "nonfunctioning" adenoma. Final diagnosis: **bitemporal hemianopia caused by a nonfunctioning pituitary adenoma compressing the optic chiasm.**
 
 **Why it happens:** The tumor presses on the crossing fibers in the center of the chiasm. Those fibers come from the nasal half of each retina, which sees the temporal (outer) visual field. So he loses the outer side of each eye's view and bumps into things on *both* sides. His central vision still works, which is why he could read signs and didn't notice the problem for so long.
 
@@ -420,7 +420,7 @@ So, does Maya have a field defect? Her optometrist checks each eye separately an
 
 ### Analyze
 
-7. Two patients both lose vision on their left side. Patient A has lost the left half of the field only in the left eye. Patient B has lost the left half in both eyes. Compare where each lesion is likely to be, and explain how the visual field test tells them apart.
+7. Two patients both say they have trouble seeing on their left. Patient A has lost all vision in the left eye. Patient B has lost the left half of the visual field in both eyes. Compare where each lesion is likely to be, and explain how the visual field test tells them apart.
 8. Mr. Alvarez had normal visual acuity but a serious visual field defect. Analyze why acuity testing alone missed his problem, using what you know about the fovea and the crossing fibers.
 
 ### Evaluate

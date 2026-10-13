@@ -42,7 +42,7 @@ Every chapter includes interactive p5.js simulations (MicroSims), Brain Bee-styl
 
 ## Target Audience
 
-- **High school students (grades 9–12)** who are curious about the brain, considering medicine or science, or preparing for the Brain Bee
+- **High school students (grades 9 to 12)** who are curious about the brain, considering medicine or science, or preparing for the Brain Bee
 - **Teachers** running a neuroscience elective, an AP Biology or AP Psychology unit on the nervous system, or a science club
 - **Early undergraduates and pre-med students** who want an intuitive, clinically connected first pass before a college neuroscience course
 
@@ -76,12 +76,12 @@ Every chapter includes interactive p5.js simulations (MicroSims), Brain Bee-styl
 | 14 | Brain Injury, Stroke, and Epilepsy | A high school soccer player's concussion; stroke (BE-FAST) |
 | 15 | Psychiatric Disorders, Developmental Disorders, and Addiction | Opioid overdose and naloxone |
 | 16 | How Doctors Examine the Brain | Putting it together: a full neurological workup |
-| A | Brain Bee Strategy and Mock Exam | — |
-| B | Careers in Neuroscience and Medicine | — |
+| A | Brain Bee Strategy and Mock Exam |, |
+| B | Careers in Neuroscience and Medicine |, |
 
 ## Topics Not Covered
 
-- Advanced electrophysiology mathematics (e.g., full Hodgkin–Huxley differential equations). The simulations show the behavior, and the equations are mentioned only as enrichment.
+- Advanced electrophysiology mathematics (e.g., full Hodgkin-Huxley differential equations). The simulations show the behavior, and the equations are mentioned only as enrichment.
 - Detailed pharmacology dosing, prescribing, or any treatment recommendations for individuals
 - Computational neuroscience and neural network programming
 - Comparative neuroanatomy beyond the sea slug *Aplysia* and brief animal-model examples

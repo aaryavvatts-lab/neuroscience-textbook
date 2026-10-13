@@ -98,7 +98,7 @@ The Broca-and-Wernicke story is a great starting map, but three findings changed
 
 First, in 2007, a team led by Nina Dronkers used high-resolution MRI to re-examine the preserved brains of Broca's two original patients. Their damage reached much deeper than the surface area Broca described, so today's "Broca's area" doesn't perfectly match the damage in Broca's own patients ([Dronkers et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17405763/)).
 
-Second, in 2007, researchers Gregory Hickok and David Poeppel proposed a **dual-stream model** of speech. In this model, a *ventral* (lower) stream running through the temporal lobe handles understanding what speech means. A *dorsal* (upper) stream connects sounds to the frontal areas that control speaking. The ventral stream works in both hemispheres, while the dorsal stream depends strongly on the left. A 2018 study of stroke patients found that problems producing speech mostly followed dorsal-stream damage, while problems understanding speech were more linked to the ventral stream. Tasks like naming objects or repeating sentences needed both.
+Second, in 2007, researchers Gregory Hickok and David Poeppel proposed a **dual-stream model** of speech. In this model, a *ventral* (lower) stream running through the temporal lobe handles understanding what speech means. A *dorsal* (upper) stream connects sounds to the frontal areas that control speaking. The ventral stream works in both hemispheres, while the dorsal stream depends strongly on the left. A 2018 study of stroke patients found that problems with the motor side of producing speech mostly followed dorsal-stream damage, while problems understanding speech were more linked to the ventral stream. Tasks like naming objects or repeating sentences needed both. The same study found that patients with damage in different places could show similar problems, because each task relies on a wide network ([Fridriksson et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29360947/)).
 
 Third, language isn't only about sound. In a 1996 study of 23 deaf sign-language users with damage to one side of the brain, left-hemisphere damage disrupted signing much more than right-hemisphere damage, the same pattern seen in speakers ([Hickok, Bellugi, and Klima, 1996](https://pubmed.ncbi.nlm.nih.gov/8649515/)). The left-hemisphere network seems to handle language itself, not just hearing and moving the mouth.
 
@@ -110,7 +110,7 @@ Third, language isn't only about sound. In a 1996 study of 23 deaf sign-language
 
 **Aphasia** is a language disorder caused by damage to the parts of the brain that handle language. It can affect speaking, understanding, reading, and writing, and in deaf signers it can affect sign language too. It's not a hearing problem, a muscle problem, or a loss of intelligence. People with aphasia usually know what they want to say and still think clearly. Their access to language is what's damaged.
 
-Aphasia is common. The National Institute on Deafness and Other Communication Disorders (NIDCD) reports that about 2 million people in the United States live with aphasia, citing the National Aphasia Association. Stroke is the leading cause, and about one in three stroke survivors has aphasia. Head injuries, brain tumors, brain surgery, and brain infections can also cause it.
+Aphasia is common. The National Institute on Deafness and Other Communication Disorders (NIDCD) reported in 2025 that about 2 million people in the United States live with aphasia, citing the National Aphasia Association. Stroke is the leading cause, and about one in three stroke survivors has aphasia. Head injuries, brain tumors, brain surgery, and brain infections can also cause it.
 
 ### The vocabulary of a language exam
 
@@ -139,11 +139,12 @@ A few details help these types make sense:
 - **Broca's aphasia** often comes with weakness on the *right* side of the body. The left frontal lobe also contains motor areas, and each hemisphere controls the opposite side of the body (Chapter 4).
 - In **Wernicke's aphasia**, the person can't understand language well, including their own speech, so they often don't realize their sentences make no sense.
 - **Conduction aphasia** was once explained simply as a broken pass-through window. Newer studies suggest damage to nearby cortex may matter as much as the fiber bundle itself.
+- The table is a simplified map, not a complete list. It leaves out rarer types, such as the **transcortical** aphasias, in which repetition is surprisingly spared, and NIDCD also lists mixed and unspecified forms. Many real patients don't fit neatly into one box.
 - **Primary progressive aphasia** isn't caused by a sudden injury. It's an early sign of a slowly worsening brain disease, such as a form of dementia, so the language problems grow over time. (Chapter 13 covers dementia and other neurodegenerative diseases.)
 
 !!! mascot-tip "Three questions sort most aphasias"
     ![Ply giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    When you meet an aphasia case in the Brain Bee, ask the same three questions every time: Is the speech fluent? Does the person understand? Can they repeat? Those three answers narrow the list fast, and they point straight to the front or back of the language network.
+    When you meet an aphasia case in the Brain Bee, ask the same three questions every time: Is the speech fluent? Does the person understand? Can they repeat? Those three answers narrow the list fast, and they usually point toward the front or back of the language network. Real patients can be messier than the textbook types.
 
 ### Try it: sort the speech samples
 
@@ -322,6 +323,8 @@ Wolfram Schultz recorded dopamine neurons in monkeys and found that they fire in
     ![Ply encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
     If equations make you nervous, just remember "surprise = got minus expected." Positive surprise, dopamine bursts; no surprise, nothing changes; negative surprise, dopamine dips. That's the whole idea.
 
+Something else changes with learning. Once a cue reliably predicts the reward (say, seeing the coach's car pull up with pizza boxes), the dopamine burst moves from the reward itself to the earliest cue that predicts it. The reward has become expected, but the cue is now the surprise. This pattern was first recorded in monkeys and has since been found in rodents and humans ([Schultz, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4826767/)).
+
 This signal works like a teacher. After each prediction error, the brain updates its expectations a little, so future predictions improve. Reward prediction errors help explain why a reward stops feeling exciting once it's routine, and why drugs of addiction are so powerful: they hijack and amplify the dopamine signal (Chapter 15).
 
 ## At the Bedside: Two Strokes, Two Kinds of Silence
@@ -339,7 +342,7 @@ This signal works like a teacher. After each prediction error, the brain updates
 
 **Why it happens:** Language depends on a left-leaning network. The frontal part, including Broca's area and the dorsal stream, turns plans into ordered speech. Damage there leaves understanding mostly intact but makes speaking slow and broken. The temporal part, including Wernicke's area and the ventral stream, links sounds to meanings. Damage there lets speech keep flowing but strips away meaning, both in what the person hears and in what they say, so they often don't notice their own errors.
 
-**Treatment today:** For an ischemic stroke, emergency care aims to restore blood flow as fast as possible. For eligible patients, that can mean a clot-dissolving medicine given within a few hours of symptom onset, or a procedure called thrombectomy, in which a doctor threads a thin tube through an artery to pull out a clot in a large brain vessel. Doctors also work to prevent another stroke. For the aphasia itself, the main treatment is **speech-language therapy**. A review of 57 randomized trials found that therapy improved everyday communication compared with no therapy. Many people improve a lot in the first few months, and gains can continue for years. Families learn to help by using short sentences, giving the person time to talk, and welcoming gestures, drawing, and pointing.
+**Treatment today:** For an ischemic stroke, emergency care aims to restore blood flow as fast as possible. For eligible patients, that can mean a clot-dissolving medicine given within a few hours of symptom onset, or a procedure called thrombectomy, in which a doctor threads a thin tube through an artery to pull out a clot in a large brain vessel. Doctors also work to prevent another stroke. For the aphasia itself, the main treatment is **speech-language therapy**. A 2016 Cochrane review of 57 randomized trials found that, in the trials comparing therapy with no therapy, therapy improved everyday communication. Many people improve a lot in the first few months, and gains can continue for years. Families learn to help by using short sentences, giving the person time to talk, and welcoming gestures, drawing, and pointing.
 
 **What's new in research:** A 2017 randomized trial in *The Lancet* (FCET2EC) tested intensive therapy long after a stroke. It enrolled 158 people aged 70 or younger who had had aphasia for at least six months, at 19 centers in Germany. Those who received at least three weeks of intensive speech-language therapy, at least 10 hours per week, improved their everyday verbal communication, while those whose therapy was delayed did not. The results suggest that language can still improve with enough practice long after the first months of recovery ([Breitenstein et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28256356/)).
 

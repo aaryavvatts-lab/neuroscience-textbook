@@ -43,7 +43,9 @@ The book covers the topics that high school neuroscience competitions like the B
 | Curated references | 160 (10 per chapter) |
 | Glossary terms | 253 |
 | FAQ questions | 75 |
-| Total words | about 194,000 |
+| Total words | about 204,000 |
+| Printable PDFs | Every chapter, plus a 454-page full book |
+| Teacher and club resources | Teacher guide, 10-session club kit, pilot study kit |
 
 The full, automatically generated numbers are on the site's [Book Metrics](https://aaryavvatts-lab.github.io/neuroscience-textbook/learning-graph/book-metrics/) page.
 
@@ -67,6 +69,16 @@ The full, automatically generated numbers are on the site's [Book Metrics](https
 16. How Doctors Examine the Brain
 
 Appendix A: Brain Bee Strategy and Mock Exam. Appendix B: Careers in Neuroscience and Medicine.
+
+## For teachers, clubs, and researchers
+
+- **[For Teachers](https://aaryavvatts-lab.github.io/neuroscience-textbook/teachers/):** pacing plans, standards connections (NGSS HS-LS1-2 and HS-LS1-3, AP Psychology Unit 1), and classroom routines for the simulations and clinical cases.
+- **[Club and Study Group Kit](https://aaryavvatts-lab.github.io/neuroscience-textbook/club-kit/):** a 10-session plan any student club can run, including a mock Brain Bee.
+- **[Downloads](https://aaryavvatts-lab.github.io/neuroscience-textbook/downloads/):** free printable PDFs for offline reading.
+- **[Pilot study kit](Materials/pilot-study/):** a ready-to-use, ethics-first protocol, pre/post test, and analysis guide for measuring whether the book helps students learn.
+- **[Accuracy and Corrections](https://aaryavvatts-lab.github.io/neuroscience-textbook/accuracy/):** how the book is checked, and a public corrections log.
+
+Used the book with students? Please tell us with the [I used this book](https://github.com/aaryavvatts-lab/neuroscience-textbook/issues/new?template=2-classroom-use.yml) form. Experts can [volunteer to review a chapter](https://github.com/aaryavvatts-lab/neuroscience-textbook/issues/new?template=4-expert-review.yml).
 
 ## Getting started
 
@@ -108,16 +120,22 @@ neuroscience-textbook/
 │   ├── sims/<sim-name>/          # p5.js MicroSims: main.html, sketch .js, index.md, metadata.json, screenshot
 │   ├── learning-graph/           # 253-concept learning graph (CSV, JSON), quality and metrics reports
 │   ├── glossary.md  faq.md  about.md  how-to-use.md  how-to-cite.md
+│   ├── teachers.md  club-kit.md  downloads.md  accuracy.md  roadmap.md
+│   ├── downloads/                # Printable PDFs (each chapter + full book)
 │   ├── img/                      # Cover, favicon, Ply the sea slug mascot (7 poses)
 │   └── css/  javascripts/        # Custom styles (mascot admonitions) and MathJax config
 ├── Materials/                    # Source materials used to build the book
 │   ├── course-description.md     # Audience, prerequisites, Bloom's Taxonomy learning objectives
 │   ├── textbook-design-principles.md
 │   ├── concept-list.md  chapter-plan.md  sources.md
+│   ├── pilot-study/              # Protocol, pre/post test, survey, consent templates, analysis guide
 │   └── mascot-svg/               # Vector source art for the mascot
 ├── plugins/social_override.py    # Adds social media preview tags to every page
 ├── scripts/book-metrics.py       # Book metrics generator (adapted from Dan McCreary's)
+├── .github/ISSUE_TEMPLATE/       # Forms: report a mistake, I used this book, suggest an idea, review a chapter
 ├── CLAUDE.md                     # Project rules: audience, accuracy, mascot, taxonomy
+├── EDITOR_DOMAIN.md              # Editorial brief for science reviewers
+├── CONTRIBUTING.md  CHANGELOG.md
 ├── mkdocs.yml                    # Site settings and navigation
 ├── requirements.txt              # Pinned Python dependencies
 ├── CITATION.cff                  # "Cite this repository" metadata
@@ -132,7 +150,8 @@ This is an *intelligent textbook* built with an AI-assisted workflow:
 2. A learning graph of 253 concepts and their prerequisites set the chapter order.
 3. Chapters, quizzes, simulations, the glossary, and the FAQ were drafted with [Claude Code](https://claude.ai/code) and [Dan McCreary's open-source intelligent-textbook skills](https://github.com/dmccreary/claude-skills).
 4. Every chapter then went through separate fact-checking passes. Each statistic, date, drug approval, and reference link was checked against sources like the NIH, the CDC, the FDA, and peer-reviewed research.
-5. A final editing pass made the writing plain and readable for high school students.
+5. A copy-editing pass made the writing plain and readable for high school students.
+6. A senior science edit, guided by [EDITOR_DOMAIN.md](EDITOR_DOMAIN.md), re-checked every claim and updated time-sensitive facts to October 2026.
 
 **AI disclosure:** generative AI (Anthropic's Claude) was used to help draft and check this book. The author directed the project, set its design and accuracy rules, and is responsible for the content.
 

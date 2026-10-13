@@ -103,7 +103,7 @@ A protein is like a strip of paper folded into an exact origami shape. The shape
 
 **Dementia** is not one disease. It is a general term for a loss of thinking, remembering, and reasoning severe enough to interfere with a person's daily life and activities ([NIA](https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis)). Some people with dementia also have trouble controlling emotions, or their personality changes. Dementia becomes more common with age: the NIA estimates that about one-third of people age 85 or older may have some form of it. But dementia is **not a normal part of aging**, and many people live into their 90s and beyond without any signs of it.
 
-Dementia has many causes, including vascular dementia (from damaged blood vessels; see [Chapter 14](../14-injury-stroke-epilepsy/index.md)), Lewy body dementia, and frontotemporal dementia. The most common cause in older adults is **Alzheimer's disease**: a progressive brain disease that slowly destroys memory and thinking skills and, eventually, the ability to carry out simple tasks. According to the [NIA fact sheet](https://www.nia.nih.gov/health/alzheimers-and-dementia/alzheimers-disease-fact-sheet), estimates vary, but more than 6 million Americans, most of them 65 or older, may have Alzheimer's disease.
+Dementia has many causes, including vascular dementia (from damaged blood vessels; see [Chapter 14](../14-injury-stroke-epilepsy/index.md)), Lewy body dementia, and frontotemporal dementia. The most common cause in older adults is **Alzheimer's disease**: a progressive brain disease that slowly destroys memory and thinking skills and, eventually, the ability to carry out simple tasks. According to the [NIA fact sheet](https://www.nia.nih.gov/health/alzheimers-and-dementia/alzheimers-disease-fact-sheet), estimates vary, but more than 6 million Americans, most of them 65 or older, may have Alzheimer's disease. The [Alzheimer's Association's 2026 Facts and Figures report](https://www.alz.org/alzheimers-dementia/facts-figures) estimates that 7.4 million Americans age 65 and older are living with Alzheimer's in 2026, about 1 in 9 people in that age group.
 
 ### A doctor, a microscope, and 1906
 
@@ -150,7 +150,7 @@ For a long time, the only sure way to diagnose Alzheimer's disease was to look a
 
 - **Amyloid PET scan.** A small amount of a radioactive tracer that sticks to amyloid is injected into a vein. A PET scanner then shows where amyloid has built up.
 - **Cerebrospinal fluid (CSF) tests.** A sample of the fluid around the brain and spinal cord, taken with a needle in the lower back (a lumbar puncture), can show amyloid and tau levels.
-- **Blood tests.** On May 16, 2025, the FDA cleared the [first blood test used to help diagnose Alzheimer's disease](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease). It measures the ratio of two proteins in blood (a form of tau called pTau217, and beta-amyloid 42) to help detect amyloid plaques. It is cleared for adults 55 and older who already have symptoms, and results must be read along with other clinical information.
+- **Blood tests.** On May 16, 2025, the FDA cleared the [first blood test used to help diagnose Alzheimer's disease](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease). It measures the ratio of two proteins in blood (a form of tau called pTau217, and beta-amyloid 42) to help detect amyloid plaques. It is cleared for adults 55 and older who already have symptoms, and results must be read along with other clinical information. More blood tests have been cleared since then, including Roche's Elecsys pTau181 in October 2025 ([NeurologyLive](https://www.neurologylive.com/view/fda-clears-roche-elecsys-ptau181-test-ruling-out-alzheimers-related-amyloid-pathology)), and Roche's Elecsys pTau217 and C2N's PrecivityAD2 in August 2026 ([Psychiatric News](https://alert.psychnews.org/fda-clears-two-new-blood-tests-to-detect-alzheimers-in-adults)). As of 2026, all of them are cleared to help evaluate people who already have memory or thinking symptoms, not to screen healthy people.
 
 ### Why timing is everything
 
@@ -158,7 +158,9 @@ Biomarker research showed that **the brain changes start long before the symptom
 
 In 2010, Clifford Jack and colleagues proposed a widely cited [hypothetical model of Alzheimer's biomarkers](https://pmc.ncbi.nlm.nih.gov/articles/PMC2819840/). In their model, amyloid biomarkers turn abnormal first, while the person still thinks normally. After a delay that differs from person to person, markers of neuron injury (such as tau and brain shrinkage on MRI) turn abnormal. Symptoms come last. The authors estimated that in people who later develop dementia, amyloid buildup might begin as much as two decades before symptoms. They also noted that roughly 20 to 40 percent of older adults with normal thinking already have significant amyloid in their brains.
 
-This adds a new stage of disease. **Preclinical Alzheimer's disease** is the stage when biomarkers show Alzheimer's brain changes but the person has no symptoms yet. The stages with symptoms are mild cognitive impairment and dementia. The MicroSim below lets you watch these stages unfold.
+This adds a new stage of disease. **Preclinical Alzheimer's disease** is the stage when biomarkers show Alzheimer's brain changes but the person has no symptoms yet. The stages with symptoms are mild cognitive impairment and dementia.
+
+Experts still disagree about what to call this stage. In June 2024, an Alzheimer's Association workgroup published [revised criteria](https://alz.org/news/2024/revised-alzheimers-diagnostic-staging-criteria) that define Alzheimer's disease *biologically*: it begins when Alzheimer's brain changes appear, even before symptoms. The same workgroup said biomarker testing in the clinic is meant for people who have symptoms, not for healthy people. Later in 2024, the International Working Group, another expert panel, [disagreed](https://www.alzheimer-europe.org/news/international-working-group-publishes-revised-diagnostic-criteria-alzheimers-disease). It proposed calling most people with abnormal amyloid but normal thinking "asymptomatic at risk of Alzheimer's disease," because many of them never develop symptoms. The MicroSim below lets you watch these stages unfold.
 
 #### Diagram: Amyloid and Tau Cascade
 
@@ -201,7 +203,7 @@ For decades, Alzheimer's medicines could only treat symptoms. Cholinesterase inh
 
 Your immune system makes **antibodies**, Y-shaped proteins that latch onto a specific target and mark it for removal. An **anti-amyloid antibody** is a lab-made antibody, given by infusion into a vein (and for lecanemab, now also by injection under the skin), that binds to beta-amyloid and helps the brain's immune cells clear plaques away. It's like putting bright "pick me up" tags on trash so the cleanup crew (the microglia) finds it.
 
-Two anti-amyloid antibodies are FDA-approved and available as of this writing. (An earlier one, aducanumab, received accelerated approval in 2021, but its maker discontinued it in 2024.)
+Two anti-amyloid antibodies are FDA-approved and available as of October 2026. (An earlier one, aducanumab, received accelerated approval in 2021, but its maker discontinued it in 2024.)
 
 | Drug | FDA status | Key trial | Who it's approved for |
 |---|---|---|---|
@@ -222,7 +224,7 @@ That fits the MicroSim. By the time symptoms appear, tau has spread and many neu
 
 The most important side effect has a long name: **amyloid-related imaging abnormalities (ARIA)**. ARIA shows up on MRI scans as temporary swelling in the brain, sometimes with small spots of bleeding. Usually it causes no symptoms. When it does, they can include headache, confusion, dizziness, vision changes, or nausea. Rarely, it is serious or life-threatening ([FDA](https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval)). Both drugs carry a **boxed warning**, the FDA's strongest label warning, about ARIA.
 
-In the trials, ARIA with swelling showed up on scans in 12.6 percent of people taking lecanemab and 24.0 percent of people taking donanemab. (The two trials enrolled somewhat different groups, so these numbers are not a head-to-head comparison.) People with two copies of APOE e4 have a higher risk of ARIA, so the FDA labels say to test for APOE e4 before starting treatment. Patients get regular MRI scans to watch for ARIA.
+In the trials, ARIA with swelling showed up on scans in 12.6 percent of people taking lecanemab and 24.0 percent of people taking donanemab. (The two trials enrolled somewhat different groups, so these numbers are not a head-to-head comparison.) People with two copies of APOE e4 have a higher risk of ARIA, so the FDA labels say to test for APOE e4 before starting treatment. Patients get regular MRI scans to watch for ARIA. In July 2025, the FDA approved a more gradual starting schedule for donanemab after a trial called TRAILBLAZER-ALZ 6 found that it lowered ARIA with swelling at 52 weeks from 24.2 percent to 15.6 percent ([NeurologyLive](https://www.neurologylive.com/view/fda-approves-updated-label-alzheimer-therapy-donanemab-lower-aria-e-risk)). The boxed warning remains.
 
 !!! mascot-warning "Approved does not mean cure"
     ![Ply giving a warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
@@ -230,7 +232,7 @@ In the trials, ARIA with swelling showed up on scans in 12.6 percent of people t
 
 ### Can treatment start even earlier?
 
-If amyloid builds up for years before symptoms, would treatment in the preclinical stage work better? Large clinical trials are testing this in people who have amyloid but no symptoms, such as the [AHEAD 3-45 study](https://clinicaltrials.gov/study/NCT04468659) of lecanemab. Until those results are in, treating people without symptoms remains experimental.
+If amyloid builds up for years before symptoms, would treatment in the preclinical stage work better? Large clinical trials are testing this in people who have amyloid but no symptoms, such as the [AHEAD 3-45 study](https://clinicaltrials.gov/study/NCT04468659) of lecanemab and the [TRAILBLAZER-ALZ 3 study](https://clinicaltrials.gov/study/NCT05026866) of donanemab. As of October 2026, neither has reported its main results. Until those results are in, treating people without symptoms remains experimental.
 
 ## 13.8 Cognitive Reserve: Why Some Brains Hold Up Better
 
@@ -308,7 +310,7 @@ Huntington's disease is **autosomal dominant**: one altered copy of the gene is 
 
 ### Treatment
 
-NINDS states that no treatment can stop or reverse Huntington's disease. Medicines such as tetrabenazine, deutetrabenazine, and valbenazine can reduce chorea, and other medicines help with depression and other psychiatric symptoms. Researchers are testing genetic approaches to lower the harmful huntingtin protein, including experimental gene therapies. In September 2026, the company developing one of them (AMT-130) [asked the FDA to review it for accelerated approval](https://www.sec.gov/Archives/edgar/data/0001590560/000110465926104463/qure-20260902xex99d1.htm), but as of this writing no gene therapy for Huntington's disease is FDA-approved.
+NINDS states that no treatment can stop or reverse Huntington's disease. Medicines such as tetrabenazine, deutetrabenazine, and valbenazine can reduce chorea, and other medicines help with depression and other psychiatric symptoms. Researchers are testing genetic approaches to lower the harmful huntingtin protein, including experimental gene therapies. In September 2026, the company developing one of them (AMT-130) [asked the FDA to review it for accelerated approval](https://www.sec.gov/Archives/edgar/data/0001590560/000110465926104463/qure-20260902xex99d1.htm), but as of October 2026 no gene therapy for Huntington's disease is FDA-approved.
 
 ## 13.11 Fixing the Message: Antisense Drugs and Gene Therapy
 
@@ -361,7 +363,7 @@ The first gene therapy for SMA, **onasemnogene abeparvovec (Zolgensma)**, was [a
 
     **Answer:** Weakness, muscle wasting, and twitching (lower motor neuron signs) together with brisk reflexes (upper motor neuron signs), plus a family history, suggest **familial ALS**. Genetic testing could look for a *SOD1* mutation. If one is found, doctors may discuss **tofersen (Qalsody)**. It received **FDA accelerated approval on April 25, 2023**, based on its ability to lower **neurofilament light** in blood. Neurofilament light is a blood biomarker of axon injury and neurodegeneration. Accelerated approval is an FDA pathway for serious diseases when a drug improves a biomarker "reasonably likely" to predict real benefit. Continued approval may depend on trials confirming that benefit.
 
-    Be honest about the evidence: in the phase 3 VALOR trial, tofersen lowered SOD1 and neurofilament light, but it **did not meet its primary clinical endpoint**, the change in a function rating scale at 28 weeks ([Miller et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36129998/)). A 52-week follow-up hinted that starting earlier was better, but that was not the trial's main test. A confirmatory trial (ATLAS) is testing whether tofersen delays symptoms in SOD1 carriers who are still healthy. Tofersen is given by lumbar puncture, and procedure-related side effects are common.
+    Be honest about the evidence: in the phase 3 VALOR trial, tofersen lowered SOD1 and neurofilament light, but it **did not meet its primary clinical endpoint**, the change in a function rating scale at 28 weeks ([Miller et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36129998/)). A 52-week follow-up hinted that starting earlier was better, but that was not the trial's main test. A confirmatory trial ([ATLAS](https://clinicaltrials.gov/study/NCT04856982)) is testing whether tofersen delays symptoms in SOD1 carriers who are still healthy. As of October 2026, it is still under way and has not reported results. Tofersen is given by lumbar puncture, and procedure-related side effects are common.
 
 *This is a fictional teaching case. It is not medical advice. If you or someone you know has symptoms like these, talk to a doctor.*
 
@@ -451,7 +453,7 @@ The first gene therapy for SMA, **onasemnogene abeparvovec (Zolgensma)**, was [a
 - Normal aging brings slower thinking and some shrinkage, but not large-scale neuron loss. **Dementia is not a normal part of aging.**
 - Many neurodegenerative diseases share one theme: a **misfolded protein** builds up in specific neurons, and the location decides the symptoms.
 - **Alzheimer's disease**, the most common cause of dementia, is defined by **amyloid plaques** outside neurons and **tau tangles** inside them. It usually starts in the hippocampus and entorhinal cortex.
-- **Biomarkers** (PET scans, spinal fluid, and now an FDA-cleared blood test) show that Alzheimer's brain changes begin a decade or more before symptoms.
+- **Biomarkers** (PET scans, spinal fluid, and now FDA-cleared blood tests) show that Alzheimer's brain changes begin a decade or more before symptoms.
 - **Anti-amyloid antibodies** (lecanemab and donanemab) are FDA-approved for early Alzheimer's disease. They modestly slow decline, are not cures, and carry a risk of **ARIA**.
 - **ALS** kills upper and lower motor neurons. **Huntington's disease** comes from an expanded CAG repeat in *HTT*, is autosomal dominant, and damages the striatum.
 - **Antisense oligonucleotides** (nusinersen, tofersen) and **gene therapy** target genes and their messages. Tofersen's accelerated approval rested on a biomarker; its phase 3 trial missed its main clinical goal.

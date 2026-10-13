@@ -59,11 +59,11 @@ Maya has a Brain Bee question of her own: what is nicotine doing to Jordan's bra
 
 ## 15.2 What Is a Mental Illness?
 
-Start with an everyday picture. Think of the brain as a sound mixing board with thousands of sliders: how alert you feel, how much you worry, how much you enjoy things. Everyone's board is set a little differently, and the settings shift with sleep, stress, and life events. Usually the board adjusts itself. Sometimes a group of sliders gets stuck far out of range for weeks or months, and studying, sleeping, or connecting with others suffers. That is closer to what a mental illness is.
+Start with an everyday picture. Think of the brain as a sound mixing board with thousands of sliders: how alert you feel, how much you worry, how much you enjoy things. Everyone's board is set a little differently, and the settings shift with sleep, stress, and life events. Usually the board adjusts itself. Sometimes a group of sliders gets stuck far out of range for weeks or months, and studying, sleeping, or connecting with others suffers. That is closer to what a mental illness is. The picture has a limit, though: the real brain has no single slider for worry or joy. Each "setting" comes from many circuits, genes, and experiences working together.
 
 A **mental illness** is a condition that affects a person's thinking, emotions, or behavior in a lasting way and causes real distress or makes daily life harder. The National Institute of Mental Health (NIMH) separates "any mental illness" (mild to severe) from "serious mental illness," which seriously limits major life activities. These conditions involve the brain, genes, the body, relationships, and environment. None are character flaws.
 
-Mental illness is common. In 2022, an estimated **59.3 million U.S. adults, or 23.1%, had a mental illness** in the past year, according to the National Survey on Drug Use and Health ([NIMH](https://www.nimh.nih.gov/health/statistics/mental-illness)). Teens are affected too. In 2021, about **20.1% of U.S. adolescents aged 12 to 17** had at least one major depressive episode in the past year ([NIMH](https://www.nimh.nih.gov/health/statistics/major-depression)).
+Mental illness is common. In 2025, an estimated **54.6 million U.S. adults, or 20.6%, had a mental illness** in the past year, according to the National Survey on Drug Use and Health (NSDUH). Teens are affected too. In the same survey, about **15.1% of U.S. adolescents aged 12 to 17** (3.7 million) had a major depressive episode in the past year, down from 20.8% in 2021 ([SAMHSA, 2025 NSDUH](https://www.samhsa.gov/data/sites/default/files/reports/rpt57150/2025-nsduh-annual-national-report.pdf)). The survey changed how it estimates adult mental illness in 2025, so these adult numbers can't be compared directly with older published figures, such as the 23.1% for 2022 that NIMH still lists ([NIMH](https://www.nimh.nih.gov/health/statistics/mental-illness)).
 
 How do doctors tell a disorder from a hard week? They look at:
 
@@ -71,7 +71,7 @@ How do doctors tell a disorder from a hard week? They look at:
 - **How much** the symptoms disrupt school, work, relationships, or self-care
 - **Whether something else** explains the symptoms better, such as a thyroid problem, a medication, or a drug
 
-Clinicians use criteria from the *Diagnostic and Statistical Manual of Mental Disorders* (DSM-5) to make these calls consistently. No single blood test or brain scan diagnoses these conditions today. Diagnosis comes from a careful interview and observation, plus tests to rule out other medical causes.
+Clinicians use criteria from the *Diagnostic and Statistical Manual of Mental Disorders* to make these calls consistently. The current version is the DSM-5-TR, a text revision of the fifth edition released in 2022 ([American Psychiatric Association](https://psychiatry.org/news-room/news-releases/apa-releases-diagnostic-and-statistical-manual-of)). No single blood test or brain scan diagnoses these conditions today. Diagnosis comes from a careful interview and observation, plus tests to rule out other medical causes.
 
 ## 15.3 Depression and Anxiety Disorders
 
@@ -104,7 +104,7 @@ Still, "not caused by low serotonin" does **not** mean "antidepressants don't wo
 
 ### Anxiety disorders
 
-Anxiety is a normal alarm. Before Maya's Brain Bee competition, her heart races, a response driven by the amygdala and stress hormones from [Chapter 11](../11-emotion-and-stress/index.md). **Anxiety disorders** are conditions in which fear or worry is too strong, lasts too long, shows up across many situations, and interferes with daily life. They are among the most common mental health conditions: NIMH reports that about a third of U.S. adolescents and adults experience an anxiety disorder at some point ([NIMH](https://www.nimh.nih.gov/health/statistics/any-anxiety-disorder)).
+Anxiety is a normal alarm. Before Maya's Brain Bee competition, her heart races, a response driven by the amygdala and stress hormones from [Chapter 11](../11-emotion-and-stress/index.md). **Anxiety disorders** are conditions in which fear or worry is too strong, lasts too long, shows up across many situations, and interferes with daily life. They are among the most common mental health conditions: based on large national surveys done in the early 2000s, NIMH reports that about a third of U.S. adolescents and adults experience an anxiety disorder at some point ([NIMH](https://www.nimh.nih.gov/health/statistics/any-anxiety-disorder)).
 
 The table below compares the main types.
 
@@ -127,11 +127,11 @@ For GAD, NIMH calls CBT the "gold standard" talk therapy. Medicines such as SSRI
 
 Schizophrenia runs in families, but no single gene causes it. Many genes each add a little risk, which may combine with life experiences such as stressful surroundings or exposures before birth. Imaging studies find subtle differences in the size of some brain areas and in their connections.
 
-The best-known chemical clue involves **dopamine**. Most older antipsychotic medicines block dopamine D2 receptors, and they reduce hallucinations and delusions. This led to the "dopamine hypothesis": too much dopamine signaling in certain pathways may drive psychotic symptoms. Like the serotonin story for depression, this is only part of the picture. Antipsychotics help negative and cognitive symptoms much less, and newer medicines act on several receptor types ([OpenStax, 14.2](https://openstax.org/books/introduction-behavioral-neuroscience/pages/14-2-psychotherapeutics)).
+The best-known chemical clue involves **dopamine**. Most older antipsychotic medicines block dopamine D2 receptors, and they reduce hallucinations and delusions. This led to the "dopamine hypothesis": too much dopamine signaling in certain pathways may drive psychotic symptoms. Like the serotonin story for depression, this is only part of the picture. Antipsychotics help negative and cognitive symptoms much less, and newer medicines act on several receptor types ([OpenStax, 14.2](https://openstax.org/books/introduction-behavioral-neuroscience/pages/14-2-psychotherapeutics)). In September 2024, the FDA approved xanomeline and trospium chloride (Cobenfy) for adults with schizophrenia. It is the first antipsychotic that targets acetylcholine (cholinergic) receptors instead of dopamine receptors, more evidence that dopamine is not the whole story ([FDA](https://www.fda.gov/news-events/press-announcements/fda-approves-drug-new-mechanism-action-treatment-schizophrenia)).
 
 Treatment works best as a team effort: antipsychotic medicine reduces psychotic symptoms, and psychosocial treatments help with daily skills, school, and work. For first-episode psychosis, **coordinated specialty care**, a team-based, recovery-focused approach that includes the person and their family, is more effective at reducing symptoms than typical care ([NIMH](https://www.nimh.nih.gov/health/publications/schizophrenia)).
 
-Two facts fight stigma. Schizophrenia is **not** "split personality," which is a different condition (dissociative identity disorder). And most people with schizophrenia are not violent; they are more likely to be harmed by others than to harm someone.
+Two facts fight stigma. Schizophrenia is **not** "split personality," which is a different condition (dissociative identity disorder). And most people with schizophrenia are not violent. In fact, they are more likely than people without the illness to be harmed by others ([NIMH](https://www.nimh.nih.gov/health/publications/schizophrenia)).
 
 ## 15.5 Developmental Differences: Autism and ADHD
 
@@ -148,9 +148,9 @@ A note on language: many autistic people prefer identity-first language ("autist
 
 It is called a **spectrum** because autistic people have a wide range of characteristics, needs, strengths, and challenges. One person may speak little and need daily support; another may excel at programming but find crowded hallways exhausting. Signs usually appear in the first two years of life.
 
-The CDC's monitoring network estimated that **about 1 in 31 (3.2%) 8-year-old children** had been identified with autism in 2022, and boys were identified more than three times as often as girls ([CDC](https://www.cdc.gov/autism/data-research/index.html)).
+The CDC's monitoring network estimated that **about 1 in 31 (3.2%) 8-year-old children** had been identified with autism in 2022 (the latest estimate as of 2026, published in 2025), and boys were identified more than three times as often as girls ([CDC](https://www.cdc.gov/autism/data-research/index.html)).
 
-The primary causes are not fully known. Genes play a large role, and risk factors include having an autistic sibling, older parents, certain genetic conditions, and very low birth weight. **Vaccines do not cause autism.** For example, a Danish study that followed **657,461 children** found that the measles, mumps, and rubella (MMR) vaccine did not increase autism risk, even in children with an autistic sibling ([Hviid et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30831578/)).
+The primary causes are not fully known. Genes play a large role, and risk factors include having an autistic sibling, older parents, certain genetic conditions, and very low birth weight. **Vaccines do not cause autism.** For example, a Danish study that followed **657,461 children** found that the measles, mumps, and rubella (MMR) vaccine did not increase autism risk, even in children with an autistic sibling ([Hviid et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30831578/)). The American Academy of Pediatrics says decades of large, high-quality studies have found the same thing ([AAP, HealthyChildren.org](https://www.healthychildren.org/English/safety-prevention/immunizations/Pages/Vaccine-Studies-Examine-the-Evidence.aspx)).
 
 There is no single best approach to support. Behavioral, speech-language, and occupational therapies, along with school services, work best when started early. Medicines are not used to change autism itself, but doctors sometimes prescribe them for specific problems that can come with it, such as anxiety, attention difficulties, or irritability.
 
@@ -262,7 +262,7 @@ Now press **Natural reward** again. The bump is smaller than before, because few
 
 Now we can answer Maya's question. **Nicotine** is the addictive chemical in tobacco, and most e-cigarettes ("vapes") contain it. Nicotine fits into a type of acetylcholine receptor that is actually named after it, the **nicotinic acetylcholine receptor**. Activating these receptors leads to dopamine release in the reward pathway ([Wikipedia: Nicotinic acetylcholine receptor](https://en.wikipedia.org/wiki/Nicotinic_acetylcholine_receptor)). When nicotine is inhaled in cigarette smoke, levels peak within about **10 seconds** ([NIDA](https://nida.nih.gov/publications/research-reports/tobacco-nicotine-e-cigarettes/nicotine-addictive)), and fast arrival plus a dopamine boost is a strong recipe for learning to repeat a behavior.
 
-Vaping has declined in recent years but is still common. In the **2024 National Youth Tobacco Survey**, about **1.63 million middle and high school students (5.9%)** reported currently using e-cigarettes, including **7.8% of high school students**. Among students who vaped, **87.6%** used flavored products and **26.3%** vaped every day ([CDC](https://www.cdc.gov/tobacco/e-cigarettes/youth.html)).
+Vaping has declined in recent years but is still common. In the **2025 National Youth Tobacco Survey**, about **1.44 million middle and high school students (5.2%)** reported currently using e-cigarettes, down from 5.9% in 2024. That included **7.1% of high school students**. Among students who vaped, **89.4%** used flavored products and **27.5%** vaped every day ([FDA](https://www.fda.gov/tobacco-products/youth-and-tobacco/results-annual-national-youth-tobacco-survey-nyts)).
 
 Why does it matter more for teens? According to the CDC, brain development continues until about **age 25**, and nicotine during adolescence can harm parts of the brain that control attention, learning, mood, and impulse control. Teens can show signs of nicotine addiction quickly, sometimes before they vape regularly, and adolescents who use nicotine may be at higher risk for addiction to other drugs later ([CDC](https://www.cdc.gov/tobacco/e-cigarettes/health-effects.html)).
 
@@ -276,7 +276,7 @@ When a person dependent on nicotine stops, withdrawal can bring irritability, re
 
 Opioid receptors sit in pain pathways, the reward pathway, and **brainstem regions that control breathing** (the medulla and pons). That last location is what makes opioids deadly: too much opioid slows breathing until the brain and heart are starved of oxygen. Fentanyl is especially dangerous. The CDC describes it as up to **50 times stronger than heroin and 100 times stronger than morphine** ([CDC](https://www.cdc.gov/stop-overdose/caring/fentanyl-facts.html)). Some counterfeit pills made to look like prescription medicines contain fentanyl, and people taking them often don't know it ([NIDA](https://nida.nih.gov/publications/drugfacts/fentanyl)).
 
-Overdose deaths have fallen but remain high. In 2024, there were **79,384 drug overdose deaths** in the United States, and **54,045** involved an opioid. The overdose death rate fell **26.2%** from 2023 to 2024 ([CDC NCHS Data Brief 549](https://www.cdc.gov/nchs/products/databriefs/db549.htm)).
+Overdose deaths have fallen but remain high. In 2024, there were **79,384 drug overdose deaths** in the United States, and **54,045** involved an opioid. The overdose death rate fell **26.2%** from 2023 to 2024 ([CDC NCHS Data Brief 549](https://www.cdc.gov/nchs/products/databriefs/db549.htm)). Early numbers for 2025 show a third straight year of decline: CDC estimated about **69,973 overdose deaths in 2025**, about 44,564 of them involving opioids. These 2025 figures are provisional, which means they may change as more death records come in ([CDC NCHS, May 2026](https://www.cdc.gov/nchs/pressroom/releases/20260513.html)).
 
 ### Recognizing an overdose
 
@@ -291,7 +291,7 @@ Doctors remember the classic combination of **decreased consciousness, pinpoint 
 
 ### Naloxone: the antidote
 
-**Naloxone** is a medicine that rapidly reverses an opioid overdose. It is an opioid **antagonist**: it attaches to opioid receptors, displaces the opioid, and blocks its effects. Breathing can recover within minutes. It comes as a nasal spray or an injection, and anyone can give it without medical training. In **March 2023**, the FDA approved **Narcan nasal spray for over-the-counter use**, making it the first naloxone product available without a prescription ([FDA](https://www.fda.gov/news-events/press-announcements/fda-approves-first-over-counter-naloxone-nasal-spray)). A related antidote, nalmefene nasal spray, was approved by prescription later in 2023.
+**Naloxone** is a medicine that rapidly reverses an opioid overdose. It is an opioid **antagonist**: it attaches to opioid receptors, displaces the opioid, and blocks its effects. Breathing can recover within minutes. It comes as a nasal spray or an injection, and anyone can give it without medical training. In **March 2023**, the FDA approved **Narcan nasal spray for over-the-counter use**, making it the first naloxone product available without a prescription ([FDA](https://www.fda.gov/news-events/press-announcements/fda-approves-first-over-counter-naloxone-nasal-spray)). The FDA has since approved other over-the-counter naloxone nasal sprays, most recently in June 2026 ([FDA](https://www.fda.gov/news-events/press-announcements/fda-broadens-access-over-counter-naloxone-nasal-spray-opioid-overdose)). A related antidote, nalmefene nasal spray, was approved by prescription later in 2023.
 
 Every reader should know these facts ([NIDA](https://nida.nih.gov/publications/drugfacts/naloxone)):
 
@@ -310,14 +310,14 @@ Every reader should know these facts ([NIDA](https://nida.nih.gov/publications/d
 Naloxone saves a life in the moment but does not treat addiction. **Opioid use disorder** is a chronic, treatable condition with effective, FDA-approved medicines ([NIDA](https://nida.nih.gov/research-topics/medications-opioid-use-disorder)):
 
 - **Methadone** activates mu-opioid receptors slowly and lasts a long time, so it reduces cravings and withdrawal without an intense high. For opioid use disorder, it is given through approved opioid treatment programs.
-- **Buprenorphine** partly activates mu-opioid receptors and also blocks other opioids from attaching. Many doctors, nurse practitioners, and physician assistants can prescribe it.
+- **Buprenorphine** partly activates mu-opioid receptors and also blocks other opioids from attaching. Since 2023, any clinician whose DEA registration allows prescribing this class of controlled medicine (Schedule III) can prescribe it for opioid use disorder, if state law allows ([SAMHSA](https://www.samhsa.gov/substance-use/treatment/resources/mat-act)).
 - **Naltrexone** only blocks opioid receptors, so opioids can no longer produce a high. It is usually started after a person has fully stopped opioids.
 
-These medicines reduce the risk of overdose death, yet NIDA reports that **fewer than 1 in 5** people with opioid use disorder are treated with them. Taking a prescribed medicine for opioid use disorder is treatment, not "trading one addiction for another," much as taking a daily medicine for any other chronic illness is treatment.
+These medicines reduce the risk of overdose death, yet NIDA reports that **fewer than 1 in 5** people with opioid use disorder are treated with them. The 2025 national survey agrees: of about 4.0 million people aged 12 or older with opioid use disorder, only **15.7%** received one of these medicines in the past year ([SAMHSA, 2025 NSDUH](https://www.samhsa.gov/data/sites/default/files/reports/rpt57150/2025-nsduh-annual-national-report.pdf)). Taking a prescribed medicine for opioid use disorder is treatment, not "trading one addiction for another," much as taking a daily medicine for any other chronic illness is treatment.
 
 ## 15.11 Stigma and Treatment Access
 
-**Stigma** means negative attitudes, stereotypes, and discrimination aimed at people because of a condition. **Treatment access** means whether people can actually get care, which depends on cost, insurance, location, wait times, and whether they feel safe asking. The two are linked. NIDA notes that feeling stigmatized can make people with substance use disorders less willing to seek treatment ([NIDA](https://nida.nih.gov/research-topics/addiction-science/words-matter-preferred-language-talking-about-addiction)). In mental health more broadly, only about **half (50.6%) of U.S. adults with a mental illness** received mental health treatment in the past year in 2022 ([NIMH](https://www.nimh.nih.gov/health/statistics/mental-illness)).
+**Stigma** means negative attitudes, stereotypes, and discrimination aimed at people because of a condition. **Treatment access** means whether people can actually get care, which depends on cost, insurance, location, wait times, and whether they feel safe asking. The two are linked. NIDA notes that feeling stigmatized can make people with substance use disorders less willing to seek treatment ([NIDA](https://nida.nih.gov/research-topics/addiction-science/words-matter-preferred-language-talking-about-addiction)). In mental health more broadly, only about **half (50.9%) of U.S. adults with a mental illness** received mental health treatment in the past year in 2025 ([SAMHSA, 2025 NSDUH](https://www.samhsa.gov/data/sites/default/files/reports/rpt57150/2025-nsduh-annual-national-report.pdf)).
 
 Words matter. Labeling a whole person by their illness can make them sound hopeless or blameworthy. The table below shows swaps recommended by NIDA, plus one for mental illness.
 
@@ -366,7 +366,7 @@ Recovery is common, not a rare miracle. Relapse happens too, as it does in other
 **Reality:** Addiction involves measurable changes in the brain's reward, stress, and self-control circuits, and genes account for an estimated 40 to 60% of the risk. Repeated drug use weakens the very prefrontal "brakes" a person needs to choose differently, which is why medicines and therapy help.
 
 **Myth:** Mental illness is rare.  
-**Reality:** About 23.1% of U.S. adults had a mental illness in 2022, and about a third of teens and adults experience an anxiety disorder at some point. You almost certainly know someone affected.
+**Reality:** About 20.6% of U.S. adults (one in five) had a mental illness in 2025, and about a third of teens and adults experience an anxiety disorder at some point. You almost certainly know someone affected.
 
 **Myth:** ADHD isn't real; it's just kids being lazy or hyper.  
 **Reality:** ADHD is a well-studied neurodevelopmental condition with a strong genetic component. It affects attention, activity, and impulse control in multiple settings and often continues into adulthood. Effective treatments exist.
@@ -375,7 +375,7 @@ Recovery is common, not a rare miracle. Relapse happens too, as it does in other
 **Reality:** Large reviews have not found consistent evidence that low serotonin causes depression. Depression arises from many interacting biological, psychological, and social factors. Antidepressants and therapy still help many people.
 
 **Myth:** People with schizophrenia have a "split personality" and are dangerous.  
-**Reality:** Schizophrenia involves psychosis, not multiple personalities. Most people with schizophrenia are not violent and are more likely to be harmed by others than to harm someone.
+**Reality:** Schizophrenia involves psychosis, not multiple personalities. Most people with schizophrenia are not violent, and they are more likely than people without the illness to be harmed by others.
 
 ## Brain Bee Practice
 

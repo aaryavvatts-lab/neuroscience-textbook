@@ -1,0 +1,15 @@
+name: Suggest an improvement
+description: Ideas for new practice questions, simulations, topics, translations, or features.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What is your idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Who would it help, and how?

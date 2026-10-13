@@ -153,7 +153,7 @@ Threshold is a tipping point because of feedback. When some sodium channels open
 
 1. **Rest (about −70 mV).** Leak channels and the pump hold the battery steady. Voltage-gated channels are closed.
 2. **Rising phase (depolarization).** A stimulus pushes the membrane to threshold. Voltage-gated Na⁺ channels open and sodium floods in. In less than a millisecond, the inside shoots up past zero to a peak of roughly **+30 to +40 mV**.
-3. **Peak and turnaround.** Sodium channels' inactivation gates swing shut, so sodium stops entering. At about the same time, the slower voltage-gated K⁺ channels finish opening.
+3. **Peak and turnaround.** Sodium channels' inactivation gates swing shut, so sodium stops entering. At about the same time, the slower voltage-gated K⁺ channels are opening in large numbers.
 4. **Falling phase (repolarization).** Potassium flows out through the open K⁺ channels, carrying positive charge out, and the voltage drops quickly back toward rest.
 5. **Undershoot (hyperpolarization), then recovery.** The K⁺ channels are slow to close, so for a few milliseconds extra potassium keeps leaving and the inside dips below rest, often to around **−80 mV** or a little lower. As the K⁺ channels close, the membrane settles back to rest.
 
@@ -173,7 +173,7 @@ This table summarizes the phases side by side.
 
 ## 2.6 The All-or-None Principle
 
-Because the sodium feedback loop takes over once threshold is reached, every action potential in a given neuron has essentially the same size and shape. This is the **all-or-none principle**: a neuron either fires a full action potential or does not fire at all. There is no such thing as half a spike.
+Because the sodium feedback loop takes over once threshold is reached, every action potential in a given neuron, starting from the same resting conditions, has essentially the same size and shape. This is the **all-or-none principle**: a neuron either fires a full action potential or does not fire at all. There is no such thing as half a spike. (The size can change only if conditions change. The simulator in Section 2.11 shows one example: when extra potassium outside the cell keeps some sodium channels inactivated, the spikes shrink.)
 
 Think back to the toilet handle. A stimulus that only reaches −60 mV is a gentle press: a small bump that fades. One that reaches −55 mV gives a full spike, and one three times stronger gives the *same* spike with the same peak.
 
@@ -316,7 +316,7 @@ Next, uncheck Hold and use **Stimulate twice**. At strength 10 with a 3 ms gap, 
 
 **Treatment today:** Dentists commonly use lidocaine, often combined with epinephrine to make the numbness last longer. Soft-tissue numbness after a lower-jaw block can last several hours. The main safety advice is practical: watch for accidental lip or cheek biting, including while eating, until feeling returns. This matters most for young children. Feeling comes back on its own as the drug washes away from the nerve.
 
-**What's new in research:** On January 30, 2025, the U.S. FDA approved suzetrigine (brand name Journavx), a non-opioid pill for moderate to severe acute pain in adults. It is the first drug in a new class that targets one specific sodium channel type, NaV1.8, which is important in pain-sensing neurons of the peripheral nervous system. Unlike lidocaine, it is designed to quiet pain signals while leaving most other nerves alone ([FDA announcement](https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain); [review in *Molecules*, PMC12843740](https://pmc.ncbi.nlm.nih.gov/articles/PMC12843740/)).
+**What's new in research:** On January 30, 2025, the U.S. FDA approved suzetrigine (brand name Journavx), a non-opioid pill for moderate to severe acute pain in adults. It is the first drug in a new class that targets one specific sodium channel type, NaV1.8, which is important in pain-sensing neurons of the peripheral nervous system. Unlike lidocaine, it is designed to quiet pain signals while leaving most other nerves alone ([FDA announcement](https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain); [review in *Molecules*, PMC12843740](https://pmc.ncbi.nlm.nih.gov/articles/PMC12843740/)). As of 2026, it is approved only for short-term acute pain. Phase 3 trials testing it for nerve pain caused by diabetes are still enrolling patients ([ClinicalTrials.gov, NCT06628908](https://clinicaltrials.gov/study/NCT06628908)), so that use is investigational.
 
 ??? question "Your turn: diagnose a variation"
     A 40-year-old man eats dried pufferfish that a friend brought from overseas. Soon afterward his lips and tongue tingle and go numb, then his arms feel weak, and he starts having trouble breathing. Which channel is affected, and why are his symptoms so much more dangerous than Maya's numb lip?

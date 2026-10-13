@@ -11,7 +11,7 @@ version: 1.0
 
 ## Summary
 
-Emotions are more than feelings. They are whole-body responses run by a network of brain regions, with the amygdala at its center. In this chapter you'll learn how the brain learns what to fear and how it triggers two stress systems: a fast, nerve-based "fight-or-flight" response and a slower hormone chain called the HPA axis, which releases cortisol. You'll see why a short burst of stress is healthy, why stress that never switches off wears the body and brain down, and how people regulate their emotions. The chapter ends at the bedside with post-traumatic stress disorder (PTSD) after a car crash, and the treatments that help.
+Emotions are more than feelings. They are whole-body responses run by a network of brain regions, with the amygdala as one key hub. In this chapter you'll learn how the brain learns what to fear and how it triggers two stress systems: a fast, nerve-based "fight-or-flight" response and a slower hormone chain called the HPA axis, which releases cortisol. You'll see why a short burst of stress is healthy, why stress that never switches off wears the body and brain down, and how people regulate their emotions. The chapter ends at the bedside with post-traumatic stress disorder (PTSD) after a car crash, and the treatments that help.
 
 ## Concepts Covered
 
@@ -84,13 +84,13 @@ Today, the **limbic system** is a useful nickname for a set of connected structu
 | Prefrontal cortex (especially its middle and lower surfaces) | Front of the frontal lobe | Reins in the amygdala and helps regulate emotion |
 | Thalamus | Center of the brain | Relays sensory signals, including a quick route to the amygdala |
 
-Scientists don't all agree on exactly which structures belong in the limbic system, and some argue the term is outdated. Emotion isn't "housed" in one place. Think of the limbic system as a team, not a single room.
+Scientists don't all agree on exactly which structures belong in the limbic system, and many argue the term is outdated. One reason is that its most famous member, the hippocampus, turned out to be mainly about memory, not emotion. Another is that regions outside the old ring, like the prefrontal cortex in the table above, matter a lot for emotion. Some researchers now describe separate networks for emotion and for memory rather than one "limbic system" ([Rolls, 2015](https://pubmed.ncbi.nlm.nih.gov/24439664/)). Emotion isn't "housed" in one place. Think of the limbic system as a loose nickname for a team, not a single room.
 
 ## 11.4 The Amygdala: More Than a "Fear Center"
 
 The **amygdala** is an almond-shaped cluster of nuclei (groups of neuron cell bodies) deep in each temporal lobe. You have two, one per hemisphere. Its main job is to tag incoming information with emotional importance: *Does this matter to me? Is it dangerous? Is it rewarding?*
 
-The amygdala gets sensory information from two routes. A quick route comes almost straight from the thalamus. It's rough, but fast, like a blurry photo. A slower route passes through the sensory cortex first and delivers a detailed picture. This is why you can jump at a garden hose before you realize it isn't a snake. The amygdala also gets context from the hippocampus ("I'm at the zoo, behind glass") and guidance from the prefrontal cortex ("this is just a test").
+The amygdala gets sensory information from two routes. A quick route comes almost straight from the thalamus. It's rough, but fast, like a blurry photo. A slower route passes through the sensory cortex first and delivers a detailed picture. This is a popular explanation for why you can jump at a garden hose before you realize it isn't a snake. Keep in mind that the fast route was mapped mainly in rats. In humans, some researchers argue it plays only a small role and that the cortex does more of the work than the simple two-route story suggests ([Pessoa and Adolphs, 2010](https://pubmed.ncbi.nlm.nih.gov/20959860/)). The amygdala also gets context from the hippocampus ("I'm at the zoo, behind glass") and guidance from the prefrontal cortex ("this is just a test").
 
 When the amygdala detects a threat, it sends signals to two main targets:
 
@@ -146,7 +146,7 @@ In [Chapter 4](../04-neuroanatomy/index.md) you learned that the autonomic nervo
 
 The **fight-or-flight response** is the fast, sympathetic part of the stress response. Signals travel from the hypothalamus down through the brainstem and spinal cord and out along sympathetic nerves. Within seconds, two things happen:
 
-1. Sympathetic nerves release **norepinephrine** (noradrenaline) directly onto organs like the heart, lungs, and liver.
+1. Sympathetic nerves release **norepinephrine** (noradrenaline) directly onto many organs, such as the heart, blood vessels, and liver.
 2. Sympathetic nerves also reach the **adrenal medulla**, the inner core of each adrenal gland (the adrenal glands sit on top of the kidneys). The adrenal medulla releases **epinephrine**, also called **adrenaline**, into the blood.
 
 Here is what that does, and why each change helps in a true emergency.
@@ -201,7 +201,7 @@ flowchart TD
 - turns down "non-urgent" systems, such as reproduction,
 - acts on the brain, including the hippocampus, amygdala, and prefrontal cortex.
 
-Why is cortisol slow? Part of the reason is the relay itself: three hormones must be released in order. Another part is how cortisol works. As a steroid, it's a small, fat-based molecule. It slips through cell membranes and binds receptors *inside* the cell. Those receptors then travel to the nucleus and change which genes are turned on. Changing gene activity takes time, but it also means cortisol's effects last. Cortisol can stay elevated for hours after a stressor.
+Why is cortisol slow? Part of the reason is the relay itself: three hormones must be released in order. Another part is how cortisol works. As a steroid, it's a small, fat-based molecule. It slips through cell membranes and binds receptors *inside* the cell. Those receptors then travel to the nucleus and change which genes are turned on. Changing gene activity takes time, usually an hour or more, but it also means cortisol's effects last. These gene-driven effects can continue for hours, even after cortisol levels themselves have come back down ([Joëls and Baram, 2009](https://pubmed.ncbi.nlm.nih.gov/19339973/)).
 
 Cortisol isn't only about stress, though. It also follows a daily rhythm. Levels rise quickly after you wake up, peak within about 30 to 45 minutes, fall through the day, and reach their low point in the middle of the night. That's why doctors often measure cortisol in the morning.
 
@@ -252,7 +252,7 @@ Is stress bad for you? It depends on how much, and for how long.
 
 ### The good side of stress
 
-Short bursts of stress are often helpful. Psychologists describe this with an **inverted U** (the Yerkes-Dodson law): as stress rises from very low, performance improves, but past a sweet spot, more stress makes performance worse. The helpful zone is called **eustress** ("good stress"), stress you feel you can handle. How you view a challenge matters. Seeing a pile of exams as a challenge you can meet, rather than a threat you can't, is linked to feeling the positive side of stress.
+Short bursts of stress are often helpful. Psychologists often describe this with an **inverted U** (the Yerkes-Dodson law): as stress rises from very low, performance improves, but past a sweet spot, more stress makes performance worse. Treat this as a rough rule of thumb, not a precise law. The original 1908 study tested how fast mice learned a black-or-white choice with electric shocks of different strengths, and later writers stretched it to cover stress and human performance in general. The helpful zone is called **eustress** ("good stress"), stress you feel you can handle. How you view a challenge matters. Seeing a pile of exams as a challenge you can meet, rather than a threat you can't, is linked to feeling the positive side of stress.
 
 ### The costly side of stress
 
@@ -312,7 +312,7 @@ If you or someone you know is struggling, call or text **988** (the Suicide & Cr
 
 After something terrifying, such as a serious accident, an assault, a disaster, or combat, it is natural to have strong reactions like poor sleep, jumpiness, or replaying the event. Most people recover over time.
 
-For some people, the reactions don't fade. **Post-traumatic stress disorder (PTSD)** is a mental health condition in which symptoms continue for more than a month after a traumatic event and are severe enough to interfere with daily life, such as relationships, school, or work. According to the National Institute of Mental Health (NIMH), about 6 of every 100 people will have PTSD at some point in their lives. A national survey of U.S. teens ages 13 to 18 (collected from 2001 to 2004) found that about 5% had had PTSD at some point, and it was more common in girls than boys.
+For some people, the reactions don't fade. **Post-traumatic stress disorder (PTSD)** is a mental health condition in which symptoms continue for more than a month after a traumatic event and are severe enough to interfere with daily life, such as relationships, school, or work. According to the National Institute of Mental Health (NIMH, 2023), about 6 of every 100 people will have PTSD at some point in their lives. A national survey of U.S. teens ages 13 to 18 (collected from 2001 to 2004) found that about 5% had had PTSD at some point, and it was more common in girls than boys.
 
 NIMH groups PTSD symptoms into four types. To be diagnosed, an adult needs symptoms from all four groups for at least a month:
 
@@ -340,15 +340,15 @@ Researchers often describe PTSD as a problem of fear learning and recovery: a po
 
 **Why it happens:** During the crash, Jordan's amygdala and stress hormones were extremely active, which helped stamp in a powerful fear memory. Cues that were present (headlights, horns, being behind the wheel) became conditioned stimuli, just like the tone in a fear conditioning experiment. Normally, safe drives after a crash would build a new extinction memory: "driving is usually safe." But Jordan's avoidance means that new safety learning never gets a chance to happen, so the fear stays strong. PTSD is also not simply "too much cortisol." Some studies have even found lower-than-expected cortisol in people with PTSD, and scientists are still working out what that means.
 
-**Treatment today:** PTSD is treatable. According to the U.S. Department of Veterans Affairs' National Center for PTSD, certain **trauma-focused talk therapies** work best. These include:
+**Treatment today:** PTSD is treatable. According to the U.S. Department of Veterans Affairs' National Center for PTSD and the 2023 VA/DoD clinical practice guideline (still the current version as of 2026), certain **trauma-focused talk therapies** work best, and they are recommended over medication as a first choice. These include:
 
 - **Prolonged Exposure (PE):** gradually and safely approaching the memory and avoided situations (like driving), which builds new safety learning, much like extinction.
 - **Cognitive Processing Therapy (CPT):** learning to notice and change stuck, unhelpful thoughts about the trauma, such as Jordan's self-blame.
 - **Eye Movement Desensitization and Reprocessing (EMDR):** recalling the trauma while paying attention to a back-and-forth movement or sound.
 
-Some medications also help. The FDA has approved two SSRI antidepressants for PTSD (sertraline and paroxetine), and the National Center for PTSD lists paroxetine, sertraline, and venlafaxine as the medications with the most evidence. A doctor and patient choose treatment together. Support from friends and family also matters.
+Some medications also help. The FDA has approved two SSRI antidepressants for PTSD (sertraline and paroxetine), and the National Center for PTSD and the 2023 VA/DoD guideline list paroxetine, sertraline, and venlafaxine as the recommended medications. A doctor and patient choose treatment together. Support from friends and family also matters.
 
-**What's new in research:** Traditional trauma-focused therapies often take about 12 weekly sessions, and many people drop out. In a 2018 randomized trial of 126 adults with PTSD, a five-session treatment called **Written Exposure Therapy (WET)**, in which patients write about the trauma during sessions, worked about as well as 12 sessions of Cognitive Processing Therapy, and far fewer people dropped out (Sloan, Marx, Lee, and Resick, *JAMA Psychiatry*, 2018). The National Center for PTSD now lists WET among other supported therapies, with less research behind it so far than PE, CPT, or EMDR. Researchers are still studying who benefits most from shorter treatments.
+**What's new in research:** Traditional trauma-focused therapies often take about 12 weekly sessions, and many people drop out. In a 2018 randomized trial of 126 adults with PTSD, a five-session treatment called **Written Exposure Therapy (WET)**, in which patients write about the trauma during sessions, worked about as well as 12 sessions of Cognitive Processing Therapy, and far fewer people dropped out (Sloan, Marx, Lee, and Resick, *JAMA Psychiatry*, 2018). As of 2026, the National Center for PTSD lists WET among other supported therapies, and the 2023 VA/DoD guideline "suggests" it, a weaker endorsement than it gives PE, CPT, or EMDR, because there is less research behind it so far. Researchers are still studying who benefits most from shorter treatments.
 
 ??? question "Your turn: diagnose a variation"
     Sam, 17, was in a similar crash **two weeks ago**. Sam has had two nightmares, feels jumpy in cars, and is sleeping poorly. Does Sam have PTSD?
@@ -434,7 +434,7 @@ Some medications also help. The FDA has approved two SSRI antidepressants for PT
 ## Key Takeaways
 
 - An **emotion** is a whole-body response that combines body changes, behavior, and feeling, and is shaped by how you interpret a situation.
-- The **limbic system** is a network of deep brain structures, including the amygdala, hippocampus, and hypothalamus, that works with the prefrontal cortex on emotion and stress.
+- The **limbic system** is a loose, debated label for a network of deep brain structures, including the amygdala, hippocampus, and hypothalamus, that works with the prefrontal cortex on emotion and stress.
 - The **amygdala** tags what is emotionally important, triggers stress responses, and stores **fear conditioning**. Extinction is new safety learning, not erasing the old fear memory.
 - The **stress response** has a fast nerve-based channel (**fight or flight**, adrenaline from the adrenal medulla) and a slow hormone channel (the **HPA axis**: CRH, then ACTH, then **cortisol** from the adrenal cortex).
 - Cortisol raises blood glucose and blood pressure, calms inflammation, follows a daily rhythm, and shuts off its own production through **negative feedback**.

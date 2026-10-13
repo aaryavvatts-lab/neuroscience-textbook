@@ -19,7 +19,7 @@ Aphasia is a language disorder caused by damage to the brain's language network,
 
 This MicroSim turns that bedside skill into a sorting game. Each round shows one short speech sample and a one-line clue about comprehension or repetition. You decide whether it is Broca's aphasia, Wernicke's aphasia, conduction aphasia, or normal speech. There are 10 items (3 Broca's, 3 Wernicke's, 2 conduction, 2 normal), shown in a new random order each round.
 
-All speech samples were written for this book. They are simplified teaching examples, not recordings of real patients, and real people with aphasia vary a lot.
+All speech samples were written for this book. They are simplified teaching examples, not recordings of real patients, and real people with aphasia vary a lot. The game uses only three aphasia types plus normal speech. Real clinics also see other types, such as global, anomic, and transcortical aphasia, and many patients have mixed patterns that don't fit one box.
 
 ## How to Use
 

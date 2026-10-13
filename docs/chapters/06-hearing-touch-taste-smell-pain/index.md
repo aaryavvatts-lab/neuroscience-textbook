@@ -100,7 +100,7 @@ The basilar membrane is stiff and narrow at the **base** of the cochlea (near th
 
 The human cochlea has about 3,500 **inner hair cells**, which do most of the job of sending sound information to the brain. Three more rows of **outer hair cells** act like tiny amplifiers. They change length very quickly and boost faint sounds at particular pitches.
 
-Hair cells are delicate. Long or repeated exposure to sounds at or above 85 A-weighted decibels (dBA) can cause hearing loss, mostly by killing hair cells. Birds and amphibians can regrow hair cells, but humans cannot. A short blast of noise can cause hearing loss that fades, but once hair cells die, that hearing loss is permanent. That is a real reason to turn your earbuds down.
+Hair cells are delicate. According to the National Institute on Deafness and Other Communication Disorders (NIDCD), sounds at or below 70 A-weighted decibels (dBA) are unlikely to cause hearing loss even after long exposure, but long or repeated exposure to sounds at or above 85 dBA can cause hearing loss, mostly by killing hair cells. Birds and amphibians can regrow hair cells, but humans cannot. After loud noise, hearing can be dulled for 16 to 48 hours and then seem to recover, though some lasting damage may remain ([NIDCD](https://www.nidcd.nih.gov/health/noise-induced-hearing-loss)). An extremely loud burst, such as a gunshot or explosion, can cause permanent loss right away. Once hair cells die, that hearing loss is permanent. That is a real reason to turn your earbuds down.
 
 ## 6.4 The Auditory Pathway
 
@@ -215,7 +215,7 @@ S1 holds an orderly map of the opposite side of the body, with neighboring body 
 
 The map is not to scale. Body parts with densely packed receptors, like the hands, lips, and face, get huge areas, while the trunk gets a small one. Draw a little person with each part sized by its share of cortex and you get the famous **homunculus** ("little man"), with giant hands and lips.
 
-Neurosurgeon Wilder Penfield built this map in Montreal by stimulating the exposed cortex of awake patients during epilepsy surgery and asking what they felt. He and Edwin Boldrey published the first homunculus in the journal *Brain* in 1937, using data from 126 patients. The real map is messier than the cartoon, and Penfield himself warned against reading its shapes too literally. Still, the main idea holds: more receptors means more cortex and finer touch.
+Neurosurgeon Wilder Penfield built this map in Montreal by stimulating the exposed cortex of awake patients during epilepsy surgery and asking what they felt. He and Edwin Boldrey published the first homunculus in the journal *Brain* in 1937, using data from 126 patients. That first drawing combined sensory and motor results in one figure. The real map is messier than the cartoon, and in 1950 Penfield himself warned against reading too much into the drawing's shapes and sizes. Still, the main idea holds: more receptors means more cortex and finer touch.
 
 !!! mascot-warning "Whose left is it?"
     ![Ply with a warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
@@ -272,7 +272,7 @@ Different types of taste cells are scattered all over the tongue, so every part 
 
 **Olfaction** is the sense of smell. It detects chemicals called **odorants** that float in the air. The receptors are **olfactory sensory neurons**, real neurons that sit in a small patch of tissue high in the nasal cavity. Their axons pass through tiny holes in a thin bone called the cribriform plate and reach the **olfactory bulb** on the underside of the brain.
 
-Each olfactory sensory neuron makes just one type of odorant receptor protein. Humans have about 300 to 400 odorant receptor genes, while mice and dogs have more than 1,000. Richard Axel and Linda Buck shared the 2004 Nobel Prize in Physiology or Medicine for discovering these odorant receptors and how the olfactory system is organized.
+Each olfactory sensory neuron makes just one type of odorant receptor protein. Humans have about 400 working odorant receptor genes, while mice and dogs have roughly two to three times as many. Richard Axel and Linda Buck shared the 2004 Nobel Prize in Physiology or Medicine for discovering these odorant receptors and how the olfactory system is organized.
 
 How can a few hundred receptor types tell apart thousands of smells? Think of an alphabet. Neurons with the same receptor all send axons to the same knot in the olfactory bulb, called a **glomerulus**. Each odor activates a *combination* of glomeruli, the way a word combines letters, and hundreds of "letters" make an enormous number of "words."
 
@@ -285,7 +285,7 @@ Now for the rest of Maya's puzzle. When you chew, aromas drift from the back of 
 
 ## 6.10 Pain: Nociception and the Pain Pathway
 
-Pain researchers define pain as an unpleasant sensory *and emotional* experience linked to actual or possible tissue damage, or resembling such an experience. That definition separates two things that are easy to mix up:
+The International Association for the Study of Pain, a worldwide group of pain researchers, updated its definition in 2020 ([Raja et al., *Pain*, 2020](https://doi.org/10.1097/j.pain.0000000000001939)). It defines pain as an unpleasant sensory *and emotional* experience linked to actual or possible tissue damage, or resembling such an experience. That definition separates two things that are easy to mix up:
 
 - **Nociception** is the nervous system's detection of damaging or potentially damaging stimuli: the signal.
 - **Pain** is what the brain makes of that signal, shaped by attention, mood, and context.
@@ -349,11 +349,11 @@ Doctors now separate three related experiences after an amputation:
 - **Residual limb pain:** pain in the remaining part of the limb, often from an irritated nerve end at the cut.
 - **Phantom limb pain:** pain that feels like it comes from the missing part, such as a clenched fist, burning, or cramping fingers.
 
-Phantom limb pain is common. A 2020 review that combined many studies estimated that about 64% of people with amputations experience it, with a wide range between studies.
+Phantom limb pain is common. A 2020 review that combined many studies estimated that about 64% of people with amputations experience it. A larger 2026 review of 51 studies and about 13,000 people found a similar figure, about 61% ([Zhang et al., *BMC Musculoskeletal Disorders*, 2026](https://doi.org/10.1186/s12891-026-09716-x)). Both reviews saw a wide range between studies.
 
 How can a missing limb hurt? Part of the answer is the cortical map. After an arm amputation, the hand area of S1 loses its usual input, and on the homunculus the face area sits right next to it. In the 1990s, V. S. Ramachandran and colleagues reported that touching the face of some arm amputees made them feel touch on the missing hand, suggesting face inputs had spread into the silent hand territory. A 1995 brain-imaging study by Herta Flor and colleagues linked more phantom limb pain to more reorganization of the S1 map.
 
-The story is not settled. A 2013 study found that people with more phantom pain actually kept *more* of their original hand map. Today most scientists think phantom limb pain comes from several sources together: injured nerve endings in the residual limb, changes in the dorsal horn, and changes in the brain's representation of the missing limb.
+The story is not settled. A 2013 study found that people with more phantom pain actually kept *more* of their original hand map. Then, in 2025, a team scanned three adults before and for months to years after an arm amputation. The hand and lip maps in S1 stayed almost the same, with no sign of the lip area spreading into the hand area ([Schone et al., *Nature Neuroscience*, 2025](https://doi.org/10.1038/s41593-025-02037-7)). Three people is a small study, but it challenges the classic "remapping" story. Today most scientists think phantom limb pain comes from several sources together: injured nerve endings in the residual limb, changes in the dorsal horn, and changes in the brain's representation of the missing limb.
 
 !!! mascot-thinking "The map is part of you"
     ![Ply thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
@@ -366,11 +366,11 @@ The story is not settled. A 2013 study found that people with more phantom pain 
 
 **What the doctor checks:** The doctor examines the residual limb for infection or skin breakdown and checks the prosthetic socket fit. She taps along the nerves of the residual limb to look for a **neuroma**, a tangled, oversensitive bundle of regrowing nerve fibers that can fire a shooting pain when touched. She asks Daniel to describe three things separately: pain in the residual limb, painless feelings in the missing hand, and pain that seems to come from the missing hand. When she lightly touches his face, he feels some touches on his "missing" fingers.
 
-**Where is the problem? (localization):** There is no tissue where Daniel feels the pain, so the problem must lie along the nervous system that used to serve the hand: cut nerve endings in the residual limb, pain neurons in the dorsal horn of the spinal cord segments that served the hand (about C6 to T1), and the hand area of his **left** primary somatosensory cortex, because the right side of the body is mapped on the left hemisphere. Face touches felt in the phantom hand suggest that the neighboring face area has spread into the hand's territory.
+**Where is the problem? (localization):** There is no tissue where Daniel feels the pain, so the problem must lie along the nervous system that used to serve the hand: cut nerve endings in the residual limb, pain neurons in the dorsal horn of the spinal cord segments that served the hand (about C6 to T1), and the hand area of his **left** primary somatosensory cortex, because the right side of the body is mapped on the left hemisphere. Face touches felt in the phantom hand were long explained by the neighboring face area spreading into the hand's territory, though newer brain scans (Section 6.12) question how much the map really changes.
 
 **Diagnosis:** Phantom limb pain, with phantom sensations.
 
-**Why it happens:** The brain's map of the right hand loses its input but does not disappear. Injured nerve endings can fire on their own, dorsal horn neurons can become more excitable, and the cortex can reorganize. With no feedback that the hand has relaxed, the brain may produce a painful, stuck posture, and stress can open the spinal "gate" further.
+**Why it happens:** The brain's map of the right hand loses its input but does not disappear. Injured nerve endings can fire on their own and send noisy signals, dorsal horn neurons can become more excitable, and the brain's hand map, which largely stays in place, reads those signals as coming from the missing hand. With no feedback that the hand has relaxed, the brain may produce a painful, stuck posture, and stress can open the spinal "gate" further.
 
 **Treatment today:** No single treatment works for everyone. Care usually combines medicines for nerve pain, physical therapy, a well-fitted prosthesis, support for sleep and stress, and sometimes surgery for a painful neuroma.
 

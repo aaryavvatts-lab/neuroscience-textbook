@@ -54,6 +54,8 @@ Your brain has around 86 billion neurons.[^azevedo] Neurological conditions are 
 - **Preparing for the Brain Bee?** Read [How to Use This Book](how-to-use.md), then [Appendix A: Brain Bee Strategy and Mock Exam](appendices/brain-bee.md).
 - **Thinking about medicine?** Jump to [Chapter 16: How Doctors Examine the Brain](chapters/16-how-doctors-examine-the-brain/index.md) to see where the whole book leads.
 - **Want to play first?** Browse all the [interactive MicroSims](sims/index.md).
+- **Teaching or running a club?** See [For Teachers](teachers.md), the [Club and Study Group Kit](club-kit.md), and the free printable [PDF downloads](downloads.md).
+- **Want to know how accurate it is?** Read [Accuracy and Corrections](accuracy.md).
 
 ## What's inside
 

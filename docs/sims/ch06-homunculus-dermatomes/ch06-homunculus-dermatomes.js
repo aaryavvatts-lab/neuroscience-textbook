@@ -132,7 +132,7 @@ const regions = {
     label: 'Outer heel (little-toe side)', x: -40, y: 420, cortex: ['Foot'],
     level: 'S1',
     spot: 'Key test spot: outer side of the heel bone (lateral calcaneus).',
-    note: 'S1 covers the outer edge of the foot.'
+    note: 'Spinal level S1 (not the S1 cortex) covers the outer edge of the foot.'
   }
 };
 const regionOrder = ['lips', 'shoulder', 'nipple', 'umbilicus', 'thumb', 'middle', 'little', 'knee', 'ankle', 'footTop', 'heel'];

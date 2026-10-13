@@ -35,4 +35,4 @@ Every fact in the book must trace back to a real source. This page lists the mai
 1. **Open every URL before citing it**, and confirm it loads and actually says what you claim.
 2. If a statistic can't be verified, leave it out. Don't guess, and don't round a vague memory into a precise-sounding number.
 3. For drugs and therapies, state the approval status and year exactly. Investigational means investigational.
-4. For each chapter's `references.md`, include 8–10 entries, each with: the linked title, the source, and 1–2 sentences on why it's useful to a high school reader.
+4. For each chapter's `references.md`, include 8 to 10 entries, each with: the linked title, the source, and 1 to 2 sentences on why it's useful to a high school reader.

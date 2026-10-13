@@ -154,7 +154,7 @@ Maya has 100 minutes to study for a Brain Bee test that is two weeks away. Based
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Spaced sessions consistently produce better long-term memory than massed (crammed) sessions. In *Aplysia*, repeated spaced training is what triggers the new protein synthesis and synaptic growth needed for long-term memory. Option D is still massed practice, even though it is split into two parts.
+    The correct answer is **C**. Spaced sessions usually produce better long-term memory than massed (crammed) sessions. In *Aplysia*, repeated spaced training is what triggers the new protein synthesis and synaptic growth needed for long-term memory. Option D is still massed practice, even though it is split into two parts.
 
     **Concept Tested:** Learning
     **Bloom's Level:** Apply

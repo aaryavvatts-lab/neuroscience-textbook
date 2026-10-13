@@ -54,7 +54,7 @@ To answer her, we need to see what the brain does at night. Sleep is not one thi
 
 Think about your school building at night. The halls are dark, but the custodians are cleaning and the computers are backing up. The building isn't off. It's in a different *mode*, doing work that can't happen during class. Your brain at night is a lot like that.
 
-**Consciousness** is your state of awareness of yourself and your surroundings. In medicine, doctors often think about two parts: *arousal* (how awake you are) and *awareness* (what you are experiencing). In deep sleep, both drop. During dreaming, you're hard to wake, but you can still have vivid experiences inside your head.
+**Consciousness** is your state of awareness of yourself and your surroundings. In medicine, doctors often think about two parts: *arousal* (how awake you are) and *awareness* (what you are experiencing). In deep sleep, both drop. During dreaming (REM sleep), you are asleep and mostly cut off from the outside world, but you can still have vivid experiences inside your head.
 
 A **brain state** is an overall pattern of activity across the brain that goes along with a certain level of consciousness. Waking, light sleep, deep sleep, and dreaming sleep are all different brain states. Each has its own electrical signature and chemistry.
 
@@ -245,7 +245,7 @@ In [Chapter 9](../09-learning-memory-plasticity/index.md), you learned that the 
 - **During REM sleep,** brain activity and gene activity related to synaptic plasticity may help strengthen and stabilize those memories in cortical circuits.
 - **Both kinds of sleep likely matter.** The NINDS notes that memory consolidation most likely requires both NREM and REM sleep.
 
-Sleep may also help the brain take out the trash. In a 2013 study in mice, the space between brain cells grew by about 60% during sleep, and a waste protein called beta-amyloid was cleared faster ([Xie and colleagues, *Science*, 2013](https://pubmed.ncbi.nlm.nih.gov/24136970/)). This was a mouse study, and scientists are still testing how well the idea applies to people.
+Sleep may also help the brain take out the trash. In a 2013 study in mice, the space between brain cells grew by about 60% during sleep, and a waste protein called beta-amyloid was cleared faster ([Xie and colleagues, *Science*, 2013](https://pubmed.ncbi.nlm.nih.gov/24136970/)). This was a mouse study, and the idea is now debated. In 2024, a different team measured how fast a dye left the brains of mice and found that clearance was about 30% *lower* during sleep than during waking, and about 50% lower under anesthesia ([Miao and colleagues, *Nature Neuroscience*, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11156584/); [UK Dementia Research Institute summary](https://www.ukdri.ac.uk/news-and-events/scientists-find-sleep-may-not-clear-brain-toxins-as-previously-thought)). Other researchers have questioned that study's methods, and neither result has been settled in humans. As of 2026, "sleep washes waste out of the brain" is an exciting hypothesis, not an established fact.
 
 ## 10.8 Teen Sleep Needs and the Shifted Teen Clock
 
@@ -253,7 +253,7 @@ Sleep may also help the brain take out the trash. In a 2013 study in mice, the s
 
 **Teen sleep needs** refers to how much sleep adolescents require for good health, and it's more than most people think. The American Academy of Sleep Medicine recommends that teenagers 13 to 18 years old sleep **8 to 10 hours per 24 hours** on a regular basis ([Paruthi and colleagues, *Journal of Clinical Sleep Medicine*, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4877308/)). The CDC uses the same range of 8 to 10 hours for teens ([CDC, *About Sleep*](https://www.cdc.gov/sleep/about/index.html)). Adults 18 and older need 7 or more hours.
 
-Very few teens reach that target. In 2023, only about 1 in 4 U.S. high school students reported getting at least 8 hours of sleep on an average school night, and that share had dropped since 2013 ([CDC Youth Risk Behavior Survey, Data Summary and Trends](https://www.cdc.gov/yrbs/dstr/dietary-physical-sleep-behaviors.html)).
+Very few teens reach that target. In the 2025 national Youth Risk Behavior Survey, only 24% of U.S. high school students (about 1 in 4) reported getting at least 8 hours of sleep on an average school night. That share did not change from 2023 to 2025, and it was lower in 2025 than in 2015 ([CDC, YRBS: Sleep, 2026](https://www.cdc.gov/yrbs/youth-health-in-focus/sleep.html)).
 
 ### The teen clock runs late
 
@@ -366,7 +366,7 @@ First, an overnight **polysomnogram** records her EEG, eye movements, muscle ton
 **Reality:** In the 14-day lab study, people on 6 hours a night kept getting worse at attention tasks, but they *felt* only a little sleepier. Feeling used to short sleep is not the same as performing well.
 
 **Myth:** "Teens stay up late only because they're lazy or glued to their phones."  
-**Reality:** Screens and habits can make it worse, but puberty itself commonly shifts the circadian clock later. That's a big reason the American Academy of Pediatrics and the American Academy of Sleep Medicine recommend school start times of 8:30 a.m. or later.
+**Reality:** Screens and habits can make it worse, but puberty itself commonly shifts the circadian clock later. That's a big reason the American Academy of Pediatrics and the American Academy of Sleep Medicine recommend middle and high school start times of 8:30 a.m. or later ([AASM position statement, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5359340/)).
 
 **Myth:** "People with narcolepsy are just very tired."  
 **Reality:** Narcolepsy type 1 is a neurological disorder caused by the loss of orexin neurons. Its symptoms, like cataplexy and sleep paralysis, come from REM sleep breaking into waking. Ordinary sleep loss does not cause cataplexy.
@@ -434,7 +434,7 @@ First, an overnight **polysomnogram** records her EEG, eye movements, muscle ton
 - Sleep has NREM stages (N1, N2, N3) and REM sleep. Cycles last about 90 minutes, with most deep N3 early in the night and the longest REM periods near morning.
 - The suprachiasmatic nucleus in the hypothalamus is the master circadian clock. Light reaches it from the retina, and it controls the pineal gland's release of melatonin.
 - Sleep helps consolidate memories, with slow-wave sleep and REM sleep likely playing complementary roles.
-- Teens need 8 to 10 hours of sleep, but puberty shifts the clock later, and only about 1 in 4 U.S. high school students gets 8 hours on school nights.
+- Teens need 8 to 10 hours of sleep, but puberty shifts the clock later, and only about 1 in 4 U.S. high school students got 8 hours on school nights in the 2025 CDC survey.
 - Cutting sleep short mostly removes late-night REM and N2, and chronic short sleep impairs performance even when people don't feel it.
 - Narcolepsy type 1 is caused by the loss of orexin (hypocretin) neurons, which destabilizes the sleep-wake switch and lets REM features like cataplexy intrude into waking.
 

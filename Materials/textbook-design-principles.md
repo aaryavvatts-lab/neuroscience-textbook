@@ -13,7 +13,7 @@ This document explains exactly how *From Neuron to Bedside* aims to be a better 
 - It explains *what* is true but rarely builds intuition for *why*.
 - It doesn't teach the clinical reasoning tested in the higher Brain Bee rounds (patient diagnosis, neuroanatomy, brain imaging).
 - It's 8 years old, and neuroscience and neurology have moved fast since 2018 (anti-amyloid antibodies, antisense therapies, gene therapy, brain-computer interfaces).
-- Interactive prep exists, but it's paid ($450–$900 for commercial camps). That's an equity problem.
+- Interactive prep exists, but it's paid ($450-$900 for commercial camps). That's an equity problem.
 
 This textbook keeps the trustworthiness and broad coverage, and adds everything a self-directed high school student needs.
 
@@ -83,7 +83,7 @@ Each MicroSim can be embedded anywhere with an iframe, so teachers can reuse the
 
 **Solution:**
 
-- Reading level is grade 9–11.
+- Reading level is grade 9 to 11.
 - A running example, Maya, a 16-year-old soccer player studying for the Brain Bee, makes every system personal.
 - Topics teens care about get real attention: sleep and screens, concussions in sports, the teenage brain and risk, vaping and addiction, stress before tests.
 
@@ -102,9 +102,9 @@ Every chapter MUST:
 - ✅ Cover all concepts assigned by the learning graph
 - ✅ Include at least one MicroSim spec (`#### Diagram:`) with p5.js notes
 - ✅ Include an "At the Bedside" clinical case using the template in `CLAUDE.md`
-- ✅ Include "Common Misconceptions" (3–5)
+- ✅ Include "Common Misconceptions" (3 to 5)
 - ✅ Include "Brain Bee Practice" (5 questions with hidden answers)
-- ✅ End with 12 exercises across all 6 Bloom's levels and 5–7 Key Takeaways
+- ✅ End with 12 exercises across all 6 Bloom's levels and 5 to 7 Key Takeaways
 - ✅ Cite real sources for every statistic, with no invented citations
 - ✅ Stay within Ply-mascot limits (≤6 per chapter, never back-to-back)
 

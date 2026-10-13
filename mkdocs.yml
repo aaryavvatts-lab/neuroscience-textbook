@@ -20,6 +20,9 @@ nav:
   - Home: index.md
   - About This Book: about.md
   - How to Use This Book: how-to-use.md
+  - For Teachers: teachers.md
+  - Club and Study Group Kit: club-kit.md
+  - Downloads (PDF): downloads.md
   - Course Description: course-description.md
   - Chapters:
       - List of Chapters: chapters/index.md
@@ -121,6 +124,8 @@ nav:
       - FAQ Quality Report: learning-graph/faq-quality-report.md
   - Glossary: glossary.md
   - FAQ: faq.md
+  - Accuracy and Corrections: accuracy.md
+  - Roadmap: roadmap.md
   - How to Cite: how-to-cite.md
   - License: license.md
   - Contact: contact.md
@@ -231,8 +236,8 @@ extra:
       link: https://github.com/aaryavvatts-lab/neuroscience-textbook
   schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
   textbook_name: 'From Neuron to Bedside'
-  textbook_version: '1.0'
-  development_stage: 'Complete (v1.0)'
+  textbook_version: '1.1'
+  development_stage: 'Complete (v1.1)'
   # Google Analytics: add your GA4 ID here after creating a property (see NEXT-STEPS PDF)
   # analytics:
   #   provider: google
