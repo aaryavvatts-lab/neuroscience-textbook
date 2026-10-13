@@ -5,13 +5,12 @@ Behavior:
     - If the page has `image:` in its frontmatter, og:image and
       twitter:image are set to site_url + image (absolute URL), and an
       existing og:image:type is corrected to match the image's extension.
-    - If the page has no `image:`, the hook is a no-op. All meta tags
-      emitted by mkdocs-material (and by the social plugin, if enabled)
-      pass through unchanged.
+    - If the page has no `image:`, img/cover.png is used as the default.
+    - og:title, og:description, og:type, og:url, og:site_name and the
+      twitter:card/title/description tags are added when missing (this
+      book does not use the imaging-based social plugin).
 
-The cover image (img/cover.png) is therefore used ONLY for pages that
-declare it explicitly -- typically docs/index.md. There is no site-wide
-default. When the mkdocs-material[imaging] social plugin is enabled, its
+Adapted from Dan McCreary's init-textbook asset (ibook-skills). When the mkdocs-material[imaging] social plugin is enabled, its
 auto-generated /assets/images/social/<page>.png card is what crawlers see
 for every page that does NOT declare `image:`. A page that DOES declare
 `image:` always wins over the generated card.
@@ -24,10 +23,44 @@ called `social_override` or a top-level module called `plugins`.
 import re
 
 
+def _add_text_tags(html, page, config):
+    """Add og/twitter title, description, type, url and card tags when missing.
+
+    Added for this book: without the social plugin, Material emits no
+    og:title or og:description, so shared links had no title or summary.
+    """
+    from html import escape
+    meta = page.meta or {}
+    title = meta.get("title") or page.title or config.get("site_name", "")
+    if page.is_homepage:
+        title = config.get("site_name", title)
+    description = meta.get("description") or config.get("site_description", "")
+    site_url = (config.get("site_url") or "").rstrip("/") + "/"
+    page_url = site_url + (page.url or "")
+    tags = [
+        ("property", "og:title", title),
+        ("property", "og:description", description),
+        ("property", "og:type", "website"),
+        ("property", "og:url", page_url),
+        ("property", "og:site_name", config.get("site_name", "")),
+        ("name", "twitter:card", "summary_large_image"),
+        ("name", "twitter:title", title),
+        ("name", "twitter:description", description),
+    ]
+    add = []
+    for attr, key, value in tags:
+        if value and not re.search(r'<meta\s+(?:property|name)="' + re.escape(key) + '"', html):
+            add.append(f'<meta {attr}="{key}" content="{escape(str(value), quote=True)}">')
+    if add:
+        html = html.replace("</head>", "  " + "\n  ".join(add) + "\n</head>", 1)
+    return html
+
+
 def on_post_page(html, page, config, **kwargs):
+    html = _add_text_tags(html, page, config)
     image = (page.meta or {}).get("image")
     if not image:
-        return html
+        image = "img/cover.png"
 
     site_url = config.get("site_url") or ""
     if not site_url:
