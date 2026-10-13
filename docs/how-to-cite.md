@@ -27,7 +27,7 @@ Sharma, Aaryav. 2026. *From Neuron to Bedside: An Interactive Neuroscience Textb
                for High School Students and Future Doctors},
   author    = {Sharma, Aaryav},
   year      = {2026},
-  version   = {1.1},
+  version   = {1.1.1},
   url       = {https://aaryavvatts-lab.github.io/neuroscience-textbook/},
   license   = {CC BY-NC-SA 4.0},
   note      = {Open, interactive intelligent textbook}
