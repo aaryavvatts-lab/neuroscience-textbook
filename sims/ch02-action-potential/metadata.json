@@ -23,18 +23,22 @@
   "language": "en-US",
   "license": "CC BY-NC-SA 4.0",
   "rights": "CC BY-NC-SA 4.0",
-  "contributor": [
-    "Claude Code"
-  ],
   "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch02-action-potential/",
   "publisher": "From Neuron to Bedside",
   "chapter": "02-action-potential",
-  "gradeLevel": ["9", "10", "11", "12"],
+  "gradeLevel": [
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
   "educationalLevel": "High School",
   "learningResourceType": "simulation",
   "audience": "Students, Educators",
   "version": "1.0.0",
-  "bloomLevel": ["Apply"],
+  "bloomLevel": [
+    "Apply"
+  ],
   "learningObjectives": [
     "Predict whether a stimulus of a given strength will reach threshold and fire an action potential.",
     "Explain why every action potential reaches the same peak (all-or-none principle).",

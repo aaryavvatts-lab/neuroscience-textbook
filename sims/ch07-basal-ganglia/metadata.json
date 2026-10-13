@@ -15,13 +15,15 @@
   "language": "en-US",
   "rights": "CC BY-NC-SA 4.0",
   "license": "CC BY-NC-SA 4.0",
-  "contributor": [
-    "Claude Code"
-  ],
   "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch07-basal-ganglia/",
   "publisher": "From Neuron to Bedside",
   "educationalLevel": "High School",
-  "gradeLevel": ["9", "10", "11", "12"],
+  "gradeLevel": [
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
   "learningResourceType": "simulation",
   "audience": "Students, Educators, Brain Bee competitors",
   "version": "1.0.0",
@@ -84,7 +86,15 @@
   ],
   "simulationModel": {
     "modelType": "Qualitative circuit model",
-    "variables": ["dopamine", "D1 striatal activity", "D2 striatal activity", "GPe activity", "STN activity", "GPi/SNr activity", "thalamus activity"],
+    "variables": [
+      "dopamine",
+      "D1 striatal activity",
+      "D2 striatal activity",
+      "GPe activity",
+      "STN activity",
+      "GPi/SNr activity",
+      "thalamus activity"
+    ],
     "equations": [
       "D1 = 0.5 + 0.35 * (dopamine - 1)",
       "D2 = 0.5 - 0.35 * (dopamine - 1)",
