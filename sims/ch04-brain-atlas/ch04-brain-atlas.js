@@ -116,7 +116,7 @@ const INFO = {
     name: 'Cerebrum (medial surface)',
     jobs: 'The inner wall of one hemisphere: gray-matter cortex on the surface, white matter underneath. This view shows the inner sides of the frontal, parietal, and occipital lobes.',
     damage: 'Depends on the spot. Damage to the inner frontal lobe, fed by the anterior cerebral artery, can weaken the opposite leg.',
-    fact: 'The cerebrum makes up about three-quarters of the brain\'s volume.'
+    fact: 'The cerebrum makes up more than four-fifths of the brain\'s weight.'
   },
   corpusCallosum: {
     name: 'Corpus callosum',
@@ -145,7 +145,7 @@ const INFO = {
   midbrain: {
     name: 'Midbrain',
     jobs: 'Top part of the brainstem. Helps control eye movements and visual and hearing reflexes. Contains the substantia nigra, whose dopamine neurons help start movement.',
-    damage: 'Eye movement problems. Loss of dopamine neurons in the substantia nigra causes Parkinson\'s disease (Chapter 7).',
+    damage: 'Eye movement problems. Loss of dopamine neurons in the substantia nigra causes most of the movement symptoms of Parkinson\'s disease (Chapter 7).',
     fact: 'Substantia nigra is Latin for "black substance," named for the dark pigment in its neurons.'
   },
   pons: {
