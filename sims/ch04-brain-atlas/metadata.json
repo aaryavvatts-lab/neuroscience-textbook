@@ -1,0 +1,91 @@
+{
+  "title": "Clickable Brain Atlas",
+  "description": "A stylized, procedurally drawn human brain shown in a lateral (side) view and a midsagittal (midline cut) view. Students hover to highlight regions and click to read each structure's main jobs, the effects of damage, and a Brain Bee fact. A quiz mode names a structure and checks whether the student clicks the correct region.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": [
+    "Neuroscience",
+    "Neuroanatomy",
+    "Cerebral Cortex",
+    "Brainstem",
+    "Localization of Function"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch04-brain-atlas/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators, Brain Bee competitors",
+  "version": "1.0.0",
+  "chapter": "04-neuroanatomy",
+  "bloomLevel": [
+    "Remember"
+  ],
+  "bloomVerb": "identify",
+  "learningObjectives": [
+    "Identify 19 major brain structures and landmarks in a lateral view and a midsagittal view, scoring at least 80% in quiz mode in each view.",
+    "Recall one main job and one effect of damage for each of the lobes, the deep structures, and the three parts of the brainstem."
+  ],
+  "concepts": [
+    "Anatomical Directions",
+    "Brain Planes and Sections",
+    "Cerebral Cortex",
+    "Frontal Lobe",
+    "Parietal Lobe",
+    "Temporal Lobe",
+    "Occipital Lobe",
+    "Corpus Callosum",
+    "Thalamus",
+    "Hypothalamus",
+    "Brainstem",
+    "Cerebellum",
+    "Spinal Cord",
+    "Ventricles and CSF",
+    "Localization of Function",
+    "Prefrontal Cortex"
+  ],
+  "prerequisites": [
+    "Neurons, axons, and myelin (Chapter 1)",
+    "Central versus peripheral nervous system (Chapter 1)",
+    "Anatomical directions and the sagittal plane (Chapter 4, Section 4.2)"
+  ],
+  "keyQuestions": [
+    "Which groove separates the frontal lobe from the parietal lobe, and what kinds of cortex lie on each side of it?",
+    "Which structure connects the left and right hemispheres, and where does it sit in a midsagittal view?",
+    "What are the three parts of the brainstem from top to bottom, and which one controls breathing and heart rate?",
+    "Why does damage to one cerebellar hemisphere affect the same side of the body?"
+  ],
+  "misconceptions": [
+    "The cerebellum is a small, unimportant part of the brain (it holds roughly 80% of the brain's neurons).",
+    "Each hemisphere controls the same side of the body (the cerebrum works contralaterally; only the cerebellum works on the same side).",
+    "The prefrontal cortex is separate from the frontal lobe (it is the front part of the frontal lobe).",
+    "The thalamus relays every sense (smell is the exception)."
+  ],
+  "duration": "25-30 minutes",
+  "controls": [
+    {"type": "select", "label": "View", "options": ["Lateral view (side)", "Midsagittal view (cut down the middle)"], "default": "Lateral view (side)"},
+    {"type": "checkbox", "label": "Show labels", "default": true},
+    {"type": "button", "label": "Quiz me / Stop quiz"},
+    {"type": "button", "label": "Next question"}
+  ],
+  "canvas": {"drawHeight": 600, "controlHeight": 80, "iframeHeight": 682, "responsive": "width-responsive"},
+  "modelAssumptions": [
+    "Region shapes are stylized polygons placed in their correct anatomical positions; sizes and outlines are simplified.",
+    "The lateral view shows the left hemisphere with the front of the head facing left.",
+    "Lobe boundaries without a real groove (frontal-prefrontal, parietal-occipital, temporal-parietal) are drawn as dashed imaginary lines."
+  ],
+  "limitations": [
+    "Deep structures such as the hippocampus, amygdala, basal ganglia, insula, and lateral ventricles are not drawn.",
+    "The midsagittal view shows the fourth ventricle but not the third ventricle or cerebral aqueduct."
+  ],
+  "library": "p5.js",
+  "libraryVersion": "1.11.10"
+}

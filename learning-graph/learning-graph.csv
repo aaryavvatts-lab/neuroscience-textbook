@@ -1,0 +1,254 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Cell Membrane,,FOUND
+2,Ion,,FOUND
+3,Protein,,FOUND
+4,Concentration Gradient,,FOUND
+5,Nervous System,,CELL
+6,Central Nervous System,5,CELL
+7,Peripheral Nervous System,5,CELL
+8,Neuron,1|5,CELL
+9,Dendrite,8,CELL
+10,Cell Body (Soma),8|3,CELL
+11,Axon,8,CELL
+12,Axon Terminal,11,CELL
+13,Myelin Sheath,11|1,CELL
+14,Node of Ranvier,13|11,CELL
+15,Glial Cell,5|8,CELL
+16,Astrocyte,15,CELL
+17,Oligodendrocyte,15|13|6,CELL
+18,Schwann Cell,15|13|7,CELL
+19,Microglia,15|6,CELL
+20,Sensory Neuron,8|7,CELL
+21,Motor Neuron,8|7,CELL
+22,Interneuron,8|6,CELL
+23,Blood-Brain Barrier,16|1|6,CELL
+24,Multiple Sclerosis,13|17|6|19,DIS
+25,Membrane Potential,1|2|4,SIG
+26,Resting Potential,25|27,SIG
+27,Sodium-Potassium Pump,3|2|4|1,SIG
+28,Ion Channel,3|1|2,SIG
+29,Voltage-Gated Channel,28|25,SIG
+30,Depolarization,25|26,SIG
+31,Repolarization,30|29,SIG
+32,Hyperpolarization,26|31,SIG
+33,Threshold,30|26,SIG
+34,Action Potential,33|29|30|11,SIG
+35,All-or-None Principle,34|33,SIG
+36,Refractory Period,34|29|32,SIG
+37,Saltatory Conduction,34|13|14,SIG
+38,Conduction Velocity,34|37|11,SIG
+39,Firing Rate Coding,35|36,SIG
+40,Local Anesthetic,29|34|20,CLIN
+41,Neurotoxin,28|34|3,SIG
+42,Synapse,12|9|8,SIG
+43,Chemical Synapse,42|45|46,SIG
+44,Electrical Synapse,42|2|3,SIG
+45,Synaptic Vesicle,46|12|1,SIG
+46,Neurotransmitter,42|12,SIG
+47,Receptor,3|46|1,SIG
+48,Ionotropic Receptor,47|28,SIG
+49,Metabotropic Receptor,47|3,SIG
+50,Excitatory Postsynaptic Pot.,48|30|43,SIG
+51,Inhibitory Postsynaptic Pot.,48|32|43,SIG
+52,Synaptic Integration,50|51|33|10,SIG
+53,Reuptake,46|43|3,SIG
+54,Glutamate,46|50,SIG
+55,GABA,46|51,SIG
+56,Acetylcholine,46|43,SIG
+57,Dopamine,46|49,SIG
+58,Serotonin,46|49|53,SIG
+59,Norepinephrine,46|49,SIG
+60,Neuromuscular Junction,56|21|43,SIG
+61,Agonist and Antagonist,47|46,SIG
+62,Myasthenia Gravis,60|47|61,DIS
+63,Anatomical Directions,6,ANAT
+64,Brain Planes and Sections,63,ANAT
+65,Gray Matter,10|6,ANAT
+66,White Matter,13|11|6,ANAT
+67,Cerebral Cortex,65|6,ANAT
+68,Frontal Lobe,67|63,ANAT
+69,Parietal Lobe,67|63,ANAT
+70,Temporal Lobe,67|63,ANAT
+71,Occipital Lobe,67|63,ANAT
+72,Corpus Callosum,66|67,ANAT
+73,Thalamus,6|64|67,ANAT
+74,Hypothalamus,73|6,ANAT
+75,Brainstem,6|63,ANAT
+76,Cerebellum,6|75,ANAT
+77,Spinal Cord,6|65|66|7,ANAT
+78,Cranial Nerves,75|7,ANAT
+79,Ventricles and CSF,6|64,ANAT
+80,Meninges,6|79,ANAT
+81,Cerebral Blood Supply,6|23,ANAT
+82,Autonomic Nervous System,7|74|77,ANAT
+83,Sympathetic vs Parasympathetic,82|59|56,ANAT
+84,Localization of Function,68|69|70|71,ANAT
+85,Prefrontal Cortex,68|84,ANAT
+86,Sensory Transduction,20|47|25,SENS
+87,Eye and Retina,86|8,SENS
+88,Photoreceptor,87|86,SENS
+89,Rods and Cones,88,SENS
+90,Color Vision,89,SENS
+91,Optic Nerve,87|78|11,SENS
+92,Optic Chiasm,91|64,SENS
+93,Visual Pathway,92|73|71,SENS
+94,Primary Visual Cortex,93|71,SENS
+95,Receptive Field,87|94|52,SENS
+96,Visual Field,93|87,SENS
+97,Visual Field Defect,96|93|92,CLIN
+98,Ventral and Dorsal Streams,94|70|69,SENS
+99,Pituitary Tumor,92|97|74,DIS
+100,Cochlea and Hair Cells,86|104,SENS
+101,Auditory Pathway,100|73|70|78,SENS
+102,Vestibular System,104|78|76,SENS
+103,Somatosensory System,86|20|77,SENS
+104,Mechanoreceptor,86|28,SENS
+105,Dermatome,103|77,SENS
+106,Somatosensory Cortex,103|69|73|95,SENS
+107,Homunculus,106|84,SENS
+108,Olfaction,86|47|70,SENS
+109,Gustation,86|47|78,SENS
+110,Nociception,86|20,SENS
+111,Pain Pathway,110|77|73|106,SENS
+112,Gate Control Theory,111|22|51,SENS
+113,Phantom Limb Pain,107|111,DIS
+114,Proprioception,103|104,SENS
+115,Skeletal Muscle Contraction,60|34,MOTOR
+116,Motor Unit,21|115,MOTOR
+117,Reflex Arc,20|21|22|77,MOTOR
+118,Stretch Reflex,117|114|116,MOTOR
+119,Primary Motor Cortex,68|21|84,MOTOR
+120,Corticospinal Tract,119|77|66,MOTOR
+121,Upper vs Lower Motor Neuron,120|21|116,MOTOR
+122,Basal Ganglia,65|67|73,MOTOR
+123,Substantia Nigra,122|57|75,MOTOR
+124,Direct and Indirect Pathways,122|123|57|55,MOTOR
+125,Cerebellar Coordination,76|114|119,MOTOR
+126,Motor Learning,125|122|119,MOTOR
+127,Parkinson's Disease,123|57|124,DIS
+128,Levodopa,127|57|23,CLIN
+129,Deep Brain Stimulation,127|122|124,CLIN
+130,Neural Tube,6|77,DEV
+131,Neurogenesis,130|8|15,DEV
+132,Neuronal Migration,131|67,DEV
+133,Synaptogenesis,132|42,DEV
+134,Synaptic Pruning,133|19,DEV
+135,Myelination Over Time,13|17|66,DEV
+136,Critical Period,133|134|94,DEV
+137,Adolescent Brain,134|135,DEV
+138,Prefrontal Maturation,137|85|135,DEV
+139,Reward Sensitivity in Teens,137|57|138,DEV
+140,Teratogen,131|132|23,DEV
+141,Fetal Alcohol Spectrum,140|130|132,DIS
+142,Nature and Nurture,136|137,DEV
+143,Learning,42|5,COG
+144,Memory,143,COG
+145,Short-Term Memory,144,COG
+146,Working Memory,145|85,COG
+147,Long-Term Memory,144|145,COG
+148,Declarative Memory,147|150,COG
+149,Procedural Memory,147|126|122,COG
+150,Hippocampus,70|144,COG
+151,Memory Consolidation,150|147|145|154,COG
+152,Neuroplasticity,143|42|133,COG
+153,Hebbian Learning,152|50,COG
+154,Long-Term Potentiation,153|54|48,COG
+155,Habituation and Sensitization,143|58|43,COG
+156,Aplysia Model,155|152,RES
+157,Amnesia,150|148|151,DIS
+158,Patient H.M.,157|150|149,RES
+159,Consciousness,67|73|75,STATE
+160,Circadian Rhythm,74,STATE
+161,Suprachiasmatic Nucleus,160|74|87,STATE
+162,Melatonin,161|160,STATE
+163,Sleep Stages,159|160|167,STATE
+164,NREM Sleep,163|167,STATE
+165,REM Sleep,163|167|75,STATE
+166,Electroencephalogram (EEG),67|34|52,CLIN
+167,Brain Waves,166,STATE
+168,Sleep and Memory,151|164|165,STATE
+169,Teen Sleep Needs,160|137|162,STATE
+170,Sleep Deprivation,163|168|169,STATE
+171,Narcolepsy,172|165,DIS
+172,Orexin (Hypocretin),74|46|159,STATE
+173,Emotion,74|67,STATE
+174,Limbic System,173|150|74|108,STATE
+175,Amygdala,174|70,STATE
+176,Fear Conditioning,175|143,STATE
+177,Stress Response,82|74|173,STATE
+178,HPA Axis,177|74,STATE
+179,Cortisol,178,STATE
+180,Fight or Flight,83|177|59,STATE
+181,Chronic Stress Effects,179|150|152,STATE
+182,Emotion Regulation,85|175|173,STATE
+183,Post-Traumatic Stress Disorder,176|181|182,DIS
+184,Language Areas,84|68|70,COG
+185,Broca's Area,184|68,COG
+186,Wernicke's Area,184|70|101,COG
+187,Aphasia,185|186,DIS
+188,Hemispheric Lateralization,72|184,COG
+189,Split-Brain Studies,188|72,RES
+190,Attention,85|69|73,COG
+191,Executive Function,85|146|190,COG
+192,Decision-Making,191|57|139,COG
+193,Reward Prediction Error,57|192|143,COG
+194,Neglect Syndrome,190|69|188,DIS
+195,Normal Brain Aging,152|147|66,DEV
+196,Neurodegeneration,8|195|19,DIS
+197,Protein Misfolding,3|196,DIS
+198,Dementia,196|144|191,DIS
+199,Alzheimer's Disease,198|200|201|150,DIS
+200,Amyloid Plaque,197,DIS
+201,Tau Tangle,197|11,DIS
+202,Anti-Amyloid Antibody,200|199,CLIN
+203,Amyotrophic Lateral Sclerosis,196|121|16,DIS
+204,Huntington's Disease,196|122|197,DIS
+205,Antisense Oligonucleotide,203|3,CLIN
+206,Gene Therapy,196|205|204,CLIN
+207,Biomarker,199|200|201,CLIN
+208,Cognitive Reserve,195|152|198,DEV
+209,Traumatic Brain Injury,67|80|8,DIS
+210,Concussion,209|159,DIS
+211,Return-to-Learn and Play,210,CLIN
+212,Chronic Traumatic Enceph.,210|201|196,DIS
+213,Stroke,81|8,DIS
+214,Ischemic Stroke,213,DIS
+215,Hemorrhagic Stroke,213|80,DIS
+216,BE-FAST Warning Signs,213|84|185|102,CLIN
+217,Clot-Busting Treatment,214|216,CLIN
+218,Seizure,34|54|55|67,DIS
+219,Epilepsy,218,DIS
+220,Seizure First Aid,218|219,CLIN
+221,Spinal Cord Injury,77|121|105|209,DIS
+222,Mental Illness,46|173,DIS
+223,Depression,222|58|181,DIS
+224,Anxiety Disorders,222|175|177|180,DIS
+225,Schizophrenia,222|57|138,DIS
+226,Autism Spectrum Disorder,133|134|222|142,DIS
+227,ADHD,191|190|57,DIS
+228,Psychiatric Medication,223|53|61|225,CLIN
+229,Reward Pathway,57|193|139,STATE
+230,Addiction,229|152|192,DIS
+231,Tolerance and Withdrawal,230|47,DIS
+232,Nicotine and Vaping,230|56|139,DIS
+233,Opioids,230|111|75|61,DIS
+234,Naloxone,233|61,CLIN
+235,Stigma and Treatment Access,222|230,DIS
+236,Neurological Exam,84|117|78|103|119,CLIN
+237,Mental Status Exam,236|159|146,CLIN
+238,Cranial Nerve Exam,236|78,CLIN
+239,Reflex Testing,236|118|121,CLIN
+240,Lesion Localization,236|237|238|239|187|194,CLIN
+241,Computed Tomography (CT),64|215,CLIN
+242,Magnetic Resonance Imaging,64|65|66|24,CLIN
+243,Functional MRI,242|81|84,RES
+244,PET Scan,199|196|3|207,CLIN
+245,Lumbar Puncture,79|80|77,CLIN
+246,Differential Diagnosis,240|241|242|245,CLIN
+247,Scientific Method in Neuro,84|156|189,RES
+248,Animal Models,156|247,RES
+249,Research Ethics,248|158|247,RES
+250,Correlation vs Causation,247|243,RES
+251,Brain-Computer Interface,119|166|34|39|221,RES
+252,Neuroscience Careers,247|246,RES
+253,Pre-Med Pathway,252|236,RES

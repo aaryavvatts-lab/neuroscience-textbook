@@ -1,0 +1,114 @@
+{
+  "title": "Neuron Explorer",
+  "description": "Interactive labeled neuron with an oligodendrocyte, an astrocyte, and a blood vessel. Hovering, clicking, or choosing a part shows its job. A Send signal button animates a signal down a myelinated axon; a Remove myelin (MS) option strips myelin from 1 to 4 segments so students can see the signal slow, fade, and fail, as in multiple sclerosis.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch01-neuron-explorer/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevel": [
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "chapter": "01-neurons-and-glia",
+  "bloomLevel": [
+    "Remember",
+    "Understand"
+  ],
+  "learningObjectives": [
+    "Identify the dendrites, cell body (soma), axon hillock, axon, myelin sheath, nodes of Ranvier, and axon terminals of a neuron and state the job of each.",
+    "Describe the jobs of an oligodendrocyte and an astrocyte.",
+    "Explain why a myelinated axon carries signals faster and why losing myelin, as in multiple sclerosis, can slow a signal or block it."
+  ],
+  "concepts": [
+    "Neuron",
+    "Dendrite",
+    "Cell Body (Soma)",
+    "Axon",
+    "Axon Terminal",
+    "Myelin Sheath",
+    "Node of Ranvier",
+    "Glial Cell",
+    "Astrocyte",
+    "Oligodendrocyte",
+    "Blood-Brain Barrier",
+    "Multiple Sclerosis"
+  ],
+  "prerequisites": [
+    "Basic cell structure: nucleus, cell membrane, and proteins",
+    "The idea that cells can carry electrical charge using ions (Chapter 1, Section 1.2)"
+  ],
+  "keyQuestions": [
+    "What does each part of a neuron do as a message passes through it?",
+    "Why does a signal travel faster along an axon wrapped in myelin?",
+    "What happens to a signal when a stretch of myelin is destroyed, and how does that explain symptoms of multiple sclerosis?"
+  ],
+  "misconceptions": [
+    "The nervous system is made only of neurons (glial cells are about as numerous as neurons).",
+    "Myelin is part of the neuron itself (it is made by glial cells: oligodendrocytes in the CNS and Schwann cells in the PNS).",
+    "Losing myelin always stops a signal completely (small patches may only slow it; larger patches can block it)."
+  ],
+  "duration": "15-20 minutes",
+  "controls": [
+    {
+      "type": "button",
+      "label": "Send signal",
+      "description": "Fires a new signal at the start of the axon."
+    },
+    {
+      "type": "button",
+      "label": "Pause / Resume",
+      "description": "Freezes or continues the traveling signal."
+    },
+    {
+      "type": "checkbox",
+      "label": "Remove myelin (MS)",
+      "description": "Strips myelin from the chosen number of segments, starting under the oligodendrocyte."
+    },
+    {
+      "type": "slider",
+      "label": "Damaged segments",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 2,
+      "description": "How many of the six myelinated segments lose their myelin when the MS option is checked."
+    },
+    {
+      "type": "select",
+      "label": "Explore a part",
+      "description": "Keyboard-friendly way to show any part's job in the info panel."
+    }
+  ],
+  "simulationModel": {
+    "modelType": "Simplified conceptual model (illustrative, not measured)",
+    "assumptions": [
+      "A healthy myelinated segment is crossed in 8 animation frames; a demyelinated segment takes 40 frames.",
+      "In a demyelinated stretch, signal strength falls by a factor of 0.55 per segment crossed.",
+      "A healthy node renews the signal to 100% if it arrives with at least 25% strength; below 25% the signal is blocked."
+    ],
+    "limitations": [
+      "Speeds, fading rate, and threshold are illustrative and chosen to show the pattern, not taken from a real nerve.",
+      "The model does not show ion channels or the action potential waveform (covered in Chapter 2).",
+      "Real MS lesions vary in size, location, and severity; six segments is a teaching simplification."
+    ]
+  },
+  "library": "p5.js",
+  "libraryVersion": "1.11.10",
+  "canvasDimensions": "width-responsive x 635",
+  "accessibility": "describe() text for screen readers; every part can be chosen from a dropdown menu without a mouse"
+}

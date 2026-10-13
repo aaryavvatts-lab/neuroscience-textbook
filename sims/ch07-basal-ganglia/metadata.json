@@ -1,0 +1,106 @@
+{
+  "title": "Basal Ganglia Gas and Brake",
+  "description": "A simplified, textbook-standard basal ganglia circuit (cortex, striatum D1 and D2 neurons, GPe, subthalamic nucleus, GPi/SNr, thalamus, and dopamine from the substantia nigra pars compacta). A dopamine slider changes the strength of the direct (GO) and indirect (NO-GO) pathways and moves a movement-output meter from hypokinetic (Parkinson-like) through normal to hyperkinetic.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": [
+    "Neuroscience",
+    "Motor Control",
+    "Basal Ganglia",
+    "Dopamine",
+    "Parkinson's Disease"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch07-basal-ganglia/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevel": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators, Brain Bee competitors",
+  "version": "1.0.0",
+  "chapter": "07-movement",
+  "library": "p5.js",
+  "libraryVersion": "1.11.10",
+  "canvas": {
+    "drawHeight": 550,
+    "controlHeight": 50,
+    "iframeHeight": 602,
+    "responsive": "width-responsive"
+  },
+  "bloomLevel": [
+    "Understand"
+  ],
+  "learningObjectives": [
+    "Explain how a change in dopamine shifts the balance between the direct and indirect basal ganglia pathways.",
+    "Predict whether movement output will be too little (hypokinetic), normal, or too much (hyperkinetic) for a given dopamine level.",
+    "Identify each connection in the classic basal ganglia loop as excitatory (glutamate) or inhibitory (GABA)."
+  ],
+  "concepts": [
+    "Basal Ganglia",
+    "Substantia Nigra",
+    "Direct and Indirect Pathways",
+    "Parkinson's Disease",
+    "Levodopa"
+  ],
+  "prerequisites": [
+    "Neurons and synapses (Chapter 1 and Chapter 3)",
+    "Excitatory versus inhibitory neurotransmitters, including glutamate, GABA, and dopamine (Chapter 3)",
+    "Location of the basal ganglia, thalamus, and motor cortex (Chapter 4)"
+  ],
+  "keyQuestions": [
+    "Why does inhibiting an inhibitor (disinhibition) release movement?",
+    "How can dopamine excite one group of striatal neurons and inhibit another, yet push both pathways toward more movement?",
+    "Why does losing dopamine neurons in Parkinson's disease make movement slow and hard to start?",
+    "Why can too much dopamine signaling cause extra, unwanted movements?"
+  ],
+  "misconceptions": [
+    "Dopamine simply 'turns on' muscles. In fact it adjusts the balance of a brake-release circuit in the basal ganglia.",
+    "Inhibition always means less movement. In the direct pathway, inhibiting the GPi/SNr brake produces more movement.",
+    "More dopamine is always better. Too much dopamine signaling weakens the brake and lets unwanted movements through.",
+    "The two-pathway model is the complete wiring diagram. It is a simplified teaching model that leaves out other connections."
+  ],
+  "controls": [
+    {
+      "type": "slider",
+      "label": "Dopamine (% of normal)",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "default": 100,
+      "purpose": "Sets dopamine release from the substantia nigra pars compacta."
+    },
+    {
+      "type": "button",
+      "label": "Reset",
+      "purpose": "Returns dopamine to 100% of normal."
+    }
+  ],
+  "simulationModel": {
+    "modelType": "Qualitative circuit model",
+    "variables": ["dopamine", "D1 striatal activity", "D2 striatal activity", "GPe activity", "STN activity", "GPi/SNr activity", "thalamus activity"],
+    "equations": [
+      "D1 = 0.5 + 0.35 * (dopamine - 1)",
+      "D2 = 0.5 - 0.35 * (dopamine - 1)",
+      "GPe = 1 - D2",
+      "STN = 1 - GPe",
+      "GPi = 0.5 - 0.5 * (D1 - 0.5) + 0.5 * (STN - 0.5)",
+      "Thalamus = movement output = 1 - GPi",
+      "Zones: output < 0.35 too little; 0.35 to 0.65 normal; > 0.65 too much"
+    ],
+    "assumptions": "All activities are on an illustrative 0 to 1 scale, with every node at 0.5 when dopamine is normal. Cortical input is constant.",
+    "limitations": "Leaves out the hyperdirect pathway, feedback loops, timing, firing patterns, and the many non-motor loops of the basal ganglia. Numbers are not measured data."
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Basal_ganglia",
+    "https://openstax.org/books/introduction-behavioral-neuroscience/pages/10-3-our-brain-gets-involved-responsibilities-of-upper-motor-systems",
+    "https://pubmed.ncbi.nlm.nih.gov/2479133/"
+  ],
+  "duration": "15-20 minutes"
+}

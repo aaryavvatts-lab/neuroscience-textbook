@@ -1,0 +1,94 @@
+{
+  "title": "Neuro Exam Decision Tree",
+  "description": "Case-based MicroSim in which students run neurological exam steps and imaging on three fictional patients (a left-hemisphere stroke pattern, a peripheral facial nerve palsy, and a thoracic spinal cord lesion), collect findings, and localize the lesion, with feedback explaining the reasoning.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "keywords": [
+    "Neurological Exam",
+    "Lesion Localization",
+    "Upper Motor Neuron",
+    "Lower Motor Neuron",
+    "Cranial Nerve Exam",
+    "Reflex Testing",
+    "Computed Tomography (CT)",
+    "Magnetic Resonance Imaging",
+    "Bell's Palsy",
+    "Stroke",
+    "Spinal Cord"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch16-neuro-exam/",
+  "publisher": "From Neuron to Bedside",
+  "chapter": "16-how-doctors-examine-the-brain",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "educationalLevel": "High School",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators, Brain Bee competitors",
+  "version": "1.0.0",
+  "duration": "20-25 minutes",
+  "bloomLevel": [
+    "Analyze"
+  ],
+  "learningObjectives": [
+    "Localize a lesion to the left or right cerebral hemisphere, brainstem, spinal cord, peripheral nerve, or muscle from a pattern of exam findings",
+    "Distinguish upper motor neuron signs (brisk reflexes, Babinski sign, spasticity) from lower motor neuron signs",
+    "Explain why forehead-sparing facial weakness points to the brain while whole-face weakness points to the facial nerve",
+    "Recognize a sensory level as a sign of spinal cord disease"
+  ],
+  "concepts": [
+    "Neurological Exam",
+    "Mental Status Exam",
+    "Cranial Nerve Exam",
+    "Reflex Testing",
+    "Lesion Localization",
+    "Computed Tomography (CT)",
+    "Magnetic Resonance Imaging"
+  ],
+  "prerequisites": [
+    "Chapter 4: major brain regions and cranial nerves",
+    "Chapter 7: the corticospinal tract crosses to the opposite side; reflex arcs",
+    "Chapter 14: stroke and the middle cerebral artery"
+  ],
+  "keyQuestions": [
+    "Is the problem in the central nervous system (upper motor neuron) or the peripheral nervous system (lower motor neuron)?",
+    "Which side of the nervous system is involved, given that motor pathways cross?",
+    "At what level is the problem: cortex, brainstem, spinal cord, nerve, or muscle?",
+    "Which exam steps give the most information for each case?"
+  ],
+  "misconceptions": [
+    "A stroke in the left hemisphere weakens the left side of the body",
+    "Any one-sided facial droop is a stroke",
+    "A brain scan alone can locate every neurological problem, so the exam is unnecessary",
+    "A head CT can show the spinal cord in the chest region"
+  ],
+  "controls": [
+    "Case select menu (3 fictional cases)",
+    "Reset button",
+    "Nine exam-step buttons: Mental status, Cranial nerves, Strength, Reflexes, Sensation, Coordination, Gait, Order CT, Order MRI",
+    "Location select menu (6 choices) and Check button"
+  ],
+  "modelType": "Rule-based clinical reasoning case",
+  "assumptions": [
+    "Cases are fictional composites with classic, textbook findings",
+    "At least 3 exam steps are required before checking a localization",
+    "After two wrong attempts the correct location is revealed"
+  ],
+  "limitations": [
+    "Real patients often show incomplete or mixed findings",
+    "The sim localizes lesions but does not teach treatment decisions",
+    "Imaging results are described in words, not shown as images"
+  ],
+  "canvasDimensions": "width-responsive x 825",
+  "responsive": "Width-responsive",
+  "accessibility": "describe() screen-reader summary; native keyboard-accessible buttons and menus; feedback uses both color and text labels",
+  "library": "p5.js",
+  "libraryVersion": "1.11.10"
+}

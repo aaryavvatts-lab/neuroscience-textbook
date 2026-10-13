@@ -1,0 +1,91 @@
+{
+  "title": "Hypnogram Builder",
+  "description": "Interactive hypnogram of an illustrative 9-hour teen night with cycles of about 90 minutes. Clicking a stage label or hovering over the night shows a schematic EEG trace for Wake, N1, N2, N3, or REM, and a slider shortens the night to show how many minutes of REM, N2, and N3 are lost.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "topics": [
+    "Sleep Stages",
+    "NREM Sleep",
+    "REM Sleep",
+    "Electroencephalogram (EEG)",
+    "Brain Waves",
+    "Sleep Deprivation",
+    "Teen Sleep Needs"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch10-hypnogram/",
+  "publisher": "From Neuron to Bedside",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "educationalLevel": "High School",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "chapter": "10-sleep-and-brain-states",
+  "bloomLevel": [
+    "Understand",
+    "Analyze"
+  ],
+  "learningObjectives": [
+    "Identify each sleep stage (Wake, N1, N2, N3, REM) from its schematic EEG signature.",
+    "Describe how sleep stages are distributed across a night, with most N3 early and longer REM periods late.",
+    "Interpret a hypnogram to explain why cutting a 9-hour night to 6 hours removes about half of REM sleep but almost no N3 sleep."
+  ],
+  "concepts": [
+    "Sleep Stages",
+    "NREM Sleep",
+    "REM Sleep",
+    "Electroencephalogram (EEG)",
+    "Brain Waves",
+    "Sleep Deprivation"
+  ],
+  "prerequisites": [
+    "Neurons fire action potentials (Chapter 2)",
+    "Synaptic transmission (Chapter 3)",
+    "Frequency and amplitude of brain waves (Chapter 10, Section 10.3)",
+    "Names of the four sleep stages (Chapter 10, Section 10.5)"
+  ],
+  "keyQuestions": [
+    "Which sleep stage has the tallest, slowest EEG waves?",
+    "Why do REM periods get longer toward morning?",
+    "Which stages are lost when a night of sleep is cut short at the end, and why?"
+  ],
+  "misconceptions": [
+    "Short sleep removes a little of every stage evenly. In fact, cutting the end of the night removes mostly REM and N2 sleep.",
+    "The brain shuts off during sleep. In fact, each stage has its own active EEG pattern, and REM looks much like waking.",
+    "Deep sleep happens evenly all night. In fact, most N3 occurs in the first half of the night."
+  ],
+  "duration": "20-25 minutes",
+  "framework": "p5.js",
+  "libraryVersion": "1.11.10",
+  "canvasDimensions": "width-responsive x 700 (620 drawing + 80 controls)",
+  "iframeHeight": "702px",
+  "responsive": "Width-responsive",
+  "accessibility": "Screen-reader description via p5 describe(); stage menu provides keyboard access to all EEG traces; text 14px or larger.",
+  "controls": [
+    {"name": "Hours of sleep", "type": "slider", "min": 4, "max": 9, "step": 0.5, "default": 9, "unit": "hours", "purpose": "Moves the alarm line to cut the night short"},
+    {"name": "Show EEG for", "type": "select", "options": ["Wake", "REM", "N1", "N2", "N3"], "default": "N3", "purpose": "Chooses which schematic EEG trace is shown"},
+    {"name": "Reset to 9 h", "type": "button", "purpose": "Restores the full 9-hour night"}
+  ],
+  "simulationModel": {
+    "modelType": "Illustrative data visualization",
+    "assumptions": [
+      "The night is an illustrative composite for a healthy teen, not a real recording.",
+      "Cycles last about 90 minutes; N3 occurs in the first four cycles; REM periods grow from 10 to 35 minutes.",
+      "Shortening sleep removes time from the end of the night."
+    ],
+    "limitations": [
+      "Real hypnograms vary from person to person and night to night.",
+      "EEG traces are schematic shapes; only their approximate frequencies and relative sizes are meaningful.",
+      "Going to bed later shifts circadian timing in ways this simple model does not show."
+    ]
+  },
+  "library": "p5.js"
+}

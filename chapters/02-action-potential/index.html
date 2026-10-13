@@ -1,0 +1,4977 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How neurons use ion gradients, voltage-gated channels, and an all-or-none spike to send fast electrical signals, and how lidocaine stops them.">
+      
+      
+        <meta name="author" content="Aaryav Sharma">
+      
+      
+        <link rel="canonical" href="https://aaryavvatts-lab.github.io/neuroscience-textbook/chapters/02-action-potential/">
+      
+      
+        <link rel="prev" href="../01-neurons-and-glia/references/">
+      
+      
+        <link rel="next" href="quiz/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Chapter 2: The Action Potential - From Neuron to Bedside</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style>  <meta property="og:image" content="https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch02-action-potential/ch02-action-potential.png">
+  <meta name="twitter:image" content="https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch02-action-potential/ch02-action-potential.png">
+</head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-2-the-action-potential" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="From Neuron to Bedside" class="md-header__button md-logo" aria-label="From Neuron to Bedside" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            From Neuron to Bedside
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 2: The Action Potential
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="pink" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard="" data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="From Neuron to Bedside" class="md-nav__button md-logo" aria-label="From Neuron to Bedside" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    From Neuron to Bedside
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-use/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Use This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked="">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../01-neurons-and-glia/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Neurons, Glia, and the Nervous System
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Neurons, Glia, and the Nervous System
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-neurons-and-glia/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-neurons-and-glia/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" checked="">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. The Action Potential
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. The Action Potential
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../03-synapses-and-neurotransmitters/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Synapses and Neurotransmitters
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Synapses and Neurotransmitters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-synapses-and-neurotransmitters/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-synapses-and-neurotransmitters/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_5">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../04-neuroanatomy/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. A Tour of the Brain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. A Tour of the Brain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-neuroanatomy/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-neuroanatomy/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_6">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../05-vision/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Vision
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    5. Vision
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-vision/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-vision/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../06-hearing-touch-taste-smell-pain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Hearing, Touch, Taste, Smell, and Pain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    6. Hearing, Touch, Taste, Smell, and Pain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-hearing-touch-taste-smell-pain/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-hearing-touch-taste-smell-pain/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_8">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../07-movement/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Movement
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_8" id="__nav_5_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7. Movement
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-movement/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-movement/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_9">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../08-developing-teenage-brain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. The Developing and Teenage Brain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_9" id="__nav_5_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    8. The Developing and Teenage Brain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-developing-teenage-brain/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-developing-teenage-brain/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_10">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../09-learning-memory-plasticity/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Learning, Memory, and Neuroplasticity
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_10" id="__nav_5_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9. Learning, Memory, and Neuroplasticity
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-learning-memory-plasticity/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-learning-memory-plasticity/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_11">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../10-sleep-and-brain-states/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Sleep and Brain States
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_11" id="__nav_5_11_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    10. Sleep and Brain States
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-sleep-and-brain-states/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-sleep-and-brain-states/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_12">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../11-emotion-and-stress/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Emotion, Stress, and the Body
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_12" id="__nav_5_12_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    11. Emotion, Stress, and the Body
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-emotion-and-stress/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-emotion-and-stress/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_13">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../12-language-attention-decisions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. Language, Attention, and Decision-Making
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_13" id="__nav_5_13_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    12. Language, Attention, and Decision-Making
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-language-attention-decisions/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-language-attention-decisions/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_14">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../13-aging-and-neurodegeneration/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. The Aging Brain and Neurodegeneration
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_14" id="__nav_5_14_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    13. The Aging Brain and Neurodegeneration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-aging-and-neurodegeneration/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-aging-and-neurodegeneration/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_15">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../14-injury-stroke-epilepsy/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Brain Injury, Stroke, and Epilepsy
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_15" id="__nav_5_15_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    14. Brain Injury, Stroke, and Epilepsy
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-injury-stroke-epilepsy/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-injury-stroke-epilepsy/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_16">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../15-psychiatric-disorders-and-addiction/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15. Psychiatric Disorders and Addiction
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_16" id="__nav_5_16_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    15. Psychiatric Disorders and Addiction
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-psychiatric-disorders-and-addiction/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-psychiatric-disorders-and-addiction/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_17">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../16-how-doctors-examine-the-brain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16. How Doctors Examine the Brain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_17" id="__nav_5_17_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    16. How Doctors Examine the Brain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-how-doctors-examine-the-brain/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-how-doctors-examine-the-brain/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Appendices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/brain-bee/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A. Brain Bee Strategy and Mock Exam
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/careers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    B. Careers in Neuroscience and Medicine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../sims/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MicroSims
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MicroSims
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch01-neuron-explorer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neuron Explorer
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch02-action-potential/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Action Potential Simulator
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch03-synapse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synapse Simulator
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch04-brain-atlas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clickable Brain Atlas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch05-visual-pathway/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visual Pathway Lesions
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch06-homunculus-dermatomes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homunculus and Dermatomes
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch07-basal-ganglia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basal Ganglia Gas and Brake
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch08-synaptic-pruning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synaptic Pruning Over a Lifetime
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch09-aplysia-learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplysia Habituation and LTP
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch10-hypnogram/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hypnogram Builder
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch11-hpa-axis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPA Axis Feedback Loop
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch12-aphasia-sorter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aphasia Sorter
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch13-amyloid-tau-cascade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amyloid and Tau Cascade
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch14-stroke-territories/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stroke Territory Map
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch15-reward-tolerance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reward Pathway and Tolerance
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch16-neuro-exam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neuro Exam Decision Tree
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../learning-graph/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/graph-viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graph Viewer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/book-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Book Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/chapter-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/glossary-quality-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary Quality Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/faq-quality-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ Quality Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-cite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Cite
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concepts Covered
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-the-hot-pan-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 The Hot Pan Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-intuition-first-a-charged-battery-and-a-burning-fuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Intuition First: A Charged Battery and a Burning Fuse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-the-membrane-potential-a-tiny-battery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 The Membrane Potential: A Tiny Battery
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 The Membrane Potential: A Tiny Battery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-the-charge-comes-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where the charge comes from
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-pump-that-keeps-the-battery-charged" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The pump that keeps the battery charged
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-ion-channels-doors-in-the-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Ion Channels: Doors in the Wall
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4 Ion Channels: Doors in the Wall">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-we-learned-this-a-squids-giant-axon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How we learned this: a squid's giant axon
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-anatomy-of-a-spike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Anatomy of a Spike
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Anatomy of a Spike">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-key-step-threshold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The key step: threshold
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-five-phases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The five phases
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-the-all-or-none-principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 The All-or-None Principle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27-the-refractory-period-time-to-reset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7 The Refractory Period: Time to Reset
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#28-firing-rate-coding-louder-means-faster-not-bigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.8 Firing Rate Coding: Louder Means Faster, Not Bigger
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29-traveling-down-the-axon-conduction-velocity-and-myelin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.9 Traveling Down the Axon: Conduction Velocity and Myelin
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.9 Traveling Down the Axon: Conduction Velocity and Myelin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saltatory-conduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saltatory conduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-quick-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A quick calculation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#210-blocking-the-signal-local-anesthetics-and-neurotoxins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.10 Blocking the Signal: Local Anesthetics and Neurotoxins
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.10 Blocking the Signal: Local Anesthetics and Neurotoxins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-anesthetics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Local anesthetics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neurotoxins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neurotoxins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#too-much-potassium-outside-the-cell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Too much potassium outside the cell
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#211-try-it-the-action-potential-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.11 Try It: The Action Potential Simulator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.11 Try It: The Action Potential Simulator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-action-potential-simulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Action Potential Simulator
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#at-the-bedside-a-numb-lip-at-the-dentist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        At the Bedside: A Numb Lip at the Dentist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-misconceptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Misconceptions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brain-bee-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brain Bee Practice
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercises
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remember
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understand
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyze" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyze
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    2. The Action Potential
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook/blob/main/docs/chapters/02-action-potential/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="chapter-2-the-action-potential">Chapter 2: The Action Potential<a class="headerlink" href="#chapter-2-the-action-potential" title="Permanent link">¶</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h2>
+<p>Neurons send messages as brief electrical pulses called action potentials. The chapter starts with the tiny voltage that every resting neuron keeps across its membrane, then shows how sodium and potassium channels open and close in a set order to make a spike that is always the same size. You will see why a neuron needs a short rest after each spike, how the strength of a stimulus is coded as a firing rate, and why myelin makes signals travel faster. The chapter ends at the dentist's chair, where a local anesthetic called lidocaine blocks sodium channels, switches off pain, and leaves a numb lip.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">¶</a></h2>
+<ol>
+<li>Membrane Potential</li>
+<li>Resting Potential</li>
+<li>Sodium-Potassium Pump</li>
+<li>Ion Channel</li>
+<li>Voltage-Gated Channel</li>
+<li>Depolarization</li>
+<li>Repolarization</li>
+<li>Hyperpolarization</li>
+<li>Threshold</li>
+<li>Action Potential</li>
+<li>All-or-None Principle</li>
+<li>Refractory Period</li>
+<li>Saltatory Conduction</li>
+<li>Conduction Velocity</li>
+<li>Firing Rate Coding</li>
+<li>Local Anesthetic</li>
+<li>Neurotoxin</li>
+</ol>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="../01-neurons-and-glia/">Chapter 1: Neurons, Glia, and the Nervous System</a> (cell membrane, ions, concentration gradients, axons, myelin, and nodes of Ranvier)</li>
+</ul>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Let's get charged up</p>
+<p><img alt="Ply waving hello" class="mascot-admonition-img" src="../../img/mascot/welcome.png">
+Every thought you have, every step Maya takes on the soccer field, and every twitch of my little slug body rides on the same electrical pulse. In this chapter you'll learn how a neuron makes that pulse from nothing but salt, water, and a few clever proteins. Once you get this, a lot of medicine starts to make sense, from numbing shots to nerve poisons.</p>
+</div>
+<h2 id="21-the-hot-pan-problem">2.1 The Hot Pan Problem<a class="headerlink" href="#21-the-hot-pan-problem" title="Permanent link">¶</a></h2>
+<p>It's Tuesday night, and Maya is making pasta after soccer practice. Without thinking, she grabs the pot's hot metal handle. Before she knows what happened, her hand has jerked back. A split second later comes a sharp sting, and then, a little after that, a slow, burning ache that lasts for minutes.</p>
+<p>That moment holds three puzzles. How did her hand move before she "decided" to move it? Why did the pain come in two waves? And how does a signal travel from her fingertips so quickly at all?</p>
+<p>The first puzzle has a short answer. Pulling away from heat is a <strong>withdrawal reflex</strong>: skin sensors send a signal into the spinal cord, where interneurons quickly relay it to motor neurons that contract the arm muscles. Because this loop runs through the spinal cord, the arm can start moving without waiting for the brain to decide. (You will study reflexes in detail in Chapter 7.)</p>
+<p>The second puzzle is about speed. Pain-sensing nerve fibers come in more than one type. Thin fibers wrapped in myelin, called A-delta fibers, carry signals at roughly 15 meters per second and produce the first, sharp, pricking pain. Even thinner fibers with no myelin, called C fibers, carry signals at roughly 1 meter per second and produce the slower, burning pain (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6615513/">Hu et al., 2014</a>). The burning arrives later because its signal is traveling on a slower road.</p>
+<p>The third puzzle, how the signal travels at all, is the subject of this chapter. The answer is a brief electrical pulse called the action potential. Once you understand it, you can explain Maya's two pains, a dentist's numbing shot, and why a pufferfish toxin can stop a person from breathing.</p>
+<h2 id="22-intuition-first-a-charged-battery-and-a-burning-fuse">2.2 Intuition First: A Charged Battery and a Burning Fuse<a class="headerlink" href="#22-intuition-first-a-charged-battery-and-a-burning-fuse" title="Permanent link">¶</a></h2>
+<p><strong>A neuron at rest is like a charged battery.</strong> A battery stores energy because it keeps electric charges separated. A neuron does the same thing. Its outer skin, the cell membrane, keeps different amounts of salt particles on each side. Little protein pumps work all day to keep those salts in place, and that separation stores energy, ready to be used.</p>
+<p><strong>Firing is like flushing a toilet.</strong> If you press the handle gently, nothing happens. Press a little harder and, once you pass a certain point, the whole flush happens, and it is always the same flush. Pressing harder does not make a bigger flush. Afterward, you have to wait for the tank to refill before you can flush again. A neuron's signal works the same way: it either fires completely or not at all, and it needs a short recovery time afterward.</p>
+<p><strong>The signal travels like a burning fuse.</strong> When you light one end of a fuse, each burning spot lights the next one, so the flame moves along by itself. An action potential moves down an axon the same way: each patch of membrane that fires triggers the next patch.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Battery, flush, fuse</p>
+<p><img alt="Ply thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png">
+If you ever get lost in this chapter, ask yourself which picture you're in. Resting potential is the battery, the spike is the flush, and conduction down the axon is the fuse.</p>
+</div>
+<h2 id="23-the-membrane-potential-a-tiny-battery">2.3 The Membrane Potential: A Tiny Battery<a class="headerlink" href="#23-the-membrane-potential-a-tiny-battery" title="Permanent link">¶</a></h2>
+<p>Recall from Chapter 1 that <strong>ions</strong> are atoms with an electric charge, and that the <strong>cell membrane</strong> is a thin, oily wall that ions cannot easily cross on their own. Inside and outside a neuron, the most important ions are sodium (Na⁺) and potassium (K⁺), which each carry one positive charge.</p>
+<p>The <strong>membrane potential</strong> is the difference in electrical charge, measured as voltage, between the inside of a cell and the outside. Scientists measure it with a very fine electrode inside the cell and another outside. Because the voltage is small, it is measured in <strong>millivolts (mV)</strong>, which are thousandths of a volt. A neuron's membrane potential is written as the inside compared with the outside, so a negative number means the inside is more negative.</p>
+<p>When a neuron is not sending a signal, its membrane potential sits at a steady value called the <strong>resting potential</strong>. A common textbook value is about <strong>−70 mV</strong>. The real number varies from neuron to neuron and between species, and many neurons rest somewhere between about −60 and −80 mV. That is the "charged battery" from Section 2.2.</p>
+<h3 id="where-the-charge-comes-from">Where the charge comes from<a class="headerlink" href="#where-the-charge-comes-from" title="Permanent link">¶</a></h3>
+<p>The resting potential exists because the two main ions are unevenly spread across the membrane. The table below summarizes the typical concentrations, in millimolar (mM), a unit of how crowded the ions are.</p>
+<table>
+<thead>
+<tr>
+<th>Ion</th>
+<th>Outside the neuron (mM)</th>
+<th>Inside the neuron (mM)</th>
+<th>Where is it crowded?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sodium (Na⁺)</td>
+<td>about 145</td>
+<td>about 12</td>
+<td>Outside, about 12 times more</td>
+</tr>
+<tr>
+<td>Potassium (K⁺)</td>
+<td>about 4</td>
+<td>about 155</td>
+<td>Inside, almost 40 times more</td>
+</tr>
+</tbody>
+</table>
+<p>Two things work together to turn this unevenness into a voltage.</p>
+<p>First, a resting neuron's membrane has many open "leak" pores that let potassium through, and far fewer that let sodium through. Potassium ions are crowded inside, so some of them drift out through the leaks, following their <strong>concentration gradient</strong> (the tendency of particles to spread from where they are crowded to where they are not). Each K⁺ ion that leaves takes a positive charge with it. Large negatively charged molecules, such as proteins, can't follow it out, so the inside becomes negative.</p>
+<p>Second, that growing negative charge pulls positive potassium ions back in. The resting potential is roughly where this electrical pull nearly balances the concentration push. Because a small amount of sodium also leaks in, the resting potential ends up a little less negative than it would be if only potassium mattered.</p>
+<h3 id="the-pump-that-keeps-the-battery-charged">The pump that keeps the battery charged<a class="headerlink" href="#the-pump-that-keeps-the-battery-charged" title="Permanent link">¶</a></h3>
+<p>If ions keep leaking, why doesn't the battery run down? The answer is the <strong>sodium-potassium pump</strong>, a protein in the membrane that uses energy from ATP (the cell's energy molecule) to move ions against their gradients. For each ATP it uses, the pump pushes <strong>three sodium ions out</strong> and brings <strong>two potassium ions in</strong>. This keeps sodium crowded outside and potassium crowded inside.</p>
+<p>That pumping is expensive: the OpenStax <em>Introduction to Behavioral Neuroscience</em> text cites an estimate that ion pumps use about 28% of the brain's energy budget.</p>
+<details class="info">
+<summary>Optional enrichment: the Nernst equation</summary>
+<p>Each ion has a voltage at which its electrical pull exactly balances its concentration push. This is called its <strong>equilibrium potential</strong>. For an ion with a single positive charge at body temperature (37 °C), the Nernst equation gives it as:</p>
+<div class="arithmatex">\[E_{ion} = 61.5\ \text{mV} \times \log_{10}\left(\frac{[\text{ion}]_{outside}}{[\text{ion}]_{inside}}\right)\]</div>
+<p>The 61.5 mV comes from physical constants (the gas constant, body temperature in kelvins, and Faraday's constant). Try potassium, using the values from the table above (4 mM outside, 155 mM inside):</p>
+<div class="arithmatex">\[E_K = 61.5 \times \log_{10}\left(\frac{4}{155}\right) = 61.5 \times (-1.59) \approx -98\ \text{mV}\]</div>
+<p>The real resting potential (about −70 mV) is less negative than <span class="arithmatex">\( E_K \)</span> because the membrane also leaks a little sodium, whose equilibrium potential is strongly positive. Notice what happens if the potassium outside the cell rises from 4 to 8 mM: <span class="arithmatex">\( E_K \)</span> moves to about −79 mV, so the resting potential also becomes less negative. You can test this idea in the MicroSim later in the chapter.</p>
+</details>
+<h2 id="24-ion-channels-doors-in-the-wall">2.4 Ion Channels: Doors in the Wall<a class="headerlink" href="#24-ion-channels-doors-in-the-wall" title="Permanent link">¶</a></h2>
+<p>An <strong>ion channel</strong> is a protein that forms a tiny tunnel through the cell membrane, letting particular ions pass. Many channels are picky. A potassium channel lets potassium through but mostly blocks sodium, and a sodium channel does the reverse. Ions flow through an open channel "downhill," from where they are crowded to where they are not, without using ATP.</p>
+<p>Some channels, like the potassium leak channels in Section 2.3, are open most of the time. Others are <strong>gated</strong>, meaning they open and close in response to a signal. The most important gated channels in this chapter are <strong>voltage-gated channels</strong>: channels that open or close when the membrane potential changes. Think of them as doors with a motion sensor that responds to voltage instead of movement.</p>
+<p>Two kinds of voltage-gated channels make the action potential.</p>
+<ul>
+<li><strong>Voltage-gated sodium channels</strong> open quickly when the inside of the cell becomes less negative. They also have a second gate, called the <strong>inactivation gate</strong>, that swings shut very soon after the channel opens and stays shut until the membrane returns close to rest. So these channels have three states: closed and ready, open, and inactivated (shut and not ready).</li>
+<li><strong>Voltage-gated potassium channels</strong> also open when the inside becomes less negative, but they open more slowly and stay open a bit longer.</li>
+</ul>
+<p>This table compares the four membrane proteins we have met so far.</p>
+<table>
+<thead>
+<tr>
+<th>Protein</th>
+<th>Opens when...</th>
+<th>What moves</th>
+<th>Job in signaling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Potassium leak channel</td>
+<td>Mostly always open</td>
+<td>K⁺ out</td>
+<td>Sets the negative resting potential</td>
+</tr>
+<tr>
+<td>Voltage-gated Na⁺ channel</td>
+<td>Membrane becomes less negative (fast)</td>
+<td>Na⁺ rushes in</td>
+<td>Drives the rising phase of the spike</td>
+</tr>
+<tr>
+<td>Voltage-gated K⁺ channel</td>
+<td>Membrane becomes less negative (slow)</td>
+<td>K⁺ flows out</td>
+<td>Brings the voltage back down</td>
+</tr>
+<tr>
+<td>Sodium-potassium pump</td>
+<td>Always running, uses ATP</td>
+<td>3 Na⁺ out, 2 K⁺ in</td>
+<td>Keeps the gradients charged over time</td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-we-learned-this-a-squids-giant-axon">How we learned this: a squid's giant axon<a class="headerlink" href="#how-we-learned-this-a-squids-giant-axon" title="Permanent link">¶</a></h3>
+<p>Much of what you just read was worked out by Alan Hodgkin and Andrew Huxley, in a famous series of experiments published in 1952. They used the <strong>squid giant axon</strong>, a nerve fiber that can be up to about 1.5 mm wide (typically about 0.5 mm), wide enough to slide a wire electrode inside it. They also wrote a mathematical description of how sodium and potassium currents create the action potential. Hodgkin and Huxley shared the 1963 Nobel Prize in Physiology or Medicine with John Eccles "for their discoveries concerning the ionic mechanisms involved in excitation and inhibition" in nerve cell membranes. Their approach became the basis for many later computer models of neurons and heart cells.</p>
+<h2 id="25-anatomy-of-a-spike">2.5 Anatomy of a Spike<a class="headerlink" href="#25-anatomy-of-a-spike" title="Permanent link">¶</a></h2>
+<p>An <strong>action potential</strong> is a brief, rapid reversal of the membrane potential, where the inside of the neuron swings from negative to positive and back again in about one to two milliseconds. It is the "flush" from Section 2.2. Neuroscientists often call it a <strong>spike</strong> because of its sharp shape on a graph.</p>
+<p>First, three words for the direction the voltage moves. All three compare the membrane potential to the resting potential.</p>
+<ul>
+<li><strong>Depolarization</strong> means the inside becomes <em>less negative</em> (moving up toward zero or above). "Polarized" means charges are separated; <em>de</em>polarizing means reducing that separation.</li>
+<li><strong>Repolarization</strong> means the voltage is moving back down toward the resting potential after a depolarization.</li>
+<li><strong>Hyperpolarization</strong> means the inside becomes <em>more negative</em> than the resting potential.</li>
+</ul>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Up is 'de,' down past rest is 'hyper'</p>
+<p><img alt="Ply giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png">
+Students often mix these up because depolarization makes the number go up. Remember that "polarized" means the battery is charged, so depolarizing is like draining it toward zero, and hyperpolarizing is like overcharging it.</p>
+</div>
+<h3 id="the-key-step-threshold">The key step: threshold<a class="headerlink" href="#the-key-step-threshold" title="Permanent link">¶</a></h3>
+<p>Small inputs, such as signals from other neurons, nudge the membrane potential by a few millivolts, and most nudges fade away. But if the inside depolarizes enough to reach a critical voltage called the <strong>threshold</strong>, voltage-gated sodium channels begin to open in large numbers. A common textbook value for threshold is about <strong>−55 mV</strong>, roughly 15 mV above rest. (Like the resting potential, the real value differs between neuron types.)</p>
+<p>Threshold is a tipping point because of feedback. When some sodium channels open, Na⁺ rushes in, which depolarizes the membrane further, which opens more sodium channels, which lets in even more Na⁺. This is a <strong>positive feedback loop</strong>, where a change causes more of the same change. Below threshold, the leak of potassium out of the cell wins and the voltage drifts back to rest. Above threshold, the sodium feedback loop wins and a full spike is unstoppable.</p>
+<h3 id="the-five-phases">The five phases<a class="headerlink" href="#the-five-phases" title="Permanent link">¶</a></h3>
+<ol>
+<li><strong>Rest (about −70 mV).</strong> Leak channels and the pump hold the battery steady. Voltage-gated channels are closed.</li>
+<li><strong>Rising phase (depolarization).</strong> A stimulus pushes the membrane to threshold. Voltage-gated Na⁺ channels open and sodium floods in. In less than a millisecond, the inside shoots up past zero to a peak of roughly <strong>+30 to +40 mV</strong>.</li>
+<li><strong>Peak and turnaround.</strong> Sodium channels' inactivation gates swing shut, so sodium stops entering. At about the same time, the slower voltage-gated K⁺ channels finish opening.</li>
+<li><strong>Falling phase (repolarization).</strong> Potassium flows out through the open K⁺ channels, carrying positive charge out, and the voltage drops quickly back toward rest.</li>
+<li><strong>Undershoot (hyperpolarization), then recovery.</strong> The K⁺ channels are slow to close, so for a few milliseconds extra potassium keeps leaving and the inside dips below rest, often to around <strong>−80 mV</strong> or a little lower. As the K⁺ channels close, the membrane settles back to rest.</li>
+</ol>
+<p>This table summarizes the phases side by side.</p>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Approximate voltage</th>
+<th>Na⁺ channels</th>
+<th>K⁺ channels</th>
+<th>Direction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rest</td>
+<td>−70 mV</td>
+<td>Closed, ready</td>
+<td>Closed</td>
+<td>Steady</td>
+</tr>
+<tr>
+<td>Rising</td>
+<td>−55 mV up to +30 to +40 mV</td>
+<td>Open</td>
+<td>Starting to open</td>
+<td>Depolarization</td>
+</tr>
+<tr>
+<td>Falling</td>
+<td>+35 mV down to about −70 mV</td>
+<td>Inactivated</td>
+<td>Open</td>
+<td>Repolarization</td>
+</tr>
+<tr>
+<td>Undershoot</td>
+<td>about −80 mV</td>
+<td>Inactivated, then resetting</td>
+<td>Still open, slowly closing</td>
+<td>Hyperpolarization</td>
+</tr>
+<tr>
+<td>Back to rest</td>
+<td>−70 mV</td>
+<td>Closed, ready</td>
+<td>Closed</td>
+<td>Steady</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition mascot-warning">
+<p class="admonition-title">The pump doesn't make the spike</p>
+<p><img alt="Ply with a warning" class="mascot-admonition-img" src="../../img/mascot/warning.png">
+A common mistake is to say the sodium-potassium pump brings the voltage back down after a spike. It doesn't. Voltage-gated K⁺ channels do the fast repolarizing; the pump works slowly in the background to keep the gradients charged over many spikes.</p>
+</div>
+<h2 id="26-the-all-or-none-principle">2.6 The All-or-None Principle<a class="headerlink" href="#26-the-all-or-none-principle" title="Permanent link">¶</a></h2>
+<p>Because the sodium feedback loop takes over once threshold is reached, every action potential in a given neuron has essentially the same size and shape. This is the <strong>all-or-none principle</strong>: a neuron either fires a full action potential or does not fire at all. There is no such thing as half a spike.</p>
+<p>Think back to the toilet handle. A stimulus that only reaches −60 mV is a gentle press: a small bump that fades. One that reaches −55 mV gives a full spike, and one three times stronger gives the <em>same</em> spike with the same peak.</p>
+<p>But Maya can tell a warm handle from a scorching one. If every spike is the same size, how does her nervous system say "much hotter"? The answer depends on timing, starting with the refractory period.</p>
+<h2 id="27-the-refractory-period-time-to-reset">2.7 The Refractory Period: Time to Reset<a class="headerlink" href="#27-the-refractory-period-time-to-reset" title="Permanent link">¶</a></h2>
+<p>Right after an action potential, a neuron cannot fire again immediately. This recovery window is called the <strong>refractory period</strong>. It has two parts.</p>
+<ul>
+<li><strong>Absolute refractory period.</strong> During and just after the spike, most voltage-gated sodium channels are inactivated. Their inactivation gates are shut, and no stimulus, however strong, can open them. No second action potential is possible. This is the toilet tank that has not refilled yet.</li>
+<li><strong>Relative refractory period.</strong> A little later, many sodium channels have reset, but the membrane is still in its undershoot, and potassium channels are still open. A second action potential is possible, but it takes a <em>stronger than normal</em> stimulus to reach threshold.</li>
+</ul>
+<p>The refractory period has two big consequences.</p>
+<ol>
+<li><strong>It keeps signals moving forward.</strong> As an action potential travels down an axon, the patch of membrane just behind it is refractory, so the signal cannot turn around and travel backward. The fuse cannot re-light the part that has already burned.</li>
+<li><strong>It sets a speed limit on firing.</strong> Because each spike needs a recovery time, a neuron can only fire so many times per second. The OpenStax behavioral neuroscience text notes that without voltage-gated K⁺ channels, a typical neuron would take about two to three times as long to return to rest after a spike, which would greatly limit how often it could fire.</li>
+</ol>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">This is the trickiest part</p>
+<p><img alt="Ply encouraging you" class="mascot-admonition-img" src="../../img/mascot/encouraging.png">
+If refractory periods feel slippery, that's normal. Just link each one to a channel: absolute means "sodium channels are inactivated," and relative means "sodium channels are back, but potassium is still pulling the voltage down." You'll test both in the simulator soon.</p>
+</div>
+<h2 id="28-firing-rate-coding-louder-means-faster-not-bigger">2.8 Firing Rate Coding: Louder Means Faster, Not Bigger<a class="headerlink" href="#28-firing-rate-coding-louder-means-faster-not-bigger" title="Permanent link">¶</a></h2>
+<p>Now we can answer Maya's hot-versus-warm question. Since every spike is the same size, a neuron reports stimulus strength mainly by <strong>how often</strong> it fires. This is called <strong>firing rate coding</strong>: a stronger stimulus produces more action potentials per second, while each individual spike stays the same size.</p>
+<p>Suppose a sensory neuron is pushed by a steady stimulus. After each spike, the membrane drops into the undershoot and then climbs back toward threshold. A weak stimulus makes that climb slow, so spikes are spread out. A strong stimulus makes the climb fast, so the next spike comes sooner. The refractory period sets the upper limit: no matter how strong the stimulus, the next spike can't come before the sodium channels have reset.</p>
+<p>The illustrative numbers below come from this book's simulator model, not a measured neuron, but the pattern (stronger stimulus, more spikes, same height) is what real neurons show.</p>
+<table>
+<thead>
+<tr>
+<th>Steady stimulus (simulator units)</th>
+<th>Spikes per second (simulator)</th>
+<th>Peak of each spike</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>0 (never reaches threshold)</td>
+<td>none</td>
+</tr>
+<tr>
+<td>6</td>
+<td>about 50</td>
+<td>about +35 mV</td>
+</tr>
+<tr>
+<td>8</td>
+<td>about 80</td>
+<td>about +35 mV</td>
+</tr>
+<tr>
+<td>10</td>
+<td>about 110</td>
+<td>about +35 mV</td>
+</tr>
+</tbody>
+</table>
+<p>So when Maya grabs a scorching handle, her heat- and pain-sensing neurons fire faster than they would for a warm one, and her brain reads the higher rate as "much hotter."</p>
+<h2 id="29-traveling-down-the-axon-conduction-velocity-and-myelin">2.9 Traveling Down the Axon: Conduction Velocity and Myelin<a class="headerlink" href="#29-traveling-down-the-axon-conduction-velocity-and-myelin" title="Permanent link">¶</a></h2>
+<p>An action potential's job is to <em>travel</em>, sometimes a long way. Some axons in the sciatic nerve run from the base of the spinal cord all the way to the big toe.</p>
+<p>When one patch of axon fires, positive charge from the incoming sodium spreads a short distance inside the axon and depolarizes the next patch to threshold. That patch fires, and so on, like the burning fuse. Because each patch makes a brand-new spike, the signal arrives as large as it started.</p>
+<p><strong>Conduction velocity</strong> is how fast an action potential travels along an axon, usually measured in meters per second (m/s). Two features of an axon raise it.</p>
+<ul>
+<li><strong>Diameter.</strong> A wider axon has less resistance to current flowing along its inside, so the charge spreads farther and faster. The squid's giant axon, for example, helps control the jet of water the squid uses to move quickly.</li>
+<li><strong>Myelin.</strong> As you learned in Chapter 1, myelin is a fatty wrapping made by glial cells (oligodendrocytes in the brain and spinal cord, Schwann cells in the rest of the body). Myelin insulates the axon so charge does not leak out, and it leaves small gaps called <strong>nodes of Ranvier</strong> where voltage-gated sodium channels are packed.</li>
+</ul>
+<h3 id="saltatory-conduction">Saltatory conduction<a class="headerlink" href="#saltatory-conduction" title="Permanent link">¶</a></h3>
+<p>In a myelinated axon, current spreads quickly under each insulated stretch and triggers a new spike at the next node, so the signal seems to jump from node to node. This is called <strong>saltatory conduction</strong>, from the Latin <em>saltare</em>, "to leap." Unmyelinated axons instead use slower <strong>continuous conduction</strong>, regenerating the spike patch by patch.</p>
+<p>The difference is large. According to the OpenStax behavioral neuroscience text, signals in unmyelinated axons typically travel about 0.5 to 10 m/s, while saltatory conduction can reach up to about 150 m/s. That's fast for biology, but nowhere near the speed of light (roughly 300 million m/s).</p>
+<h3 id="a-quick-calculation">A quick calculation<a class="headerlink" href="#a-quick-calculation" title="Permanent link">¶</a></h3>
+<p>This explains Maya's two pains. Imagine the path from her fingertip to her spinal cord is about 1 meter long (a round number for an adult arm and shoulder, used here only for easy math).</p>
+<ul>
+<li>Sharp pain on A-delta fibers at about 15 m/s: <span class="arithmatex">\( \frac{1\ \text{m}}{15\ \text{m/s}} \approx 0.07\ \text{s} \)</span>, or about 70 milliseconds.</li>
+<li>Burning pain on C fibers at about 1 m/s: <span class="arithmatex">\( \frac{1\ \text{m}}{1\ \text{m/s}} = 1\ \text{s} \)</span>.</li>
+</ul>
+<p>The burning signal arrives roughly a whole second behind the sharp one, which matches the "sting, then burn" that Maya felt.</p>
+<div class="admonition note">
+<p class="admonition-title">Connection to Chapter 1</p>
+<p>In <a href="../01-neurons-and-glia/">multiple sclerosis</a>, the immune system attacks myelin in the brain and spinal cord. Without that insulation, current leaks out between nodes, so action potentials can slow down or fail to reach the next node. That is one reason MS can cause vision problems, numbness or tingling, and muscle weakness.</p>
+</div>
+<h2 id="210-blocking-the-signal-local-anesthetics-and-neurotoxins">2.10 Blocking the Signal: Local Anesthetics and Neurotoxins<a class="headerlink" href="#210-blocking-the-signal-local-anesthetics-and-neurotoxins" title="Permanent link">¶</a></h2>
+<p>Every action potential depends on voltage-gated sodium channels, so blocking them stops the signal. Medicine uses this on purpose; nature uses it as a weapon.</p>
+<h3 id="local-anesthetics">Local anesthetics<a class="headerlink" href="#local-anesthetics" title="Permanent link">¶</a></h3>
+<p>A <strong>local anesthetic</strong> is a drug that blocks nerve signals in one area of the body, causing numbness without making the person unconscious. Lidocaine, the most familiar example, works by binding inside voltage-gated sodium channels and blocking them. If enough sodium channels in a stretch of axon are blocked, that stretch cannot reach threshold, so pain signals from the treated area never get past it to the brain.</p>
+<p>A pharmacology review on local anesthetics in dentistry explains a few practical details (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3403589/">Becker and Reed, 2012</a>):</p>
+<ul>
+<li>Local anesthetics bind more strongly to sodium channels that are open or inactivated than to resting ones, so fast-firing fibers are blocked more easily.</li>
+<li>Thin fibers are blocked more easily than thick ones, because fewer channels need to be blocked to stop the signal.</li>
+<li>Pain fibers are more sensitive than fibers for pressure and body position. A patient may still feel pressure after pain is completely blocked.</li>
+<li>Adding epinephrine, which narrows the small blood vessels near the injection, slows the drug's absorption into the blood and makes the numbness last longer.</li>
+</ul>
+<h3 id="neurotoxins">Neurotoxins<a class="headerlink" href="#neurotoxins" title="Permanent link">¶</a></h3>
+<p>A <strong>neurotoxin</strong> is a poison that harms or disrupts the nervous system. Many neurotoxins target the same channels as medicines do, but without any control over dose or location.</p>
+<p>The best-known sodium-channel neurotoxin is <strong>tetrodotoxin (TTX)</strong>, found in some pufferfish and other animals. TTX blocks voltage-gated sodium channels, so nerves and muscles cannot fire action potentials. After a person eats contaminated or improperly prepared pufferfish, early symptoms can include numbness or tingling around the lips and mouth, followed in severe cases by weakness, paralysis, and failure of the breathing muscles. There is no specific antidote. Treatment is supportive care, such as helping the person breathe with a ventilator until the body clears the toxin. TTX is heat-stable, so cooking the fish does not make it safe.</p>
+<p>Both lidocaine and TTX block sodium channels. The difference is where they go: a dentist places lidocaine in one small area and it wears off in a few hours, while TTX spreads through the body and can reach the nerves that control breathing.</p>
+<h3 id="too-much-potassium-outside-the-cell">Too much potassium outside the cell<a class="headerlink" href="#too-much-potassium-outside-the-cell" title="Permanent link">¶</a></h3>
+<p>Signals can also fail if the "battery" changes. If potassium outside cells rises, less potassium leaks out, and the resting potential moves closer to threshold. At first neurons fire more easily. But if the membrane stays depolarized, more sodium channels become inactivated, and the cell gets <em>harder</em> to fire or cannot fire at all. In the body, a high blood potassium level (normally about 3.7 to 5.2 mEq/L, which is the same as mM for potassium) can become a medical emergency, mainly because it can disturb the heart's rhythm.</p>
+<h2 id="211-try-it-the-action-potential-simulator">2.11 Try It: The Action Potential Simulator<a class="headerlink" href="#211-try-it-the-action-potential-simulator" title="Permanent link">¶</a></h2>
+<p>You now have every idea the simulator uses. It plots <strong>membrane voltage (mV)</strong> on the vertical axis against <strong>time (ms)</strong> on the horizontal axis, like a doctor's or scientist's recording. A side panel shows what fraction of sodium and potassium channels are open, inactivated, closed, or blocked at each moment.</p>
+<h4 id="diagram-action-potential-simulator">Diagram: Action Potential Simulator<a class="headerlink" href="#diagram-action-potential-simulator" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/ch02-action-potential/main.html" height="657px" width="100%" scrolling="no"></iframe>
+
+<p><a class="md-button md-button--primary" href="../../sims/ch02-action-potential/main.html">Open the Action Potential Simulator fullscreen</a></p>
+<details>
+<summary>MicroSim specification: Action Potential Simulator</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> ch02-action-potential<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Implemented<br>
+<strong>Bloom Level:</strong> Apply<br>
+<strong>Bloom Verb:</strong> predict<br>
+<strong>Learning Objective:</strong> The learner will predict whether a stimulus produces an action potential, given its strength, its timing after a previous spike, the outside K⁺ concentration, and whether Na⁺ channels are blocked by lidocaine.</p>
+<p><strong>Canvas:</strong> width-responsive; drawing area plus a five-row control area (iframe height 657 px).</p>
+<p><strong>Controls:</strong> Start/Pause; Stimulate (one 0.5 ms pulse); Stimulate twice (two pulses separated by the gap slider); Reset; Stimulus strength 0 to 10, step 1, default 3 (each unit pushes the membrane up about 2.8 mV); Gap between 2 stimuli 2 to 20 ms, step 1, default 3; Outside K⁺ 2 to 20 mM, step 1, default 4; checkbox "Block Na+ channels (lidocaine)" (blocks 85% of Na⁺ channels in the model); checkbox "Hold stimulus" (a steady stimulus at the chosen strength).</p>
+<p><strong>Behavior:</strong> Simplified teaching model (not the full Hodgkin-Huxley equations). Rest −70 mV at 4 mM K⁺ (Goldman equation). A spike fires when V &gt;= −55 mV and enough Na⁺ channels are ready; peak +35 mV, undershoot about −80 mV.</p>
+<p><strong>Chapter Anchors:</strong> strength 5 gives no spike, 6 fires; at strength 10 a second stimulus fails at a 2 or 3 ms gap and fires at 4 ms or more; strength 8 needs 7 ms or more, strength 6 about 18 ms; hold stimulus 6, 8, 10 gives about 50, 80, 110 spikes/s with the same peak; outside K⁺ 8 mM rests near −61 mV, 10 mM near −58 mV with a peak near +17 mV, 11 mM or more gives no spikes; lidocaine gives no spike even at strength 10.</p>
+</details>
+<p>Press <strong>Stimulate</strong> at the default strength of 3. You'll see a small bump that fades, because the membrane never reaches the dashed threshold line. Raise the strength one step at a time to find the weakest stimulus that fires (in this model, 6), then try 8 and 10. The "Last spike peak" readout stays at +35 mV no matter how hard you push: that's all-or-none. Now check <strong>Hold stimulus</strong> and try 6, 8, and 10. The spikes don't grow, but they come closer together: that's firing rate coding.</p>
+<p>Next, uncheck Hold and use <strong>Stimulate twice</strong>. At strength 10 with a 3 ms gap, the second stimulus fails because the sodium channels are still inactivated (the gray part of the Na⁺ bar). At 4 ms both fire. At strength 6, the second stimulus needs a much longer gap, because the undershoot holds the membrane far below threshold. Then check <strong>Block Na+ channels (lidocaine)</strong> and stimulate at full strength: the bump may cross the threshold line, but too few sodium channels work to start the feedback loop, so no spike appears. Finally, uncheck it and slide <strong>Outside K⁺</strong> to 8, 10, and 12 mM to watch the resting line rise and the spikes shrink, then fail.</p>
+<h2 id="at-the-bedside-a-numb-lip-at-the-dentist">At the Bedside: A Numb Lip at the Dentist<a class="headerlink" href="#at-the-bedside-a-numb-lip-at-the-dentist" title="Permanent link">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Meet the patient</p>
+<p>Maya, 16, is at the dentist to fill a cavity in a lower back tooth. The dentist gives her an injection of lidocaine near the back of her lower jaw. Soon, the left half of her lower lip, her chin on that side, and part of her tongue feel thick and "rubbery." During the filling, she feels pressure and vibration from the drill but no pain. Afterward, she asks: "Did the shot hurt my nerve? And why can I still feel pushing if I can't feel anything else?"</p>
+</div>
+<p><strong>What the doctor checks:</strong> Before starting, the dentist confirms the numbness covers the expected area on that side: the lower teeth, lower lip, chin, and part of the tongue. Maya can still move her lips normally, which shows that the nerves controlling those muscles are working.</p>
+<p><strong>Where is the problem? (localization):</strong> The lower teeth, lower lip, and front part of the tongue on one side all send their sensory signals through branches of the <strong>inferior alveolar nerve</strong> and its neighbors, which belong to the mandibular branch of the <strong>trigeminal nerve</strong> (cranial nerve V). The injection places lidocaine around that nerve as it enters the jaw, blocking signals from everything downstream. Lip movement is controlled by a different cranial nerve, the facial nerve, which was not blocked, so movement is normal.</p>
+<p><strong>Diagnosis:</strong> Expected, temporary sensory nerve block from a local anesthetic (an inferior alveolar nerve block). This is the intended effect, not an injury.</p>
+<p><strong>Why it happens:</strong> Lidocaine binds inside voltage-gated sodium channels in the axons of the nerve. With enough channels blocked, the axon cannot reach threshold, so action potentials from the tooth and lip cannot travel past the injection site to the brain. Pain fibers are thin and are blocked more easily than the thicker fibers that carry pressure, which is why Maya can still feel pushing but not pain.</p>
+<p><strong>Treatment today:</strong> Dentists commonly use lidocaine, often combined with epinephrine to make the numbness last longer. Soft-tissue numbness after a lower-jaw block can last several hours. The main safety advice is practical: watch for accidental lip or cheek biting, including while eating, until feeling returns. This matters most for young children. Feeling comes back on its own as the drug washes away from the nerve.</p>
+<p><strong>What's new in research:</strong> On January 30, 2025, the U.S. FDA approved suzetrigine (brand name Journavx), a non-opioid pill for moderate to severe acute pain in adults. It is the first drug in a new class that targets one specific sodium channel type, NaV1.8, which is important in pain-sensing neurons of the peripheral nervous system. Unlike lidocaine, it is designed to quiet pain signals while leaving most other nerves alone (<a href="https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain">FDA announcement</a>; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12843740/">review in <em>Molecules</em>, PMC12843740</a>).</p>
+<details class="question">
+<summary>Your turn: diagnose a variation</summary>
+<p>A 40-year-old man eats dried pufferfish that a friend brought from overseas. Soon afterward his lips and tongue tingle and go numb, then his arms feel weak, and he starts having trouble breathing. Which channel is affected, and why are his symptoms so much more dangerous than Maya's numb lip?</p>
+<p><strong>Answer:</strong> This pattern suggests tetrodotoxin poisoning. Like lidocaine, TTX blocks voltage-gated sodium channels, so action potentials fail. But instead of being injected into one small spot, the toxin is absorbed into the blood and reaches nerves and muscles throughout the body, including those that control breathing. There is no specific antidote, so emergency care focuses on supporting breathing until the toxin is cleared.</p>
+</details>
+<p><em>This is a fictional teaching case. It is not medical advice. If you or someone you know has symptoms like these, talk to a doctor.</em></p>
+<h2 id="common-misconceptions">Common Misconceptions<a class="headerlink" href="#common-misconceptions" title="Permanent link">¶</a></h2>
+<p><strong>Myth:</strong> A stronger stimulus makes a bigger action potential.<br>
+<strong>Reality:</strong> Action potentials are all-or-none. Once threshold is reached, every spike in a given neuron peaks at about the same voltage. A stronger stimulus makes the neuron fire <em>more often</em> (firing rate coding), not bigger.</p>
+<p><strong>Myth:</strong> Nerve signals travel at the speed of light, like electricity in a wire.<br>
+<strong>Reality:</strong> Action potentials are carried by ions moving through channels, which is much slower. Even the fastest myelinated axons reach only about 150 m/s, and unmyelinated pain fibers can be closer to 1 m/s. Light travels about 300 million m/s.</p>
+<p><strong>Myth:</strong> The sodium-potassium pump is what brings the voltage back down after each spike.<br>
+<strong>Reality:</strong> Voltage-gated potassium channels do the fast repolarization. The pump restores the gradients slowly in the background.</p>
+<p><strong>Myth:</strong> If your lip is numb after a dental shot, the nerve has been damaged.<br>
+<strong>Reality:</strong> A local anesthetic temporarily blocks sodium channels in the nerve. As the drug washes away over a few hours, the channels work again and feeling returns.</p>
+<h2 id="brain-bee-practice">Brain Bee Practice<a class="headerlink" href="#brain-bee-practice" title="Permanent link">¶</a></h2>
+<details class="question">
+<summary>1. What is the approximate resting potential of a typical neuron, and which ion's leak mainly sets it?</summary>
+<p>About −70 mV (inside negative compared with outside). It is set mainly by potassium ions leaking out through open potassium leak channels.</p>
+</details>
+<details class="question">
+<summary>2. Which channels open during the rising phase of an action potential, and which open during the falling phase?</summary>
+<p>Voltage-gated sodium channels open during the rising phase, letting Na⁺ rush in. Voltage-gated potassium channels open during the falling phase, letting K⁺ flow out and repolarize the membrane.</p>
+</details>
+<details class="question">
+<summary>3. Why can't a neuron fire a second action potential during the absolute refractory period?</summary>
+<p>Most voltage-gated sodium channels are inactivated: their inactivation gates are shut and cannot reopen until the membrane returns close to rest. No stimulus, however strong, can trigger a spike.</p>
+</details>
+<details class="question">
+<summary>4. What is saltatory conduction, and why is it faster?</summary>
+<p>It is the jumping of an action potential from one node of Ranvier to the next along a myelinated axon. Myelin insulates the axon so current spreads quickly between nodes, and the spike only has to be regenerated at the nodes.</p>
+</details>
+<details class="question">
+<summary>5. How do lidocaine and tetrodotoxin produce their effects?</summary>
+<p>Both block voltage-gated sodium channels, so axons cannot reach threshold and action potentials fail. Lidocaine is a local anesthetic placed in one area; tetrodotoxin is a neurotoxin that can spread through the body and paralyze breathing muscles.</p>
+</details>
+<h2 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">¶</a></h2>
+<h3 id="remember">Remember<a class="headerlink" href="#remember" title="Permanent link">¶</a></h3>
+<ol>
+<li>Define <em>threshold</em> and give its approximate value in a typical textbook neuron.</li>
+<li>List, in order, the five phases of an action potential described in Section 2.5.</li>
+</ol>
+<details class="note">
+<summary>Answer</summary>
+<ol>
+<li>Threshold is the membrane voltage at which enough voltage-gated sodium channels open to trigger a full action potential, about −55 mV in typical textbook examples.</li>
+<li>Rest, rising phase (depolarization), peak and turnaround, falling phase (repolarization), undershoot (hyperpolarization) and return to rest.</li>
+</ol>
+</details>
+<h3 id="understand">Understand<a class="headerlink" href="#understand" title="Permanent link">¶</a></h3>
+<ol>
+<li>Explain in your own words why the inside of a resting neuron is negative.</li>
+<li>Explain why the refractory period makes action potentials travel in only one direction along an axon.</li>
+</ol>
+<details class="note">
+<summary>Answer</summary>
+<ol>
+<li>Potassium is crowded inside and leaks out through open K⁺ channels, carrying positive charge out. Large negative molecules stay behind, so the inside becomes negative. The sodium-potassium pump keeps the gradients in place.</li>
+<li>The patch of membrane the spike just left is refractory, with its sodium channels inactivated, so it cannot fire again right away. The spreading current can only trigger the patch ahead, which is still ready.</li>
+</ol>
+</details>
+<h3 id="apply">Apply<a class="headerlink" href="#apply" title="Permanent link">¶</a></h3>
+<ol>
+<li>In the simulator, set the strength to 8 and use <strong>Stimulate twice</strong>. Predict the shortest gap that will produce two spikes, then test your prediction. Explain the result using channel states.</li>
+<li>A person's sensory neuron is firing 20 times per second in response to a warm object. If the object becomes much hotter, predict what happens to the size of each spike and to the firing rate, and explain why.</li>
+</ol>
+<h3 id="analyze">Analyze<a class="headerlink" href="#analyze" title="Permanent link">¶</a></h3>
+<ol>
+<li>Compare lidocaine and tetrodotoxin: what they have in common at the molecular level, and why one is used in a dental office while the other is a dangerous poison.</li>
+<li>In the simulator, raising outside K⁺ from 4 to 8 mM makes the neuron <em>easier</em> to fire, but raising it to 12 mM makes it <em>impossible</em> to fire. Break this down step by step using the resting potential and sodium channel inactivation.</li>
+</ol>
+<h3 id="evaluate">Evaluate<a class="headerlink" href="#evaluate" title="Permanent link">¶</a></h3>
+<ol>
+<li>A classmate claims, "Myelin makes the action potential bigger, and that's why it travels faster." Evaluate this claim. What is right, what is wrong, and what is a better explanation?</li>
+<li>The simulator uses a simplified model, not the full Hodgkin-Huxley equations. Judge whether this is a reasonable choice for this textbook: what does it show well, and what might it hide?</li>
+</ol>
+<h3 id="create">Create<a class="headerlink" href="#create" title="Permanent link">¶</a></h3>
+<ol>
+<li>Invent a new analogy (not the battery, flush, or fuse) that explains both the all-or-none principle and the refractory period. Say which part matches which part of the neuron.</li>
+<li>Write a one-paragraph handout for a 12-year-old after a lower-jaw numbing shot, explaining why their lip is numb, how long it may last, and how to stay safe. Base every statement on this chapter.</li>
+</ol>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">¶</a></h2>
+<ul>
+<li>A resting neuron is a charged battery: its membrane potential sits near −70 mV because potassium leaks out and the sodium-potassium pump (3 Na⁺ out, 2 K⁺ in per ATP) keeps the gradients charged.</li>
+<li>Voltage-gated sodium and potassium channels open in sequence to make the action potential: Na⁺ rushes in (depolarization to about +30 to +40 mV), then K⁺ flows out (repolarization), with a brief undershoot (hyperpolarization).</li>
+<li>Threshold (about −55 mV in textbook examples) is a tipping point created by positive feedback, which is why action potentials are all-or-none.</li>
+<li>The refractory period, caused by sodium channel inactivation and the undershoot, keeps signals moving forward and limits how fast a neuron can fire.</li>
+<li>Neurons code stimulus strength mainly as firing rate, not spike size.</li>
+<li>Myelin and wider axons raise conduction velocity; saltatory conduction lets signals leap between nodes of Ranvier at up to about 150 m/s.</li>
+<li>Local anesthetics such as lidocaine and neurotoxins such as tetrodotoxin both block voltage-gated sodium channels, which shows how one molecular target can be a medicine or a poison.</li>
+</ul>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You've mastered the spike!</p>
+<p><img alt="Ply celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png">
+You can now explain how a neuron fires, why it resets, and how a dentist turns pain off. But when a spike reaches the end of an axon, it hits a gap. In Chapter 3, we'll find out how neurons pass the message across that gap at the synapse, which is where my own claim to fame begins!</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../01-neurons-and-glia/references/" class="md-footer__link md-footer__link--prev" aria-label="Previous: References">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                References
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Aaryav Sharma. Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> for non-commercial use. Educational content only; not medical advice.
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

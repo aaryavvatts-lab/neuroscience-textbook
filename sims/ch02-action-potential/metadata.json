@@ -1,0 +1,83 @@
+{
+  "title": "Action Potential Simulator",
+  "description": "Interactive membrane-voltage vs time plot (mV, ms) for a simplified neuron model. Learners deliver single, paired, or held stimuli, block Na+ channels with lidocaine, and change outside K+ to explore threshold, the all-or-none principle, absolute and relative refractory periods, firing rate coding, and depolarization block. A side panel shows Na+ and K+ channel states.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "keywords": [
+    "action potential",
+    "membrane potential",
+    "resting potential",
+    "threshold",
+    "all-or-none principle",
+    "refractory period",
+    "firing rate coding",
+    "voltage-gated sodium channel",
+    "voltage-gated potassium channel",
+    "lidocaine",
+    "local anesthetic",
+    "hyperkalemia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "license": "CC BY-NC-SA 4.0",
+  "rights": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch02-action-potential/",
+  "publisher": "From Neuron to Bedside",
+  "chapter": "02-action-potential",
+  "gradeLevel": ["9", "10", "11", "12"],
+  "educationalLevel": "High School",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "bloomLevel": ["Apply"],
+  "learningObjectives": [
+    "Predict whether a stimulus of a given strength will reach threshold and fire an action potential.",
+    "Explain why every action potential reaches the same peak (all-or-none principle).",
+    "Predict whether a second stimulus will fire during the absolute or relative refractory period.",
+    "Describe how a stronger steady stimulus increases firing rate without increasing spike size.",
+    "Predict the effect of blocking voltage-gated Na+ channels with lidocaine.",
+    "Explain how raising outside K+ shifts the resting potential and can first increase, then abolish, excitability."
+  ],
+  "concepts": [
+    "Membrane Potential",
+    "Resting Potential",
+    "Sodium-Potassium Pump",
+    "Voltage-Gated Channel",
+    "Depolarization",
+    "Repolarization",
+    "Hyperpolarization",
+    "Threshold",
+    "Action Potential",
+    "All-or-None Principle",
+    "Refractory Period",
+    "Firing Rate Coding",
+    "Local Anesthetic"
+  ],
+  "prerequisites": [
+    "Ion and concentration gradient (Chapter 1)",
+    "Cell membrane (Chapter 1)",
+    "Neuron and axon structure (Chapter 1)",
+    "Reading a line graph with labeled axes and units"
+  ],
+  "keyQuestions": [
+    "What is the weakest stimulus that fires a spike, and why does a stronger one not make a bigger spike?",
+    "Why does a second stimulus fail if it comes too soon after the first?",
+    "How does a neuron signal a stronger stimulus if every spike is the same size?",
+    "Why does lidocaine stop action potentials?",
+    "Why does high outside K+ first make a neuron easier to fire and then impossible to fire?"
+  ],
+  "misconceptions": [
+    "A stronger stimulus produces a bigger action potential.",
+    "The sodium-potassium pump causes the falling phase of each spike.",
+    "Crossing the threshold line always produces a spike, even when Na+ channels are blocked.",
+    "A neuron can fire again immediately after a spike if the stimulus is strong enough."
+  ],
+  "simulationModel": "Simplified phenomenological model, not full Hodgkin-Huxley. Subthreshold membrane is a leaky integrator (time constant 5 ms). Resting potential from the Goldman-Hodgkin-Katz voltage equation at 37 C (K+ inside 140 mM, Na+ inside 15 mM, Na+ outside 145 mM, PNa/PK = 0.042). Spike fires at V >= -55 mV when enough Na+ channels are available; fixed-shape spike to +35 mV, repolarization to an undershoot near -80 mV, then recovery as K+ channels close (time constant 4 ms). Na+ inactivation recovers with a 2 ms time constant, producing absolute and relative refractory periods. Lidocaine modeled as blocking 85% of Na+ channels.",
+  "library": "p5.js",
+  "libraryVersion": "1.11.10"
+}

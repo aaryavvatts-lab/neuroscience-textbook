@@ -1,0 +1,4181 @@
+{
+  "metadata": {
+    "title": "From Neuron to Bedside",
+    "description": "A free, open, interactive neuroscience textbook for high school students and future doctors. It covers neurons and signaling, neuroanatomy, the senses, movement, development, memory, sleep, emotion, language, neurological and psychiatric disorders, and how doctors examine the brain, with a clinical case in every chapter.",
+    "creator": "Aaryav Sharma",
+    "date": "2026-10-12",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundational Biology and Chemistry",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CELL": {
+      "classifierName": "Neurons and Glia",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SIG": {
+      "classifierName": "Electrical and Chemical Signaling",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ANAT": {
+      "classifierName": "Neuroanatomy",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SENS": {
+      "classifierName": "Sensory Systems and Pain",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MOTOR": {
+      "classifierName": "Movement and Motor Control",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "DEV": {
+      "classifierName": "Development and Aging",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "COG": {
+      "classifierName": "Learning, Memory, and Cognition",
+      "color": "DarkOrchid",
+      "font": {
+        "color": "white"
+      }
+    },
+    "STATE": {
+      "classifierName": "Sleep, Emotion, and Stress",
+      "color": "LightSkyBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DIS": {
+      "classifierName": "Disorders and Diseases",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CLIN": {
+      "classifierName": "Clinical Exam, Imaging, and Treatment",
+      "color": "HotPink",
+      "font": {
+        "color": "black"
+      }
+    },
+    "RES": {
+      "classifierName": "Research Methods and Careers",
+      "color": "SaddleBrown",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Cell Membrane",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 12351
+    },
+    {
+      "id": 2,
+      "label": "Ion",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1470
+    },
+    {
+      "id": 3,
+      "label": "Protein",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 3155
+    },
+    {
+      "id": 4,
+      "label": "Concentration Gradient",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1238
+    },
+    {
+      "id": 5,
+      "label": "Nervous System",
+      "group": "CELL",
+      "shape": "box",
+      "cis": 17988
+    },
+    {
+      "id": 6,
+      "label": "Central Nervous System",
+      "group": "CELL",
+      "cis": 6938
+    },
+    {
+      "id": 7,
+      "label": "Peripheral Nervous System",
+      "group": "CELL",
+      "cis": 682
+    },
+    {
+      "id": 8,
+      "label": "Neuron",
+      "group": "CELL",
+      "cis": 9730
+    },
+    {
+      "id": 9,
+      "label": "Dendrite",
+      "group": "CELL",
+      "cis": 1512
+    },
+    {
+      "id": 10,
+      "label": "Cell Body (Soma)",
+      "group": "CELL",
+      "cis": 2054
+    },
+    {
+      "id": 11,
+      "label": "Axon",
+      "group": "CELL",
+      "cis": 3674
+    },
+    {
+      "id": 12,
+      "label": "Axon Terminal",
+      "group": "CELL",
+      "cis": 2544
+    },
+    {
+      "id": 13,
+      "label": "Myelin Sheath",
+      "group": "CELL",
+      "cis": 613
+    },
+    {
+      "id": 14,
+      "label": "Node of Ranvier",
+      "group": "CELL",
+      "cis": 3
+    },
+    {
+      "id": 15,
+      "label": "Glial Cell",
+      "group": "CELL",
+      "cis": 363
+    },
+    {
+      "id": 16,
+      "label": "Astrocyte",
+      "group": "CELL",
+      "cis": 21
+    },
+    {
+      "id": 17,
+      "label": "Oligodendrocyte",
+      "group": "CELL",
+      "cis": 92
+    },
+    {
+      "id": 18,
+      "label": "Schwann Cell",
+      "group": "CELL",
+      "cis": 1
+    },
+    {
+      "id": 19,
+      "label": "Microglia",
+      "group": "CELL",
+      "cis": 106
+    },
+    {
+      "id": 20,
+      "label": "Sensory Neuron",
+      "group": "CELL",
+      "cis": 222
+    },
+    {
+      "id": 21,
+      "label": "Motor Neuron",
+      "group": "CELL",
+      "cis": 123
+    },
+    {
+      "id": 22,
+      "label": "Interneuron",
+      "group": "CELL",
+      "cis": 30
+    },
+    {
+      "id": 23,
+      "label": "Blood-Brain Barrier",
+      "group": "CELL",
+      "cis": 17
+    },
+    {
+      "id": 24,
+      "label": "Multiple Sclerosis",
+      "group": "DIS",
+      "cis": 7
+    },
+    {
+      "id": 25,
+      "label": "Membrane Potential",
+      "group": "SIG",
+      "cis": 862
+    },
+    {
+      "id": 26,
+      "label": "Resting Potential",
+      "group": "SIG",
+      "cis": 374
+    },
+    {
+      "id": 27,
+      "label": "Sodium-Potassium Pump",
+      "group": "SIG",
+      "cis": 375
+    },
+    {
+      "id": 28,
+      "label": "Ion Channel",
+      "group": "SIG",
+      "cis": 231
+    },
+    {
+      "id": 29,
+      "label": "Voltage-Gated Channel",
+      "group": "SIG",
+      "cis": 106
+    },
+    {
+      "id": 30,
+      "label": "Depolarization",
+      "group": "SIG",
+      "cis": 240
+    },
+    {
+      "id": 31,
+      "label": "Repolarization",
+      "group": "SIG",
+      "cis": 46
+    },
+    {
+      "id": 32,
+      "label": "Hyperpolarization",
+      "group": "SIG",
+      "cis": 45
+    },
+    {
+      "id": 33,
+      "label": "Threshold",
+      "group": "SIG",
+      "cis": 88
+    },
+    {
+      "id": 34,
+      "label": "Action Potential",
+      "group": "SIG",
+      "cis": 55
+    },
+    {
+      "id": 35,
+      "label": "All-or-None Principle",
+      "group": "SIG",
+      "cis": 3
+    },
+    {
+      "id": 36,
+      "label": "Refractory Period",
+      "group": "SIG",
+      "cis": 3
+    },
+    {
+      "id": 37,
+      "label": "Saltatory Conduction",
+      "group": "SIG",
+      "cis": 2
+    },
+    {
+      "id": 38,
+      "label": "Conduction Velocity",
+      "group": "SIG",
+      "cis": 1
+    },
+    {
+      "id": 39,
+      "label": "Firing Rate Coding",
+      "group": "SIG",
+      "cis": 2
+    },
+    {
+      "id": 40,
+      "label": "Local Anesthetic",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 41,
+      "label": "Neurotoxin",
+      "group": "SIG",
+      "cis": 1
+    },
+    {
+      "id": 42,
+      "label": "Synapse",
+      "group": "SIG",
+      "cis": 1511
+    },
+    {
+      "id": 43,
+      "label": "Chemical Synapse",
+      "group": "SIG",
+      "cis": 166
+    },
+    {
+      "id": 44,
+      "label": "Electrical Synapse",
+      "group": "SIG",
+      "cis": 1
+    },
+    {
+      "id": 45,
+      "label": "Synaptic Vesicle",
+      "group": "SIG",
+      "cis": 167
+    },
+    {
+      "id": 46,
+      "label": "Neurotransmitter",
+      "group": "SIG",
+      "cis": 865
+    },
+    {
+      "id": 47,
+      "label": "Receptor",
+      "group": "SIG",
+      "cis": 355
+    },
+    {
+      "id": 48,
+      "label": "Ionotropic Receptor",
+      "group": "SIG",
+      "cis": 99
+    },
+    {
+      "id": 49,
+      "label": "Metabotropic Receptor",
+      "group": "SIG",
+      "cis": 97
+    },
+    {
+      "id": 50,
+      "label": "Excitatory Postsynaptic Pot.",
+      "group": "SIG",
+      "cis": 50
+    },
+    {
+      "id": 51,
+      "label": "Inhibitory Postsynaptic Pot.",
+      "group": "SIG",
+      "cis": 41
+    },
+    {
+      "id": 52,
+      "label": "Synaptic Integration",
+      "group": "SIG",
+      "cis": 29
+    },
+    {
+      "id": 53,
+      "label": "Reuptake",
+      "group": "SIG",
+      "cis": 16
+    },
+    {
+      "id": 54,
+      "label": "Glutamate",
+      "group": "SIG",
+      "cis": 12
+    },
+    {
+      "id": 55,
+      "label": "GABA",
+      "group": "SIG",
+      "cis": 10
+    },
+    {
+      "id": 56,
+      "label": "Acetylcholine",
+      "group": "SIG",
+      "cis": 26
+    },
+    {
+      "id": 57,
+      "label": "Dopamine",
+      "group": "SIG",
+      "cis": 76
+    },
+    {
+      "id": 58,
+      "label": "Serotonin",
+      "group": "SIG",
+      "cis": 14
+    },
+    {
+      "id": 59,
+      "label": "Norepinephrine",
+      "group": "SIG",
+      "cis": 6
+    },
+    {
+      "id": 60,
+      "label": "Neuromuscular Junction",
+      "group": "SIG",
+      "cis": 21
+    },
+    {
+      "id": 61,
+      "label": "Agonist and Antagonist",
+      "group": "SIG",
+      "cis": 6
+    },
+    {
+      "id": 62,
+      "label": "Myasthenia Gravis",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 63,
+      "label": "Anatomical Directions",
+      "group": "ANAT",
+      "cis": 1634
+    },
+    {
+      "id": 64,
+      "label": "Brain Planes and Sections",
+      "group": "ANAT",
+      "cis": 265
+    },
+    {
+      "id": 65,
+      "label": "Gray Matter",
+      "group": "ANAT",
+      "cis": 2024
+    },
+    {
+      "id": 66,
+      "label": "White Matter",
+      "group": "ANAT",
+      "cis": 423
+    },
+    {
+      "id": 67,
+      "label": "Cerebral Cortex",
+      "group": "ANAT",
+      "cis": 1734
+    },
+    {
+      "id": 68,
+      "label": "Frontal Lobe",
+      "group": "ANAT",
+      "cis": 420
+    },
+    {
+      "id": 69,
+      "label": "Parietal Lobe",
+      "group": "ANAT",
+      "cis": 269
+    },
+    {
+      "id": 70,
+      "label": "Temporal Lobe",
+      "group": "ANAT",
+      "cis": 313
+    },
+    {
+      "id": 71,
+      "label": "Occipital Lobe",
+      "group": "ANAT",
+      "cis": 258
+    },
+    {
+      "id": 72,
+      "label": "Corpus Callosum",
+      "group": "ANAT",
+      "cis": 23
+    },
+    {
+      "id": 73,
+      "label": "Thalamus",
+      "group": "ANAT",
+      "cis": 209
+    },
+    {
+      "id": 74,
+      "label": "Hypothalamus",
+      "group": "ANAT",
+      "cis": 92
+    },
+    {
+      "id": 75,
+      "label": "Brainstem",
+      "group": "ANAT",
+      "cis": 108
+    },
+    {
+      "id": 76,
+      "label": "Cerebellum",
+      "group": "ANAT",
+      "cis": 9
+    },
+    {
+      "id": 77,
+      "label": "Spinal Cord",
+      "group": "ANAT",
+      "cis": 258
+    },
+    {
+      "id": 78,
+      "label": "Cranial Nerves",
+      "group": "ANAT",
+      "cis": 63
+    },
+    {
+      "id": 79,
+      "label": "Ventricles and CSF",
+      "group": "ANAT",
+      "cis": 21
+    },
+    {
+      "id": 80,
+      "label": "Meninges",
+      "group": "ANAT",
+      "cis": 16
+    },
+    {
+      "id": 81,
+      "label": "Cerebral Blood Supply",
+      "group": "ANAT",
+      "cis": 13
+    },
+    {
+      "id": 82,
+      "label": "Autonomic Nervous System",
+      "group": "ANAT",
+      "cis": 14
+    },
+    {
+      "id": 83,
+      "label": "Sympathetic vs Parasympathetic",
+      "group": "ANAT",
+      "cis": 3
+    },
+    {
+      "id": 84,
+      "label": "Localization of Function",
+      "group": "ANAT",
+      "cis": 223
+    },
+    {
+      "id": 85,
+      "label": "Prefrontal Cortex",
+      "group": "ANAT",
+      "cis": 115
+    },
+    {
+      "id": 86,
+      "label": "Sensory Transduction",
+      "group": "SENS",
+      "cis": 141
+    },
+    {
+      "id": 87,
+      "label": "Eye and Retina",
+      "group": "SENS",
+      "cis": 45
+    },
+    {
+      "id": 88,
+      "label": "Photoreceptor",
+      "group": "SENS",
+      "cis": 3
+    },
+    {
+      "id": 89,
+      "label": "Rods and Cones",
+      "group": "SENS",
+      "cis": 2
+    },
+    {
+      "id": 90,
+      "label": "Color Vision",
+      "group": "SENS",
+      "cis": 1
+    },
+    {
+      "id": 91,
+      "label": "Optic Nerve",
+      "group": "SENS",
+      "cis": 25
+    },
+    {
+      "id": 92,
+      "label": "Optic Chiasm",
+      "group": "SENS",
+      "cis": 24
+    },
+    {
+      "id": 93,
+      "label": "Visual Pathway",
+      "group": "SENS",
+      "cis": 20
+    },
+    {
+      "id": 94,
+      "label": "Primary Visual Cortex",
+      "group": "SENS",
+      "cis": 14
+    },
+    {
+      "id": 95,
+      "label": "Receptive Field",
+      "group": "SENS",
+      "cis": 9
+    },
+    {
+      "id": 96,
+      "label": "Visual Field",
+      "group": "SENS",
+      "cis": 3
+    },
+    {
+      "id": 97,
+      "label": "Visual Field Defect",
+      "group": "CLIN",
+      "cis": 2
+    },
+    {
+      "id": 98,
+      "label": "Ventral and Dorsal Streams",
+      "group": "SENS",
+      "cis": 1
+    },
+    {
+      "id": 99,
+      "label": "Pituitary Tumor",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 100,
+      "label": "Cochlea and Hair Cells",
+      "group": "SENS",
+      "cis": 8
+    },
+    {
+      "id": 101,
+      "label": "Auditory Pathway",
+      "group": "SENS",
+      "cis": 7
+    },
+    {
+      "id": 102,
+      "label": "Vestibular System",
+      "group": "SENS",
+      "cis": 3
+    },
+    {
+      "id": 103,
+      "label": "Somatosensory System",
+      "group": "SENS",
+      "cis": 45
+    },
+    {
+      "id": 104,
+      "label": "Mechanoreceptor",
+      "group": "SENS",
+      "cis": 24
+    },
+    {
+      "id": 105,
+      "label": "Dermatome",
+      "group": "SENS",
+      "cis": 3
+    },
+    {
+      "id": 106,
+      "label": "Somatosensory Cortex",
+      "group": "SENS",
+      "cis": 8
+    },
+    {
+      "id": 107,
+      "label": "Homunculus",
+      "group": "SENS",
+      "cis": 2
+    },
+    {
+      "id": 108,
+      "label": "Olfaction",
+      "group": "SENS",
+      "cis": 8
+    },
+    {
+      "id": 109,
+      "label": "Gustation",
+      "group": "SENS",
+      "cis": 1
+    },
+    {
+      "id": 110,
+      "label": "Nociception",
+      "group": "SENS",
+      "cis": 6
+    },
+    {
+      "id": 111,
+      "label": "Pain Pathway",
+      "group": "SENS",
+      "cis": 5
+    },
+    {
+      "id": 112,
+      "label": "Gate Control Theory",
+      "group": "SENS",
+      "cis": 1
+    },
+    {
+      "id": 113,
+      "label": "Phantom Limb Pain",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 114,
+      "label": "Proprioception",
+      "group": "SENS",
+      "cis": 12
+    },
+    {
+      "id": 115,
+      "label": "Skeletal Muscle Contraction",
+      "group": "MOTOR",
+      "cis": 19
+    },
+    {
+      "id": 116,
+      "label": "Motor Unit",
+      "group": "MOTOR",
+      "cis": 18
+    },
+    {
+      "id": 117,
+      "label": "Reflex Arc",
+      "group": "MOTOR",
+      "cis": 28
+    },
+    {
+      "id": 118,
+      "label": "Stretch Reflex",
+      "group": "MOTOR",
+      "cis": 6
+    },
+    {
+      "id": 119,
+      "label": "Primary Motor Cortex",
+      "group": "MOTOR",
+      "cis": 44
+    },
+    {
+      "id": 120,
+      "label": "Corticospinal Tract",
+      "group": "MOTOR",
+      "cis": 12
+    },
+    {
+      "id": 121,
+      "label": "Upper vs Lower Motor Neuron",
+      "group": "MOTOR",
+      "cis": 11
+    },
+    {
+      "id": 122,
+      "label": "Basal Ganglia",
+      "group": "MOTOR",
+      "cis": 25
+    },
+    {
+      "id": 123,
+      "label": "Substantia Nigra",
+      "group": "MOTOR",
+      "cis": 9
+    },
+    {
+      "id": 124,
+      "label": "Direct and Indirect Pathways",
+      "group": "MOTOR",
+      "cis": 5
+    },
+    {
+      "id": 125,
+      "label": "Cerebellar Coordination",
+      "group": "MOTOR",
+      "cis": 5
+    },
+    {
+      "id": 126,
+      "label": "Motor Learning",
+      "group": "MOTOR",
+      "cis": 4
+    },
+    {
+      "id": 127,
+      "label": "Parkinson's Disease",
+      "group": "DIS",
+      "cis": 3
+    },
+    {
+      "id": 128,
+      "label": "Levodopa",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 129,
+      "label": "Deep Brain Stimulation",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 130,
+      "label": "Neural Tube",
+      "group": "DEV",
+      "cis": 144
+    },
+    {
+      "id": 131,
+      "label": "Neurogenesis",
+      "group": "DEV",
+      "cis": 142
+    },
+    {
+      "id": 132,
+      "label": "Neuronal Migration",
+      "group": "DEV",
+      "cis": 139
+    },
+    {
+      "id": 133,
+      "label": "Synaptogenesis",
+      "group": "DEV",
+      "cis": 135
+    },
+    {
+      "id": 134,
+      "label": "Synaptic Pruning",
+      "group": "DEV",
+      "cis": 61
+    },
+    {
+      "id": 135,
+      "label": "Myelination Over Time",
+      "group": "DEV",
+      "cis": 84
+    },
+    {
+      "id": 136,
+      "label": "Critical Period",
+      "group": "DEV",
+      "cis": 3
+    },
+    {
+      "id": 137,
+      "label": "Adolescent Brain",
+      "group": "DEV",
+      "cis": 56
+    },
+    {
+      "id": 138,
+      "label": "Prefrontal Maturation",
+      "group": "DEV",
+      "cis": 27
+    },
+    {
+      "id": 139,
+      "label": "Reward Sensitivity in Teens",
+      "group": "DEV",
+      "cis": 24
+    },
+    {
+      "id": 140,
+      "label": "Teratogen",
+      "group": "DEV",
+      "cis": 2
+    },
+    {
+      "id": 141,
+      "label": "Fetal Alcohol Spectrum",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 142,
+      "label": "Nature and Nurture",
+      "group": "DEV",
+      "cis": 2
+    },
+    {
+      "id": 143,
+      "label": "Learning",
+      "group": "COG",
+      "cis": 274
+    },
+    {
+      "id": 144,
+      "label": "Memory",
+      "group": "COG",
+      "cis": 183
+    },
+    {
+      "id": 145,
+      "label": "Short-Term Memory",
+      "group": "COG",
+      "cis": 90
+    },
+    {
+      "id": 146,
+      "label": "Working Memory",
+      "group": "COG",
+      "cis": 30
+    },
+    {
+      "id": 147,
+      "label": "Long-Term Memory",
+      "group": "COG",
+      "cis": 53
+    },
+    {
+      "id": 148,
+      "label": "Declarative Memory",
+      "group": "COG",
+      "cis": 4
+    },
+    {
+      "id": 149,
+      "label": "Procedural Memory",
+      "group": "COG",
+      "cis": 3
+    },
+    {
+      "id": 150,
+      "label": "Hippocampus",
+      "group": "COG",
+      "cis": 32
+    },
+    {
+      "id": 151,
+      "label": "Memory Consolidation",
+      "group": "COG",
+      "cis": 6
+    },
+    {
+      "id": 152,
+      "label": "Neuroplasticity",
+      "group": "COG",
+      "cis": 69
+    },
+    {
+      "id": 153,
+      "label": "Hebbian Learning",
+      "group": "COG",
+      "cis": 8
+    },
+    {
+      "id": 154,
+      "label": "Long-Term Potentiation",
+      "group": "COG",
+      "cis": 7
+    },
+    {
+      "id": 155,
+      "label": "Habituation and Sensitization",
+      "group": "COG",
+      "cis": 11
+    },
+    {
+      "id": 156,
+      "label": "Aplysia Model",
+      "group": "RES",
+      "cis": 10
+    },
+    {
+      "id": 157,
+      "label": "Amnesia",
+      "group": "DIS",
+      "cis": 3
+    },
+    {
+      "id": 158,
+      "label": "Patient H.M.",
+      "group": "RES",
+      "cis": 2
+    },
+    {
+      "id": 159,
+      "label": "Consciousness",
+      "group": "STATE",
+      "cis": 20
+    },
+    {
+      "id": 160,
+      "label": "Circadian Rhythm",
+      "group": "STATE",
+      "cis": 19
+    },
+    {
+      "id": 161,
+      "label": "Suprachiasmatic Nucleus",
+      "group": "STATE",
+      "cis": 4
+    },
+    {
+      "id": 162,
+      "label": "Melatonin",
+      "group": "STATE",
+      "cis": 3
+    },
+    {
+      "id": 163,
+      "label": "Sleep Stages",
+      "group": "STATE",
+      "cis": 9
+    },
+    {
+      "id": 164,
+      "label": "NREM Sleep",
+      "group": "STATE",
+      "cis": 3
+    },
+    {
+      "id": 165,
+      "label": "REM Sleep",
+      "group": "STATE",
+      "cis": 4
+    },
+    {
+      "id": 166,
+      "label": "Electroencephalogram (EEG)",
+      "group": "CLIN",
+      "cis": 19
+    },
+    {
+      "id": 167,
+      "label": "Brain Waves",
+      "group": "STATE",
+      "cis": 17
+    },
+    {
+      "id": 168,
+      "label": "Sleep and Memory",
+      "group": "STATE",
+      "cis": 2
+    },
+    {
+      "id": 169,
+      "label": "Teen Sleep Needs",
+      "group": "STATE",
+      "cis": 2
+    },
+    {
+      "id": 170,
+      "label": "Sleep Deprivation",
+      "group": "STATE",
+      "cis": 1
+    },
+    {
+      "id": 171,
+      "label": "Narcolepsy",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 172,
+      "label": "Orexin (Hypocretin)",
+      "group": "STATE",
+      "cis": 2
+    },
+    {
+      "id": 173,
+      "label": "Emotion",
+      "group": "STATE",
+      "cis": 28
+    },
+    {
+      "id": 174,
+      "label": "Limbic System",
+      "group": "STATE",
+      "cis": 7
+    },
+    {
+      "id": 175,
+      "label": "Amygdala",
+      "group": "STATE",
+      "cis": 6
+    },
+    {
+      "id": 176,
+      "label": "Fear Conditioning",
+      "group": "STATE",
+      "cis": 2
+    },
+    {
+      "id": 177,
+      "label": "Stress Response",
+      "group": "STATE",
+      "cis": 10
+    },
+    {
+      "id": 178,
+      "label": "HPA Axis",
+      "group": "STATE",
+      "cis": 6
+    },
+    {
+      "id": 179,
+      "label": "Cortisol",
+      "group": "STATE",
+      "cis": 5
+    },
+    {
+      "id": 180,
+      "label": "Fight or Flight",
+      "group": "STATE",
+      "cis": 2
+    },
+    {
+      "id": 181,
+      "label": "Chronic Stress Effects",
+      "group": "STATE",
+      "cis": 4
+    },
+    {
+      "id": 182,
+      "label": "Emotion Regulation",
+      "group": "STATE",
+      "cis": 2
+    },
+    {
+      "id": 183,
+      "label": "Post-Traumatic Stress Disorder",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 184,
+      "label": "Language Areas",
+      "group": "COG",
+      "cis": 29
+    },
+    {
+      "id": 185,
+      "label": "Broca's Area",
+      "group": "COG",
+      "cis": 8
+    },
+    {
+      "id": 186,
+      "label": "Wernicke's Area",
+      "group": "COG",
+      "cis": 6
+    },
+    {
+      "id": 187,
+      "label": "Aphasia",
+      "group": "DIS",
+      "cis": 5
+    },
+    {
+      "id": 188,
+      "label": "Hemispheric Lateralization",
+      "group": "COG",
+      "cis": 14
+    },
+    {
+      "id": 189,
+      "label": "Split-Brain Studies",
+      "group": "RES",
+      "cis": 8
+    },
+    {
+      "id": 190,
+      "label": "Attention",
+      "group": "COG",
+      "cis": 31
+    },
+    {
+      "id": 191,
+      "label": "Executive Function",
+      "group": "COG",
+      "cis": 24
+    },
+    {
+      "id": 192,
+      "label": "Decision-Making",
+      "group": "COG",
+      "cis": 15
+    },
+    {
+      "id": 193,
+      "label": "Reward Prediction Error",
+      "group": "COG",
+      "cis": 8
+    },
+    {
+      "id": 194,
+      "label": "Neglect Syndrome",
+      "group": "DIS",
+      "cis": 5
+    },
+    {
+      "id": 195,
+      "label": "Normal Brain Aging",
+      "group": "DEV",
+      "cis": 39
+    },
+    {
+      "id": 196,
+      "label": "Neurodegeneration",
+      "group": "DIS",
+      "cis": 37
+    },
+    {
+      "id": 197,
+      "label": "Protein Misfolding",
+      "group": "DIS",
+      "cis": 21
+    },
+    {
+      "id": 198,
+      "label": "Dementia",
+      "group": "DIS",
+      "cis": 7
+    },
+    {
+      "id": 199,
+      "label": "Alzheimer's Disease",
+      "group": "DIS",
+      "cis": 5
+    },
+    {
+      "id": 200,
+      "label": "Amyloid Plaque",
+      "group": "DIS",
+      "cis": 9
+    },
+    {
+      "id": 201,
+      "label": "Tau Tangle",
+      "group": "DIS",
+      "cis": 9
+    },
+    {
+      "id": 202,
+      "label": "Anti-Amyloid Antibody",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 203,
+      "label": "Amyotrophic Lateral Sclerosis",
+      "group": "DIS",
+      "cis": 3
+    },
+    {
+      "id": 204,
+      "label": "Huntington's Disease",
+      "group": "DIS",
+      "cis": 2
+    },
+    {
+      "id": 205,
+      "label": "Antisense Oligonucleotide",
+      "group": "CLIN",
+      "cis": 2
+    },
+    {
+      "id": 206,
+      "label": "Gene Therapy",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 207,
+      "label": "Biomarker",
+      "group": "CLIN",
+      "cis": 2
+    },
+    {
+      "id": 208,
+      "label": "Cognitive Reserve",
+      "group": "DEV",
+      "cis": 1
+    },
+    {
+      "id": 209,
+      "label": "Traumatic Brain Injury",
+      "group": "DIS",
+      "cis": 6
+    },
+    {
+      "id": 210,
+      "label": "Concussion",
+      "group": "DIS",
+      "cis": 3
+    },
+    {
+      "id": 211,
+      "label": "Return-to-Learn and Play",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 212,
+      "label": "Chronic Traumatic Enceph.",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 213,
+      "label": "Stroke",
+      "group": "DIS",
+      "cis": 10
+    },
+    {
+      "id": 214,
+      "label": "Ischemic Stroke",
+      "group": "DIS",
+      "cis": 2
+    },
+    {
+      "id": 215,
+      "label": "Hemorrhagic Stroke",
+      "group": "DIS",
+      "cis": 5
+    },
+    {
+      "id": 216,
+      "label": "BE-FAST Warning Signs",
+      "group": "CLIN",
+      "cis": 2
+    },
+    {
+      "id": 217,
+      "label": "Clot-Busting Treatment",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 218,
+      "label": "Seizure",
+      "group": "DIS",
+      "cis": 4
+    },
+    {
+      "id": 219,
+      "label": "Epilepsy",
+      "group": "DIS",
+      "cis": 2
+    },
+    {
+      "id": 220,
+      "label": "Seizure First Aid",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 221,
+      "label": "Spinal Cord Injury",
+      "group": "DIS",
+      "cis": 2
+    },
+    {
+      "id": 222,
+      "label": "Mental Illness",
+      "group": "DIS",
+      "cis": 8
+    },
+    {
+      "id": 223,
+      "label": "Depression",
+      "group": "DIS",
+      "cis": 2
+    },
+    {
+      "id": 224,
+      "label": "Anxiety Disorders",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 225,
+      "label": "Schizophrenia",
+      "group": "DIS",
+      "cis": 2
+    },
+    {
+      "id": 226,
+      "label": "Autism Spectrum Disorder",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 227,
+      "label": "ADHD",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 228,
+      "label": "Psychiatric Medication",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 229,
+      "label": "Reward Pathway",
+      "group": "STATE",
+      "cis": 7
+    },
+    {
+      "id": 230,
+      "label": "Addiction",
+      "group": "DIS",
+      "cis": 6
+    },
+    {
+      "id": 231,
+      "label": "Tolerance and Withdrawal",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 232,
+      "label": "Nicotine and Vaping",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 233,
+      "label": "Opioids",
+      "group": "DIS",
+      "cis": 2
+    },
+    {
+      "id": 234,
+      "label": "Naloxone",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 235,
+      "label": "Stigma and Treatment Access",
+      "group": "DIS",
+      "cis": 1
+    },
+    {
+      "id": 236,
+      "label": "Neurological Exam",
+      "group": "CLIN",
+      "cis": 21
+    },
+    {
+      "id": 237,
+      "label": "Mental Status Exam",
+      "group": "CLIN",
+      "cis": 5
+    },
+    {
+      "id": 238,
+      "label": "Cranial Nerve Exam",
+      "group": "CLIN",
+      "cis": 5
+    },
+    {
+      "id": 239,
+      "label": "Reflex Testing",
+      "group": "CLIN",
+      "cis": 5
+    },
+    {
+      "id": 240,
+      "label": "Lesion Localization",
+      "group": "CLIN",
+      "cis": 4
+    },
+    {
+      "id": 241,
+      "label": "Computed Tomography (CT)",
+      "group": "CLIN",
+      "cis": 4
+    },
+    {
+      "id": 242,
+      "label": "Magnetic Resonance Imaging",
+      "group": "CLIN",
+      "cis": 6
+    },
+    {
+      "id": 243,
+      "label": "Functional MRI",
+      "group": "RES",
+      "cis": 2
+    },
+    {
+      "id": 244,
+      "label": "PET Scan",
+      "group": "CLIN",
+      "cis": 1
+    },
+    {
+      "id": 245,
+      "label": "Lumbar Puncture",
+      "group": "CLIN",
+      "cis": 4
+    },
+    {
+      "id": 246,
+      "label": "Differential Diagnosis",
+      "group": "CLIN",
+      "cis": 3
+    },
+    {
+      "id": 247,
+      "label": "Scientific Method in Neuro",
+      "group": "RES",
+      "cis": 7
+    },
+    {
+      "id": 248,
+      "label": "Animal Models",
+      "group": "RES",
+      "cis": 2
+    },
+    {
+      "id": 249,
+      "label": "Research Ethics",
+      "group": "RES",
+      "cis": 1
+    },
+    {
+      "id": 250,
+      "label": "Correlation vs Causation",
+      "group": "RES",
+      "cis": 1
+    },
+    {
+      "id": 251,
+      "label": "Brain-Computer Interface",
+      "group": "RES",
+      "cis": 1
+    },
+    {
+      "id": 252,
+      "label": "Neuroscience Careers",
+      "group": "RES",
+      "cis": 2
+    },
+    {
+      "id": 253,
+      "label": "Pre-Med Pathway",
+      "group": "RES",
+      "cis": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": 6,
+      "to": 5
+    },
+    {
+      "from": 7,
+      "to": 5
+    },
+    {
+      "from": 8,
+      "to": 1
+    },
+    {
+      "from": 8,
+      "to": 5
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 3
+    },
+    {
+      "from": 11,
+      "to": 8
+    },
+    {
+      "from": 12,
+      "to": 11
+    },
+    {
+      "from": 13,
+      "to": 11
+    },
+    {
+      "from": 13,
+      "to": 1
+    },
+    {
+      "from": 14,
+      "to": 13
+    },
+    {
+      "from": 14,
+      "to": 11
+    },
+    {
+      "from": 15,
+      "to": 5
+    },
+    {
+      "from": 15,
+      "to": 8
+    },
+    {
+      "from": 16,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 13
+    },
+    {
+      "from": 17,
+      "to": 6
+    },
+    {
+      "from": 18,
+      "to": 15
+    },
+    {
+      "from": 18,
+      "to": 13
+    },
+    {
+      "from": 18,
+      "to": 7
+    },
+    {
+      "from": 19,
+      "to": 15
+    },
+    {
+      "from": 19,
+      "to": 6
+    },
+    {
+      "from": 20,
+      "to": 8
+    },
+    {
+      "from": 20,
+      "to": 7
+    },
+    {
+      "from": 21,
+      "to": 8
+    },
+    {
+      "from": 21,
+      "to": 7
+    },
+    {
+      "from": 22,
+      "to": 8
+    },
+    {
+      "from": 22,
+      "to": 6
+    },
+    {
+      "from": 23,
+      "to": 16
+    },
+    {
+      "from": 23,
+      "to": 1
+    },
+    {
+      "from": 23,
+      "to": 6
+    },
+    {
+      "from": 24,
+      "to": 13
+    },
+    {
+      "from": 24,
+      "to": 17
+    },
+    {
+      "from": 24,
+      "to": 6
+    },
+    {
+      "from": 24,
+      "to": 19
+    },
+    {
+      "from": 25,
+      "to": 1
+    },
+    {
+      "from": 25,
+      "to": 2
+    },
+    {
+      "from": 25,
+      "to": 4
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 26,
+      "to": 27
+    },
+    {
+      "from": 27,
+      "to": 3
+    },
+    {
+      "from": 27,
+      "to": 2
+    },
+    {
+      "from": 27,
+      "to": 4
+    },
+    {
+      "from": 27,
+      "to": 1
+    },
+    {
+      "from": 28,
+      "to": 3
+    },
+    {
+      "from": 28,
+      "to": 1
+    },
+    {
+      "from": 28,
+      "to": 2
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 29,
+      "to": 25
+    },
+    {
+      "from": 30,
+      "to": 25
+    },
+    {
+      "from": 30,
+      "to": 26
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 31,
+      "to": 29
+    },
+    {
+      "from": 32,
+      "to": 26
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 33,
+      "to": 30
+    },
+    {
+      "from": 33,
+      "to": 26
+    },
+    {
+      "from": 34,
+      "to": 33
+    },
+    {
+      "from": 34,
+      "to": 29
+    },
+    {
+      "from": 34,
+      "to": 30
+    },
+    {
+      "from": 34,
+      "to": 11
+    },
+    {
+      "from": 35,
+      "to": 34
+    },
+    {
+      "from": 35,
+      "to": 33
+    },
+    {
+      "from": 36,
+      "to": 34
+    },
+    {
+      "from": 36,
+      "to": 29
+    },
+    {
+      "from": 36,
+      "to": 32
+    },
+    {
+      "from": 37,
+      "to": 34
+    },
+    {
+      "from": 37,
+      "to": 13
+    },
+    {
+      "from": 37,
+      "to": 14
+    },
+    {
+      "from": 38,
+      "to": 34
+    },
+    {
+      "from": 38,
+      "to": 37
+    },
+    {
+      "from": 38,
+      "to": 11
+    },
+    {
+      "from": 39,
+      "to": 35
+    },
+    {
+      "from": 39,
+      "to": 36
+    },
+    {
+      "from": 40,
+      "to": 29
+    },
+    {
+      "from": 40,
+      "to": 34
+    },
+    {
+      "from": 40,
+      "to": 20
+    },
+    {
+      "from": 41,
+      "to": 28
+    },
+    {
+      "from": 41,
+      "to": 34
+    },
+    {
+      "from": 41,
+      "to": 3
+    },
+    {
+      "from": 42,
+      "to": 12
+    },
+    {
+      "from": 42,
+      "to": 9
+    },
+    {
+      "from": 42,
+      "to": 8
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 43,
+      "to": 45
+    },
+    {
+      "from": 43,
+      "to": 46
+    },
+    {
+      "from": 44,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 2
+    },
+    {
+      "from": 44,
+      "to": 3
+    },
+    {
+      "from": 45,
+      "to": 46
+    },
+    {
+      "from": 45,
+      "to": 12
+    },
+    {
+      "from": 45,
+      "to": 1
+    },
+    {
+      "from": 46,
+      "to": 42
+    },
+    {
+      "from": 46,
+      "to": 12
+    },
+    {
+      "from": 47,
+      "to": 3
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 47,
+      "to": 1
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 48,
+      "to": 28
+    },
+    {
+      "from": 49,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 3
+    },
+    {
+      "from": 50,
+      "to": 48
+    },
+    {
+      "from": 50,
+      "to": 30
+    },
+    {
+      "from": 50,
+      "to": 43
+    },
+    {
+      "from": 51,
+      "to": 48
+    },
+    {
+      "from": 51,
+      "to": 32
+    },
+    {
+      "from": 51,
+      "to": 43
+    },
+    {
+      "from": 52,
+      "to": 50
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 52,
+      "to": 33
+    },
+    {
+      "from": 52,
+      "to": 10
+    },
+    {
+      "from": 53,
+      "to": 46
+    },
+    {
+      "from": 53,
+      "to": 43
+    },
+    {
+      "from": 53,
+      "to": 3
+    },
+    {
+      "from": 54,
+      "to": 46
+    },
+    {
+      "from": 54,
+      "to": 50
+    },
+    {
+      "from": 55,
+      "to": 46
+    },
+    {
+      "from": 55,
+      "to": 51
+    },
+    {
+      "from": 56,
+      "to": 46
+    },
+    {
+      "from": 56,
+      "to": 43
+    },
+    {
+      "from": 57,
+      "to": 46
+    },
+    {
+      "from": 57,
+      "to": 49
+    },
+    {
+      "from": 58,
+      "to": 46
+    },
+    {
+      "from": 58,
+      "to": 49
+    },
+    {
+      "from": 58,
+      "to": 53
+    },
+    {
+      "from": 59,
+      "to": 46
+    },
+    {
+      "from": 59,
+      "to": 49
+    },
+    {
+      "from": 60,
+      "to": 56
+    },
+    {
+      "from": 60,
+      "to": 21
+    },
+    {
+      "from": 60,
+      "to": 43
+    },
+    {
+      "from": 61,
+      "to": 47
+    },
+    {
+      "from": 61,
+      "to": 46
+    },
+    {
+      "from": 62,
+      "to": 60
+    },
+    {
+      "from": 62,
+      "to": 47
+    },
+    {
+      "from": 62,
+      "to": 61
+    },
+    {
+      "from": 63,
+      "to": 6
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 10
+    },
+    {
+      "from": 65,
+      "to": 6
+    },
+    {
+      "from": 66,
+      "to": 13
+    },
+    {
+      "from": 66,
+      "to": 11
+    },
+    {
+      "from": 66,
+      "to": 6
+    },
+    {
+      "from": 67,
+      "to": 65
+    },
+    {
+      "from": 67,
+      "to": 6
+    },
+    {
+      "from": 68,
+      "to": 67
+    },
+    {
+      "from": 68,
+      "to": 63
+    },
+    {
+      "from": 69,
+      "to": 67
+    },
+    {
+      "from": 69,
+      "to": 63
+    },
+    {
+      "from": 70,
+      "to": 67
+    },
+    {
+      "from": 70,
+      "to": 63
+    },
+    {
+      "from": 71,
+      "to": 67
+    },
+    {
+      "from": 71,
+      "to": 63
+    },
+    {
+      "from": 72,
+      "to": 66
+    },
+    {
+      "from": 72,
+      "to": 67
+    },
+    {
+      "from": 73,
+      "to": 6
+    },
+    {
+      "from": 73,
+      "to": 64
+    },
+    {
+      "from": 73,
+      "to": 67
+    },
+    {
+      "from": 74,
+      "to": 73
+    },
+    {
+      "from": 74,
+      "to": 6
+    },
+    {
+      "from": 75,
+      "to": 6
+    },
+    {
+      "from": 75,
+      "to": 63
+    },
+    {
+      "from": 76,
+      "to": 6
+    },
+    {
+      "from": 76,
+      "to": 75
+    },
+    {
+      "from": 77,
+      "to": 6
+    },
+    {
+      "from": 77,
+      "to": 65
+    },
+    {
+      "from": 77,
+      "to": 66
+    },
+    {
+      "from": 77,
+      "to": 7
+    },
+    {
+      "from": 78,
+      "to": 75
+    },
+    {
+      "from": 78,
+      "to": 7
+    },
+    {
+      "from": 79,
+      "to": 6
+    },
+    {
+      "from": 79,
+      "to": 64
+    },
+    {
+      "from": 80,
+      "to": 6
+    },
+    {
+      "from": 80,
+      "to": 79
+    },
+    {
+      "from": 81,
+      "to": 6
+    },
+    {
+      "from": 81,
+      "to": 23
+    },
+    {
+      "from": 82,
+      "to": 7
+    },
+    {
+      "from": 82,
+      "to": 74
+    },
+    {
+      "from": 82,
+      "to": 77
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 83,
+      "to": 59
+    },
+    {
+      "from": 83,
+      "to": 56
+    },
+    {
+      "from": 84,
+      "to": 68
+    },
+    {
+      "from": 84,
+      "to": 69
+    },
+    {
+      "from": 84,
+      "to": 70
+    },
+    {
+      "from": 84,
+      "to": 71
+    },
+    {
+      "from": 85,
+      "to": 68
+    },
+    {
+      "from": 85,
+      "to": 84
+    },
+    {
+      "from": 86,
+      "to": 20
+    },
+    {
+      "from": 86,
+      "to": 47
+    },
+    {
+      "from": 86,
+      "to": 25
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 87,
+      "to": 8
+    },
+    {
+      "from": 88,
+      "to": 87
+    },
+    {
+      "from": 88,
+      "to": 86
+    },
+    {
+      "from": 89,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 87
+    },
+    {
+      "from": 91,
+      "to": 78
+    },
+    {
+      "from": 91,
+      "to": 11
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 92,
+      "to": 64
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 93,
+      "to": 73
+    },
+    {
+      "from": 93,
+      "to": 71
+    },
+    {
+      "from": 94,
+      "to": 93
+    },
+    {
+      "from": 94,
+      "to": 71
+    },
+    {
+      "from": 95,
+      "to": 87
+    },
+    {
+      "from": 95,
+      "to": 94
+    },
+    {
+      "from": 95,
+      "to": 52
+    },
+    {
+      "from": 96,
+      "to": 93
+    },
+    {
+      "from": 96,
+      "to": 87
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 97,
+      "to": 93
+    },
+    {
+      "from": 97,
+      "to": 92
+    },
+    {
+      "from": 98,
+      "to": 94
+    },
+    {
+      "from": 98,
+      "to": 70
+    },
+    {
+      "from": 98,
+      "to": 69
+    },
+    {
+      "from": 99,
+      "to": 92
+    },
+    {
+      "from": 99,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 74
+    },
+    {
+      "from": 100,
+      "to": 86
+    },
+    {
+      "from": 100,
+      "to": 104
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 101,
+      "to": 73
+    },
+    {
+      "from": 101,
+      "to": 70
+    },
+    {
+      "from": 101,
+      "to": 78
+    },
+    {
+      "from": 102,
+      "to": 104
+    },
+    {
+      "from": 102,
+      "to": 78
+    },
+    {
+      "from": 102,
+      "to": 76
+    },
+    {
+      "from": 103,
+      "to": 86
+    },
+    {
+      "from": 103,
+      "to": 20
+    },
+    {
+      "from": 103,
+      "to": 77
+    },
+    {
+      "from": 104,
+      "to": 86
+    },
+    {
+      "from": 104,
+      "to": 28
+    },
+    {
+      "from": 105,
+      "to": 103
+    },
+    {
+      "from": 105,
+      "to": 77
+    },
+    {
+      "from": 106,
+      "to": 103
+    },
+    {
+      "from": 106,
+      "to": 69
+    },
+    {
+      "from": 106,
+      "to": 73
+    },
+    {
+      "from": 106,
+      "to": 95
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 107,
+      "to": 84
+    },
+    {
+      "from": 108,
+      "to": 86
+    },
+    {
+      "from": 108,
+      "to": 47
+    },
+    {
+      "from": 108,
+      "to": 70
+    },
+    {
+      "from": 109,
+      "to": 86
+    },
+    {
+      "from": 109,
+      "to": 47
+    },
+    {
+      "from": 109,
+      "to": 78
+    },
+    {
+      "from": 110,
+      "to": 86
+    },
+    {
+      "from": 110,
+      "to": 20
+    },
+    {
+      "from": 111,
+      "to": 110
+    },
+    {
+      "from": 111,
+      "to": 77
+    },
+    {
+      "from": 111,
+      "to": 73
+    },
+    {
+      "from": 111,
+      "to": 106
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 112,
+      "to": 22
+    },
+    {
+      "from": 112,
+      "to": 51
+    },
+    {
+      "from": 113,
+      "to": 107
+    },
+    {
+      "from": 113,
+      "to": 111
+    },
+    {
+      "from": 114,
+      "to": 103
+    },
+    {
+      "from": 114,
+      "to": 104
+    },
+    {
+      "from": 115,
+      "to": 60
+    },
+    {
+      "from": 115,
+      "to": 34
+    },
+    {
+      "from": 116,
+      "to": 21
+    },
+    {
+      "from": 116,
+      "to": 115
+    },
+    {
+      "from": 117,
+      "to": 20
+    },
+    {
+      "from": 117,
+      "to": 21
+    },
+    {
+      "from": 117,
+      "to": 22
+    },
+    {
+      "from": 117,
+      "to": 77
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 118,
+      "to": 114
+    },
+    {
+      "from": 118,
+      "to": 116
+    },
+    {
+      "from": 119,
+      "to": 68
+    },
+    {
+      "from": 119,
+      "to": 21
+    },
+    {
+      "from": 119,
+      "to": 84
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 120,
+      "to": 77
+    },
+    {
+      "from": 120,
+      "to": 66
+    },
+    {
+      "from": 121,
+      "to": 120
+    },
+    {
+      "from": 121,
+      "to": 21
+    },
+    {
+      "from": 121,
+      "to": 116
+    },
+    {
+      "from": 122,
+      "to": 65
+    },
+    {
+      "from": 122,
+      "to": 67
+    },
+    {
+      "from": 122,
+      "to": 73
+    },
+    {
+      "from": 123,
+      "to": 122
+    },
+    {
+      "from": 123,
+      "to": 57
+    },
+    {
+      "from": 123,
+      "to": 75
+    },
+    {
+      "from": 124,
+      "to": 122
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 124,
+      "to": 57
+    },
+    {
+      "from": 124,
+      "to": 55
+    },
+    {
+      "from": 125,
+      "to": 76
+    },
+    {
+      "from": 125,
+      "to": 114
+    },
+    {
+      "from": 125,
+      "to": 119
+    },
+    {
+      "from": 126,
+      "to": 125
+    },
+    {
+      "from": 126,
+      "to": 122
+    },
+    {
+      "from": 126,
+      "to": 119
+    },
+    {
+      "from": 127,
+      "to": 123
+    },
+    {
+      "from": 127,
+      "to": 57
+    },
+    {
+      "from": 127,
+      "to": 124
+    },
+    {
+      "from": 128,
+      "to": 127
+    },
+    {
+      "from": 128,
+      "to": 57
+    },
+    {
+      "from": 128,
+      "to": 23
+    },
+    {
+      "from": 129,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 122
+    },
+    {
+      "from": 129,
+      "to": 124
+    },
+    {
+      "from": 130,
+      "to": 6
+    },
+    {
+      "from": 130,
+      "to": 77
+    },
+    {
+      "from": 131,
+      "to": 130
+    },
+    {
+      "from": 131,
+      "to": 8
+    },
+    {
+      "from": 131,
+      "to": 15
+    },
+    {
+      "from": 132,
+      "to": 131
+    },
+    {
+      "from": 132,
+      "to": 67
+    },
+    {
+      "from": 133,
+      "to": 132
+    },
+    {
+      "from": 133,
+      "to": 42
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 134,
+      "to": 19
+    },
+    {
+      "from": 135,
+      "to": 13
+    },
+    {
+      "from": 135,
+      "to": 17
+    },
+    {
+      "from": 135,
+      "to": 66
+    },
+    {
+      "from": 136,
+      "to": 133
+    },
+    {
+      "from": 136,
+      "to": 134
+    },
+    {
+      "from": 136,
+      "to": 94
+    },
+    {
+      "from": 137,
+      "to": 134
+    },
+    {
+      "from": 137,
+      "to": 135
+    },
+    {
+      "from": 138,
+      "to": 137
+    },
+    {
+      "from": 138,
+      "to": 85
+    },
+    {
+      "from": 138,
+      "to": 135
+    },
+    {
+      "from": 139,
+      "to": 137
+    },
+    {
+      "from": 139,
+      "to": 57
+    },
+    {
+      "from": 139,
+      "to": 138
+    },
+    {
+      "from": 140,
+      "to": 131
+    },
+    {
+      "from": 140,
+      "to": 132
+    },
+    {
+      "from": 140,
+      "to": 23
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 141,
+      "to": 130
+    },
+    {
+      "from": 141,
+      "to": 132
+    },
+    {
+      "from": 142,
+      "to": 136
+    },
+    {
+      "from": 142,
+      "to": 137
+    },
+    {
+      "from": 143,
+      "to": 42
+    },
+    {
+      "from": 143,
+      "to": 5
+    },
+    {
+      "from": 144,
+      "to": 143
+    },
+    {
+      "from": 145,
+      "to": 144
+    },
+    {
+      "from": 146,
+      "to": 145
+    },
+    {
+      "from": 146,
+      "to": 85
+    },
+    {
+      "from": 147,
+      "to": 144
+    },
+    {
+      "from": 147,
+      "to": 145
+    },
+    {
+      "from": 148,
+      "to": 147
+    },
+    {
+      "from": 148,
+      "to": 150
+    },
+    {
+      "from": 149,
+      "to": 147
+    },
+    {
+      "from": 149,
+      "to": 126
+    },
+    {
+      "from": 149,
+      "to": 122
+    },
+    {
+      "from": 150,
+      "to": 70
+    },
+    {
+      "from": 150,
+      "to": 144
+    },
+    {
+      "from": 151,
+      "to": 150
+    },
+    {
+      "from": 151,
+      "to": 147
+    },
+    {
+      "from": 151,
+      "to": 145
+    },
+    {
+      "from": 151,
+      "to": 154
+    },
+    {
+      "from": 152,
+      "to": 143
+    },
+    {
+      "from": 152,
+      "to": 42
+    },
+    {
+      "from": 152,
+      "to": 133
+    },
+    {
+      "from": 153,
+      "to": 152
+    },
+    {
+      "from": 153,
+      "to": 50
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 154,
+      "to": 54
+    },
+    {
+      "from": 154,
+      "to": 48
+    },
+    {
+      "from": 155,
+      "to": 143
+    },
+    {
+      "from": 155,
+      "to": 58
+    },
+    {
+      "from": 155,
+      "to": 43
+    },
+    {
+      "from": 156,
+      "to": 155
+    },
+    {
+      "from": 156,
+      "to": 152
+    },
+    {
+      "from": 157,
+      "to": 150
+    },
+    {
+      "from": 157,
+      "to": 148
+    },
+    {
+      "from": 157,
+      "to": 151
+    },
+    {
+      "from": 158,
+      "to": 157
+    },
+    {
+      "from": 158,
+      "to": 150
+    },
+    {
+      "from": 158,
+      "to": 149
+    },
+    {
+      "from": 159,
+      "to": 67
+    },
+    {
+      "from": 159,
+      "to": 73
+    },
+    {
+      "from": 159,
+      "to": 75
+    },
+    {
+      "from": 160,
+      "to": 74
+    },
+    {
+      "from": 161,
+      "to": 160
+    },
+    {
+      "from": 161,
+      "to": 74
+    },
+    {
+      "from": 161,
+      "to": 87
+    },
+    {
+      "from": 162,
+      "to": 161
+    },
+    {
+      "from": 162,
+      "to": 160
+    },
+    {
+      "from": 163,
+      "to": 159
+    },
+    {
+      "from": 163,
+      "to": 160
+    },
+    {
+      "from": 163,
+      "to": 167
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 164,
+      "to": 167
+    },
+    {
+      "from": 165,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 167
+    },
+    {
+      "from": 165,
+      "to": 75
+    },
+    {
+      "from": 166,
+      "to": 67
+    },
+    {
+      "from": 166,
+      "to": 34
+    },
+    {
+      "from": 166,
+      "to": 52
+    },
+    {
+      "from": 167,
+      "to": 166
+    },
+    {
+      "from": 168,
+      "to": 151
+    },
+    {
+      "from": 168,
+      "to": 164
+    },
+    {
+      "from": 168,
+      "to": 165
+    },
+    {
+      "from": 169,
+      "to": 160
+    },
+    {
+      "from": 169,
+      "to": 137
+    },
+    {
+      "from": 169,
+      "to": 162
+    },
+    {
+      "from": 170,
+      "to": 163
+    },
+    {
+      "from": 170,
+      "to": 168
+    },
+    {
+      "from": 170,
+      "to": 169
+    },
+    {
+      "from": 171,
+      "to": 172
+    },
+    {
+      "from": 171,
+      "to": 165
+    },
+    {
+      "from": 172,
+      "to": 74
+    },
+    {
+      "from": 172,
+      "to": 46
+    },
+    {
+      "from": 172,
+      "to": 159
+    },
+    {
+      "from": 173,
+      "to": 74
+    },
+    {
+      "from": 173,
+      "to": 67
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 174,
+      "to": 150
+    },
+    {
+      "from": 174,
+      "to": 74
+    },
+    {
+      "from": 174,
+      "to": 108
+    },
+    {
+      "from": 175,
+      "to": 174
+    },
+    {
+      "from": 175,
+      "to": 70
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 176,
+      "to": 143
+    },
+    {
+      "from": 177,
+      "to": 82
+    },
+    {
+      "from": 177,
+      "to": 74
+    },
+    {
+      "from": 177,
+      "to": 173
+    },
+    {
+      "from": 178,
+      "to": 177
+    },
+    {
+      "from": 178,
+      "to": 74
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 83
+    },
+    {
+      "from": 180,
+      "to": 177
+    },
+    {
+      "from": 180,
+      "to": 59
+    },
+    {
+      "from": 181,
+      "to": 179
+    },
+    {
+      "from": 181,
+      "to": 150
+    },
+    {
+      "from": 181,
+      "to": 152
+    },
+    {
+      "from": 182,
+      "to": 85
+    },
+    {
+      "from": 182,
+      "to": 175
+    },
+    {
+      "from": 182,
+      "to": 173
+    },
+    {
+      "from": 183,
+      "to": 176
+    },
+    {
+      "from": 183,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 182
+    },
+    {
+      "from": 184,
+      "to": 84
+    },
+    {
+      "from": 184,
+      "to": 68
+    },
+    {
+      "from": 184,
+      "to": 70
+    },
+    {
+      "from": 185,
+      "to": 184
+    },
+    {
+      "from": 185,
+      "to": 68
+    },
+    {
+      "from": 186,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 70
+    },
+    {
+      "from": 186,
+      "to": 101
+    },
+    {
+      "from": 187,
+      "to": 185
+    },
+    {
+      "from": 187,
+      "to": 186
+    },
+    {
+      "from": 188,
+      "to": 72
+    },
+    {
+      "from": 188,
+      "to": 184
+    },
+    {
+      "from": 189,
+      "to": 188
+    },
+    {
+      "from": 189,
+      "to": 72
+    },
+    {
+      "from": 190,
+      "to": 85
+    },
+    {
+      "from": 190,
+      "to": 69
+    },
+    {
+      "from": 190,
+      "to": 73
+    },
+    {
+      "from": 191,
+      "to": 85
+    },
+    {
+      "from": 191,
+      "to": 146
+    },
+    {
+      "from": 191,
+      "to": 190
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 192,
+      "to": 57
+    },
+    {
+      "from": 192,
+      "to": 139
+    },
+    {
+      "from": 193,
+      "to": 57
+    },
+    {
+      "from": 193,
+      "to": 192
+    },
+    {
+      "from": 193,
+      "to": 143
+    },
+    {
+      "from": 194,
+      "to": 190
+    },
+    {
+      "from": 194,
+      "to": 69
+    },
+    {
+      "from": 194,
+      "to": 188
+    },
+    {
+      "from": 195,
+      "to": 152
+    },
+    {
+      "from": 195,
+      "to": 147
+    },
+    {
+      "from": 195,
+      "to": 66
+    },
+    {
+      "from": 196,
+      "to": 8
+    },
+    {
+      "from": 196,
+      "to": 195
+    },
+    {
+      "from": 196,
+      "to": 19
+    },
+    {
+      "from": 197,
+      "to": 3
+    },
+    {
+      "from": 197,
+      "to": 196
+    },
+    {
+      "from": 198,
+      "to": 196
+    },
+    {
+      "from": 198,
+      "to": 144
+    },
+    {
+      "from": 198,
+      "to": 191
+    },
+    {
+      "from": 199,
+      "to": 198
+    },
+    {
+      "from": 199,
+      "to": 200
+    },
+    {
+      "from": 199,
+      "to": 201
+    },
+    {
+      "from": 199,
+      "to": 150
+    },
+    {
+      "from": 200,
+      "to": 197
+    },
+    {
+      "from": 201,
+      "to": 197
+    },
+    {
+      "from": 201,
+      "to": 11
+    },
+    {
+      "from": 202,
+      "to": 200
+    },
+    {
+      "from": 202,
+      "to": 199
+    },
+    {
+      "from": 203,
+      "to": 196
+    },
+    {
+      "from": 203,
+      "to": 121
+    },
+    {
+      "from": 203,
+      "to": 16
+    },
+    {
+      "from": 204,
+      "to": 196
+    },
+    {
+      "from": 204,
+      "to": 122
+    },
+    {
+      "from": 204,
+      "to": 197
+    },
+    {
+      "from": 205,
+      "to": 203
+    },
+    {
+      "from": 205,
+      "to": 3
+    },
+    {
+      "from": 206,
+      "to": 196
+    },
+    {
+      "from": 206,
+      "to": 205
+    },
+    {
+      "from": 206,
+      "to": 204
+    },
+    {
+      "from": 207,
+      "to": 199
+    },
+    {
+      "from": 207,
+      "to": 200
+    },
+    {
+      "from": 207,
+      "to": 201
+    },
+    {
+      "from": 208,
+      "to": 195
+    },
+    {
+      "from": 208,
+      "to": 152
+    },
+    {
+      "from": 208,
+      "to": 198
+    },
+    {
+      "from": 209,
+      "to": 67
+    },
+    {
+      "from": 209,
+      "to": 80
+    },
+    {
+      "from": 209,
+      "to": 8
+    },
+    {
+      "from": 210,
+      "to": 209
+    },
+    {
+      "from": 210,
+      "to": 159
+    },
+    {
+      "from": 211,
+      "to": 210
+    },
+    {
+      "from": 212,
+      "to": 210
+    },
+    {
+      "from": 212,
+      "to": 201
+    },
+    {
+      "from": 212,
+      "to": 196
+    },
+    {
+      "from": 213,
+      "to": 81
+    },
+    {
+      "from": 213,
+      "to": 8
+    },
+    {
+      "from": 214,
+      "to": 213
+    },
+    {
+      "from": 215,
+      "to": 213
+    },
+    {
+      "from": 215,
+      "to": 80
+    },
+    {
+      "from": 216,
+      "to": 213
+    },
+    {
+      "from": 216,
+      "to": 84
+    },
+    {
+      "from": 216,
+      "to": 185
+    },
+    {
+      "from": 216,
+      "to": 102
+    },
+    {
+      "from": 217,
+      "to": 214
+    },
+    {
+      "from": 217,
+      "to": 216
+    },
+    {
+      "from": 218,
+      "to": 34
+    },
+    {
+      "from": 218,
+      "to": 54
+    },
+    {
+      "from": 218,
+      "to": 55
+    },
+    {
+      "from": 218,
+      "to": 67
+    },
+    {
+      "from": 219,
+      "to": 218
+    },
+    {
+      "from": 220,
+      "to": 218
+    },
+    {
+      "from": 220,
+      "to": 219
+    },
+    {
+      "from": 221,
+      "to": 77
+    },
+    {
+      "from": 221,
+      "to": 121
+    },
+    {
+      "from": 221,
+      "to": 105
+    },
+    {
+      "from": 221,
+      "to": 209
+    },
+    {
+      "from": 222,
+      "to": 46
+    },
+    {
+      "from": 222,
+      "to": 173
+    },
+    {
+      "from": 223,
+      "to": 222
+    },
+    {
+      "from": 223,
+      "to": 58
+    },
+    {
+      "from": 223,
+      "to": 181
+    },
+    {
+      "from": 224,
+      "to": 222
+    },
+    {
+      "from": 224,
+      "to": 175
+    },
+    {
+      "from": 224,
+      "to": 177
+    },
+    {
+      "from": 224,
+      "to": 180
+    },
+    {
+      "from": 225,
+      "to": 222
+    },
+    {
+      "from": 225,
+      "to": 57
+    },
+    {
+      "from": 225,
+      "to": 138
+    },
+    {
+      "from": 226,
+      "to": 133
+    },
+    {
+      "from": 226,
+      "to": 134
+    },
+    {
+      "from": 226,
+      "to": 222
+    },
+    {
+      "from": 226,
+      "to": 142
+    },
+    {
+      "from": 227,
+      "to": 191
+    },
+    {
+      "from": 227,
+      "to": 190
+    },
+    {
+      "from": 227,
+      "to": 57
+    },
+    {
+      "from": 228,
+      "to": 223
+    },
+    {
+      "from": 228,
+      "to": 53
+    },
+    {
+      "from": 228,
+      "to": 61
+    },
+    {
+      "from": 228,
+      "to": 225
+    },
+    {
+      "from": 229,
+      "to": 57
+    },
+    {
+      "from": 229,
+      "to": 193
+    },
+    {
+      "from": 229,
+      "to": 139
+    },
+    {
+      "from": 230,
+      "to": 229
+    },
+    {
+      "from": 230,
+      "to": 152
+    },
+    {
+      "from": 230,
+      "to": 192
+    },
+    {
+      "from": 231,
+      "to": 230
+    },
+    {
+      "from": 231,
+      "to": 47
+    },
+    {
+      "from": 232,
+      "to": 230
+    },
+    {
+      "from": 232,
+      "to": 56
+    },
+    {
+      "from": 232,
+      "to": 139
+    },
+    {
+      "from": 233,
+      "to": 230
+    },
+    {
+      "from": 233,
+      "to": 111
+    },
+    {
+      "from": 233,
+      "to": 75
+    },
+    {
+      "from": 233,
+      "to": 61
+    },
+    {
+      "from": 234,
+      "to": 233
+    },
+    {
+      "from": 234,
+      "to": 61
+    },
+    {
+      "from": 235,
+      "to": 222
+    },
+    {
+      "from": 235,
+      "to": 230
+    },
+    {
+      "from": 236,
+      "to": 84
+    },
+    {
+      "from": 236,
+      "to": 117
+    },
+    {
+      "from": 236,
+      "to": 78
+    },
+    {
+      "from": 236,
+      "to": 103
+    },
+    {
+      "from": 236,
+      "to": 119
+    },
+    {
+      "from": 237,
+      "to": 236
+    },
+    {
+      "from": 237,
+      "to": 159
+    },
+    {
+      "from": 237,
+      "to": 146
+    },
+    {
+      "from": 238,
+      "to": 236
+    },
+    {
+      "from": 238,
+      "to": 78
+    },
+    {
+      "from": 239,
+      "to": 236
+    },
+    {
+      "from": 239,
+      "to": 118
+    },
+    {
+      "from": 239,
+      "to": 121
+    },
+    {
+      "from": 240,
+      "to": 236
+    },
+    {
+      "from": 240,
+      "to": 237
+    },
+    {
+      "from": 240,
+      "to": 238
+    },
+    {
+      "from": 240,
+      "to": 239
+    },
+    {
+      "from": 240,
+      "to": 187
+    },
+    {
+      "from": 240,
+      "to": 194
+    },
+    {
+      "from": 241,
+      "to": 64
+    },
+    {
+      "from": 241,
+      "to": 215
+    },
+    {
+      "from": 242,
+      "to": 64
+    },
+    {
+      "from": 242,
+      "to": 65
+    },
+    {
+      "from": 242,
+      "to": 66
+    },
+    {
+      "from": 242,
+      "to": 24
+    },
+    {
+      "from": 243,
+      "to": 242
+    },
+    {
+      "from": 243,
+      "to": 81
+    },
+    {
+      "from": 243,
+      "to": 84
+    },
+    {
+      "from": 244,
+      "to": 199
+    },
+    {
+      "from": 244,
+      "to": 196
+    },
+    {
+      "from": 244,
+      "to": 3
+    },
+    {
+      "from": 244,
+      "to": 207
+    },
+    {
+      "from": 245,
+      "to": 79
+    },
+    {
+      "from": 245,
+      "to": 80
+    },
+    {
+      "from": 245,
+      "to": 77
+    },
+    {
+      "from": 246,
+      "to": 240
+    },
+    {
+      "from": 246,
+      "to": 241
+    },
+    {
+      "from": 246,
+      "to": 242
+    },
+    {
+      "from": 246,
+      "to": 245
+    },
+    {
+      "from": 247,
+      "to": 84
+    },
+    {
+      "from": 247,
+      "to": 156
+    },
+    {
+      "from": 247,
+      "to": 189
+    },
+    {
+      "from": 248,
+      "to": 156
+    },
+    {
+      "from": 248,
+      "to": 247
+    },
+    {
+      "from": 249,
+      "to": 248
+    },
+    {
+      "from": 249,
+      "to": 158
+    },
+    {
+      "from": 249,
+      "to": 247
+    },
+    {
+      "from": 250,
+      "to": 247
+    },
+    {
+      "from": 250,
+      "to": 243
+    },
+    {
+      "from": 251,
+      "to": 119
+    },
+    {
+      "from": 251,
+      "to": 166
+    },
+    {
+      "from": 251,
+      "to": 34
+    },
+    {
+      "from": 251,
+      "to": 39
+    },
+    {
+      "from": 251,
+      "to": 221
+    },
+    {
+      "from": 252,
+      "to": 247
+    },
+    {
+      "from": 252,
+      "to": 246
+    },
+    {
+      "from": 253,
+      "to": 252
+    },
+    {
+      "from": 253,
+      "to": 236
+    }
+  ]
+}

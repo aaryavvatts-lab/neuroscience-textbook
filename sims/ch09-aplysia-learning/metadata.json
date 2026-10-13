@@ -1,0 +1,58 @@
+{
+  "title": "Aplysia Habituation and Sensitization",
+  "description": "Simplified, qualitative p5.js model of the Aplysia gill-withdrawal reflex. Learners touch the siphon to produce habituation (a shrinking response from a weakening sensory-to-motor synapse), shock the tail to produce sensitization (serotonin from a facilitating interneuron increases transmitter release), and rest the animal to see partial recovery. A bar chart tracks response amplitude across trials and a meter shows synaptic strength.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch09-aplysia-learning/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "chapter": "09-learning-memory-plasticity",
+  "bloomLevel": [
+    "Understand"
+  ],
+  "learningObjectives": [
+    "Explain how repeated siphon touches weaken the sensory-to-motor synapse and produce habituation of the gill-withdrawal reflex.",
+    "Explain how serotonin released by a facilitating interneuron after a tail shock strengthens the sensory-to-motor synapse and produces sensitization.",
+    "Describe how rest allows partial recovery from short-term habituation."
+  ],
+  "concepts": [
+    "Habituation and Sensitization",
+    "Aplysia Model",
+    "Learning",
+    "Neuroplasticity"
+  ],
+  "prerequisites": [
+    "Sensory and motor neurons (Chapter 1)",
+    "Action potentials (Chapter 2)",
+    "Synapses, neurotransmitters, and EPSPs (Chapter 3)"
+  ],
+  "keyQuestions": [
+    "Why does the same siphon touch produce a smaller response after many repetitions?",
+    "Where in the circuit does the change that causes habituation happen?",
+    "How does a shock to the tail change the response to a touch on the siphon?",
+    "What does rest do to a habituated reflex?"
+  ],
+  "misconceptions": [
+    "Habituation is just muscle fatigue or tired sense organs. In Aplysia, the key change is reduced transmitter release at the sensory-to-motor synapse.",
+    "Sensitization means the siphon touch itself got stronger. The touch is the same; serotonin makes the sensory neuron release more transmitter.",
+    "Learning requires a big brain. A sea slug with a small nervous system shows simple forms of learning."
+  ],
+  "library": "p5.js",
+  "libraryVersion": "1.11.10",
+  "canvasHeight": 530,
+  "iframeHeight": 532,
+  "notes": "Response values are arbitrary units chosen to show the direction of change. The model is short-term only and does not show long-term memory, which in Aplysia requires new protein synthesis and growth of synaptic connections."
+}

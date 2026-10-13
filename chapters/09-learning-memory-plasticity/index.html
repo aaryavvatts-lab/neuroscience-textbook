@@ -1,0 +1,4811 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How experience changes synapses: memory types, the hippocampus, LTP, Aplysia habituation and sensitization, and Patient H.M.">
+      
+      
+        <meta name="author" content="Aaryav Sharma">
+      
+      
+        <link rel="canonical" href="https://aaryavvatts-lab.github.io/neuroscience-textbook/chapters/09-learning-memory-plasticity/">
+      
+      
+        <link rel="prev" href="../08-developing-teenage-brain/references/">
+      
+      
+        <link rel="next" href="quiz/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Chapter 9: Learning, Memory, and Neuroplasticity - From Neuron to Bedside</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style>  <meta property="og:image" content="https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch09-aplysia-learning/ch09-aplysia-learning.png">
+  <meta name="twitter:image" content="https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch09-aplysia-learning/ch09-aplysia-learning.png">
+</head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-9-learning-memory-and-neuroplasticity" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="From Neuron to Bedside" class="md-header__button md-logo" aria-label="From Neuron to Bedside" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            From Neuron to Bedside
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 9: Learning, Memory, and Neuroplasticity
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="pink" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard="" data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="From Neuron to Bedside" class="md-nav__button md-logo" aria-label="From Neuron to Bedside" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    From Neuron to Bedside
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-use/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Use This Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked="">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../01-neurons-and-glia/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Neurons, Glia, and the Nervous System
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Neurons, Glia, and the Nervous System
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-neurons-and-glia/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-neurons-and-glia/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../02-action-potential/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. The Action Potential
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. The Action Potential
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-action-potential/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-action-potential/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../03-synapses-and-neurotransmitters/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Synapses and Neurotransmitters
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Synapses and Neurotransmitters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-synapses-and-neurotransmitters/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-synapses-and-neurotransmitters/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_5">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../04-neuroanatomy/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. A Tour of the Brain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. A Tour of the Brain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-neuroanatomy/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-neuroanatomy/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_6">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../05-vision/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Vision
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    5. Vision
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-vision/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-vision/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../06-hearing-touch-taste-smell-pain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Hearing, Touch, Taste, Smell, and Pain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    6. Hearing, Touch, Taste, Smell, and Pain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-hearing-touch-taste-smell-pain/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-hearing-touch-taste-smell-pain/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_8">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../07-movement/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Movement
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_8" id="__nav_5_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7. Movement
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-movement/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-movement/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_9">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../08-developing-teenage-brain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. The Developing and Teenage Brain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_9" id="__nav_5_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    8. The Developing and Teenage Brain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-developing-teenage-brain/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-developing-teenage-brain/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_10" checked="">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Learning, Memory, and Neuroplasticity
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_5_10" id="__nav_5_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    9. Learning, Memory, and Neuroplasticity
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_11">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../10-sleep-and-brain-states/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Sleep and Brain States
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_11" id="__nav_5_11_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    10. Sleep and Brain States
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-sleep-and-brain-states/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-sleep-and-brain-states/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_12">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../11-emotion-and-stress/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Emotion, Stress, and the Body
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_12" id="__nav_5_12_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    11. Emotion, Stress, and the Body
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-emotion-and-stress/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-emotion-and-stress/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_13">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../12-language-attention-decisions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. Language, Attention, and Decision-Making
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_13" id="__nav_5_13_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    12. Language, Attention, and Decision-Making
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-language-attention-decisions/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-language-attention-decisions/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_14">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../13-aging-and-neurodegeneration/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. The Aging Brain and Neurodegeneration
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_14" id="__nav_5_14_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    13. The Aging Brain and Neurodegeneration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-aging-and-neurodegeneration/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-aging-and-neurodegeneration/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_15">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../14-injury-stroke-epilepsy/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Brain Injury, Stroke, and Epilepsy
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_15" id="__nav_5_15_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    14. Brain Injury, Stroke, and Epilepsy
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-injury-stroke-epilepsy/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-injury-stroke-epilepsy/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_16">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../15-psychiatric-disorders-and-addiction/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15. Psychiatric Disorders and Addiction
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_16" id="__nav_5_16_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    15. Psychiatric Disorders and Addiction
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-psychiatric-disorders-and-addiction/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-psychiatric-disorders-and-addiction/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_17">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../16-how-doctors-examine-the-brain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16. How Doctors Examine the Brain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_17" id="__nav_5_17_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    16. How Doctors Examine the Brain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-how-doctors-examine-the-brain/quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-how-doctors-examine-the-brain/references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Appendices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/brain-bee/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A. Brain Bee Strategy and Mock Exam
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendices/careers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    B. Careers in Neuroscience and Medicine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../sims/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MicroSims
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MicroSims
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch01-neuron-explorer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neuron Explorer
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch02-action-potential/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Action Potential Simulator
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch03-synapse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synapse Simulator
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch04-brain-atlas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clickable Brain Atlas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch05-visual-pathway/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visual Pathway Lesions
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch06-homunculus-dermatomes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Homunculus and Dermatomes
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch07-basal-ganglia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basal Ganglia Gas and Brake
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch08-synaptic-pruning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synaptic Pruning Over a Lifetime
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch09-aplysia-learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplysia Habituation and LTP
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch10-hypnogram/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hypnogram Builder
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch11-hpa-axis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPA Axis Feedback Loop
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch12-aphasia-sorter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aphasia Sorter
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch13-amyloid-tau-cascade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amyloid and Tau Cascade
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch14-stroke-territories/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stroke Territory Map
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch15-reward-tolerance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reward Pathway and Tolerance
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/ch16-neuro-exam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neuro Exam Decision Tree
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--implemented"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../learning-graph/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sims/graph-viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Graph Viewer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/quality-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quality Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/book-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Book Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/chapter-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/glossary-quality-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary Quality Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/faq-quality-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ Quality Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-cite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Cite
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concepts Covered
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#91-mayas-two-week-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 Maya's Two-Week Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#92-intuition-first-paths-through-a-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 Intuition First: Paths Through a Field
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#93-memory-comes-in-stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 Memory Comes in Stages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#94-two-big-families-of-long-term-memory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.4 Two Big Families of Long-Term Memory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#95-the-hippocampus-memorys-librarian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.5 The Hippocampus: Memory's Librarian
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#96-amnesia-and-the-lessons-of-patient-hm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.6 Amnesia and the Lessons of Patient H.M.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#97-neuroplasticity-the-brain-that-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.7 Neuroplasticity: The Brain That Changes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#98-hebbian-learning-firing-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.8 Hebbian Learning: Firing Together
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#99-long-term-potentiation-hebbs-idea-in-a-real-brain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.9 Long-Term Potentiation: Hebb's Idea in a Real Brain
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9.9 Long-Term Potentiation: Hebb's Idea in a Real Brain">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-ltp-works-a-lock-that-needs-two-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How LTP works: a lock that needs two keys
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#910-the-aplysia-model-learning-in-a-sea-slug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.10 The Aplysia Model: Learning in a Sea Slug
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9.10 The Aplysia Model: Learning in a Sea Slug">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#two-simple-kinds-of-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Two simple kinds of learning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Two simple kinds of learning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-aplysia-habituation-and-sensitization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagram: Aplysia Habituation and Sensitization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-short-term-to-long-term-memory-in-a-slug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        From short-term to long-term memory in a slug
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#911-back-to-maya-why-spacing-beats-cramming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.11 Back to Maya: Why Spacing Beats Cramming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#at-the-bedside-patient-hm-and-anterograde-amnesia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        At the Bedside: Patient H.M. and Anterograde Amnesia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-misconceptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Misconceptions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brain-bee-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brain Bee Practice
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercises
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remember" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remember
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Understand
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyze" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyze
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    9. Learning, Memory, and Neuroplasticity
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook/blob/main/docs/chapters/09-learning-memory-plasticity/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="chapter-9-learning-memory-and-neuroplasticity">Chapter 9: Learning, Memory, and Neuroplasticity<a class="headerlink" href="#chapter-9-learning-memory-and-neuroplasticity" title="Permanent link">¶</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h2>
+<p>Every time you learn something, your brain physically changes. This chapter explains what memory is, how short-term, working, and long-term memory differ, and why the hippocampus is needed to form new memories of facts and events but not new skills. You will see how synapses grow stronger through Hebbian learning and long-term potentiation, and how Eric Kandel used the sea slug <em>Aplysia</em> to watch learning happen at a single synapse. The chapter ends with Patient H.M., the man whose surgery in 1953 taught science that memory is not one thing.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">¶</a></h2>
+<ol>
+<li>Learning</li>
+<li>Memory</li>
+<li>Short-Term Memory</li>
+<li>Working Memory</li>
+<li>Long-Term Memory</li>
+<li>Declarative Memory</li>
+<li>Procedural Memory</li>
+<li>Hippocampus</li>
+<li>Memory Consolidation</li>
+<li>Neuroplasticity</li>
+<li>Hebbian Learning</li>
+<li>Long-Term Potentiation</li>
+<li>Habituation and Sensitization</li>
+<li>Aplysia Model</li>
+<li>Amnesia</li>
+<li>Patient H.M.</li>
+</ol>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="../01-neurons-and-glia/">Chapter 1: Neurons, Glia, and the Nervous System</a></li>
+<li><a href="../02-action-potential/">Chapter 2: The Action Potential</a></li>
+<li><a href="../03-synapses-and-neurotransmitters/">Chapter 3: Synapses and Neurotransmitters</a></li>
+<li><a href="../04-neuroanatomy/">Chapter 4: A Tour of the Brain: Neuroanatomy</a></li>
+</ul>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Welcome to my favorite chapter</p>
+<p><img alt="Ply waving hello" class="mascot-admonition-img" src="../../img/mascot/welcome.png">
+This is the chapter where my family gets famous! Scientists used sea slugs like me to discover how a memory is stored at a synapse. By the end, you'll know why your brain is never quite the same after you learn something, and you'll have better ways to study for your next test.</p>
+</div>
+<h2 id="91-mayas-two-week-problem">9.1 Maya's Two-Week Problem<a class="headerlink" href="#91-mayas-two-week-problem" title="Permanent link">¶</a></h2>
+<p>Maya's Brain Bee competition is two weeks away. She has a thick stack of flashcards on neuroanatomy, and soccer practice takes up most of her afternoons. Her plan is simple: relax for twelve days, then cram everything into the last two nights. Her older cousin, a nursing student, shakes her head. "Do twenty minutes a day instead," she says. "Same total time. You'll remember way more."</p>
+<p>Maya isn't convinced. The total hours are the same, so why would the schedule matter?</p>
+<p>Her cousin is right, and the reasons go all the way down to the synapse. In the 1880s, Hermann Ebbinghaus memorized lists of nonsense syllables and tested himself after different delays. He found that forgetting is fast at first and then slows down, a pattern now called the <strong>forgetting curve</strong>. A 2015 study repeated his experiment and got similar results (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4492928/">Murre &amp; Dros, 2015</a>).</p>
+<p>Ebbinghaus also noticed that spreading repetitions out in time works better than bunching them together. A large 2006 review pooled 839 tests of this idea from 317 experiments and confirmed the <strong>spacing effect</strong>: spaced study usually beats cramming for long-term recall (<a href="https://digitalcommons.usf.edu/psy_facpub/1771/">Cepeda et al., 2006</a>).</p>
+<p>By the end of this chapter, you'll be able to explain <em>why</em> spacing works, using what happens inside neurons. First, though, we need to pin down what learning and memory are.</p>
+<h2 id="92-intuition-first-paths-through-a-field">9.2 Intuition First: Paths Through a Field<a class="headerlink" href="#92-intuition-first-paths-through-a-field" title="Permanent link">¶</a></h2>
+<p>Imagine a grassy field between your school and a bus stop. The first person who walks across leaves almost no mark. But if people keep taking the same route, the grass gets trampled, and a path appears. Soon the path is the easiest way across, and people follow it without thinking. If everyone stops using it, the grass slowly grows back.</p>
+<p>Your brain works in a similar way. Your neurons are linked by an enormous number of synapses. When a pattern of activity runs through the same connections again and again, those connections change so the pattern is easier to repeat. That's the core idea of this whole chapter.</p>
+<p>Now for the scientific words.</p>
+<ul>
+<li><strong>Learning</strong> is the process by which experience changes the nervous system, and therefore changes later behavior. It includes studying vocabulary, getting used to a noisy room, and practicing a soccer move.</li>
+<li><strong>Memory</strong> is the information that learning leaves behind, along with the brain's ability to store it and get it back later. Learning is the <em>walking</em>; memory is the <em>path</em>.</li>
+</ul>
+<p>Memory has three basic steps. First, <strong>encoding</strong> turns an experience into a pattern of neural activity. Second, <strong>storage</strong> keeps that information over time. Third, <strong>retrieval</strong> brings it back when you need it. A failure at any step feels like "forgetting," but the cause can be very different.</p>
+<h2 id="93-memory-comes-in-stages">9.3 Memory Comes in Stages<a class="headerlink" href="#93-memory-comes-in-stages" title="Permanent link">¶</a></h2>
+<p>Not all memories last the same amount of time. Psychologists and neuroscientists sort them by how long they last.</p>
+<p><strong>Short-term memory</strong> holds a small amount of information for seconds to a few minutes. When a friend tells you a phone code and you repeat it until you type it in, you are using short-term memory. If you get distracted, it's usually gone.</p>
+<p><strong>Working memory</strong> is a special kind of short-term memory that you actively <em>use</em>, not just hold. Think of it as the brain's mental whiteboard. When Maya does a math problem in her head, she keeps the numbers on the whiteboard, works with them, and erases them when she's done. Working memory depends on networks in the cerebral cortex, including the frontal and parietal lobes (<a href="https://openstax.org/books/introduction-behavioral-neuroscience/pages/18-1-memory-is-classified-based-on-time-course-and-type-of-information-stored">OpenStax, Section 18.1</a>). What sets it apart is that information is thrown away once it's no longer needed. You don't need to remember where you parked last Tuesday, only where you parked today.</p>
+<p><strong>Long-term memory</strong> stores information for hours, days, or a lifetime. Your first day of high school, the rules of soccer, and how to ride a bike are all long-term memories.</p>
+<p>How does a fragile short-term memory become a lasting long-term one? Through <strong>memory consolidation</strong>: the gradual process that turns new, easily disrupted memories into stable, long-lasting ones. Consolidation takes time. Right after learning, a memory can be weakened or lost. As consolidation goes on, the memory becomes much harder to disrupt. Emotion matters too. Stress hormones released right after an event can strengthen consolidation, which is one reason emotional moments are often remembered vividly (OpenStax, Section 18.1).</p>
+<p>The flowchart below shows how information moves through these stages. Every term in it has already been defined above.</p>
+<pre class="mermaid"><code>flowchart LR
+    A["Experience&lt;br/&gt;(sights, sounds, practice)"] --&gt; B["Short-term memory&lt;br/&gt;seconds to minutes"]
+    B --&gt; C["Working memory&lt;br/&gt;hold and use"]
+    C --&gt;|"not needed: discarded"| X["Forgotten"]
+    B --&gt;|"consolidation&lt;br/&gt;(takes time)"| D["Long-term memory&lt;br/&gt;hours to a lifetime"]
+    D --&gt;|"retrieval"| C</code></pre>
+<p>Notice the arrow from long-term memory back to working memory. When you remember something, you pull it out of storage and into your mental whiteboard so you can use it.</p>
+<h2 id="94-two-big-families-of-long-term-memory">9.4 Two Big Families of Long-Term Memory<a class="headerlink" href="#94-two-big-families-of-long-term-memory" title="Permanent link">¶</a></h2>
+<p>Long-term memory is not one single system. It splits into two big families that depend on different brain regions.</p>
+<p><strong>Declarative memory</strong> is memory you can consciously bring to mind and <em>declare</em>, or put into words. It answers "what" questions. It has two types:</p>
+<ul>
+<li><strong>Episodic memory</strong> holds personal events tied to a time and place, like Maya's last birthday party.</li>
+<li><strong>Semantic memory</strong> holds facts and general knowledge, like "the hippocampus is in the temporal lobe."</li>
+</ul>
+<p><strong>Procedural memory</strong> is memory for skills and habits. It answers "how" questions: how to dribble a ball, type on a keyboard, or tie your shoes. It builds up slowly with practice, and it's hard to explain in words. Try describing exactly how you keep your balance on a bike. You can do it, but you can't easily <em>say</em> it.</p>
+<p>The table below summarizes the two families you just met.</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Declarative memory</th>
+<th>Procedural memory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Question it answers</td>
+<td>"What?" (facts and events)</td>
+<td>"How?" (skills and habits)</td>
+</tr>
+<tr>
+<td>Can you put it into words?</td>
+<td>Yes</td>
+<td>Not easily</td>
+</tr>
+<tr>
+<td>How it's learned</td>
+<td>Can form after a single experience</td>
+<td>Usually needs repeated practice</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Remembering that dopamine is a neurotransmitter</td>
+<td>Getting faster at a video game</td>
+</tr>
+<tr>
+<td>Key brain regions</td>
+<td>Hippocampus and nearby medial temporal lobe, plus cortex for long-term storage</td>
+<td>Basal ganglia and cerebellum, among others</td>
+</tr>
+</tbody>
+</table>
+<p>The brain-region row comes from decades of patient and animal studies, summarized in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/">Squire (2009)</a>. You'll see where that evidence came from in Section 9.6.</p>
+<h2 id="95-the-hippocampus-memorys-librarian">9.5 The Hippocampus: Memory's Librarian<a class="headerlink" href="#95-the-hippocampus-memorys-librarian" title="Permanent link">¶</a></h2>
+<p>The <strong>hippocampus</strong> is a curved structure tucked inside the medial (inner) part of each temporal lobe. You have two, one on each side of the brain. Its name comes from the Greek word for "seahorse," because of its curled shape. It was one of the deep structures on the brain tour in <a href="../04-neuroanatomy/">Chapter 4</a>.</p>
+<p>The hippocampus is essential for <em>forming</em> new declarative memories. Think of it as a librarian who receives a new book (an experience), catalogs it, and links it to related books on shelves all over the library (the cortex). Over months and years, those links in the cortex become strong enough to stand on their own. That's why damage to the hippocampus mostly harms <em>new</em> memories while many old memories survive. This slow handoff from the hippocampus to the cortex is one form of memory consolidation.</p>
+<p>The hippocampus also helps with spatial memory, meaning memory for places and routes. A famous study used MRI to compare licensed London taxi drivers, who must learn the city's tangled streets, with people who didn't drive taxis. The back (posterior) part of the hippocampus was larger in the taxi drivers, and its size was related to how long they had been driving (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC18253/">Maguire et al., 2000</a>). At the same time, a front part of the hippocampus was <em>smaller</em> in the drivers. The study suggests that adult brains can change their structure in response to what we ask them to do. Because it compares groups at one point in time, though, it can't prove by itself that driving <em>caused</em> the change.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">The hippocampus is not a hard drive</p>
+<p><img alt="Ply with a warning sign" class="mascot-admonition-img" src="../../img/mascot/warning.png">
+A common mistake is saying "memories are stored in the hippocampus." The hippocampus is needed to <em>form</em> new memories of facts and events, but long-term declarative memories end up spread across the cortex. Skills rely mostly on other regions, like the basal ganglia and cerebellum.</p>
+</div>
+<h2 id="96-amnesia-and-the-lessons-of-patient-hm">9.6 Amnesia and the Lessons of Patient H.M.<a class="headerlink" href="#96-amnesia-and-the-lessons-of-patient-hm" title="Permanent link">¶</a></h2>
+<p><strong>Amnesia</strong> is a serious loss of memory caused by brain injury, disease, or (rarely) psychological trauma. Doctors describe two main kinds, based on time:</p>
+<ul>
+<li><strong>Anterograde amnesia</strong> is trouble forming <em>new</em> memories after the injury. ("Antero" means forward.)</li>
+<li><strong>Retrograde amnesia</strong> is loss of memories from <em>before</em> the injury. ("Retro" means backward.)</li>
+</ul>
+<p>Many people with amnesia have some of both. Unlike in movies, a person with amnesia usually still knows who they are and can hold a conversation.</p>
+<p>The most famous case of amnesia in history is <strong>Patient H.M.</strong>, whose real name, Henry Molaison, was made public after he died in 2008. In 1953, at age 27, Henry had severe epilepsy that high doses of medication could not control. His seizures made it impossible for him to work. A neurosurgeon named William Scoville, in Hartford, Connecticut, removed the medial part of the temporal lobe on <em>both</em> sides of his brain. This is called a bilateral medial temporal lobe resection. By the surgeon's description, it included much of the hippocampus, the amygdala, and nearby cortex (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/">Squire, 2009</a>).</p>
+<p>The operation helped control his seizures, but it left him with severe anterograde amnesia. The psychologist <strong>Brenda Milner</strong> traveled from Montreal to test him. She and Scoville published the results in 1957 (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC497229/">Scoville &amp; Milner, 1957</a>). H.M. was studied by Milner, her student Suzanne Corkin, and many others for about five decades. What they found reshaped neuroscience:</p>
+<ol>
+<li><strong>Memory is its own brain function.</strong> H.M.'s intelligence, personality, language, and perception seemed largely intact. Before his case, many scientists thought memory was spread evenly through the cortex and mixed in with other abilities. H.M. showed that forming new memories depends on specific structures.</li>
+<li><strong>Short-term memory is separate from long-term memory.</strong> H.M. could repeat back a string of six or seven digits, a normal score. He could keep a number in mind for a while by rehearsing it over and over. But once his attention moved to something else, the information was gone (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/">Squire, 2009</a>).</li>
+<li><strong>Old memories can survive.</strong> H.M. recognized famous people who were in the news before his surgery much better than those who became famous after it. Some memories from the years just before surgery were lost, so he also had some retrograde amnesia.</li>
+<li><strong>Procedural memory is separate from declarative memory.</strong> This was the most surprising finding. Milner asked H.M. to trace a star while seeing his hand and the paper only in a mirror. That is hard for anyone at first, because the mirror flips every movement. Over three days of practice, H.M. got steadily better, just like healthy people do. Yet each day he had no memory of ever doing the task before (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2649674/">Squire, 2009</a>).</li>
+</ol>
+<p>That mirror-drawing result showed that a person can learn a skill without remembering the learning. The brain has more than one memory system.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">One man, two memory systems</p>
+<p><img alt="Ply thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png">
+H.M. got better and better at mirror drawing but couldn't remember practicing it. His procedural memory worked while his declarative memory for new events did not. That's strong evidence that the brain uses separate systems for "knowing that" and "knowing how."</p>
+</div>
+<p>One more point keeps the story accurate. Because H.M.'s surgery removed several structures, his case alone could not show that the hippocampus <em>by itself</em> is the key. Later studies of patients and animals with smaller lesions showed that the hippocampus and the cortex around it form a medial temporal lobe memory system. Damage limited to the hippocampus causes real but milder memory loss than H.M. had (Squire, 2009). You'll see H.M. again at the bedside at the end of this chapter.</p>
+<h2 id="97-neuroplasticity-the-brain-that-changes">9.7 Neuroplasticity: The Brain That Changes<a class="headerlink" href="#97-neuroplasticity-the-brain-that-changes" title="Permanent link">¶</a></h2>
+<p>So far, we've talked about <em>where</em> memories form. Now we ask <em>how</em>. The answer is neuroplasticity.</p>
+<p><strong>Neuroplasticity</strong> (or just "plasticity") is the nervous system's ability to change its structure and function in response to experience. "Plastic" here means moldable, like clay, not the material water bottles are made of. Plasticity happens at several levels:</p>
+<ul>
+<li><strong>Synapses</strong> can become stronger or weaker.</li>
+<li><strong>Neurons</strong> can grow new branches and new synapses, or lose old ones.</li>
+<li><strong>Brain regions</strong> can change size or take on new jobs, as in the taxi-driver study.</li>
+</ul>
+<p>Plasticity is strongest early in life (you read about synaptic pruning in <a href="../08-developing-teenage-brain/">Chapter 8</a>), but it continues throughout adulthood. Every new memory is a small act of plasticity.</p>
+<h2 id="98-hebbian-learning-firing-together">9.8 Hebbian Learning: Firing Together<a class="headerlink" href="#98-hebbian-learning-firing-together" title="Permanent link">¶</a></h2>
+<p>In 1949, the psychologist Donald Hebb proposed an idea in his book <em>The Organization of Behavior</em>. If neuron A repeatedly helps make neuron B fire, he suggested, the connection from A to B should grow stronger. This rule is called <strong>Hebbian learning</strong>. It's often summed up as "neurons that fire together, wire together." That catchy phrase came later from other scientists, not from Hebb himself, but it captures his idea.</p>
+<p>In the field analogy, each time two connected neurons are active together, the path between them gets a little more worn in. Hebbian learning explains how memories can link things together. If you always hear a song during summer road trips, the neurons that represent the song and the neurons that represent the trips are active at the same time. Their connections strengthen. Later, the song alone can bring back the memories of the trips.</p>
+<p>Hebb's rule was a smart guess. For about 25 years, nobody had direct proof that real synapses behave this way.</p>
+<h2 id="99-long-term-potentiation-hebbs-idea-in-a-real-brain">9.9 Long-Term Potentiation: Hebb's Idea in a Real Brain<a class="headerlink" href="#99-long-term-potentiation-hebbs-idea-in-a-real-brain" title="Permanent link">¶</a></h2>
+<p>In 1973, Timothy Bliss and Terje Lømo reported the evidence. Working with anesthetized rabbits, they stimulated a bundle of axons, called the perforant path, that carries signals into a part of the hippocampus called the dentate gyrus. Then they gave a burst of high-frequency stimulation. Afterward, the same single test pulse produced a bigger response in the dentate gyrus than before. In most of their animals, the boost lasted from 30 minutes to 10 hours (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1350458/">Bliss &amp; Lømo, 1973</a>). Later experiments showed that it can last for weeks.</p>
+<p>This lasting boost in synaptic strength after intense activity is called <strong>long-term potentiation (LTP)</strong>. "Potentiation" just means "made stronger." The opposite process, a long-lasting <em>weakening</em> of a synapse, is called <strong>long-term depression (LTD)</strong>. Both are needed: a brain that could only strengthen synapses would eventually fill up and lose flexibility (OpenStax, <a href="https://openstax.org/books/introduction-behavioral-neuroscience/pages/18-4-synaptic-mechanisms-of-long-term-memory">Section 18.4</a>).</p>
+<h3 id="how-ltp-works-a-lock-that-needs-two-keys">How LTP works: a lock that needs two keys<a class="headerlink" href="#how-ltp-works-a-lock-that-needs-two-keys" title="Permanent link">¶</a></h3>
+<p>To understand LTP, recall from <a href="../03-synapses-and-neurotransmitters/">Chapter 3</a> that <strong>glutamate</strong> is the brain's main excitatory neurotransmitter. At many synapses in the hippocampus, glutamate acts on two kinds of receptors on the receiving (postsynaptic) neuron:</p>
+<ul>
+<li><strong>AMPA receptors</strong> are channels that open when glutamate binds. They let in sodium ions and depolarize (excite) the cell. They do most of the everyday signaling.</li>
+<li><strong>NMDA receptors</strong> are channels that also bind glutamate, but at resting voltage their pore is plugged by a magnesium ion. The plug only pops out when the cell is <em>already</em> strongly depolarized. When NMDA receptors do open, they let in calcium ions as well as sodium.</li>
+</ul>
+<p>That means an NMDA receptor is like a lock that needs two keys at the same time: glutamate from the sending neuron <em>and</em> strong depolarization of the receiving neuron. Scientists call this a <strong>coincidence detector</strong>. It's Hebb's rule built out of a protein: the synapse is strengthened only when the sending neuron fires <em>and</em> the receiving neuron is strongly active at the same time.</p>
+<p>Here is the sequence, step by step:</p>
+<ol>
+<li>A strong burst of activity releases lots of glutamate.</li>
+<li>Many AMPA receptors open, and the postsynaptic neuron depolarizes strongly.</li>
+<li>The depolarization pops the magnesium plug out of the NMDA receptors.</li>
+<li>Calcium flows in through the NMDA receptors.</li>
+<li>Calcium switches on enzymes, including one called CaMKII. These enzymes make existing AMPA receptors work better and add new AMPA receptors to the membrane.</li>
+<li>With more and better AMPA receptors, the same amount of glutamate now produces a bigger response. The synapse has been potentiated.</li>
+</ol>
+<p>This first stage is called <strong>early LTP</strong>. It lasts a few hours and uses proteins already present in the synapse. A longer-lasting stage, <strong>late LTP</strong>, needs the neuron to make <em>new</em> proteins, and it can involve growing new synaptic connections, such as new dendritic spines (OpenStax, Section 18.4). Hold on to that idea. You'll see it again in the sea slug.</p>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">This part is dense, and that's okay</p>
+<p><img alt="Ply encouraging you" class="mascot-admonition-img" src="../../img/mascot/encouraging.png">
+If the NMDA receptor feels confusing, just remember the two-key lock: glutamate <em>and</em> a strongly excited receiving cell. Everything else in LTP follows from that one clever trick.</p>
+</div>
+<p>Does LTP really underlie memory? The evidence is strong but still being tested. In rats, drugs that block NMDA receptors interfere with some kinds of learning, and the strength of hippocampal synapses rises as rats explore a new place. Most neuroscientists think changes in synaptic strength like LTP and LTD are a central mechanism of memory, but the full link is still an active research question (OpenStax, Section 18.4).</p>
+<h2 id="910-the-aplysia-model-learning-in-a-sea-slug">9.10 The Aplysia Model: Learning in a Sea Slug<a class="headerlink" href="#910-the-aplysia-model-learning-in-a-sea-slug" title="Permanent link">¶</a></h2>
+<p>The human brain has billions of neurons, far too many to track the change behind a single memory. The neuroscientist <strong>Eric Kandel</strong> decided to study learning in a much simpler animal: the sea slug <em>Aplysia</em>. According to the Nobel committee, <em>Aplysia</em> has only around 20,000 nerve cells, many of them unusually large and easy to record from (<a href="https://www.nobelprize.org/prizes/medicine/2000/press-release/">Nobel Prize press release, 2000</a>). (Some textbooks give a lower estimate, about 10,000.) Using a simple animal to discover rules that also apply to humans is called the <strong>Aplysia model</strong>, and it's a classic example of how basic research works.</p>
+<p><em>Aplysia</em> breathes through a delicate <strong>gill</strong>. Behind the gill is a fleshy spout called the <strong>siphon</strong>. If you gently touch the siphon, the slug quickly pulls its gill in for protection. This is the <strong>gill-withdrawal reflex</strong>. The circuit behind it is small enough to map neuron by neuron:</p>
+<ul>
+<li>A <strong>sensory neuron</strong> in the siphon detects the touch.</li>
+<li>It connects directly to a <strong>motor neuron</strong> that makes the gill muscle contract.</li>
+<li>A shock to the tail activates other sensory neurons, which drive <strong>facilitating interneurons</strong>. The most important of these release the neurotransmitter <strong>serotonin</strong> (5-HT) onto the terminal of the siphon sensory neuron (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3514210/">Kandel, 2012</a>).</li>
+</ul>
+<h3 id="two-simple-kinds-of-learning">Two simple kinds of learning<a class="headerlink" href="#two-simple-kinds-of-learning" title="Permanent link">¶</a></h3>
+<p>With this reflex, Kandel's team studied two of the simplest forms of learning. Neither one links two different things together; both simply change how strongly an animal responds. Together they are called <strong>habituation and sensitization</strong>.</p>
+<p><strong>Habituation</strong> is a decrease in response to a harmless stimulus that is repeated over and over. You do this all the time. When you first sit near a loud air conditioner, you notice it. After a while, you stop hearing it. When the siphon is touched again and again, the slug's gill withdrawal gets smaller and smaller. Kandel's group showed that the cause is not a tired muscle or a worn-out sense organ. Instead, the siphon sensory neuron releases <em>less neurotransmitter</em> onto the motor neuron with each touch. The synapse itself weakens (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3514210/">Kandel, 2012</a>). After a rest, a habituated response gradually comes back.</p>
+<p><strong>Sensitization</strong> is an <em>increase</em> in response to many stimuli after a strong or unpleasant one. After a scary movie, you might jump at the smallest creak in the house. In <em>Aplysia</em>, a shock to the tail makes the gill pull in harder when the siphon is touched later, even though the siphon touch hasn't changed. It works like this. The tail shock activates the facilitating interneurons, which release serotonin onto the siphon sensory neuron's terminal. Serotonin triggers a chain of chemical signals inside that terminal, using a messenger called cAMP and an enzyme called protein kinase A. The result is that the sensory neuron releases <em>more</em> transmitter with each action potential, so the motor neuron gets a bigger signal (Kandel, 2012). When sensitization restores a response that had been habituated, it's called <strong>dishabituation</strong>.</p>
+<p>Notice that the same synapse can be weakened by one kind of experience and strengthened by another. The synapse is where the learning lives.</p>
+<h4 id="diagram-aplysia-habituation-and-sensitization">Diagram: Aplysia Habituation and Sensitization<a class="headerlink" href="#diagram-aplysia-habituation-and-sensitization" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/ch09-aplysia-learning/main.html" height="532px" width="100%" scrolling="no"></iframe>
+
+<p><a class="md-button md-button--primary" href="../../sims/ch09-aplysia-learning/main.html">Open the Aplysia Habituation and Sensitization MicroSim fullscreen</a></p>
+<details>
+<summary>MicroSim specification: Aplysia Habituation and Sensitization</summary>
+<p><strong>sim-id:</strong> ch09-aplysia-learning<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Implemented<br>
+<strong>Bloom Level:</strong> Understand<br>
+<strong>Bloom Verb:</strong> explain<br>
+<strong>Learning Objective:</strong> The learner will explain how repeated siphon touches and a tail shock change the strength of the sensory-to-motor synapse, producing habituation or sensitization of the gill-withdrawal reflex.</p>
+<p><strong>Canvas:</strong> responsive width; 480 px drawing area plus 50 px control area.</p>
+<p><strong>Controls:</strong> buttons for Touch siphon, Shock tail, Rest, and Reset.</p>
+<p><strong>Behavior:</strong> Each siphon touch records a response bar equal to 100 times the current synaptic strength (arbitrary units) and then depresses the synapse (habituation). A tail shock raises a serotonin facilitation factor and partly restores a depressed synapse, so later touches give larger, orange bars (sensitization and dishabituation). Rest recovers half of the remaining habituation and removes half of the remaining facilitation. The side view shows the gill pulling in by an amount that matches the response. The circuit panel shows the siphon sensory neuron, motor neuron, tail sensory neuron, and serotonin interneuron, with a synaptic-strength meter. Labeled as a simplified, qualitative model.</p>
+</details>
+<p>Try this in the sim. Touch the siphon six or seven times and watch the bars shrink while the synapse-strength meter falls below 1.0. That's habituation. Now shock the tail and touch again. The next bar jumps up and turns orange, because serotonin has boosted transmitter release from the sensory neuron. Press <strong>Rest</strong>, test again, and see the partial recovery.</p>
+<p>Then press <strong>Reset</strong> and shock the tail <em>before</em> any touches. The first response is bigger than the baseline of 100. In each case, ask yourself: did the siphon touch change, or did the synapse change? The numbers are arbitrary and show direction only.</p>
+<h3 id="from-short-term-to-long-term-memory-in-a-slug">From short-term to long-term memory in a slug<a class="headerlink" href="#from-short-term-to-long-term-memory-in-a-slug" title="Permanent link">¶</a></h3>
+<p>Kandel's team found that <em>Aplysia</em> has both short-term and long-term memory, just like we do.</p>
+<ul>
+<li>A <strong>single</strong> tail shock produces sensitization that lasts minutes. This short-term memory uses chemical changes to proteins that are already in the synapse.</li>
+<li><strong>Repeated, spaced</strong> shocks produce sensitization that lasts days to weeks. This long-term memory needs the neuron to switch on genes and build <em>new proteins</em>. If protein synthesis is blocked, the long-term change fails, but the short-term change still works (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3514210/">Kandel, 2012</a>; <a href="https://www.nobelprize.org/prizes/medicine/2000/press-release/">Nobel press release, 2000</a>).</li>
+</ul>
+<p>Long-term memory also changes the <em>structure</em> of the synapse. After long-term habituation, sensory neurons had about 35 percent fewer connections onto their target cells than in untrained animals. After long-term sensitization, the number of sensory-neuron terminals more than doubled (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3514210/">Kandel, 2012</a>). Learning literally rewires the circuit.</p>
+<p>This should sound familiar. Short-term memory in the slug works like early LTP (modify existing proteins). Long-term memory in the slug works like late LTP (make new proteins, grow new connections). The same basic rules show up in sea slugs and in the mammalian hippocampus.</p>
+<p>For this work, Eric Kandel shared the <strong>2000 Nobel Prize in Physiology or Medicine</strong> with Arvid Carlsson and Paul Greengard "for their discoveries concerning signal transduction in the nervous system." The Nobel committee credited Kandel with showing how the strength of synapses can be changed and which molecules are involved, using the sea slug's nervous system (<a href="https://www.nobelprize.org/prizes/medicine/2000/press-release/">Nobel Prize press release, 2000</a>). Kandel's Nobel lecture was titled "The Molecular Biology of Memory Storage: A Dialog between Genes and Synapses" (<a href="https://www.nobelprize.org/prizes/medicine/2000/kandel/lecture/">Nobel lecture page</a>).</p>
+<h2 id="911-back-to-maya-why-spacing-beats-cramming">9.11 Back to Maya: Why Spacing Beats Cramming<a class="headerlink" href="#911-back-to-maya-why-spacing-beats-cramming" title="Permanent link">¶</a></h2>
+<p>Now we can answer Maya's question. Remember the key finding from the sea slug: a single training session produces a short-term change, but <strong>repeated, spaced</strong> sessions switch on new protein synthesis and the growth of new connections. The same holds for many animals. A 2016 review found that spaced training produces stronger long-term memory than massed (crammed) training in <em>Aplysia</em>, fruit flies, bees, rodents, and monkeys, as well as people (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5126970/">Smolen, Zhang &amp; Byrne, 2016</a>). Researchers are still working out exactly why, but one idea is that the molecular steps that build long-term memory need time between sessions to finish and reset.</p>
+<p>Cramming feels effective because the information is fresh the next morning, but much of it slides down the steep early part of the forgetting curve. Spaced study gives your synapses repeated chances to consolidate. Here's Maya's new plan:</p>
+<table>
+<thead>
+<tr>
+<th>Study habit</th>
+<th>What it does in the brain</th>
+<th>Maya's version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Space it out</td>
+<td>Gives consolidation time between sessions</td>
+<td>20 minutes of flashcards every day for two weeks</td>
+</tr>
+<tr>
+<td>Test yourself</td>
+<td>Practices retrieval, which improves later recall more than re-reading (<a href="https://profiles.wustl.edu/en/publications/test-enhanced-learning-taking-memory-tests-improves-long-term-ret/">Roediger &amp; Karpicke, 2006</a>)</td>
+<td>Says answers out loud before flipping the card</td>
+</tr>
+<tr>
+<td>Mix in meaning</td>
+<td>Links new facts to existing memories (Hebbian connections)</td>
+<td>Connects "hippocampus" to H.M.'s story instead of just the word</td>
+</tr>
+<tr>
+<td>Practice skills often</td>
+<td>Builds procedural memory through repetition</td>
+<td>Uses short daily sessions to label brain diagrams</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Study like a sea slug</p>
+<p><img alt="Ply giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png">
+Five short sessions spread over a week usually beat one five-hour marathon. Spacing gives your synapses time to build the new proteins that long-term memory needs.</p>
+</div>
+<h2 id="at-the-bedside-patient-hm-and-anterograde-amnesia">At the Bedside: Patient H.M. and Anterograde Amnesia<a class="headerlink" href="#at-the-bedside-patient-hm-and-anterograde-amnesia" title="Permanent link">¶</a></h2>
+<p>This bedside case is different from the others in this book. It describes a real, well-documented historical patient. The clinical reasoning below is written for teaching. It shows how the case would be understood with today's knowledge.</p>
+<div class="admonition note">
+<p class="admonition-title">Meet the patient</p>
+<p>In 1953, Henry Molaison is 27 years old and lives in Connecticut. He has had seizures since childhood, and they have become so frequent and severe that he can't hold a job, even on high doses of anti-seizure medicine. After an experimental operation on both sides of his brain, his seizures are much better controlled. But his family and the hospital staff notice something alarming. He doesn't recognize hospital staff he has seen many times. He apologizes for forgetting the names of people he was introduced to minutes ago, and he forgets each day's events almost as fast as they happen. Yet he can chat normally, his personality seems unchanged, and he does well on intelligence tests.</p>
+</div>
+<p><strong>What the doctor checks:</strong> A neurologist or neuropsychologist would test several kinds of memory separately. A digit-span test (repeating back a list of numbers) checks short-term memory; H.M. did normally. Delayed recall, such as remembering a short story or a list of words after 20 minutes of distraction, checks the formation of new declarative memories; H.M. failed. Questions about public events and famous faces from different decades check older memories. Skill-learning tasks like mirror drawing check procedural memory; H.M. improved normally. Today, an MRI scan would show exactly which structures were missing. Doctors evaluating memory loss also commonly use cognitive testing, blood tests, and brain imaging to look for causes (<a href="https://medlineplus.gov/ency/article/003257.htm">MedlinePlus</a>).</p>
+<p><strong>Where is the problem? (localization):</strong> The pattern points to a specific system. Attention, language, and short-term memory work, so the cortex as a whole is functioning. Skill learning works, so the basal ganglia and cerebellum are fine. Older memories are mostly present, so long-term storage in the cortex is largely intact. What's broken is the step that turns new experiences into lasting declarative memories. That step depends on the hippocampus and the surrounding medial temporal lobe on <em>both</em> sides. The surgery removed exactly that region.</p>
+<p><strong>Diagnosis:</strong> Severe anterograde amnesia, with some retrograde amnesia for the years just before the operation, caused by bilateral medial temporal lobe resection.</p>
+<p><strong>Why it happens:</strong> Without the hippocampus and nearby cortex on both sides, new information can stay in short-term or working memory but can't be consolidated into long-term declarative memory. Because procedural memory relies on different circuits, H.M. could still learn new motor skills without remembering that he had practiced them.</p>
+<p><strong>Treatment today:</strong> There is no treatment that can regrow a removed hippocampus. Care for memory loss depends on the cause, and support focuses on daily life: written reminders for important tasks, familiar objects and photos, and help from family and caregivers (<a href="https://medlineplus.gov/ency/article/003257.htm">MedlinePlus</a>).</p>
+<p>H.M.'s case showed how much memory can be lost when the medial temporal lobes are removed on both sides, and epilepsy surgery is planned very differently today. According to the National Institute of Neurological Disorders and Stroke (NINDS), surgery is usually considered only after at least two seizure medicines have failed, surgeons try to avoid brain areas needed for memory, speech, and movement, and less invasive options now include laser ablation and implanted responsive-stimulation devices (<a href="https://www.ninds.nih.gov/health-information/disorders/epilepsy-and-seizures">NINDS: Epilepsy and Seizures</a>).</p>
+<p><strong>What's new in research:</strong> After Henry Molaison died on December 2, 2008, his brain was preserved and sliced into thin sections for study. In 2014, a team led by Jacopo Annese published a detailed 3D digital reconstruction built from 2,401 images collected during a 53-hour sectioning procedure. They found that a sizable piece of the back part of his hippocampus had actually survived the operation, while most of the entorhinal cortex, which feeds information into the hippocampus, had been removed. They also found a small lesion in the left orbitofrontal cortex and changes in the white matter (<a href="https://www.nature.com/articles/ncomms4122">Annese et al., 2014</a>). These details help scientists interpret five decades of testing.</p>
+<details class="question">
+<summary>Your turn: diagnose a variation</summary>
+<p>A 60-year-old woman has a stroke that damages her cerebellum. Months later, she can tell you what she had for breakfast and describe the details of her hospital stay. But in physical therapy, she improves much more slowly than expected at a new balance exercise, even after weeks of practice. Which memory system is most affected, and how is she the "opposite" of H.M.?</p>
+<p><strong>Answer:</strong> Her declarative memory (remembering events and facts) works, so her hippocampus is doing its job. Her trouble is learning a new motor skill, which is procedural memory. The cerebellum is one of the structures important for procedural learning. She is roughly the reverse of H.M., who could learn skills but couldn't remember new events. Comparing patients like this is how neuroscientists show that two brain systems are truly separate.</p>
+</details>
+<p><em>H.M. was a real, historical patient whose case is documented in the published scientific literature; the "Your turn" variation is a fictional teaching case. This is not medical advice. If you or someone you know has symptoms like these, talk to a doctor.</em></p>
+<h2 id="common-misconceptions">Common Misconceptions<a class="headerlink" href="#common-misconceptions" title="Permanent link">¶</a></h2>
+<p><strong>Myth:</strong> Memory works like a video recording that plays back exactly what happened.<br>
+<strong>Reality:</strong> Remembering is an active rebuilding process. Each time you recall a memory, it can be changed and then stored again, a process called reconsolidation (OpenStax, <a href="https://openstax.org/books/introduction-behavioral-neuroscience/pages/18-1-memory-is-classified-based-on-time-course-and-type-of-information-stored">Section 18.1</a>). That's why two people can honestly remember the same event differently, and why confident memories can still be wrong.</p>
+<p><strong>Myth:</strong> Everyone has a learning style (visual, auditory, or kinesthetic), and you learn best when teaching matches your style.<br>
+<strong>Reality:</strong> People do have preferences, but a major 2008 review found virtually no evidence that matching teaching to a person's "style" improves learning (<a href="https://digitalcommons.usf.edu/psy_facpub/1765/">Pashler et al., 2008</a>). Strategies like spacing and self-testing help nearly everyone.</p>
+<p><strong>Myth:</strong> Cramming works just as well as spacing if the total study time is the same.<br>
+<strong>Reality:</strong> Cramming can get you through tomorrow's quiz, but spaced practice leads to much better long-term memory. The spacing effect holds across hundreds of experiments (<a href="https://digitalcommons.usf.edu/psy_facpub/1771/">Cepeda et al., 2006</a>).</p>
+<p><strong>Myth:</strong> The adult brain is fixed, and only children's brains can change.<br>
+<strong>Reality:</strong> Plasticity is strongest early in life, but it continues in adults. Every new long-term memory changes synapses, and adult brain structure can differ with experience, as in London taxi drivers (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC18253/">Maguire et al., 2000</a>).</p>
+<p><strong>Myth:</strong> H.M. couldn't learn anything after his surgery.<br>
+<strong>Reality:</strong> H.M. could not form new declarative memories, but he learned new motor skills such as mirror drawing at a normal rate. He just couldn't remember the practice sessions.</p>
+<h2 id="brain-bee-practice">Brain Bee Practice<a class="headerlink" href="#brain-bee-practice" title="Permanent link">¶</a></h2>
+<details class="question">
+<summary>1. What is the difference between anterograde and retrograde amnesia?</summary>
+<p>Anterograde amnesia is an inability to form new memories after a brain injury. Retrograde amnesia is the loss of memories formed before the injury. Patient H.M. had severe anterograde amnesia and some retrograde amnesia.</p>
+</details>
+<details class="question">
+<summary>2. Which receptor acts as a coincidence detector during long-term potentiation, and why?</summary>
+<p>The NMDA glutamate receptor. It opens only when glutamate is bound <em>and</em> the postsynaptic cell is strongly depolarized, which removes the magnesium block from its pore. Calcium then enters and triggers the strengthening of the synapse.</p>
+</details>
+<details class="question">
+<summary>3. In Aplysia, which neurotransmitter released by facilitating interneurons produces sensitization of the gill-withdrawal reflex?</summary>
+<p>Serotonin (5-HT). A tail shock activates interneurons that release serotonin onto the siphon sensory neuron's terminal. This increases transmitter release onto the gill motor neuron.</p>
+</details>
+<details class="question">
+<summary>4. What task showed that Patient H.M. could still form procedural memories?</summary>
+<p>Mirror drawing. Brenda Milner had him trace a star while seeing only its reflection in a mirror. He improved over three days of practice but did not remember having done the task before.</p>
+</details>
+<details class="question">
+<summary>5. Who shared the 2000 Nobel Prize in Physiology or Medicine with Eric Kandel?</summary>
+<p>Arvid Carlsson and Paul Greengard. The prize recognized their discoveries about signal transduction in the nervous system. Kandel's part was showing how synapses change during learning and memory, using <em>Aplysia</em>.</p>
+</details>
+<h2 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">¶</a></h2>
+<h3 id="remember">Remember<a class="headerlink" href="#remember" title="Permanent link">¶</a></h3>
+<ol>
+<li>Define <em>memory consolidation</em> in one sentence.</li>
+<li>Name the two main types of declarative memory and give an example of each.</li>
+</ol>
+<details class="note">
+<summary>Answer</summary>
+<ol>
+<li>Memory consolidation is the gradual process that turns new, fragile memories into stable long-term memories.</li>
+<li>Episodic memory (a personal event, like your last birthday) and semantic memory (a fact, like "glutamate is excitatory").</li>
+</ol>
+</details>
+<h3 id="understand">Understand<a class="headerlink" href="#understand" title="Permanent link">¶</a></h3>
+<ol>
+<li>Explain why habituation in <em>Aplysia</em> is considered learning and not just muscle fatigue.</li>
+<li>Explain, in your own words, how Hebbian learning could make a song remind you of a summer trip.</li>
+</ol>
+<details class="note">
+<summary>Answer</summary>
+<ol>
+<li>Kandel's group showed the change happens at the synapse between the sensory neuron and the motor neuron, which releases less transmitter with each touch. The muscle and sense organ still work, and a tail shock can bring the response right back (dishabituation), which fatigue would not explain.</li>
+<li>During the trip, neurons representing the song and neurons representing the trip are active at the same time, so the connections between them strengthen. Later, activating the "song" neurons is enough to activate the "trip" neurons.</li>
+</ol>
+</details>
+<h3 id="apply">Apply<a class="headerlink" href="#apply" title="Permanent link">¶</a></h3>
+<ol>
+<li>A new student moves next to a train track. At first, every train wakes her up. After two weeks, she sleeps through them. One night a smoke alarm goes off, and afterward she wakes up at the next train. Name the type of learning shown in each part of this story.</li>
+<li>Using what you learned about the spacing effect and late LTP, design a two-week study schedule for a 40-word vocabulary list. Explain why your schedule should work better than studying the night before.</li>
+</ol>
+<h3 id="analyze">Analyze<a class="headerlink" href="#analyze" title="Permanent link">¶</a></h3>
+<ol>
+<li>Compare early LTP in the hippocampus with short-term sensitization in <em>Aplysia</em>. What is similar, and what is different?</li>
+<li>H.M. could not form new declarative memories, but many of his older memories survived. What does this tell you about where long-term declarative memories are stored, compared with where they are formed?</li>
+</ol>
+<h3 id="evaluate">Evaluate<a class="headerlink" href="#evaluate" title="Permanent link">¶</a></h3>
+<ol>
+<li>A company advertises an app that "identifies your learning style so you can study the way your brain prefers." Using evidence from this chapter, judge whether a student should pay for it.</li>
+<li>H.M.'s surgery was an experiment that caused permanent harm, yet it led to major discoveries. Today, surgeons would not do this operation. Evaluate how modern epilepsy surgery has changed because of what was learned.</li>
+</ol>
+<h3 id="create">Create<a class="headerlink" href="#create" title="Permanent link">¶</a></h3>
+<ol>
+<li>Design a simple experiment, using classmates as volunteers, to test whether spaced study beats cramming. Name your two groups, what they study, how you will measure memory, and what result would support the spacing effect.</li>
+<li>Create a one-page comic strip in which a single synapse "narrates" what happens to it during habituation, sensitization, and long-term memory formation in <em>Aplysia</em>. Include serotonin, transmitter release, and new protein synthesis.</li>
+</ol>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Learning</strong> changes the nervous system; <strong>memory</strong> is what that change stores. Memories move from short-term and working memory into long-term memory through <strong>consolidation</strong>.</li>
+<li>Long-term memory has separate systems: <strong>declarative memory</strong> (facts and events) depends on the <strong>hippocampus</strong> and medial temporal lobe to form, while <strong>procedural memory</strong> (skills) relies on other circuits like the basal ganglia and cerebellum.</li>
+<li><strong>Patient H.M.</strong> lost the ability to form new declarative memories after both medial temporal lobes were removed in 1953, but he could still learn motor skills. His case showed that memory is a distinct brain function with several systems.</li>
+<li><strong>Neuroplasticity</strong> means the brain changes with experience at every age. <strong>Hebbian learning</strong> proposes that connections strengthen when neurons are active together.</li>
+<li><strong>Long-term potentiation</strong> is a lasting increase in synaptic strength. NMDA receptors act as coincidence detectors, letting in calcium that adds and boosts AMPA receptors.</li>
+<li>In the <strong>Aplysia model</strong>, <strong>habituation</strong> weakens and <strong>sensitization</strong> strengthens the same sensory-to-motor synapse. Long-term memory there needs new proteins and new synaptic connections, work recognized with Kandel's 2000 Nobel Prize.</li>
+<li>Spaced practice beats cramming because long-term memory needs time and repeated activation to build lasting synaptic changes.</li>
+</ul>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You just rewired your brain!</p>
+<p><img alt="Ply celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png">
+Every big idea starts at a single synapse, and reading this chapter changed some of yours! Come back in a few days to make those changes last. Next, in Chapter 10, we'll look at sleep and how it connects to memory.</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../08-developing-teenage-brain/references/" class="md-footer__link md-footer__link--prev" aria-label="Previous: References">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                References
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Aaryav Sharma. Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> for non-commercial use. Educational content only; not medical advice.
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/aaryavvatts-lab/neuroscience-textbook" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

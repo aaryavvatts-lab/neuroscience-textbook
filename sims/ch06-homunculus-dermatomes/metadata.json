@@ -1,0 +1,72 @@
+{
+  "title": "Homunculus and Dermatome Map",
+  "description": "Interactive two-panel map. Learners click a body region on a front-view body outline and see where it is represented on the opposite primary somatosensory cortex (postcentral gyrus), drawn as a homunculus-style strip, along with the spinal dermatome level (ISNCSCI key point) or cranial nerve that carries it. Includes a quiz mode with feedback.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "keywords": [
+    "somatosensory cortex",
+    "homunculus",
+    "postcentral gyrus",
+    "dermatome",
+    "spinal nerve root",
+    "trigeminal nerve",
+    "contralateral representation"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch06-homunculus-dermatomes/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators, Brain Bee competitors",
+  "version": "1.0.0",
+  "chapter": "06-hearing-touch-taste-smell-pain",
+  "bloomLevel": [
+    "Apply"
+  ],
+  "learningObjectives": [
+    "Locate where a touched body region is represented on the opposite primary somatosensory cortex.",
+    "Name the spinal level (dermatome) or cranial nerve that carries touch from that region.",
+    "Explain why body parts with dense receptors, such as the lips and thumb, occupy larger areas of the somatosensory map."
+  ],
+  "concepts": [
+    "Somatosensory Cortex",
+    "Homunculus",
+    "Dermatome",
+    "Somatosensory System"
+  ],
+  "prerequisites": [
+    "Lobes of the cerebral cortex and the central sulcus (Chapter 4)",
+    "Sensory pathways cross to the opposite side of the brain",
+    "Basic structure of the spinal cord and spinal nerves (Chapter 1)"
+  ],
+  "keyQuestions": [
+    "Why does touch on the right hand activate the left hemisphere?",
+    "Why do the lips and hands get so much more cortex than the trunk?",
+    "Which spinal levels carry touch from the thumb, middle finger, and little finger?",
+    "Why does the face have no spinal dermatome?"
+  ],
+  "misconceptions": [
+    "The size of a body part's area on the somatosensory map matches the body part's physical size.",
+    "Touch from one side of the body is processed on the same side of the brain.",
+    "Dermatome borders are identical in every person and every textbook.",
+    "The face is supplied by cervical spinal nerves."
+  ],
+  "dataSources": [
+    "Dermatome key points: ISNCSCI key sensory points as listed in Wikipedia, Dermatome (anatomy), https://en.wikipedia.org/wiki/Dermatome_(anatomy)",
+    "Homunculus order: OpenStax Introduction to Behavioral Neuroscience 9.2, https://openstax.org/books/introduction-behavioral-neuroscience/pages/9-2-somatosensation-in-the-central-nervous-system",
+    "Cortex segment sizes are illustrative, not measured."
+  ],
+  "library": "p5.js",
+  "libraryVersion": "1.11.10",
+  "canvasHeight": 750,
+  "iframeHeight": 752
+}

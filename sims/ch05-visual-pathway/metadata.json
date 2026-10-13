@@ -1,0 +1,107 @@
+{
+  "title": "Visual Pathway Lesion Simulator",
+  "description": "Top-down schematic of the human visual pathway from the eyes to the primary visual cortex. Students place a lesion at the left optic nerve, optic chiasm, right optic tract, left Meyer's loop, or right occipital cortex, and two circular visual field maps show the resulting deficit in each eye: monocular blindness, bitemporal hemianopia, homonymous hemianopia, superior quadrantanopia, or homonymous hemianopia with macular sparing.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "keywords": [
+    "Visual Pathway",
+    "Optic Chiasm",
+    "Visual Field",
+    "Visual Field Defect",
+    "Bitemporal Hemianopia",
+    "Homonymous Hemianopia",
+    "Quadrantanopia",
+    "Lesion Localization"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch05-visual-pathway/",
+  "publisher": "From Neuron to Bedside",
+  "chapter": "05-vision",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "educationalLevel": "High School",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators, Brain Bee competitors",
+  "version": "1.0.0",
+  "duration": "20-25 minutes",
+  "bloomLevel": [
+    "Analyze"
+  ],
+  "learningObjectives": [
+    "Predict the visual field defect in each eye produced by a lesion of the optic nerve, optic chiasm, optic tract, Meyer's loop, or occipital cortex.",
+    "Explain why lesions in front of the optic chiasm affect one eye while lesions behind it affect the same half of the visual field in both eyes.",
+    "Localize a lesion along the visual pathway from a described visual field defect."
+  ],
+  "concepts": [
+    "Optic Nerve",
+    "Optic Chiasm",
+    "Visual Pathway",
+    "Primary Visual Cortex",
+    "Visual Field",
+    "Visual Field Defect",
+    "Pituitary Tumor"
+  ],
+  "prerequisites": [
+    "Lobes of the cerebral cortex (occipital, temporal, parietal) from Chapter 4",
+    "The thalamus as a sensory relay station from Chapter 4",
+    "Nasal versus temporal halves of the retina, and the idea of a visual field (Chapter 5)"
+  ],
+  "keyQuestions": [
+    "Which fibers cross at the optic chiasm, and which stay on the same side?",
+    "Why does a pituitary tumor pressing on the chiasm take away side vision in both eyes?",
+    "How can a doctor tell an optic nerve lesion from an optic tract lesion using only a visual field test?",
+    "Why does damage to Meyer's loop affect the upper part of the visual field?"
+  ],
+  "misconceptions": [
+    "The left eye sends all of its information to the right brain. (Only the nasal half of each retina crosses.)",
+    "Damage to the right side of the brain blinds the right eye. (It removes the left visual field from both eyes.)",
+    "A visual field map is drawn from the doctor's point of view. (It is drawn as the patient sees it.)"
+  ],
+  "controls": [
+    {
+      "type": "select",
+      "label": "Lesion site",
+      "options": [
+        "None (healthy)",
+        "Left optic nerve",
+        "Optic chiasm (center)",
+        "Right optic tract",
+        "Left optic radiation (Meyer's loop)",
+        "Right occipital cortex (V1)"
+      ],
+      "default": "None (healthy)"
+    },
+    {
+      "type": "checkbox",
+      "label": "Hide result (predict first, then uncheck)",
+      "default": false
+    },
+    {
+      "type": "clickable points",
+      "label": "Red dots on the diagram select the same five lesion sites"
+    }
+  ],
+  "simulationModel": {
+    "modelType": "Rule-based anatomical lesion model",
+    "assumptions": [
+      "Each lesion is complete at the chosen site.",
+      "Nasal retinal fibers cross at the chiasm and temporal fibers do not.",
+      "Meyer's loop carries the upper (superior) contralateral visual field."
+    ],
+    "limitations": [
+      "Real lesions are often partial, and optic tract lesions are usually incongruous (uneven between the eyes); the maps here are idealized.",
+      "Macular sparing after occipital damage is common but not universal.",
+      "Pathways to the superior colliculus and the circadian system are not shown."
+    ]
+  },
+  "canvasDimensions": "responsive width x 705",
+  "library": "p5.js",
+  "libraryVersion": "1.11.10"
+}
