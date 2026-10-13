@@ -1,0 +1,80 @@
+{
+  "title": "Aphasia Sorter",
+  "description": "A classification game in which students read short original speech samples, each with a one-line clue about comprehension or repetition, and sort them as Broca's aphasia, Wernicke's aphasia, conduction aphasia, or normal speech. Immediate feedback explains which clue decides each answer, and a running score tracks progress over 10 shuffled items.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "topics": [
+    "Aphasia",
+    "Broca's Area",
+    "Wernicke's Area",
+    "Language Areas",
+    "Stroke"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch12-aphasia-sorter/",
+  "publisher": "From Neuron to Bedside",
+  "chapter": "12-language-attention-decisions",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "educationalLevel": "High School",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators, Brain Bee competitors",
+  "version": "1.0.0",
+  "duration": "10-25 minutes",
+  "bloomLevel": [
+    "Analyze"
+  ],
+  "learningObjectives": [
+    "Classify short speech samples as Broca's aphasia, Wernicke's aphasia, conduction aphasia, or normal speech by analyzing fluency, comprehension, and repetition, scoring at least 8 of 10 correct.",
+    "Explain which clue (fluency, comprehension, or repetition) distinguishes each type of aphasia."
+  ],
+  "concepts": [
+    "Aphasia",
+    "Broca's Area",
+    "Wernicke's Area",
+    "Language Areas"
+  ],
+  "prerequisites": [
+    "Lobes of the cerebral cortex (Chapter 4)",
+    "Each hemisphere controls the opposite side of the body (Chapter 4)",
+    "Definitions of fluency, telegraphic speech, paraphasia, neologism, comprehension, and repetition (Chapter 12, Section 12.4)"
+  ],
+  "keyQuestions": [
+    "Is the speech fluent or nonfluent?",
+    "Does the person understand what is said to them?",
+    "Can the person repeat a sentence word for word?",
+    "Why can fluent speech still be a sign of a serious language disorder?"
+  ],
+  "misconceptions": [
+    "Fluent speech means language is normal.",
+    "People with Broca's aphasia cannot understand language.",
+    "Pauses and filler words like 'um' always signal aphasia.",
+    "Aphasia means a loss of intelligence."
+  ],
+  "controls": [
+    "Broca's button: classify the current sample as Broca's aphasia",
+    "Wernicke's button: classify the current sample as Wernicke's aphasia",
+    "Conduction button: classify the current sample as conduction aphasia",
+    "Normal button: classify the current sample as normal speech",
+    "Next button: go to the next sample after answering",
+    "Restart button: reshuffle the 10 items and reset the score"
+  ],
+  "simulationModel": {
+    "modelType": "Classification game with feedback",
+    "items": "10 original speech samples: 3 Broca's, 3 Wernicke's, 2 conduction, 2 normal",
+    "scoring": "One attempt per item; score = number correct out of number answered; mastery at 8 of 10",
+    "assumptions": "Speech samples are simplified, original teaching examples that show textbook-typical patterns.",
+    "limitations": "Real aphasia varies widely and often mixes features; global, anomic, transcortical, and primary progressive aphasia are not included; samples are text only, so speech rhythm and effort are described rather than heard."
+  },
+  "accessibility": "Text wraps to the container width; minimum text size 14 px; native HTML buttons support keyboard focus; screen-reader description via p5.js describe().",
+  "canvasDimensions": "width-responsive x 645 px (iframe 647 px)",
+  "library": "p5.js",
+  "libraryVersion": "1.11.10"
+}

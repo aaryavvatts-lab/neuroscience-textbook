@@ -1,0 +1,239 @@
+# From Neuron to Bedside: MkDocs Material configuration
+# Scaffolded from Dan McCreary's init-textbook skill (ibook-skills).
+
+site_name: 'From Neuron to Bedside'
+site_description: 'A free, interactive neuroscience textbook for high school students and future doctors. Brain Bee-aligned, with a clinical case and a hands-on simulation in every chapter.'
+site_author: 'Aaryav Sharma'
+site_url: 'https://aaryavvatts-lab.github.io/neuroscience-textbook/'
+
+hooks:
+  - plugins/social_override.py
+
+repo_name: 'GitHub Repo'
+repo_url: 'https://github.com/aaryavvatts-lab/neuroscience-textbook'
+edit_uri: 'blob/main/docs'
+
+copyright: 'Copyright &copy; 2026 Aaryav Sharma. Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> for non-commercial use. Educational content only; not medical advice.'
+
+# IMPORTANT: do NOT add navigation.tabs (side navigation only)
+nav:
+  - Home: index.md
+  - About This Book: about.md
+  - How to Use This Book: how-to-use.md
+  - Course Description: course-description.md
+  - Chapters:
+      - List of Chapters: chapters/index.md
+      - "1. Neurons, Glia, and the Nervous System":
+          - Content: chapters/01-neurons-and-glia/index.md
+          - Quiz: chapters/01-neurons-and-glia/quiz.md
+          - References: chapters/01-neurons-and-glia/references.md
+      - "2. The Action Potential":
+          - Content: chapters/02-action-potential/index.md
+          - Quiz: chapters/02-action-potential/quiz.md
+          - References: chapters/02-action-potential/references.md
+      - "3. Synapses and Neurotransmitters":
+          - Content: chapters/03-synapses-and-neurotransmitters/index.md
+          - Quiz: chapters/03-synapses-and-neurotransmitters/quiz.md
+          - References: chapters/03-synapses-and-neurotransmitters/references.md
+      - "4. A Tour of the Brain":
+          - Content: chapters/04-neuroanatomy/index.md
+          - Quiz: chapters/04-neuroanatomy/quiz.md
+          - References: chapters/04-neuroanatomy/references.md
+      - "5. Vision":
+          - Content: chapters/05-vision/index.md
+          - Quiz: chapters/05-vision/quiz.md
+          - References: chapters/05-vision/references.md
+      - "6. Hearing, Touch, Taste, Smell, and Pain":
+          - Content: chapters/06-hearing-touch-taste-smell-pain/index.md
+          - Quiz: chapters/06-hearing-touch-taste-smell-pain/quiz.md
+          - References: chapters/06-hearing-touch-taste-smell-pain/references.md
+      - "7. Movement":
+          - Content: chapters/07-movement/index.md
+          - Quiz: chapters/07-movement/quiz.md
+          - References: chapters/07-movement/references.md
+      - "8. The Developing and Teenage Brain":
+          - Content: chapters/08-developing-teenage-brain/index.md
+          - Quiz: chapters/08-developing-teenage-brain/quiz.md
+          - References: chapters/08-developing-teenage-brain/references.md
+      - "9. Learning, Memory, and Neuroplasticity":
+          - Content: chapters/09-learning-memory-plasticity/index.md
+          - Quiz: chapters/09-learning-memory-plasticity/quiz.md
+          - References: chapters/09-learning-memory-plasticity/references.md
+      - "10. Sleep and Brain States":
+          - Content: chapters/10-sleep-and-brain-states/index.md
+          - Quiz: chapters/10-sleep-and-brain-states/quiz.md
+          - References: chapters/10-sleep-and-brain-states/references.md
+      - "11. Emotion, Stress, and the Body":
+          - Content: chapters/11-emotion-and-stress/index.md
+          - Quiz: chapters/11-emotion-and-stress/quiz.md
+          - References: chapters/11-emotion-and-stress/references.md
+      - "12. Language, Attention, and Decision-Making":
+          - Content: chapters/12-language-attention-decisions/index.md
+          - Quiz: chapters/12-language-attention-decisions/quiz.md
+          - References: chapters/12-language-attention-decisions/references.md
+      - "13. The Aging Brain and Neurodegeneration":
+          - Content: chapters/13-aging-and-neurodegeneration/index.md
+          - Quiz: chapters/13-aging-and-neurodegeneration/quiz.md
+          - References: chapters/13-aging-and-neurodegeneration/references.md
+      - "14. Brain Injury, Stroke, and Epilepsy":
+          - Content: chapters/14-injury-stroke-epilepsy/index.md
+          - Quiz: chapters/14-injury-stroke-epilepsy/quiz.md
+          - References: chapters/14-injury-stroke-epilepsy/references.md
+      - "15. Psychiatric Disorders and Addiction":
+          - Content: chapters/15-psychiatric-disorders-and-addiction/index.md
+          - Quiz: chapters/15-psychiatric-disorders-and-addiction/quiz.md
+          - References: chapters/15-psychiatric-disorders-and-addiction/references.md
+      - "16. How Doctors Examine the Brain":
+          - Content: chapters/16-how-doctors-examine-the-brain/index.md
+          - Quiz: chapters/16-how-doctors-examine-the-brain/quiz.md
+          - References: chapters/16-how-doctors-examine-the-brain/references.md
+  - Appendices:
+      - "A. Brain Bee Strategy and Mock Exam": appendices/brain-bee.md
+      - "B. Careers in Neuroscience and Medicine": appendices/careers.md
+  - MicroSims:
+      - List of MicroSims: sims/index.md
+      - "Neuron Explorer": sims/ch01-neuron-explorer/index.md
+      - "Action Potential Simulator": sims/ch02-action-potential/index.md
+      - "Synapse Simulator": sims/ch03-synapse/index.md
+      - "Clickable Brain Atlas": sims/ch04-brain-atlas/index.md
+      - "Visual Pathway Lesions": sims/ch05-visual-pathway/index.md
+      - "Homunculus and Dermatomes": sims/ch06-homunculus-dermatomes/index.md
+      - "Basal Ganglia Gas and Brake": sims/ch07-basal-ganglia/index.md
+      - "Synaptic Pruning Over a Lifetime": sims/ch08-synaptic-pruning/index.md
+      - "Aplysia Habituation and LTP": sims/ch09-aplysia-learning/index.md
+      - "Hypnogram Builder": sims/ch10-hypnogram/index.md
+      - "HPA Axis Feedback Loop": sims/ch11-hpa-axis/index.md
+      - "Aphasia Sorter": sims/ch12-aphasia-sorter/index.md
+      - "Amyloid and Tau Cascade": sims/ch13-amyloid-tau-cascade/index.md
+      - "Stroke Territory Map": sims/ch14-stroke-territories/index.md
+      - "Reward Pathway and Tolerance": sims/ch15-reward-tolerance/index.md
+      - "Neuro Exam Decision Tree": sims/ch16-neuro-exam/index.md
+  - Learning Graph:
+      - Introduction: learning-graph/index.md
+      - Graph Viewer: sims/graph-viewer/index.md
+      - Concept List: learning-graph/concept-list.md
+      - Concept Taxonomy: learning-graph/concept-taxonomy.md
+      - Quality Metrics: learning-graph/quality-metrics.md
+      - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+      - Book Metrics: learning-graph/book-metrics.md
+      - Chapter Metrics: learning-graph/chapter-metrics.md
+      - Glossary Quality Report: learning-graph/glossary-quality-report.md
+      - FAQ Quality Report: learning-graph/faq-quality-report.md
+  - Glossary: glossary.md
+  - FAQ: faq.md
+  - How to Cite: how-to-cite.md
+  - License: license.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  logo: img/mascot/neutral.png
+  favicon: img/favicon.png
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - content.action.edit
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - mascot-admonition-img
+
+markdown_extensions:
+  - abbr
+  - md_in_html
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # Currency-safe math: inline is \(...\) only, never single $.
+  - pymdownx.arithmatex:
+      generic: true
+      inline_syntax: ['round']
+      block_syntax: ['dollar', 'square']
+
+extra_css:
+  - css/extra.css
+  - css/mascot.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+
+exclude_docs: |
+  **/sim-spec.md
+  **/image-prompt*.md
+  **/TODO.md
+
+watch:
+  - docs
+  - mkdocs.yml
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aaryavvatts-lab/neuroscience-textbook
+  schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
+  textbook_name: 'From Neuron to Bedside'
+  textbook_version: '1.0'
+  development_stage: 'Complete (v1.0)'
+  # Google Analytics: add your GA4 ID here after creating a property (see NEXT-STEPS PDF)
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX

@@ -1,0 +1,70 @@
+{
+  "title": "Amyloid and Tau Cascade",
+  "description": "Schematic timeline (age 40 to 90) of Alzheimer's disease showing amyloid plaques, tau tangles, neuron loss, and memory symptoms rising in the order proposed by the Jack et al. (2010) hypothetical biomarker model. An age slider shows a tissue cartoon and the clinical stage (preclinical, mild cognitive impairment, dementia). An illustrative anti-amyloid treatment lowers the amyloid curve. Schematic model, not real patient data.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch13-amyloid-tau-cascade/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "chapter": "13-aging-and-neurodegeneration",
+  "bloomLevel": [
+    "Understand"
+  ],
+  "learningObjectives": [
+    "Explain why Alzheimer's brain changes are best detected and treated early, using the order in which amyloid, tau, neuron loss, and symptoms rise.",
+    "Identify the clinical stage (preclinical, mild cognitive impairment, dementia) that matches a given point on the biomarker timeline.",
+    "Explain why removing amyloid does not reverse tau spread or restore lost neurons."
+  ],
+  "concepts": [
+    "Alzheimer's Disease",
+    "Amyloid Plaque",
+    "Tau Tangle",
+    "Biomarker",
+    "Neurodegeneration",
+    "Dementia",
+    "Anti-Amyloid Antibody"
+  ],
+  "prerequisites": [
+    "Neurons and synapses (Chapters 1 and 3)",
+    "The hippocampus and memory (Chapters 4 and 9)",
+    "Proteins are made from instructions in genes (high school biology)"
+  ],
+  "keyQuestions": [
+    "Which Alzheimer's brain change becomes abnormal first, and which comes last?",
+    "Why can a person have amyloid in the brain for years without any symptoms?",
+    "Why do anti-amyloid drugs slow decline only modestly instead of curing Alzheimer's disease?"
+  ],
+  "misconceptions": [
+    "Alzheimer's disease starts when memory problems start.",
+    "Removing amyloid plaques reverses memory loss.",
+    "Anyone with amyloid in the brain must already have memory problems.",
+    "Dementia is a normal part of aging."
+  ],
+  "controls": [
+    "Age slider: 40 to 90 years, step 1, default 50",
+    "Checkbox: start illustrative anti-amyloid treatment at the current slider age"
+  ],
+  "simulationModel": "Four logistic curves in relative units (0 to 100 percent of maximum) with midpoints at ages 56 (amyloid), 66 (tau), 71 (neuron loss), and 78 (symptoms). Illustrative values chosen to reproduce the order in Jack et al. (2010), not fitted to patient data. Treatment makes amyloid decay exponentially (time constant 1.5 years) after the start age; other curves are unchanged.",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2819840/",
+    "https://www.nia.nih.gov/health/alzheimers-and-dementia/alzheimers-disease-fact-sheet",
+    "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease"
+  ],
+  "library": "p5.js",
+  "libraryVersion": "1.11.10",
+  "canvasHeight": 650,
+  "iframeHeight": 652
+}

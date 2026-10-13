@@ -1,0 +1,72 @@
+{
+  "title": "Synaptic Pruning Over a Lifetime",
+  "description": "Interactive simulation with an age slider from birth to 30 years. Two small neural network patches (sensory cortex and prefrontal cortex) gain and then lose synapses while long-range axons gain myelin, and a schematic graph shows relative synapse density in each region and relative white matter volume. Sensory cortex peaks and prunes early; prefrontal cortex peaks later and keeps pruning into the twenties; white matter keeps rising into the late twenties.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": [
+    "Neuroscience",
+    "Brain Development",
+    "Synaptic Pruning",
+    "Myelination",
+    "Adolescent Brain"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch08-synaptic-pruning/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "chapter": "08-developing-teenage-brain",
+  "bloomLevel": [
+    "Understand"
+  ],
+  "learningObjectives": [
+    "Compare the timing of synapse overproduction and pruning in sensory cortex versus prefrontal cortex from birth to age 30.",
+    "Explain why continued prefrontal pruning and myelination mean brain development continues through adolescence and into the twenties, without a single fixed end age."
+  ],
+  "concepts": [
+    "Synaptogenesis",
+    "Synaptic Pruning",
+    "Myelination Over Time",
+    "Prefrontal Maturation",
+    "Adolescent Brain"
+  ],
+  "prerequisites": [
+    "Neurons, synapses, and myelin (Chapter 1)",
+    "Synaptic transmission (Chapter 3)",
+    "Location and role of the prefrontal cortex (Chapter 4)",
+    "Reading a line graph"
+  ],
+  "keyQuestions": [
+    "Which region reaches its peak synapse density first?",
+    "At age 16, which region is still pruning synapses?",
+    "Why can removing synapses make brain circuits work better?",
+    "Why is it misleading to say the brain finishes developing at exactly 25?"
+  ],
+  "misconceptions": [
+    "More synapses always means a better brain.",
+    "The whole brain develops on the same schedule.",
+    "Brain development stops at a single age, such as 18 or 25.",
+    "The schematic curves show exact synapse counts."
+  ],
+  "controls": [
+    "Start/Pause button: plays the age forward automatically from birth to 30, then loops",
+    "Age slider: sets age from 0 to 30 years in steps of 0.1"
+  ],
+  "sources": [
+    "Huttenlocher PR, Dabholkar AS (1997). Regional differences in synaptogenesis in human cerebral cortex. J Comp Neurol 387:167-178. PMID 9336221",
+    "Petanjek Z et al. (2011). Extraordinary neoteny of synaptic spines in the human prefrontal cortex. PNAS 108:13281-13286. PMC3156171",
+    "Bethlehem RAI et al. (2022). Brain charts for the human lifespan. Nature 604:525-533. PMC9021021"
+  ],
+  "library": "p5.js",
+  "libraryVersion": "1.11.10"
+}

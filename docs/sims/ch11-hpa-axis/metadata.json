@@ -1,0 +1,90 @@
+{
+  "title": "HPA Axis Feedback Loop",
+  "description": "A causal-loop diagram and live graph of the stress response. A stressor drives the hypothalamus (CRH), the anterior pituitary (ACTH), and the adrenal cortex (cortisol), while cortisol's negative feedback on the hypothalamus and pituitary shuts the response off. A faster sympathetic path releases adrenaline. Learners trigger stressors, toggle chronic stress, and weaken the feedback to see when cortisol returns to baseline and when it stays high.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": "Neuroscience",
+  "keywords": [
+    "stress response",
+    "HPA axis",
+    "cortisol",
+    "negative feedback",
+    "fight or flight",
+    "adrenaline",
+    "chronic stress"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch11-hpa-axis/",
+  "publisher": "From Neuron to Bedside",
+  "chapter": "11-emotion-and-stress",
+  "gradeLevel": ["9", "10", "11", "12"],
+  "educationalLevel": "High School",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "bloomLevel": [
+    "Analyze"
+  ],
+  "learningObjectives": [
+    "Differentiate a self-limiting acute stress response from a sustained cortisol elevation by predicting and observing how cortisol changes when negative feedback is weakened or stressors repeat.",
+    "Trace the order of the HPA axis: hypothalamus (CRH), anterior pituitary (ACTH), adrenal cortex (cortisol).",
+    "Explain why the sympathetic adrenaline response is faster than the cortisol response."
+  ],
+  "concepts": [
+    "Stress Response",
+    "HPA Axis",
+    "Cortisol",
+    "Fight or Flight",
+    "Chronic Stress Effects"
+  ],
+  "prerequisites": [
+    "Hormones travel through the bloodstream to target organs",
+    "Location of the hypothalamus and pituitary gland (Chapter 4)",
+    "The sympathetic nervous system (Chapter 4)",
+    "The idea of negative feedback (a thermostat)"
+  ],
+  "keyQuestions": [
+    "Why does adrenaline rise before cortisol after a stressor?",
+    "What does cortisol's negative feedback do, and where does it act?",
+    "What happens to cortisol when the feedback brake is weakened?",
+    "Why does cortisol fail to return to baseline when stressors keep repeating?"
+  ],
+  "misconceptions": [
+    "Stress hormones are always harmful. In the model, a brief rise that returns to baseline is the normal, healthy response.",
+    "Cortisol acts instantly. It is the slow arm of the response; adrenaline is the fast arm.",
+    "Negative feedback means something bad. It means a signal that turns down its own source, like a thermostat."
+  ],
+  "controls": [
+    {"type": "button", "label": "Start/Pause", "purpose": "Runs or freezes the simulated clock. The sim starts paused."},
+    {"type": "button", "label": "Stressor!", "purpose": "Adds one acute stressor pulse and starts the clock if it is paused."},
+    {"type": "button", "label": "Reset", "purpose": "Returns all hormones to baseline and clears the graph."},
+    {"type": "checkbox", "label": "Chronic stress", "purpose": "Adds a new stressor automatically every 30 simulated minutes."},
+    {"type": "slider", "label": "Feedback strength", "range": "0 to 1", "step": 0.1, "default": 1.0, "purpose": "Sets how strongly cortisol inhibits the hypothalamus and pituitary (1 = intact, 0 = off)."}
+  ],
+  "simulationModel": {
+    "modelType": "Simplified compartment model (ordinary differential equations), relative units",
+    "variables": ["stressor", "CRH", "ACTH", "cortisol", "adrenaline"],
+    "equations": [
+      "inhibition = 1 + feedback * 1.5 * max(0, cortisol - 1)",
+      "dCRH/dt = (0.2 + 4 * stressor) / inhibition - 0.2 * CRH",
+      "dACTH/dt = 0.1 * CRH / inhibition - 0.1 * ACTH",
+      "dCortisol/dt = (ACTH - cortisol) / 30",
+      "dAdrenaline/dt = 0.5 * (1 - adrenaline) + stressor",
+      "dStressor/dt = -stressor / 8"
+    ],
+    "assumptions": "Every hormone has a resting baseline of 1.0. Time is in simulated minutes. Cortisol is cleared more slowly than adrenaline, so it lags and lingers.",
+    "limitations": "Teaching model only, not fitted to human data. Omits the daily cortisol rhythm, vasopressin, hippocampal and prefrontal control of the HPA axis, receptor types, and individual differences. It does not model PTSD, in which cortisol findings are mixed."
+  },
+  "duration": "20-25 minutes",
+  "library": "p5.js",
+  "libraryVersion": "1.11.10",
+  "canvasDimensions": "width-responsive x 625 (drawHeight 545 + controlHeight 80)",
+  "accessibility": "describe() text for screen readers; native HTML controls; colors paired with line thickness and dashed versus solid lines."
+}

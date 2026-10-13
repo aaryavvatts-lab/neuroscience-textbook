@@ -1,0 +1,10 @@
+{
+  "title": "From Neuron to Bedside",
+  "description": "A free, open, interactive neuroscience textbook for high school students and future doctors. It covers neurons and signaling, neuroanatomy, the senses, movement, development, memory, sleep, emotion, language, neurological and psychiatric disorders, and how doctors examine the brain, with a clinical case in every chapter.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

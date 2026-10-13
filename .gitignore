@@ -1,0 +1,18 @@
+# MkDocs
+site/
+.cache/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+# Claude Code working files and logs
+.claude/
+logs/
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*

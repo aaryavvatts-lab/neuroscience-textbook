@@ -1,0 +1,14 @@
+{
+  "FOUND": "Foundational Biology and Chemistry",
+  "CELL": "Neurons and Glia",
+  "SIG": "Electrical and Chemical Signaling",
+  "ANAT": "Neuroanatomy",
+  "SENS": "Sensory Systems and Pain",
+  "MOTOR": "Movement and Motor Control",
+  "DEV": "Development and Aging",
+  "COG": "Learning, Memory, and Cognition",
+  "STATE": "Sleep, Emotion, and Stress",
+  "DIS": "Disorders and Diseases",
+  "CLIN": "Clinical Exam, Imaging, and Treatment",
+  "RES": "Research Methods and Careers"
+}

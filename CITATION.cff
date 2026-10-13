@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this textbook, please cite it as below."
+type: book
+title: "From Neuron to Bedside: An Interactive Neuroscience Textbook for High School Students and Future Doctors"
+authors:
+  - family-names: Sharma
+    given-names: Aaryav
+version: "1.0"
+date-released: "2026-10-12"
+url: "https://aaryavvatts-lab.github.io/neuroscience-textbook/"
+repository-code: "https://github.com/aaryavvatts-lab/neuroscience-textbook"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - neuroscience
+  - education
+  - open educational resource
+  - intelligent textbook
+  - Brain Bee
+  - p5.js

@@ -1,0 +1,88 @@
+{
+  "title": "Synapse Simulator",
+  "description": "A slow-motion close-up of a chemical synapse. Learners fire the presynaptic neuron and watch neurotransmitter particles cross the cleft, bind receptors, and be cleared by reuptake transporters, while graphs show cleft transmitter and the postsynaptic potential. Conditions compare normal transmission with a reuptake blocker (like an SSRI), a receptor antagonist, and fewer receptors as in myasthenia gravis.",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": [
+    "Neuroscience",
+    "Synaptic Transmission",
+    "Neurotransmitters",
+    "Pharmacology",
+    "Myasthenia Gravis"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch03-synapse/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevels": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "chapter": "03-synapses-and-neurotransmitters",
+  "bloomLevel": [
+    "Understand",
+    "Apply"
+  ],
+  "learningObjectives": [
+    "Predict how a reuptake blocker changes the amount and duration of neurotransmitter in the synaptic cleft and the postsynaptic potential.",
+    "Predict how a receptor antagonist reduces the postsynaptic response even when cleft neurotransmitter is normal.",
+    "Explain why fewer postsynaptic receptors, as in myasthenia gravis, cause transmission failures that become more common at high firing rates."
+  ],
+  "concepts": [
+    "Chemical Synapse",
+    "Synaptic Vesicle",
+    "Neurotransmitter",
+    "Receptor",
+    "Excitatory Postsynaptic Pot.",
+    "Reuptake",
+    "Agonist and Antagonist",
+    "Neuromuscular Junction",
+    "Myasthenia Gravis"
+  ],
+  "prerequisites": [
+    "Resting potential of about -70 mV and threshold of about -55 mV (Chapter 2)",
+    "Action potentials are all-or-none (Chapter 2)",
+    "Axon terminals and dendrites (Chapter 1)"
+  ],
+  "keyQuestions": [
+    "Which condition changes the cleft graph, and which changes only the postsynaptic response?",
+    "Why does blocking reuptake make the response last longer?",
+    "Why do transmission failures in the fewer-receptors condition increase at higher firing rates?"
+  ],
+  "misconceptions": [
+    "An antagonist produces the opposite effect of the neurotransmitter (it only blocks the receptor).",
+    "If a synapse fails, there must be less neurotransmitter in the cleft (receptor problems leave the cleft normal).",
+    "A reuptake blocker makes the presynaptic neuron release more neurotransmitter (it slows removal instead)."
+  ],
+  "controls": [
+    {"type": "button", "label": "Start/Pause", "purpose": "Runs or freezes the simulation; the neuron fires automatically at the chosen rate while running."},
+    {"type": "button", "label": "Fire once", "purpose": "Sends one presynaptic action potential."},
+    {"type": "button", "label": "Reset", "purpose": "Clears particles, graphs, and counters."},
+    {"type": "slider", "label": "Firing rate", "min": 0, "max": 5, "step": 1, "default": 1, "unit": "action potentials per second (slow motion)"},
+    {"type": "select", "label": "Condition", "options": ["Normal", "Reuptake blocker (like an SSRI)", "Receptor antagonist", "Fewer receptors (myasthenia-like)"]}
+  ],
+  "simulationModel": {
+    "modelType": "Qualitative agent-based particle model with a first-order membrane potential",
+    "assumptions": [
+      "The postsynaptic depolarization is proportional to the number of bound receptors.",
+      "Release per action potential shrinks as the ready vesicle store is used and recovers over about 2 seconds.",
+      "One postsynaptic action potential at most per presynaptic release, as at a neuromuscular junction.",
+      "The synapse is modeled as a strong synapse with a high safety factor (like the neuromuscular junction), so in the Normal condition a single release usually reaches threshold; most central synapses are weaker and require spatial or temporal summation."
+    ],
+    "limitations": [
+      "Particle counts, receptor counts, and time constants are illustrative, and time runs in slow motion.",
+      "At a real neuromuscular junction acetylcholinesterase, not reuptake, clears acetylcholine; the sim uses transporters in every condition so only one factor changes at a time.",
+      "Inhibitory synapses and metabotropic receptors are not modeled."
+    ]
+  },
+  "duration": "20-25 minutes",
+  "canvasDimensions": "responsive width x 550 px (iframe height 552 px)",
+  "library": "p5.js 1.11.10"
+}

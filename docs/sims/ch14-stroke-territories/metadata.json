@@ -1,0 +1,77 @@
+{
+  "title": "Stroke Territory Map",
+  "description": "Interactive map linking the territories of the anterior, middle, and posterior cerebral arteries on a CT-style brain slice to a body figure. Choosing a blocked artery and hemisphere darkens that territory, highlights the opposite face, arm, leg, or half of vision, and lists the typical deficits (typical patterns only; real strokes vary).",
+  "creator": "Aaryav Sharma",
+  "date": "2026-10-12",
+  "subject": [
+    "Neuroscience",
+    "Stroke",
+    "Neuroanatomy",
+    "Cerebral Arteries",
+    "Clinical Localization"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://aaryavvatts-lab.github.io/neuroscience-textbook/sims/ch14-stroke-territories/",
+  "publisher": "From Neuron to Bedside",
+  "educationalLevel": "High School",
+  "gradeLevel": ["9", "10", "11", "12"],
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "chapter": "14-injury-stroke-epilepsy",
+  "bloomLevel": [
+    "Apply"
+  ],
+  "learningObjectives": [
+    "Given which cerebral artery (ACA, MCA, or PCA) is blocked and in which hemisphere, predict which side of the body and which functions are typically affected.",
+    "Explain why a stroke in one hemisphere affects the opposite side of the body.",
+    "Distinguish the leg-predominant weakness of an ACA stroke from the face-and-arm-predominant weakness of an MCA stroke and the visual field loss of a PCA stroke."
+  ],
+  "concepts": [
+    "Stroke",
+    "Ischemic Stroke",
+    "Anterior cerebral artery",
+    "Middle cerebral artery",
+    "Posterior cerebral artery",
+    "Contralateral control",
+    "Homonymous hemianopia",
+    "Aphasia",
+    "Hemispatial neglect"
+  ],
+  "prerequisites": [
+    "Motor and somatosensory body maps (Chapter 6)",
+    "Crossing of motor pathways (Chapter 7)",
+    "Visual fields and the occipital lobe (Chapter 5)",
+    "Language areas in the left hemisphere (Chapter 12)"
+  ],
+  "keyQuestions": [
+    "Why does a left-hemisphere stroke weaken the right side of the body?",
+    "Why does an ACA stroke affect the leg more than the arm?",
+    "Which artery's blockage typically causes vision loss without limb weakness?",
+    "Why is aphasia typical of left MCA strokes, while neglect is typical of right MCA strokes?"
+  ],
+  "misconceptions": [
+    "A stroke affects the same side of the body as the damaged hemisphere.",
+    "All strokes cause the same symptoms.",
+    "Every stroke causes arm and leg weakness.",
+    "The patterns shown are exact rules rather than typical patterns that vary between patients."
+  ],
+  "controls": [
+    "Artery select: None, ACA (anterior), MCA (middle), PCA (posterior)",
+    "Hemisphere select: Left, Right",
+    "Predict first checkbox: hides the body highlights until unchecked",
+    "Click a territory on the brain slice to select it"
+  ],
+  "canvasDimensions": "width-responsive x 700 (620 drawing + 80 controls)",
+  "source": "Deficit patterns follow the Selected Stroke Syndromes table, Merck Manual Professional Version, Overview of Stroke (https://www.merckmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke).",
+  "limitations": "Territory shapes are simplified wedges on a schematic axial slice, not an anatomical atlas. Real strokes vary in size and location and often involve only part of a territory.",
+  "duration": "15-20 minutes",
+  "library": "p5.js"
+}
