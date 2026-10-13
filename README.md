@@ -141,17 +141,6 @@ neuroscience-textbook/
 └── LICENSE.md
 ```
 
-## How this book was made
-
-This is an *intelligent textbook*, created by Aaryav Sharma using [Dan McCreary's open-source intelligent-textbook framework](https://github.com/dmccreary/ibook-skills):
-
-1. A course description and a design contract (in `Materials/`) set the audience, learning goals, and accuracy rules.
-2. A learning graph of 253 concepts and their prerequisites set the chapter order.
-3. Chapters, quizzes, simulations, the glossary, and the FAQ were built following that design contract.
-4. Every chapter then went through separate fact-checking passes. Each statistic, date, drug approval, and reference link was checked against sources like the NIH, the CDC, the FDA, and peer-reviewed research.
-5. A copy-editing pass made the writing plain and readable for high school students.
-6. A science edit, guided by [EDITOR_DOMAIN.md](EDITOR_DOMAIN.md), re-checked every claim and updated time-sensitive facts to October 2026.
-
 ## Important notes
 
 - **Not medical advice.** This book is for education only. The patients in the Bedside cases are fictional composites unless clearly identified as historical. Talk to a doctor about any health concern.

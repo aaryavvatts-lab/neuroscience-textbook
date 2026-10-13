@@ -36,18 +36,6 @@ image: img/cover.png
 
 The only prerequisites are one year of high school biology and basic algebra.
 
-## How this book was built
-
-This book is an *intelligent textbook*, created by Aaryav Sharma using Dan McCreary's open-source intelligent-textbook framework. Here is how it came together:
-
-1. A detailed **course description** and **design contract** set the audience, learning goals, and quality rules (see [Course Description](course-description.md)).
-2. A **learning graph** of 253 concepts maps which ideas depend on which, so chapters always teach prerequisites first (see [Learning Graph](learning-graph/index.md)).
-3. The chapters, quizzes, simulations, and glossary were built with **Dan McCreary's open-source intelligent-textbook skills and tools**, following that design contract.
-4. Every chapter then went through separate fact-checking, copy-editing, and science-editing passes. Each statistic, date, drug approval, and reference link was checked against sources like the NIH, the CDC, the FDA, and peer-reviewed research. The full process and a public list of corrections are on the [Accuracy and Corrections](accuracy.md) page.
-5. The author directed the project and is responsible for the final content.
-
-Mistakes are still possible. If you find one, please [report it](contact.md).
-
 ## About the author
 
 **Aaryav Sharma** is a high school student in Minnesota who plans to study neuroscience and medicine. He made this book so that any student, anywhere, can learn how the brain works and how doctors care for it, for free.
