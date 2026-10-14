@@ -38,11 +38,11 @@ The only prerequisites are one year of high school biology and basic algebra.
 
 ## About the author
 
-**Aaryav Sharma** is a high school student in Minnesota who plans to study neuroscience and medicine. He made this book so that any student, anywhere, can learn how the brain works and how doctors care for it, for free.
+**Aaryav Sharma** ([ORCID 0009-0006-3333-0809](https://orcid.org/0009-0006-3333-0809)) is a high school student in Minnesota who plans to study neuroscience and medicine. He made this book so that any student, anywhere, can learn how the brain works and how doctors care for it, for free.
 
 ## How this book was made, and how AI was used
 
-I chose the topics, set the structure and the rules for every chapter, and directed the editing and fact-checking passes. I used Claude Code and Dan McCreary's open-source intelligent-textbook skills to help draft text, check facts, and build the simulations.
+I chose the topics, set the structure and the rules for every chapter, and read, edited, and reviewed every chapter myself. I used Claude Code and Dan McCreary's open-source intelligent-textbook skills to help draft text and build the simulations.
 
 Because AI helped write this book, mistakes are possible, and accuracy matters a lot in a science and medicine book. The [Accuracy and Corrections](accuracy.md) page explains how the book is checked and lists every fix. If you find an error, please tell me through the [Contact](contact.md) page.
 

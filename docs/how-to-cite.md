@@ -9,6 +9,8 @@ If you use this book in a class, a paper, a lesson plan, or a project, please ci
 
 **Permanent DOI (all versions):** [https://doi.org/10.5281/zenodo.23353113](https://doi.org/10.5281/zenodo.23353113). The book is archived on Zenodo, so this link will keep working even if the website moves.
 
+Author ORCID: [0009-0006-3333-0809](https://orcid.org/0009-0006-3333-0809)
+
 **APA (7th edition)**
 
 Sharma, A. (2026). *From neuron to bedside: An interactive neuroscience textbook for high school students and future doctors*. https://doi.org/10.5281/zenodo.23353113

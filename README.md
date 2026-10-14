@@ -146,7 +146,7 @@ neuroscience-textbook/
 
 ## How this book was made
 
-I chose the topics, set the structure and the rules for every chapter, and directed the editing and fact-checking passes. I used Claude Code and Dan McCreary's open-source [intelligent-textbook skills](https://github.com/dmccreary/ibook-skills) to help draft text, check facts, and build the simulations. Because AI helped write the book, mistakes are possible. See the [Accuracy and Corrections](https://aaryavvatts-lab.github.io/neuroscience-textbook/accuracy/) page for how the book is checked.
+I chose the topics, set the structure and the rules for every chapter, and read, edited, and reviewed every chapter myself. I used Claude Code and Dan McCreary's open-source [intelligent-textbook skills](https://github.com/dmccreary/ibook-skills) to help draft text and build the simulations. Because AI helped write the book, mistakes are possible. See the [Accuracy and Corrections](https://aaryavvatts-lab.github.io/neuroscience-textbook/accuracy/) page for how the book is checked.
 
 ## Important notes
 
@@ -171,4 +171,4 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 
 ## Contact
 
-**Aaryav Sharma**, email: aaryavvatts@gmail.com, GitHub: [@aaryavvatts-lab](https://github.com/aaryavvatts-lab)
+**Aaryav Sharma**, ORCID: [0009-0006-3333-0809](https://orcid.org/0009-0006-3333-0809), email: aaryavvatts@gmail.com, GitHub: [@aaryavvatts-lab](https://github.com/aaryavvatts-lab)
