@@ -238,7 +238,6 @@ extra:
   textbook_name: 'From Neuron to Bedside'
   textbook_version: '1.1'
   development_stage: 'Complete (v1.1)'
-  # Google Analytics: add your GA4 ID here after creating a property (see NEXT-STEPS PDF)
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
+  analytics:
+    provider: google
+    property: G-WQ9NZ1W2VN
